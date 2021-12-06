@@ -7,7 +7,7 @@
 Esta colecção não deve ser usada como substituto das aulas e material disponibilizado pelos professores.
 <br> A sua intenção é apenas servir como um complemento ao estudo.
 
-À que ter especial cuidado com material proveniente de alunos, visto não serem fontes totalmente fidedignos quanto à sua "correcção".
+À que ter especial cuidado com material proveniente de alunos, visto não serem fontes totalmente fidedignas quanto à sua "correcção".
 <br> Dito isso, avancemos então para o material acumulado.
 <br><br>
 
