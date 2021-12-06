@@ -1,6 +1,6 @@
 # Recursos LCC
 Um arquivo de todo material que consegui reunir, pertinente ao curso de LCC da UM.
-
+<br>
 
 ## Aviso
 Esta colecção não deve ser usada como substituto das aulas e material disponibilizado pelos professores.
