@@ -23,3 +23,5 @@ Esta colecção não deve ser usada como substituto das aulas e material disponi
 ## 3º Ano
  * **1º Semestre**
  * **2º Semestre**
+
+![GitHub Logo](LCC.png)
