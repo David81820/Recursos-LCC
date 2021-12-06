@@ -19,3 +19,7 @@ Esta colecção não deve ser usada como substituto das aulas e material disponi
 ## 2º Ano
  * **1º Semestre**
  * **2º Semestre**
+
+## 3º Ano
+ * **1º Semestre**
+ * **2º Semestre**
