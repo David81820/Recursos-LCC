@@ -15,5 +15,5 @@ Esta colecção não deve ser usada como substituto das aulas e material disponi
 ## 1º Ano
  * **1º Semestre**
  * **2º Semestre**
-<br>
+
 ## 2º Ano
