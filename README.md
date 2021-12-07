@@ -33,6 +33,6 @@ Esta colecção não deve ser usada como substituto das aulas e material disponi
         alt="Discord"
     />
 </a>
-<br><br>
+<br><br><br>
 
 ![GitHub Logo](LCC.png)
