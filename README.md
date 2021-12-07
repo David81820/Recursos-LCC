@@ -15,6 +15,7 @@ Dito isto, avancemos então para o material acumulado.
 <br><br>
 
 
+
 ## [1º Ano](1ano/README.md)
 * **1º Semestre -** Álgebra Linear CC; Cálculo; Programação Funcional; Tópicos de Matemática; Opção UMinho.
 * **2º Semestre -** Análise; Geometria; Matemática Discreta; Programação Imperativa; Sistemas de Computação; Laboratório de Algoritmia I.
