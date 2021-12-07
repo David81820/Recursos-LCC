@@ -4,11 +4,14 @@
 
 
 ## Aviso
-Esta colecção não deve ser usada como substituto das aulas e material disponibilizado pelos professores.
+Esta colecção não deve ser usada como substituto ás aulas e material disponibilizado pelos professores.
 <br> A sua intenção é apenas servir como um complemento ao estudo.
 
 À que ter especial cuidado com material proveniente de alunos, visto não serem fontes totalmente fidedignas quanto à sua "correcção".
-<br> Dito isso, avancemos então para o material acumulado.
+<br> Como tal, irei sinalizar material "não-oficial" com a etiqueta - [A] - no início do nome de todos ficheiros que eu saiba vir de alunos. Material criado por mim terá a etiqueta - [I] - não só para meu benefício quanto a organização, mas também para quem consultar esse material, para além da minha pessoa, saiba que o material em questão mesmo se útil não é ainda menos digno de confiança que material [A].
+<br> Material "oficial" (i.e. material proporcionado pelos professores) não terão qualquer etiqueta.
+
+Dito isto, avancemos então para o material acumulado.
 <br><br>
 
 
@@ -23,7 +26,6 @@ Esta colecção não deve ser usada como substituto das aulas e material disponi
 ## [3º Ano](3ano/README.md)
 * **1º Semestre -** Bases de Dados; Computabilidade e Complexidade; Lógica Computacional; Probabilidades e Aplicações; Processamento de Linguagens e Compiladores.
 * **2º Semestre -** Computação Gráfica; Interação e Concorrência; Programação Concorrente; Semântica das Linguagens de Programação; Teoria de Números Computacional; Projeto.
-
 <br><br>
 **DISCORD de L.C.C.:**
 <br>
