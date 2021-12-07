@@ -3,9 +3,9 @@ O terceiro ano aprensenta apenas 2 cadeiras de matemática, sendo o restandte uc
 
 ## 1º Semestre
 * **Bases de Dados** - 5 ECTS
-* **Computabilidade e Complexidade
+* **Computabilidade e Complexidade** - 7,5 ECTS
 * **Lógica Computacional** - 5 ECTS
-* **Probabilidades e Aplicações
+* **Probabilidades e Aplicações** - 7,5 ECTS
 * **Processamento de Linguagens e Compiladores** - 5 ECTS
 <br><br><br>
 ## 2º Semestre
