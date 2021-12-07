@@ -4,7 +4,7 @@
 * **Cálculo**
 * **Programação Funcional**
 * **Tópicos de Matemática**
-Uma de várias cadeiras opçionais UMinho. Nisto não te posso ajudar...
+* Uma de várias cadeiras opçionais UMinho. Nisto não te posso ajudar...
 <br><br>
 ## 2º Semestre
 <br>
