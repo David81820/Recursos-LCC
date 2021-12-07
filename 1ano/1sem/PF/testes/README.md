@@ -5,15 +5,15 @@ Nesta cadeira, apesar de haverem 2 testes, apenas o 2º teste técnicamente "con
 <br>
 
 # 50 Questões
-* [**2015-2016**](50_Questoes_2015-2016.pdf)
-* [**2017-2018**](50_Questoes_2017-2018.pdf)
-* [**2018-2019**](50_Questoes_2018-2019.pdf)
-* [**2019-2020**](50_Questoes_2019-2020.pdf)
-* [**2020-2021**](50_Questoes_2020-2021.pdf)
+* [**2015-2016**](50Q/50_Questoes_2015-2016.pdf)
+* [**2017-2018**](50Q/50_Questoes_2017-2018.pdf)
+* [**2018-2019**](50Q/50_Questoes_2018-2019.pdf)
+* [**2019-2020**](50Q/50_Questoes_2019-2020.pdf)
+* [**2020-2021**](50Q/50_Questoes_2020-2021.pdf)
 
 Em geral estas questões não sofreram alterações significativas ao longo dos anos, a sua ordenação é que foi.
 <br> Por isso, apesar das resoluções não apresentarem datas, não há problema em aplicar-las em qualquer uma destas fichas (só tenham atenção o facto que a sua ordenação dos exercícios pode não corresponder).
 
-* [**[A] Resolução 1**](_A_50questoesRes1.hs)
-* [**[I] Resolução 2019-2020**](_I_50Qfun.txt)
+* [**[A] Resolução 1**](50Q/_A_50questoesRes1.hs)
+* [**[I] Resolução 2019-2020**](50Q/_I_50Qfun.txt)
 * [**[I] Resolução 2018-2019**](50Q/_I_50.txt)
