@@ -9,3 +9,7 @@ Nesta cadeira, apesar de haverem 2 testes, apenas o 2º teste técnicamente "con
 * [**2017-2018**](50_Questoes_2017-2018.pdf)
 * [**2018-2019**](50_Questoes_2018-2019.pdf)
 * [**2019-2020**](50_Questoes_2019-2020.pdf)
+* [**2020-2021**](50_Questoes_2020-2021.pdf)
+
+Em geral estas questões não sofreram alterações significativas ao longo dos anos, a sua ordenação é que foi.
+<br> Por isso, apesar das resoluções não apresentarem datas, não há problema em aplicar-las em qualquer uma destas fichas (só tenham atenção o facto que a sua ordenação dos exercícios pode não corresponder).
