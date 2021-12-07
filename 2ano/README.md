@@ -1,3 +1,6 @@
+O segundo ano é geralmente considerado o mais "difícil".
+<br>Apresenta uma quantidade equilibrada entre cadeira de matemática e de computação/informática.
+
 ## 1º Semestre
 * **Álgebra** - 7,5 ECTS
 * **Algoritmos e Complexidade** - 5 ECTS
