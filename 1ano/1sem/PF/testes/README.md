@@ -14,4 +14,4 @@ Nesta cadeira, apesar de haverem 2 testes, apenas o 2º teste técnicamente "con
 Em geral estas questões não sofreram alterações significativas ao longo dos anos, a sua ordenação é que foi.
 <br> Por isso, apesar das resoluções não apresentarem datas, não há problema em aplicar-las em qualquer uma destas fichas (só tenham atenção o facto que a sua ordenação dos exercícios pode não corresponder).
 
-* [**Resolução 1**]([A] 50questoesRes1.hs)
+* [Resolução 1]([A] 50questoesRes1.hs)
