@@ -4,9 +4,7 @@
 * **Análise Numérica**
 * **Lógica CC**
 * **Sistemas de Comunicações e Rede**
-
 <br><br><br>
-
 ## 2º Semestre
 * **Álgebra Universal e Categorias**
 * **Autómatos e Linguagens Formais**
