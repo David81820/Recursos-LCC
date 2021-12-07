@@ -8,7 +8,7 @@ Esta colecção não deve ser usada como substituto ás aulas e material disponi
 <br> A sua intenção é apenas servir como um complemento ao estudo.
 
 À que ter especial cuidado com material proveniente de alunos, visto não serem fontes totalmente fidedignas quanto à sua "correcção".
-<br> Como tal, irei sinalizar material que eu saiba ter origem de alunos, com a etiqueta - **A** - no início do nome desses ficheiros. Material criado por mim terá a etiqueta - **I** - não só para meu benefício quanto a organização, mas também para quem consultar esse material, para além da minha pessoa, saiba que o material em questão mesmo se útil não é ainda menos digno de confiança que material **A**.
+<br> Como tal, irei sinalizar material que eu saiba ter origem de alunos, com a etiqueta - **[A]** - no início do nome desses ficheiros. Material criado por mim terá a etiqueta - **[I]** - não só para meu benefício quanto a organização, mas também para quem consultar esse material, para além da minha pessoa, saiba que o material em questão mesmo se útil não é ainda menos digno de confiança que material [A].
 <br> Material "oficial" (i.e. material proporcionado pelos professores) não terão qualquer etiqueta.
 
 Dito isto, avancemos então para o material acumulado.
