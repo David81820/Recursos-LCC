@@ -12,8 +12,7 @@ Esta colecção não deve ser usada como substituto ás aulas e material disponi
 <br> Material "oficial" (i.e. material proporcionado pelos professores) não terão qualquer etiqueta.
 
 Dito isto, avancemos então para o material acumulado.
-<br><br>
-
+<br><br><br>
 
 
 ## [1º Ano](1ano/README.md)
