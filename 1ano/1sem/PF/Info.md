@@ -36,10 +36,10 @@ No fim da disciplina, o aluno deverá ser capaz de:
 8. O tratamento puramente funcional do input/output. O monade IO.
 <br><br>
 ## Bibliografia essencial
-Bird, R. (1998). Introduction to Functional Programming using Haskell. Prentice-Hall. 
-<br>Valença, J. M., Barros, J. B. (1999). Fundamentos da Computação. Livro II: Programação Funcional, Universidade Aberta. 
-<br>Thompson, S. (2011). Haskell: the Craft of Functional Programming (3rd ed.). Addison-Wesley. 
-<br>Hutton, G. (2016). Programming in Haskell(2nd ed.). Cambridge University Press.
+* Bird, R. (1998). Introduction to Functional Programming using Haskell. Prentice-Hall. 
+<br>* Valença, J. M., Barros, J. B. (1999). Fundamentos da Computação. Livro II: Programação Funcional, Universidade Aberta. 
+<br>* Thompson, S. (2011). Haskell: the Craft of Functional Programming (3rd ed.). Addison-Wesley. 
+<br>* Hutton, G. (2016). Programming in Haskell(2nd ed.). Cambridge University Press.
 <br><br>
 ## Métodos de ensino
 A escolaridade da UC é utilizada da seguinte forma: 
