@@ -1,5 +1,5 @@
 O primeiro ano é maioritariamente constituído por cadeiras focadas em matemática.
-<br>Estabelece as bases que serão trabalhadas nos anos seguintes.<br><br>
+<br>Estabelece as "bases" que serão trabalhadas nos anos seguintes.<br><br>
 
 ## 1º Semestre
 * **Álgebra Linear CC** - 7,5 ECTS
