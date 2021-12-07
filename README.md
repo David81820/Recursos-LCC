@@ -16,7 +16,7 @@ Esta colecção não deve ser usada como substituto das aulas e material disponi
 
 ## [2º Ano](2ano/README.md)
 
-## 3º Ano
+## [3º Ano](3ano/README.md)
 
 <br><br>
 
