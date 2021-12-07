@@ -5,7 +5,7 @@
 <br>**Regime:** Semestral
 <br>**ECTS:** 5
 <br>**Tipo de ensino:** Presencial
-
+<br>
 ## Carga Horária
 **Trabalho autónomo:** 80  Horas
 <br>**Aulas:**
