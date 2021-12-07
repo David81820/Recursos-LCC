@@ -4,7 +4,7 @@ Uma função em `Haskell` tem bastantes semelhaças com um função matematica.
 
 Por exemplo:
 
-![mathfunc](mathfunc.png)
+```f(x)=2```
 
 em `Haskell` seria:
 
