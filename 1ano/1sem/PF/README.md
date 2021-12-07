@@ -6,7 +6,7 @@ Lista dos vários detalhes técnicos da cadeira que podem ser encontrados na aba
 ## [[A] Introdução ao Haskell](Intro.md)
 Haskell é a linguagem usada para explicar os conceitos de programação funcional assim como fazer uma introdução à programação.
 
-[**Sintaxe de Programação básica**](http://rigaux.org/language-study/syntax-across-languages-per-language/Haskell.html)
+* [**Sintaxe de Programação básica**](http://rigaux.org/language-study/syntax-across-languages-per-language/Haskell.html)
 
 <br>
 
