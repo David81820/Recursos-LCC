@@ -15,5 +15,5 @@ Em geral estas questões não sofreram alterações significativas ao longo dos 
 <br> Por isso, apesar das resoluções não apresentarem datas, não há problema em aplicar-las em qualquer uma destas fichas (só tenham atenção o facto que a sua ordenação dos exercícios pode não corresponder).
 
 * [**[A] Resolução 1**](_A_50questoesRes1.hs)
-* [**[I] Resolução 2019-2020**](_I_50Q fun.txt)
+* [[I] Resolução 2019-2020](_I_50Q fun.txt)
 * [**[I] Resolução 2018-2019**](_I_50.txt)
