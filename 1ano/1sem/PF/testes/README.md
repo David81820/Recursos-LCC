@@ -16,4 +16,4 @@ Em geral estas questões não sofreram alterações significativas ao longo dos 
 
 * [**[A] Resolução 1**](_A_50questoesRes1.hs)
 * [**[I] Resolução 2019-2020**](_I_50Qfun.txt)
-* [**[I] Resolução 2018-2019**](_I_50.txt)
+* [**[I] Resolução 2018-2019**](50Q/_I_50.txt)
