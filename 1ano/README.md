@@ -1,5 +1,4 @@
 ## 1º Semestre
-<br>
 * **Álgebra Linear CC**
 
 * **Cálculo**
