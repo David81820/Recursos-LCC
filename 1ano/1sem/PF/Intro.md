@@ -5,7 +5,7 @@ Uma função em `Haskell` tem bastantes semelhaças com um função matematica.
 Por exemplo:
 
 ```
-f(x) = 2x
+f(x)=2x
 ```
 
 em `Haskell` seria:
@@ -13,6 +13,7 @@ em `Haskell` seria:
 ```Haskell
 f x = 2 * x
 ```
+<br>
 
 ## Tipos
 Em `Haskell` são muito importantes os tipos das funções, por exemplo, o tipo da
@@ -46,12 +47,16 @@ data Hora = H Int Int
 
 Isto irá ser aprofundado mais a frente.
 
+<br>
+
 ## Operadores
 Os operadores que podemos usar são os mesmos da matemática: `+`, `-`, `*` e `/` para operações aritemeticas mais os operadores lógicos:
 
 - `>` `<`: maior e menor
 - `>=` `<=`: maior ou igual e menor ou igual
 - `==`: Igualdade
+
+<br>
 
 ## Estruturas de controlo
 Em certas ocasiões um função pode ter de fazer um processamento mais complexo do
@@ -81,6 +86,8 @@ f :: Int -> Int
 f x = if x < 2 then x^2 + 1 else x^3 - 4 * x
 ```
 
+<br>
+
 ## Pattern matching
 Podemos também tratar o input de uma função com *pattern matching*, por exemplo, para definir a negação lógica ( ¬ ) podemos fazer a seguinte função.
 ```Haskell
@@ -100,6 +107,8 @@ negacao x = case x of
 ```
 
 Pattern matching pode ser aplicado para todos os tipos de dados, como iremos ver noutros resumos.
+
+<br>
 
 ## Exemplos de funções
 
