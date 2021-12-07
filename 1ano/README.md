@@ -4,7 +4,7 @@
 * **Programação Funcional**
 * **Tópicos de Matemática**
 * Uma de várias cadeiras opcionais UMinho. Nisto não te posso ajudar...
-<br><br>
+<br><br><br>
 ## 2º Semestre
 * **Análise**
 * **Geometria**
