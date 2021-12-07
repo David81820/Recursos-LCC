@@ -25,7 +25,7 @@ Esta colecção não deve ser usada como substituto das aulas e material disponi
 * **2º Semestre -** Computação Gráfica; Interação e Concorrência; Programação Concorrente; Semântica das Linguagens de Programação; Teoria de Números Computacional; Projeto.
 
 <br><br>
-**DISCORD de LCC:**
+**DISCORD de L.C.C.:**
 <br>
 <a href="https://discord.gg/7Mb6ZuQfEK">
     <img
