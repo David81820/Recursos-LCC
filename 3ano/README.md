@@ -1,4 +1,4 @@
-O terceiro ano aprensenta apenas 2 cadeiras de matemática, sendo o restandte uc's de computação/informática.
+O terceiro ano aprensenta apenas 2 cadeiras de matemática, sendo as restantes uc's de computação/informática.
 <br>Um ano particularmente intenso em trabalhos de grupo...<br><br>
 
 ## 1º Semestre
