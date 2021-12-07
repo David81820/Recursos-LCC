@@ -5,6 +5,6 @@ Nesta cadeira, apesar de haverem 2 testes, apenas o 2º teste técnicamente "con
 <br>
 
 # 50 Questões
-* **2017-2018**
-* **2018-2019**
-* **2019-2020**
+* [**2017-2018**](50_Questoes_2017-2018.pdf)
+* [**2018-2019**](50_Questoes_2018-2019.pdf)
+* [**2019-2020**](50_Questoes_2019-2020.pdf)
