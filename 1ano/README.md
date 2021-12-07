@@ -1,6 +1,7 @@
 ## 1º Semestre
 <br>
 * **Álgebra Linear CC**
+
 * **Cálculo**
 * **Programação Funcional**
 * **Tópicos de Matemática**
