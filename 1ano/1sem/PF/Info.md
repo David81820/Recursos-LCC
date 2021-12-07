@@ -1,16 +1,16 @@
 
 ## Informação geral
 **Código:** 14294
-**Área científica predominante:** Informática
-**Regime:** Semestral
-**ECTS:** 5
-**Tipo de ensino:** Presencial
+<br>**Área científica predominante:** Informática
+<br>**Regime:** Semestral
+<br>**ECTS:** 5
+<br>**Tipo de ensino:** Presencial
 
 ## Carga Horária
 **Trabalho autónomo:** 80  Horas
-**Aulas:**
-30  horas  -  Teóricas
-30  horas  -  Teórico-práticas
+<br>**Aulas:**
+<br>30  horas  -  Teóricas
+<br>30  horas  -  Teórico-práticas
 
 ## Objetivos de ensino
 Esta UC corresponde a uma introdução ao paradigma funcional da programação.
