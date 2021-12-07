@@ -13,7 +13,7 @@ Esta colecção não deve ser usada como substituto das aulas e material disponi
 
 
 ## 1º Ano
- * **1º Semestre**
+ * [**1º Semestre**](1a1s/README.md)
  * **2º Semestre**
 
 ## 2º Ano
