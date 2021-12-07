@@ -25,5 +25,14 @@ Esta colecção não deve ser usada como substituto das aulas e material disponi
 * **2º Semestre -** Computação Gráfica; Interação e Concorrência; Programação Concorrente; Semântica das Linguagens de Programação; Teoria de Números Computacional; Projeto.
 
 <br><br>
+**DISCORD de LCC:**
+<br>
+<a href="https://discord.gg/7Mb6ZuQfEK">
+    <img
+        src="https://img.shields.io/discord/418433020719136768.svg?colorB=Blue&logo=discord&label=Discord&style=for-the-badge"
+        alt="Discord"
+    />
+</a>
+<br><br>
 
 ![GitHub Logo](LCC.png)
