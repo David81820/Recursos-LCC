@@ -1,5 +1,5 @@
 O segundo ano é geralmente considerado o mais "difícil".
-<br>Apresenta uma quantidade equilibrada entre cadeira de matemática e de computação/informática.<br><br>
+<br>Apresenta uma quantidade equilibrada entre cadeiras de matemática e de computação/informática.<br><br>
 
 ## 1º Semestre
 * **Álgebra** - 7,5 ECTS
