@@ -179,3 +179,4 @@ intToDigit' n = chr (n + 48)
 
 digitToInt' :: Char -> Int 
 digitToInt' ch = ord ch - 48
+```
