@@ -2,7 +2,7 @@
 [[A] Resolução 1](f1_res1.hs)
 <br>[[A] Resolução 2](f1_res2.hs)
 ### [Ficha 2](ficha2.pdf)
-Resolução
+[[A] Resolução 1](f2_res1.hs)
 ### [Ficha 3](ficha3.pdf)
 Resolução
 ### [Ficha 4](ficha4.pdf)
