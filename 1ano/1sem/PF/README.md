@@ -11,6 +11,7 @@ Haskell é a linguagem usada para explicar os conceitos de programação funcion
 <br>
 
 ## [Fichas](fichas/README.md)
+Fichas de exercícios fornecidas pelo corpo docente, juntamente com resolução dos alunos.
 
 <br>
 
