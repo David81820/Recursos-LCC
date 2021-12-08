@@ -1,3 +1,4 @@
+```Haskell
 -- Exercicio 1
 
 data ExpInt = Const Int
