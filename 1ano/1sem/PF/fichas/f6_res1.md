@@ -141,3 +141,4 @@ aprovAv turma = a / b
             where (x,y) = (c+e,d+f)
                   (c,d) = aux l
                   (e,f) = aux r
+```
