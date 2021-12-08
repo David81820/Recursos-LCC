@@ -1,3 +1,5 @@
+Slides oficiais do ano lectivo 2021/2022:
+
 * [**Preliminares**](preliminares_[2122].pdf)
 * [**Grupos - Conceitos Básicos**](grupos1_[2122].pdf)
 * [**Grupos - Subgrupos**](grupos2_[2122].pdf)
