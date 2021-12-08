@@ -69,3 +69,4 @@ listaLT (Fork e d) = (listaLT e)++(listaLT d)
 ltHeight :: LTree a -> Int
 ltHeight (Tip x) = 1
 ltHeight (Fork e d) = (max(ltHeight e) (ltHeight d)) +1
+```
