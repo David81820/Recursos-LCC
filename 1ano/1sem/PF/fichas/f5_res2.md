@@ -1,3 +1,4 @@
+```Haskell
 --pergunta1a)
 any' :: (a->Bool) -> [a] -> Bool
 any' f (h:t) | f h = True
