@@ -32,3 +32,15 @@ Em geral estas questões não sofreram alterações significativas ao longo dos 
 <br>[**[A] Resolução**](2teste/Teste1819.md)
 * [**2019-2020**](2teste/PF_Teste_19_20.pdf)
 <br>[**[A] Resolução**](2teste/Teste1920.md)
+
+<br>
+
+# Exames
+* [**2016-2017**](exame/PF1617-Exame.pdf)
+<br>[**[A] Resolução**](exame/Exame1617.md)
+* [**2017-2018**](exame/PF1718-Exame.pdf)
+<br>[**[A] Resolução**](exame/Exame1718.md)
+* [**2018-2019**](exame/PF1819-Exame.pdf)
+<br>[**[A] Resolução**](exame/Exame1819.md)
+* [**2019-2020**](exame/)
+<br>[**[A] Resolução**](exame/Exame1920.md)
