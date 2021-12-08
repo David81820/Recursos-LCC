@@ -23,4 +23,12 @@ Em geral estas questões não sofreram alterações significativas ao longo dos 
 
 # 2º Teste
 * [**2015-2016**](2teste/Teste_2015-16_PF_MIEI.pdf)
-<br>[**Resolução**](2teste/Teste1516.hs)
+<br>[**[A] Resolução**](2teste/Teste1516.md)
+* [**2016-2017**]
+<br>[**[A] Resolução**](2teste/Teste1617.md)
+* [**2017-2018**]
+<br>[**[A] Resolução**](2teste/Teste1718.md)
+* [**2018-2019**]
+<br>[**[A] Resolução**](2teste/Teste1819.md)
+* [**2019-2020**]
+<br>[**[A] Resolução**](2teste/Teste1920.md)
