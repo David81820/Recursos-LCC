@@ -1,5 +1,5 @@
 ```Haskell
-module 50Q where
+module fiftyQ where
 import Data.List
 
 -- 1
