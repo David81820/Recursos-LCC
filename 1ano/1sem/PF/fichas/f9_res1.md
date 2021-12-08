@@ -1,3 +1,4 @@
+```Haskell
 module Ficha09 where
 
 import System.Random
