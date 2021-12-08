@@ -42,5 +42,5 @@ Em geral estas questões não sofreram alterações significativas ao longo dos 
 <br>[**[A] Resolução**](exame/Exame1718.md)
 * [**2018-2019**](exame/PF1819-Exame.pdf)
 <br>[**[A] Resolução**](exame/Exame1819.md)
-* [**2019-2020**](exame/)
+* [**2019-2020**](exame/Exame1920.jpg)
 <br>[**[A] Resolução**](exame/Exame1920.md)
