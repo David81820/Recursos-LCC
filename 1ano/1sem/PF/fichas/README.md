@@ -22,4 +22,4 @@
 [[A] Resolução 1](f8_res2.hs)
 <br>[[A] Resolução 2](f8_res2.hs)
 ### [Ficha 9](ficha9.pdf)
-[[A] Resolução 1](f9_res2.hs)
+[[A] Resolução 1](f9_res1.hs)
