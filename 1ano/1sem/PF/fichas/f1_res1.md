@@ -1,3 +1,4 @@
+```Haskell
 module Ficha01 where
 import Data.Char
 -- Exercício 1
