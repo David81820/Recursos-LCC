@@ -148,3 +148,4 @@ instance Show Extracto where
 saldo :: Extracto -> Float
 saldo (Ext x lm) = foldl (\acc (_,_,mov) -> case mov of Credito n -> (acc + n)
                                                         Debito n -> (acc - n)) x lm
+```
