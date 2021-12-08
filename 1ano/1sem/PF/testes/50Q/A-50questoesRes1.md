@@ -1,3 +1,4 @@
+```Haskell
 import Data.List
 import Data.Char
 import Data.Either
@@ -346,3 +347,4 @@ data Semaforo = Verde | Amarelo | Vermelho
 interseccaook :: [Semaforo] -> Bool
 interseccaook [] = True
 interseccaook l = (length ((filter (==Verde) l) ++ (filter (==Amarelo) l)) == 1)
+```
