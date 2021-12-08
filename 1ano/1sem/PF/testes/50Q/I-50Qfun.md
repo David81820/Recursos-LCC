@@ -1,3 +1,4 @@
+```Haskell
 1
 
 myenumFromTo :: Int -> Int -> [Int]
@@ -392,3 +393,5 @@ catMaybes' [] = []
 catMaybes' (Just x : t) = x:catMaybes' t
 
 catMaybes' (Nothing :t) = catMaybes' t
+
+```
