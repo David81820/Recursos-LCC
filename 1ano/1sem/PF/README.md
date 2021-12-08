@@ -8,7 +8,6 @@ Haskell é a linguagem usada para explicar os conceitos de programação funcion
 
 * [**Sintaxe de Programação básica**](http://rigaux.org/language-study/syntax-across-languages-per-language/Haskell.html)
 
-<br>
 
 ## [Fichas](fichas/README.md)
 Fichas de exercícios fornecidas pelo corpo docente, juntamente com resolução dos alunos.
