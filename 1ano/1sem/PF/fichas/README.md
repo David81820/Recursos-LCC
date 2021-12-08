@@ -1,4 +1,4 @@
-As fichas também não sofreram grandes alterações ao longo dos anos.
+As fichas também não sofreram grandes alterações ao longo dos anos (antes de 2018/2019 costumava haver 10 fichas em vez de 9, os exercícios dessa 10ª ficha foram misturados com as fichas anteriores).
 <br><br>
 ### [Ficha 1](ficha1.pdf)
 [[A] Resolução 1](f1_res1.md)
