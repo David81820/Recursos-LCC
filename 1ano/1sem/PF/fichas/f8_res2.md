@@ -1,3 +1,4 @@
+```Haskell
 module Ficha8 where
 import Data.List
 import Data.Char
