@@ -4,16 +4,22 @@
 ### [Ficha 2](ficha2.pdf)
 [[A] Resolução 1](f2_res1.hs)
 ### [Ficha 3](ficha3.pdf)
-Resolução
+[[A] Resolução 1](f3_res2.hs)
+<br>[[A] Resolução 2](f1_res2.hs)
 ### [Ficha 4](ficha4.pdf)
-Resolução
+[[A] Resolução 1](f4_res2.hs)
+<br>[[A] Resolução 2](f4_res2.hs)
 ### [Ficha 5](ficha5.pdf)
-Resolução
+[[A] Resolução 1](f5_res2.hs)
+<br>[[A] Resolução 2](f5_res2.hs)
 ### [Ficha 6](ficha6.pdf)
-Resolução
+[[A] Resolução 1](f6_res2.hs)
+<br>[[A] Resolução 2](f6_res2.hs)
 ### [Ficha 7](ficha7.pdf)
-Resolução
+[[A] Resolução 1](f7_res2.hs)
+<br>[[A] Resolução 2](f1_res7.hs)
 ### [Ficha 8](ficha8.pdf)
-Resolução
+[[A] Resolução 1](f8_res2.hs)
+<br>[[A] Resolução 2](f8_res2.hs)
 ### [Ficha 9](ficha9.pdf)
-Resolução
+[[A] Resolução 1](f9_res2.hs)
