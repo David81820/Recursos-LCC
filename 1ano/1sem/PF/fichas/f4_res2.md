@@ -1,3 +1,4 @@
+```Haskell
 import Data.Char
 
 --3)
