@@ -125,3 +125,4 @@ menu = do putStrLn menutxt
                              "Gerar nova chave .. 2",
                              "",
                              "Sair .............. 0"]
+```
