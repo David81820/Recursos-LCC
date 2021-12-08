@@ -5,6 +5,7 @@ As fichas também não sofreram grandes alterações ao longo dos anos.
 <br>[[A] Resolução 2](f1_res2.md)
 ### [Ficha 2](ficha2.pdf)
 [[A] Resolução 1](f2_res1.md)
+[[I] Resolução 2](I-f2_res2.md)
 ### [Ficha 3](ficha3.pdf)
 [[A] Resolução 1](f3_res2.md)
 <br>[[A] Resolução 2](f1_res2.md)
