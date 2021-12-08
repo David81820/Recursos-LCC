@@ -1,3 +1,4 @@
+```Haskell
 -- Exercicio 1
 
 nub :: Eq a => [a] -> [a]
@@ -70,3 +71,4 @@ getValues (h:t) = do
     valor <- getLine
     resto <- getValues t
     if any (`elem` valor) "vVtT" then return ((h,True):resto) else return ((h,False):resto)
+```
