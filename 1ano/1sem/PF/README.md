@@ -29,4 +29,4 @@ Fichas de exercícios fornecidas pelo corpo docente, juntamente com resolução 
 <br>
 
 ## [Testes e Exames](testes/README.md)
-Testes e Exames desde do ano lectivo 2015-2016, até 2020-2021. Incluí resoluções feitas por alunos.
+As 50 Questões, Testes e Exames desde do ano lectivo 2015-2016, até 2020-2021. Incluí resoluções feitas por alunos.
