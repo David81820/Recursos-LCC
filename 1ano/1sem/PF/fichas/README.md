@@ -1,3 +1,5 @@
+As fichas também não sofreram grandes alterações ao longo dos anos.
+<br><br>
 ### [Ficha 1](ficha1.pdf)
 [[A] Resolução 1](f1_res1.hs)
 <br>[[A] Resolução 2](f1_res2.hs)
