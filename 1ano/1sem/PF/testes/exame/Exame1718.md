@@ -1,4 +1,4 @@
-```Haskel
+```Haskell
 import Data.List ((\\))
 
 -- Exercicio 1
