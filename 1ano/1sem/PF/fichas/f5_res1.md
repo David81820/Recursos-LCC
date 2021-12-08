@@ -1,3 +1,4 @@
+```Haskell
 -- Exercicio 1
 
 any' :: (a -> Bool) -> [a] -> Bool
