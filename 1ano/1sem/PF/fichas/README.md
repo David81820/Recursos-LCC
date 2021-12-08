@@ -26,3 +26,4 @@ As fichas também não sofreram grandes alterações ao longo dos anos.
 <br>[[A] Resolução 2](f8_res2.md)
 ### [Ficha 9](ficha9.pdf)
 [[A] Resolução 1](f9_res1.md)
+<br>[[A] Resolução 2](f9_res2.md)
