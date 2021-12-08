@@ -3,7 +3,6 @@ As fichas também não sofreram grandes alterações ao longo dos anos (antes de
 ### [Ficha 1](ficha1.pdf)
 [[A] Resolução 1](f1_res1.md)
 <br>[[A] Resolução 2](f1_res2.md)
-<br><br>
 ### [Ficha 2](ficha2.pdf)
 [[A] Resolução 1](f2_res1.md)
 <br>[[I] Resolução 2](I-f2_res2.md)
