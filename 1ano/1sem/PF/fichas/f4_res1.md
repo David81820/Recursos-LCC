@@ -1,3 +1,4 @@
+```Haskell
 module Ficha04 where
 
 import Data.Char (isDigit, isAlpha)
