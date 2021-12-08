@@ -14,7 +14,7 @@ Nesta cadeira, apesar de haverem 2 testes, apenas o 2º teste técnicamente "con
 Em geral estas questões não sofreram alterações significativas ao longo dos anos, a sua ordenação é que foi.
 <br> Por isso, apesar das resoluções não apresentarem datas, não há problema em aplicar-las em qualquer uma destas fichas (só tenham atenção o facto que a sua ordenação dos exercícios pode não corresponder).
 
-* [**[A] Resolução 1**](50Q/A_50questoesRes1.hs)
+* [**[A] Resolução 1**](50Q/A-50questoesRes1.hs)
 * [**[A] Resolução 2**](50Q/50questoesRes2.hs)
 * [**[I] Resolução 2019-2020**](50Q/_I_50Qfun.txt)
 * [**[I] Resolução 2018-2019**](50Q/_I_50.txt)
