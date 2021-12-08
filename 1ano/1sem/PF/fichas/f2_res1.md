@@ -1,3 +1,4 @@
+```Haskell
 module Ficha2 where
 import Data.Char (ord)
 import Data.List (partition)
