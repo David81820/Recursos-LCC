@@ -116,3 +116,4 @@ creDeb (Ext x lm) = foldl (\(c,d) (_,_,mov) -> case mov of Credito x -> (c + x, 
 saldo :: Extracto -> Float
 saldo (Ext x lm) = foldl (\acc (_,_,mov) -> case mov of Credito n -> (acc + n)
                                                         Debito n -> (acc - n)) x lm
+```
