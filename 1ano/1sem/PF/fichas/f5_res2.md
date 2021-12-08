@@ -133,3 +133,4 @@ multMat (h:t) (x:xs) | snd(dimMat (h:t)) == fst(dimMat (x:xs)) = (zipWith' (*) h
 {-zipWMat :: (a->b->c) -> Mat a -> Mat b -> Mat c 
 zipWMat f ((h:t):l) ((x:xs):z) = [f h x] ++ zipWMat f (t:l) (xs:z)
 zipWMat _ _ _ = [[]]-}
+```
