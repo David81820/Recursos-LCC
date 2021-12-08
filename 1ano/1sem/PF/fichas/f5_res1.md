@@ -108,3 +108,4 @@ triSup = snd . foldl (\(acc1,acc2) line -> (acc1+1, all (== 0) (take acc1 line) 
 rotateLeft :: Mat a -> Mat a
 rotateLeft m = [ [ map (!! i) m !! j | j <- [0..l-1] ] | i <- [c-1,c-2..0]] 
     where (l,c) = dimMat m
+```
