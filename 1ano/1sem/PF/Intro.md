@@ -142,8 +142,6 @@ avancaUmaHora (H h m) = H (h + 1) m
 
 ## Recursividade
 
-> *To understand recursion, you first need to understand recursion.*
-
 O factorial de um número é um classico exemplo de recursividade.
 
 Sabendo que o factorial de `1` é `1` e que o factorial de `3` é igual a `3` vezes o factorial de `2`:
