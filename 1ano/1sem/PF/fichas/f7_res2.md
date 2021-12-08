@@ -1,3 +1,4 @@
+```Haskell
 data ExpInt = Const Int
             | Simetrico ExpInt
             | Mais ExpInt ExpInt
