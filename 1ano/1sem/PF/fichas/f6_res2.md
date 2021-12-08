@@ -135,3 +135,4 @@ mediaAux :: Turma -> Float
 mediaAux Empty = 0
 mediaAux (Node (nu,no,re,Aprov x) e d) = 1 + (mediaAux e) + (mediaAux d)
 mediaAux (Node r e d) = (mediaAux e)+(mediaAux d)
+```
