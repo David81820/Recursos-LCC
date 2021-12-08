@@ -1,3 +1,4 @@
+```Haskell
 module Ficha1 where
 --pertgunta 1
 --a)
