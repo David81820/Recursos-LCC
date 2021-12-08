@@ -1,5 +1,6 @@
 ### Ficha 1
-Resolução
+[[A] Resolução 1](f1_res1.hs)
+[[A] Resolução 2](f1_res2.hs)
 ### Ficha 2
 Resolução
 ### Ficha 3
