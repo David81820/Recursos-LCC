@@ -1,6 +1,6 @@
 ### Ficha 1
 [[A] Resolução 1](f1_res1.hs)
-[[A] Resolução 2](f1_res2.hs)
+<br>[[A] Resolução 2](f1_res2.hs)
 ### Ficha 2
 Resolução
 ### Ficha 3
