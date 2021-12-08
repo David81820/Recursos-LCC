@@ -190,3 +190,4 @@ ordena ((b,e):ps) = monomiosMaisAltos ++ [(b,e)] ++ monomiosMaisBaixos
 
 equiv :: Polinomio -> Polinomio -> Bool
 equiv p1 p2 = ordena (normaliza p1) == ordena (normaliza p2)
+```
