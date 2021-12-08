@@ -33,3 +33,4 @@ fromDigits' (h:t) = h+10*fromDigits' t
 fromDigits :: [Int] -> Int
 fromDigits []    = 0
 fromDigits (h:t) = h*10^(length t) + fromDigits t
+```
