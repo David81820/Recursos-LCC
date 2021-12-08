@@ -141,3 +141,4 @@ ordena lista = concat [quicksort1 $ selgrau n lista | n <- aux]
 
 equiv :: Polinomio -> Polinomio -> Bool
 equiv p1 p2 = ordena p1 == ordena p2
+```
