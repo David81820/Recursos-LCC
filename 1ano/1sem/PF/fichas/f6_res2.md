@@ -1,3 +1,4 @@
+```Haskell
 data BTree a = Empty | Node a (BTree a) (BTree a) deriving Show
 
 arvore = Node 6 (Node 4 (Node 2 Empty Empty) (Node 5 Empty Empty)) (Node 8 (Node 7 Empty Empty) Empty)
