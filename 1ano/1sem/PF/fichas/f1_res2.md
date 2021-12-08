@@ -149,3 +149,4 @@ data Ponto = Cartesiano Double Double | Polar Double Double deriving (Show, Eq)
 data Figura = Circulo Ponto Double | Retangulo Ponto Ponto | Triangulo Ponto Ponto Ponto deriving (Show, Eq)
 
 --a)
+```
