@@ -1,3 +1,4 @@
+```Haskell
 module Ficha03 where
 
 import Ficha01 as F1
