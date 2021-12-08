@@ -13,6 +13,14 @@ Haskell é a linguagem usada para explicar os conceitos de programação funcion
 ## [Slides da UC](slides-PF-Haskell.pdf)
 Estes slides apesar de terem sido fornecidos pelos professores, são notados pelos mesmos como "antigos".
 
+Aqui estão também uns slides extra, "não-oficiais":
+* [[A] Haskell_Cheat_Sheet.pdf](slides/Haskell_Cheat_Sheet.pdf)
+* [[A] Haskell_Programação.pdf](slides/Haskell_Programação.pdf)
+* [[A] Introdução_ao_Haskell.pdf](slides/Introdução_ao_Haskell.pdf)
+* [[A] Programação_Haskell.pdf](slides/Programação_Haskell.pdf)
+* [[A] Tabela_ASCII.pdf](slides/Tabela_ASCII.pdf)
+* [[A] Tutorial_Haskell.pdf](slides/Tutorial_Haskell.pdf)
+
 <br>
 
 ## [Fichas](fichas/README.md)
