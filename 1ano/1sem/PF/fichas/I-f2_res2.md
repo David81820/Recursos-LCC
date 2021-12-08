@@ -115,7 +115,7 @@ mult :: Monomio -> Polinomio -> Polinomio
 mult _ [] = []
 mult (x,y) ((n,g):t) = (x*n,y+g) : mult (x,y) t
 
-!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 ordena :: Polinomio -> Polinomio
 ordena [] = []
 ordena ((b,e):ps) = ordena (maisAltos ps) ++ [(b,e)] ++ ordena (maisBaixos ps)
@@ -123,3 +123,22 @@ ordena ((b,e):ps) = ordena (maisAltos ps) ++ [(b,e)] ++ ordena (maisBaixos ps)
           maisAltos ((bx,ex):xs) = if (ex > e || (ex == e && bx >= b)) then (bx,ex):maisAltos xs else maisAltos xs
           maisBaixos [] = []
           maisBaixos ((bx,ex):xs) = if (ex < e || (ex == e && bx < b)) then (bx,ex):maisBaixos xs else maisBaixos xs
+          
+          
+OU
+
+
+quicksort' [] = []
+quicksort' (x:xs) =
+  let smallerSorted = quicksort' [a | a <- xs, a <= x]
+      biggerSorted = quicksort' [a | a <- xs, a > x]
+  in  smallerSorted ++ [x] ++ biggerSorted
+
+ordena :: Polinomio -> Polinomio
+ordena lista = concat [quicksort1 $ selgrau n lista | n <- aux]
+  where aux = quicksort' $ graus [ b | (a, b) <- lista]
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+
+equiv :: Polinomio -> Polinomio -> Bool
+equiv p1 p2 = ordena p1 == ordena p2
