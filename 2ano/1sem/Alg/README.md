@@ -3,7 +3,8 @@ Lista dos vários detalhes técnicos da cadeira que podem ser encontrados na aba
 
 <br>
 
-## [Slides da UC]
+## [Material Teórico da UC](slides/README.md)
+Desde slides "oficiais", a resumos da matéria compildados por alunos.
 
 <br>
 
@@ -13,3 +14,4 @@ Fichas de exercícios fornecidas pelo corpo docente, juntamente com resolução 
 <br>
 
 ## [Testes e Exames](testes/README.md)
+Testes e Exames dos anos anteriores, juntamente com as suas resoluções.
