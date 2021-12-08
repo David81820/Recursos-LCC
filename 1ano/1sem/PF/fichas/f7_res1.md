@@ -103,3 +103,4 @@ joinTrees (Node e l r) (Fork a b) = Just (No e aux aux2)
     where Just aux = joinTrees l a
           Just aux2 = joinTrees r b
 joinTrees _ _ = Nothing
+```
