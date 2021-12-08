@@ -139,6 +139,5 @@ ordena lista = concat [quicksort1 $ selgrau n lista | n <- aux]
   where aux = quicksort' $ graus [ b | (a, b) <- lista]
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
-
 equiv :: Polinomio -> Polinomio -> Bool
 equiv p1 p2 = ordena p1 == ordena p2
