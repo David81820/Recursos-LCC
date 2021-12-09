@@ -7,7 +7,8 @@
 <br><br>
 ## Carga Horária
 **Trabalho autónomo:** 80  horas
-<br><br> **Aulas:**
+
+**Aulas:**
 <br> 30  horas  -  Teóricas
 <br> 30  horas  -  Teórico-práticas
 <br><br>
