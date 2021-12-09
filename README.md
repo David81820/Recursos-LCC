@@ -37,7 +37,7 @@ Dito isto, avancemos então para o material acumulado.
 
 <br>
 
-**DISCORD de L.C.C.:**
+### DISCORD de L.C.C.:
 <br>
 <a href="https://discord.gg/7Mb6ZuQfEK">
     <img
