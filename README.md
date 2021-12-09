@@ -1,8 +1,8 @@
 # Recursos LCC
 **Um arquivo de todo material que consegui reunir, pertinente ao curso 'Licenciatura em Ciências da Computação' da Universidade do Minho.**
-<br><br><br>
 
 #### Isto é um trabalho em progresso!
+<br><br><br>
 
 ## Aviso
 Esta colecção não deve ser usada como substituto ás aulas e material disponibilizado pelos professores.
