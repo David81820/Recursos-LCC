@@ -48,6 +48,7 @@ Dito isto, avancemos então para o material acumulado.
 
 
 [**NÚCLEO DE ESTUDANTES DE CIÊNCIAS DA COMPUTAÇÃO (NECC)**](https://necc.di.uminho.pt/)
+<br> Aqui podem pedir acesso ao Discord do NECC.
 
 [**Página dos Horários**](https://alunos.uminho.pt/pt/estudantes/paginas/infouteishorarios.aspx)
 
