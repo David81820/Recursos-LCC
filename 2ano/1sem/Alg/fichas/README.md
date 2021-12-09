@@ -24,3 +24,9 @@ Embora as fichas de ambos anos lectivos apresentem exercícios semelhantes, exis
 * [**Ficha 7**](Folha7_2122.pdf)
 * [**Ficha 8**](Folha8_2122.pdf)
 * [**Ficha 9**](Folha9_2122.pdf)
+
+<br>
+
+### Resolução dos exercícios 53 a 68
+Não tem etiqueta pois este ficheiro foi fornecido pelo corpo docente no BlackBoard da UC no ano lectivo 2021/2022.
+<br> **Válido para ambos anos lectivos.**
