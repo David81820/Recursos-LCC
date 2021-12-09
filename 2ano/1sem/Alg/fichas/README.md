@@ -27,6 +27,6 @@ Embora as fichas de ambos anos lectivos apresentem exercícios semelhantes, exis
 
 <br>
 
-### Resolução dos exercícios 53 a 68
+### [Resolução dos exercícios 53 a 68](exerc53_68.pdf)
 Não tem etiqueta pois este ficheiro foi fornecido pelo corpo docente no BlackBoard da UC no ano lectivo 2021/2022.
 <br> **Válido para ambos anos lectivos.**
