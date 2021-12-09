@@ -1,10 +1,10 @@
 ### Informação geral
 **Código:** 7090
-**Área científica predominante:** Matemática
-**Regime:** Semestral
-**ECTS:** 7,5
-**Tipo de ensino:** Presencial
-**Língua de instrução:** Portuguesa
+<br> **Área científica predominante:** Matemática
+<br> **Regime:** Semestral
+<br> **ECTS:** 7,5
+<br> **Tipo de ensino:** Presencial
+<br> **Língua de instrução:** Portuguesa
 <br><br>
 ### Carga Horária
 **Trabalho autónomo:** 135  horas
