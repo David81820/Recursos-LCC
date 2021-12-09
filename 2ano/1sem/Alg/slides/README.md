@@ -16,5 +16,5 @@ Para quem quiser uma versão dos slides todos juntos - [**Teoria Completa**](Teo
 
 
 ## Resumos
-* [**[I] Resumos 1**](Álgebra - Resumos.docx)
+* [Resumos 1](Álgebra - Resumos.docx)
 * [**[A] Resumos 2**](Alg.pdf)
