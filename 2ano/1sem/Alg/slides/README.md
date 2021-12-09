@@ -11,6 +11,7 @@ Os seguintes slides pertencem ao ano lectivo 2021/2022:
 * [**Anéis - Caraterísitca**](aneis2_[2122].pdf)
 * [**Anéis - Subanéis**](aneis3_[2122].pdf)
 * [**Anéis - Morfismos**](aneis4_[2122].pdf)
+* [**Divisibilidade - Definições Básicas**](divisibilidade1_2122.pdf)
 
 Para quem quiser uma versão dos slides todos juntos - [**Teoria Completa**](Teoria_completa.pdf) (contudo, são os slides do ano lectivo 2020/2021, que apresentam ligueiras diferenças).
 
