@@ -38,7 +38,6 @@ Dito isto, avancemos então para o material acumulado.
 <br>
 
 ### DISCORD de L.C.C.:
-<br>
 <a href="https://discord.gg/7Mb6ZuQfEK">
     <img
         src="https://img.shields.io/discord/418433020719136768.svg?colorB=Blue&logo=discord&label=Discord&style=for-the-badge"
@@ -46,6 +45,7 @@ Dito isto, avancemos então para o material acumulado.
     />
 </a>
 
+<br>
 
 [**NÚCLEO DE ESTUDANTES DE CIÊNCIAS DA COMPUTAÇÃO (NECC)**](https://necc.di.uminho.pt/)
 <br> Aqui podem pedir acesso ao Discord do NECC.
