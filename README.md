@@ -47,13 +47,15 @@ Dito isto, avancemos então para o material acumulado.
 </a>
 
 
+[**NÚCLEO DE ESTUDANTES DE CIÊNCIAS DA COMPUTAÇÃO (NECC)**](https://necc.di.uminho.pt/)
+
 [**Página dos Horários**](https://alunos.uminho.pt/pt/estudantes/paginas/infouteishorarios.aspx)
 
 **[Calendário Escolar UM](https://alunos.uminho.pt/PT/estudantes/Paginas/InfoUteisCalendarioEscolar.aspx)  e  [Calendário Escolar - Escola de Ciências](https://www.ecum.uminho.pt/pt/Ensino/Paginas/Calendario-e-Horarios.aspx)**
 
 [**E-Mail Universitário**](http://mail.alunos.uminho.pt/)
 
-
+[**Alunos UM**](https://alunos.uminho.pt/PT)
 
 <br><br><br>
 
