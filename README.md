@@ -45,6 +45,11 @@ Dito isto, avancemos então para o material acumulado.
         alt="Discord"
     />
 </a>
+
+<br>
+
+[**Página dos Horários**](https://alunos.uminho.pt/pt/estudantes/paginas/infouteishorarios.aspx)
+
 <br><br><br>
 
 ![GitHub Logo](LCC.png)
