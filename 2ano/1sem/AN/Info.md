@@ -26,7 +26,8 @@ A Análise Numérica é uma unidade integradora de competências nas áreas da M
 <br><br>
 ### Pré-requisitos recomendados
 É importante que os alunos tenham um nível razoável de conhecimento do cálculo com funções de uma ou mais variáveis, das operações com matrizes e da teoria dos sistemas de equações lineares. 
-<br> **Programa sucinto:**
+<br><br>
+### Programa sucinto
 1. Erros e estabilidade numérica.
 2. Interpolação polinomial.
 3. Quadratura numérica: fórmulas de Newton-Cotes.
