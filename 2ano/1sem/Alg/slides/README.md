@@ -20,7 +20,7 @@ Para quem quiser uma versão dos slides todos juntos - [**Teoria Completa**](Teo
 <br>
 
 ## [Apontamentos](algebraTeorica.pdf)
-Apontamentos da UC fornecidos pelo corpo docente.
+Apontamentos da UC fornecidos pelo corpo docente, no ano lectivo 2021/2022.
 <br> Curiosamente o ficheiro não veio "inteiro". A professora foi enviando ao longo do semestre novas versões do ficheiro com capítulos adicionados.
 
 
