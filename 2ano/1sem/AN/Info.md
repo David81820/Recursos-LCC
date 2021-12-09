@@ -8,8 +8,8 @@
 <br><br>
 ### Carga Horária
 **Trabalho autónomo:** 135  horas
-**Aulas:**
-30  horas  -  Práticas Laboratoriais
+<br>**Aulas:**
+<br> 30  horas  -  Práticas Laboratoriais
 <br> 45  horas  -  Teórico-práticas
 <br><br>
 ### Objetivos de ensino
