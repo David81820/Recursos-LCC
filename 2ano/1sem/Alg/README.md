@@ -9,7 +9,7 @@ Desde slides "oficiais", a resumos da matéria compildados por alunos.
 <br>
 
 ## [Fichas](fichas/README.md)
-Fichas de exercícios fornecidas pelo corpo docente, juntamente com resolução dos alunos.
+Fichas de exercícios fornecidas pelo corpo docente nos anos lectivos de 2020/2021 e 2021/2022.
 
 <br>
 
