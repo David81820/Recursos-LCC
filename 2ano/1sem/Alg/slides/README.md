@@ -14,6 +14,7 @@ Os seguintes slides pertencem ao ano lectivo 2021/2022:
 
 Para quem quiser uma versão dos slides todos juntos - [**Teoria Completa**](Teoria_completa.pdf) (contudo, são os slides do ano lectivo 2020/2021).
 
+<br>
 
 ## Resumos
 * [**[I] Resumos 1**](Álgebra-Resumos.pdf)
