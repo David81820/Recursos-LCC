@@ -32,6 +32,11 @@ Dito isto, avancemos então para o material acumulado.
 * **2º Semestre -** Computação Gráfica; Interação e Concorrência; Programação Concorrente; Semântica das Linguagens de Programação; Teoria de Números Computacional; Projeto.
 
 <br><br>
+
+## Outros Recursos
+
+<br>
+
 **DISCORD de L.C.C.:**
 <br>
 <a href="https://discord.gg/7Mb6ZuQfEK">
