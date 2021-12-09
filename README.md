@@ -43,6 +43,7 @@ Dito isto, avancemos então para o material acumulado.
     />
 </a>
 <br><br>
+
 [**NÚCLEO DE ESTUDANTES DE CIÊNCIAS DA COMPUTAÇÃO (NECC)**](https://necc.di.uminho.pt/)
 <br> Aqui podem pedir acesso ao Discord do NECC.
 
