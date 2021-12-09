@@ -12,6 +12,8 @@ Embora as fichas de ambos anos lectivos apresentem exercícios semelhantes, exis
 * [**Ficha 9**](Folha9_2021.pdf)
 * [**Ficha 10**](Folha10_2021.pdf)
 
+[[A] Resolução dos exercícios - 36 e 41 a 43.](ex36_41-43.pdf)
+
 <br>
 
 ## Fichas 2021-2022
