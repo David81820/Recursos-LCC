@@ -35,8 +35,6 @@ Dito isto, avancemos então para o material acumulado.
 
 ## Outros Recursos
 
-<br>
-
 ### DISCORD de L.C.C.:
 <a href="https://discord.gg/7Mb6ZuQfEK">
     <img
