@@ -46,7 +46,6 @@ Dito isto, avancemos então para o material acumulado.
     />
 </a>
 
-<br>
 
 [**Página dos Horários**](https://alunos.uminho.pt/pt/estudantes/paginas/infouteishorarios.aspx)
 
