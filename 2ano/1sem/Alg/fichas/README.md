@@ -1,4 +1,4 @@
-Embora as fichas de ambos anos lectivos apresentem exercícios semelhantes, existem várias alterações significativas que justificam o upload de ambas.
+Embora as fichas de ambos anos lectivos apresentem exercícios semelhantes, existem várias alterações que justificam o upload de ambas.
 
 ## Fichas 2020-2021
 * [**Ficha 1**](Folha1_2021.pdf)
