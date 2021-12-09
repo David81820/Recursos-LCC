@@ -7,8 +7,9 @@
 <br>**Língua de instrução:** Portuguesa
 <br><br>
 ## Carga Horária
-Trabalho autónomo:120  horas
-<br>**Aulas:** 
+**Trabalho autónomo:** 120  horas
+
+**Aulas:** 
 <br>45  horas  -  Teóricas
 <br>45  horas  -  Teórico-práticas
 <br><br>
