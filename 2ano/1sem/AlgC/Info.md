@@ -5,7 +5,7 @@
 <br> **ECTS:** 5
 <br> **Tipo de ensino:** Presencial
 <br><br>
-## Carga Horária
+### Carga Horária
 **Trabalho autónomo:** 80  horas
 
 **Aulas:**
