@@ -51,6 +51,8 @@ Dito isto, avancemos então para o material acumulado.
 
 **[Calendário Escolar UM](https://alunos.uminho.pt/PT/estudantes/Paginas/InfoUteisCalendarioEscolar.aspx)  e  [Calendário Escolar - Escola de Ciências](https://www.ecum.uminho.pt/pt/Ensino/Paginas/Calendario-e-Horarios.aspx)**
 
+[**E-Mail Universitário**](http://mail.alunos.uminho.pt/)
+
 
 
 <br><br><br>
