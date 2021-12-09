@@ -1,5 +1,5 @@
 Todo material aqui contido, provém do corpo docente através da plataforma BlackBoard.
-<br> Também devo avisar que o ano lectivo 2021/2022 é diferente dos anteriores em avaliação - já que em vez de 2 testes num semestre, são 4 testes (a nota sendo a média das 3 melhores qualificações).
+<br> **Também devo avisar que o ano lectivo 2021/2022 é diferente dos anteriores, quanto á sua avaliação** - já que em vez de apenas 2 testes, são 4 os testes realizados (a nota sendo a média das 3 melhores qualificações).
 
 <br>
 
