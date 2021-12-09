@@ -18,3 +18,4 @@ Para quem quiser uma versão dos slides todos juntos - [**Teoria Completa**](Teo
 
 ## Resumos
 * [**[I] Resumos 1**](Álgebra-Resumos.pdf)
+Como a etiqueta indica, este resumo é feito pela minha pessoa. Apesar de condensar a matéria toda, a 2ª parte da matéria está um pouco mal esboçada. Atualizarei assim que a melhorar.
