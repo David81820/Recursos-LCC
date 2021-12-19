@@ -10,6 +10,7 @@ Desde slides "oficiais", a resumos da matéria compildados por alunos.
 
 ## [Fichas](fichas/README.md)
 Fichas de exercícios fornecidas pelo corpo docente.
+
 <br>
 
 ## [Testes e Exames](testes/README.md)
