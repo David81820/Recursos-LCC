@@ -5,7 +5,7 @@ O segundo ano é geralmente considerado o mais "difícil".
 * [**Álgebra**](1sem/Alg) - 7,5 ECTS
 * [**Algoritmos e Complexidade**](1sem/AlgC) - 5 ECTS
 * [**Análise Numérica**](1sem/AN) - 7,5 ECTS
-* **Lógica CC** - 5 ECTS
+* [**Lógica CC**](1sem/Lógica) - 5 ECTS
 * **Sistemas de Comunicações e Rede** - 5 ECTS
 <br><br><br>
 ## 2º Semestre
