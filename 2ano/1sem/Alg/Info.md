@@ -51,7 +51,7 @@ Nas aulas teóricas os alunos tomam contacto com conceitos, exemplos, resultados
 <br>Nas aulas TP os alunos resolvem exercícios e elaboram argumentações simples, para consolidar e aplicar os conhecimentos adquiridos.
 <br>Os alunos são encorajados a trabalhar de forma autónoma, em tópicos relacionados com os conteúdos estudados.
 <br><br>
-##Métodos de avaliação
+## Métodos de avaliação
 Pode ser adotado o método de avaliação periódica ou continua.
 <br>A avaliação é feita com base em instrumentos de avaliação (IA) previamente definidos.
 <br>A classificação final é calculada a partir das classificações obtidas em cada IA.
