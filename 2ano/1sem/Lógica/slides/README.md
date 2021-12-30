@@ -11,4 +11,4 @@ Os seguintes slides pertencem ao ano lectivo 2021/2022:
 <br>
 
 ## [Apontamentos Oficiais](ApontamentosLogicaCC2020.pdf)
-Datados - Dezembro de 2020
+Um compêndio da matéria elaborado pelo corpo docente em Dezembro de 2020 ("edição" com ligueiras correções ás Notas de 2014/2015).
