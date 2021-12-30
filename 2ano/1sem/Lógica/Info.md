@@ -27,14 +27,14 @@ A UC visa primordialmente a introdução dos aspetos básicos da lógica clássi
 <br><br>
 ## Programa sucinto
 1.Lógica proposicional clássica.
-1.1 Sintaxe.
-1.2 Semântica.
-1.3 Dedução natural.
-2. Lógica de primeira ordem clássica.
-2.1 Sintaxe.
-2.2 Semântica.
-2.3 Dedução natural.
-3. Introdução à lógica proposicional intuicionista.
+<br>1.1 Sintaxe.
+<br>1.2 Semântica.
+<br>1.3 Dedução natural.
+<br>2. Lógica de primeira ordem clássica.
+<br>2.1 Sintaxe.
+<br>2.2 Semântica.
+<br>2.3 Dedução natural.
+<br>3. Introdução à lógica proposicional intuicionista.
 <br><br>
 ## Bibliografia essencial
 * van Dalen, D. (1994). Logic and Structure. Springer.
