@@ -27,7 +27,7 @@ A UC visa primordialmente a introdução dos aspetos básicos da lógica clássi
 <br><br>
 ## Programa sucinto
 1.Lógica proposicional clássica.
-<br>  1.1 Sintaxe.
+<br>    1.1 Sintaxe.
 <br>  1.2 Semântica.
 <br>  1.3 Dedução natural.
 <br>2. Lógica de primeira ordem clássica.
