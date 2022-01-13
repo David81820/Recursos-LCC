@@ -41,3 +41,4 @@ Mais alguns testes modelos:
 ## Testes 2021-2022 (com Resolução)
 * [**Teste 1**](teste_1_2122_res.pdf)
 * [**Teste 2**](teste2_2122_res.pdf)
+* [**Teste 3**](teste3_2122_res.pdf)
