@@ -11,3 +11,8 @@
 * [**Teste 2018/2019**](teste2_18-19.pdf)
 * [**Teste 2019/2020**](teste2_19-20.pdf)
 * [**Teste 2020/2021**](teste2_20-21.pdf)
+
+<br>
+
+## Exames
+* [**Exame 2016/2017**](exame_16-17.pdf)
