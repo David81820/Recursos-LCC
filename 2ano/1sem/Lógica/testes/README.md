@@ -1,4 +1,10 @@
 ## 1ºs Testes
+* 
+* 
+* 
+* 
+* [**Teste 2012/2013**](teste1_12-13.pdf)
+[Resolução](teste1_12-13_res.pdf)
 * [**Teste 2016/2017**](teste1_16-17.pdf)
 * [**Teste 2018/2019**](teste1_18-19.pdf)
 * [**Teste 2019/2020**](teste1_19-20.pdf)
