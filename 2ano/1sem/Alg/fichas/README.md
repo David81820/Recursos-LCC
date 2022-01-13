@@ -26,6 +26,8 @@ Embora as fichas de ambos anos lectivos apresentem exercícios semelhantes, exis
 * [**Ficha 7**](Folha7_2122.pdf)
 * [**Ficha 8**](Folha8_2122.pdf)
 * [**Ficha 9**](Folha9_2122.pdf)
+* [**Ficha 10**](Folha10_2122.pdf)
+* [**Ficha 11**](Folha11_2122.pdf)
 
 <br>
 
