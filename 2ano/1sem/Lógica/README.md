@@ -14,4 +14,5 @@ Fichas de exercícios fornecidas pelo corpo docente.
 <br>
 
 ## [Testes e Exames](testes/README.md)
-Testes e Exames dos anos anteriores. Infelizmente não encontrei resoluções.
+Testes e Exames dos anos anteriores.
+<br>Infelizmente, á excepção dos testes mais antigos (anos lectivos 2013/2014), não consegui encontrar resoluções.
