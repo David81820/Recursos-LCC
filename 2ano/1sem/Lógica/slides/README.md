@@ -12,3 +12,10 @@ Os seguintes slides pertencem ao ano lectivo 2021/2022:
 
 ## [Apontamentos Oficiais](ApontamentosLogicaCC2020.pdf)
 Um compêndio da matéria elaborado pelo corpo docente em Dezembro de 2020 ("edição" com ligueiras correções ás Notas de 2014/2015).
+
+<br>
+
+## Resumos
+Algo que encontrei na Dropbox de Engenharia Informática - uma compilação dos slides mais importante.
+* [Parte 1]()
+* [Parte 2]()
