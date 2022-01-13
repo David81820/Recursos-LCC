@@ -4,7 +4,7 @@ Lista dos vários detalhes técnicos da cadeira que podem ser encontrados na aba
 <br>
 
 ## [Material Teórico da UC](slides/README.md)
-Desde slides "oficiais", a resumos da matéria compildados por alunos.
+Desde slides oficiais, a "resumos" da matéria compildados por alunos.
 
 <br>
 
