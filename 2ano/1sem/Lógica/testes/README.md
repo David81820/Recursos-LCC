@@ -37,5 +37,6 @@
 * [**Prova Complementar 2010/2011**](Prova_Complementar_2010-11.pdf)
 <br>[Resolução](Prova_Complementar_2010-11_res.pdf)
 * [**Exame 2012/2013 + Resolução**](exame_12-13_res.pdf)
+* [**Exame 2013/2014**](exame_13-14.pdf)
 * [**Exame 2016/2017**](exame_16-17.pdf)
 * [**Exame 2018/2019**](exame_18-19.pdf)
