@@ -1,4 +1,4 @@
-Lógica CC
+
 
 <br>
 
