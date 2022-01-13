@@ -30,4 +30,4 @@ Apontamentos da UC fornecidos pelo corpo docente, no ano lectivo 2021/2022.
 * [**[I] Resumos**](Álgebra-Resumos.pdf)
 <br>Como a etiqueta indica, este resumo é feito pela minha pessoa. Apesar de condensar a matéria toda, a 2ª parte da matéria está um pouco mal esboçada. Atualizarei assim que a melhorar.
 <br>
-[Também disponibilizo a versão Word deste manuscrito para quem quiser realizar as suas alterações.](Álgebra-Resumos.docx)
+[Também disponibilizo a versão Word deste manuscrito para quem quiser realizar as suas alterações](Álgebra Resumos.docx)
