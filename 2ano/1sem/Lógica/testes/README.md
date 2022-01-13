@@ -1,8 +1,10 @@
 ## 1ºs Testes
-* 
-* 
-* 
-* 
+* [**Teste 2009/2010**](teste1_09-10.pdf)
+<br>[Resolução](teste1_09-10_res.pdf)
+* [**Teste 2010/2011**](teste1_10-11.pdf)
+<br>[Resolução](teste1_10-11_res.pdf)
+* [**Teste 2011/2012**](teste1_11-12.pdf)
+<br>[Resolução](teste1_11-12_res.pdf)
 * [**Teste 2012/2013**](teste1_12-13.pdf)
 <br>[Resolução](teste1_12-13_res.pdf)
 * [**Teste 2016/2017**](teste1_16-17.pdf)
