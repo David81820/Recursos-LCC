@@ -17,5 +17,5 @@ Um compêndio da matéria elaborado pelo corpo docente em Dezembro de 2020 ("edi
 
 ## Resumos
 Algo que encontrei na Dropbox de Engenharia Informática - uma compilação dos slides mais importante.
-* [Parte 1]()
-* [Parte 2]()
+* [Parte 1](Folha_Logica_Teste1.pdf)
+* [Parte 2](Logica_Parte2.pdf)
