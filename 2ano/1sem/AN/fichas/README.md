@@ -8,7 +8,7 @@ Atenção ás resoluções, pois são do ano lectivo anterior (com a excepção 
 * [**Ficha 3 - "Resolução de equações não-lineares."**](Folha_TP3.pdf)
 <br>[Resolução dos exercícios 1, 2, 3, 5, 6 e 7 (2020/2021)](f3_e1-2-3-5-6-7-8.pdf)
 * [**Ficha 4 - "Interpolação polinomial."**](Folha_TP4.pdf)
-* <br>[Resolução dos exercícios 1, 2, 3, 4, 5 e 6 (2020/2021)](f4_e1-2-3-4-5-6.pdf)
+<br>[Resolução dos exercícios 1, 2, 3, 4, 5 e 6 (2020/2021)](f4_e1-2-3-4-5-6.pdf)
 * [**Ficha 5 - "Integração numérica."**](Folha_TP5.pdf)
 <br>[Resolução dos exercícios 1 e 2 (2020/2021)](f5_e1-2.pdf)
 * [**Ficha 6 - "Sistemas de equações lineares."**](Folha_TP6.pdf)
