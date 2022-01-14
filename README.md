@@ -24,7 +24,7 @@ Dito isto, avancemos então para o material acumulado.
 * **2º Semestre -** Análise; Geometria; Matemática Discreta; Programação Imperativa; Sistemas de Computação; Laboratório de Algoritmia I.
 
 ## [2º Ano](2ano/README.md)
-* **1º Semestre -** Álgebra; Algoritmos e Complexidade; Análise Numérica; Lógica CC; Sistemas de Comunicações e Rede.
+* **1º Semestre -** Álgebra; Algoritmos e Complexidade; Análise Numérica; Lógica CC; Sistemas de Comunicações e Redes.
 * **2º Semestre -** Álgebra Universal e Categorias; Autómatos e Linguagens Formais; Cálculo de Programas; Laboratório de Algoritmia II; Programação Orientada aos Objetos; Sistemas Operativos.
 
 ## [3º Ano](3ano/README.md)
