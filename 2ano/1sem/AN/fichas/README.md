@@ -1,5 +1,5 @@
 ## Fichas 2021-2022
-Atenção ás resoluções, pois são do ano lectivo anterior (com a excepção das da ficha 6). Eu não examinei-os com rigor, apenas uma olhada rápida, mas pareceram-me adequadas - ainda assim estão avisados.
+Atenção ás resoluções, pois são do ano lectivo anterior (com a excepção das da ficha 6). Eu não examinei-as com rigor, apenas uma olhada rápida, mas pareceram-me adequadas - ainda assim estão avisados.
 <br>
 * [**Ficha 1 - "Representação de Números. Mudanças de base."**](Folha_TP1.pdf)
 <br>[Resolução dos exercícios 6 e 7 (2020/2021)](f1_e6-7.pdf)
