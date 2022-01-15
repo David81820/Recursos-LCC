@@ -1,8 +1,8 @@
 ## 2016
-* [**Ficha 1**](Ficha1-2016.pdf)
-* [**Ficha 2**](Ficha2-2016.pdf)
-* [**Ficha 3**](Ficha3-2016.pdf)
-* [**Ficha 4**](Ficha4-2016.pdf)
+* [**Ficha 1 - Análise de Correção de Programas**](Ficha1-2016.pdf)
+* [**Ficha 2 - Análise de Tempo de Execução**](Ficha2-2016.pdf)
+* [**Ficha 3 - Estruturas de Dados**](Ficha3-2016.pdf)
+* [**Ficha 4 - Grafos**](Ficha4-2016.pdf)
 
 <br>
 
