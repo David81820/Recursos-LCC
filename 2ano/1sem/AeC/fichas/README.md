@@ -1,8 +1,8 @@
 ## 2016
 * [**Ficha 1**](Ficha1-2016.pdf)
-* [**Ficha 2**](Ficha2_2016.pdf)
-* [**Ficha 3**](Ficha3_2016.pdf)
-* [**Ficha 4**](Ficha4_2016.pdf)
+* [**Ficha 2**](Ficha2-2016.pdf)
+* [**Ficha 3**](Ficha3-2016.pdf)
+* [**Ficha 4**](Ficha4-2016.pdf)
 
 <br>
 
