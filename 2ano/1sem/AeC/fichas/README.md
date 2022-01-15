@@ -1,3 +1,11 @@
+## 2016
+* [**Ficha 1**](Ficha1-2016.pdf)
+* [**Ficha 2**](Ficha2_2016.pdf)
+* [**Ficha 3**](Ficha3_2016.pdf)
+* [**Ficha 4**](Ficha4_2016.pdf)
+
+<br>
+
 ## 2020/2021
 * [**Ficha 1 - Correcção**](Ficha1_2021.pdf)
 * [**Ficha 2 - Análise da Complexidade**](Ficha2-2021.pdf)
