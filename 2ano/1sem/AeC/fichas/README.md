@@ -67,3 +67,4 @@
 * [**Ficha 3 - Estruturas de Dados**](Ficha3_2122.pdf)
 <br> [**[A]** Resolução](f3_res.md)
 * [**Ficha 4 - Algoritmos sobre Grafos**](Ficha4_2122.pdf)
+<br> **[A]** Resolução - [Parte 1](f4_res1.md); [Parte 2](f4_res2.md)
