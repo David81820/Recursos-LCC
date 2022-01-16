@@ -12,6 +12,15 @@
 
 <br>
 
+## 2012/2013
+* **Ficha 1 - Correção - [Versão 1](Ficha1_Correccao_Versao1.pdf); [Versão 2](Ficha1_Correccao_Versao2.pdf)**
+* [**Ficha 2 - Contagem de Operações**](Ficha2_Contagem_de_Operacoes.pdf)
+* [**Ficha 3 - Algoritmos Recursivos**](Ficha3_Algoritmos_Recursivos.pdf)
+* [**Ficha 4 - Buffers e Análise Amortizada**](Ficha4_Buffers_e_Analise_Amortizada.pdf)
+* [**Ficha 5 - Grafos**](Ficha5_Grafos.pdf)
+
+<br>
+
 ## 2013/2014 a 2015/2016
 * [**Ficha 1 - Análise de correcção**](Ficha1_Correccao.pdf)
 * [**Ficha 2 - Análise de Complexidade**](Ficha2_Analise_da_Complexidade.pdf)
