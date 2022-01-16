@@ -8,6 +8,8 @@ Lista dos vários detalhes técnicos da cadeira que podem ser encontrados na aba
 ## [Material Teórico da UC](slides/README.md)
 Várias notas e explicações.
 
+* [**Site de visualização de Árvores AVL**](https://www.cs.usfca.edu/~galles/visualization/AVLtree.html)
+
 <br>
 
 ## [Fichas](fichas/README.md)
