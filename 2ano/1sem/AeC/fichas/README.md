@@ -1,3 +1,11 @@
+## 2013/2014 a 2015/2016
+* [**Ficha 1 - Análise de correcção**](Ficha1_Correccao.pdf)
+* [**Ficha 2 - Análise de Complexidade**](Ficha2_Analise_da_Complexidade.pdf)
+* [**Ficha 3 - Estruturas de Dados**](Ficha3_Estruturas_de_Dados.pdf)
+* [**Ficha 4 - Grafos**](Ficha4_Grafos.pdf)
+
+<br>
+
 ## 2016/2017
 * [**Ficha 1 - Análise de Correção de Programas**](Ficha1-2016.pdf)
 <br> Resolução - [Parte 1](f1_res1.jpg), [Parte 2](f1_res2.jpg), [Parte 3](f1_res3.jpg)
@@ -18,4 +26,4 @@
 * [**Ficha 1 - Análise de correcção**](Ficha1_2122.pdf)
 * [**Ficha 2 - Análise de Complexidade**](Ficha2_2122.pdf)
 * [**Ficha 3 - Estruturas de Dados**](Ficha3_2122.pdf)
-* [**Ficha 4 - Algoritmos sobre grafos**](Ficha4_2122.pdf)
+* [**Ficha 4 - Algoritmos sobre Grafos**](Ficha4_2122.pdf)
