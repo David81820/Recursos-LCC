@@ -11,7 +11,7 @@ Desde slides "oficiais", a resumos da matéria compildados por alunos.
 <br>
 
 ## [Fichas](fichas/README.md)
-Fichas de exercícios fornecidas pelo corpo docente.
+Fichas de exercícios fornecidas pelo corpo docente, desde do ano lectivo 2010/2011 a 2021/2022.
 
 <br>
 
