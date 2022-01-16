@@ -1,3 +1,17 @@
+## 2010/2011
+* [**Ficha 1**](2010-2011 (1))
+* [**Ficha 2**](2010-2011 (2))
+* [**Ficha 3**](2010-2011 (3))
+* [**Ficha 4**](2010-2011 (4))
+* [**Ficha 5**](2010-2011 (5))
+* [**Ficha 6**](2010-2011 (6))
+* [**Ficha 7**](2010-2011 (7))
+* [**Ficha 8**](2010-2011 (8))
+* [**Ficha 9**](2010-2011 (9))
+* [**Ficha 10**](2010-2011 (10))
+
+<br>
+
 ## 2013/2014 a 2015/2016
 * [**Ficha 1 - Análise de correcção**](Ficha1_Correccao.pdf)
 * [**Ficha 2 - Análise de Complexidade**](Ficha2_Analise_da_Complexidade.pdf)
