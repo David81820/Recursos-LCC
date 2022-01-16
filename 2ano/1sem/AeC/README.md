@@ -10,7 +10,7 @@ Várias notas e explicações.
 Aqui abaixo listei também algum material "não-oficial":
 
 * [**Site de visualização de Árvores AVL**](https://www.cs.usfca.edu/~galles/visualization/AVLtree.html)
-* [**Manual de Design de Algoritmos - Steven S. Skiena**](SkienaTheAlgorithmDesignManual.pdf)
+* [**"O Manual de Design de Algoritmos" - Steven S. Skiena**](SkienaTheAlgorithmDesignManual.pdf)
 
 <br>
 
