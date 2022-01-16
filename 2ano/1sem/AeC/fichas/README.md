@@ -1,7 +1,8 @@
 ## 2016
 * [**Ficha 1 - Análise de Correção de Programas**](Ficha1-2016.pdf)
-<br> Resolução - [1](f1_res1.jpg), [2](f1_res2.jpg), [3](f1_res3.jpg)
+<br> Resolução - [Parte 1](f1_res1.jpg), [Parte 2](f1_res2.jpg), [Parte 3](f1_res3.jpg)
 * [**Ficha 2 - Análise de Tempo de Execução**](Ficha2-2016.pdf)
+<br> Resolução - [Parte 1](f2_res1.jpg), [Parte 2](f2_res2.jpg)
 * [**Ficha 3 - Estruturas de Dados**](Ficha3-2016.pdf)
 * [**Ficha 4 - Grafos**](Ficha4-2016.pdf)
 
