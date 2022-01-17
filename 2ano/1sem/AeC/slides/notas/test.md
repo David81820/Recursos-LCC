@@ -1,8 +1,7 @@
-C1. Introdução à Análise de Correcção  dos Algoritmos
+## C1. Introdução à Análise de Correcção  dos Algoritmos
 
 
-Correcção de um algoritmo
-
+### Correcção de um algoritmo
 
 > Um algoritmo diz-se correcto se para todos os valores dos inputs (variáveis de entrada) ele pára com os valores esperados (i.e. correctos…) dos outputs (variáveis de saída). Neste caso diz-se que ele resolve o problema computacional em questão.
 
@@ -16,27 +15,29 @@ A análise da correcção de um algoritmo pretende determinar se ele é correcto
 
 A demonstração da correcção de um algoritmo cuja estrutura não apresente fluxo de controlo pode ser efectuada por simples inspecção. Exemplo:
 
-
+```C
     int soma(int a, int b) {
       int sum = a+b;
       return sum; 
     }
+```
 
 Em alguns casos a correcção advém da própria especificação. Considere-se por exemplo uma implementação recursiva da noção de factorial de um número.  A implementação segue de perto a definição, pelo que a sua correcção é imediata — uma vez que a própria definição é algorítmica, trata-se apenas de verificar se a sua codificação na linguagem de programação escolhida é correcta. 
 
-
+```C
     int factorial(int n) {
       int f;
       if (n<1) f = 1;   
       else f = n*factorial(n-1);
       return f;
     } 
+```
 
 No entanto, no caso geral esta análise poderá apresentar uma dificuldade muito elevada e deve por isso ser efectuada com algum grau de formalismo, possivelmente recorrendo a uma lógica de programas. 
 
 
-Especificação de programas
-Pré-condições e pós-condições
+### Especificação de programas
+#### Pré-condições e pós-condições
 
 A análise de correcção dos algoritmos baseia-se na utilização de asserções: proposições lógicas sobre o estado actual do programa (o conjunto das suas variáveis). Por exemplo,
 
