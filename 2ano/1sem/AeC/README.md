@@ -11,7 +11,7 @@ Várias notas e explicações.
 
 * [**Site de visualização de Árvores AVL**](https://www.cs.usfca.edu/~galles/visualization/AVLtree.html)
 * [**"O Manual de Design de Algoritmos" - Steven S. Skiena - 2ª Edição**](SkienaTheAlgorithmDesignManual.pdf)
-* [**"Algoritmos e Complexidade" - Herbert S. Wilf - Edição de Internet, Verão, 1994 **](Algorithms_and_Complexity-Herbert_Wilf-Internet_Edition-Summer_1994.pdf)
+* [**"Algoritmos e Complexidade" - Herbert S. Wilf - Edição de Internet, Verão, 1994**](Algorithms_and_Complexity-Herbert_Wilf-Internet_Edition-Summer_1994.pdf)
 * [**Theoretical Computer Science Cheat Sheet**](cheat.pdf)
 
 <br>
