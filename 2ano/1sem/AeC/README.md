@@ -30,4 +30,4 @@ Fichas de exercícios fornecidas pelo corpo docente, desde do ano lectivo 2010/2
 <br>
 
 ## [Testes e Exames](testes/README.md)
-Testes e Exames dos anos anteriores.
+Testes e Exames dos anos anteriores (juntamente com algumas resoluções).
