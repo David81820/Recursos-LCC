@@ -13,6 +13,7 @@ Várias notas e explicações.
 * [**"O Manual de Design de Algoritmos" - Steven S. Skiena - 2ª Edição**](SkienaTheAlgorithmDesignManual.pdf)
 * [**"Algoritmos e Complexidade" - Herbert S. Wilf - Edição de Internet, Verão, 1994**](Algorithms_and_Complexity-Herbert_Wilf-Internet_Edition-Summer_1994.pdf)
 * [**Theoretical Computer Science Cheat Sheet**](cheat.pdf)
+* [**Introduction_to_Algorithms.zip**](Introduction_to_Algorithms.zip) - demasiado material para listar individualmente
 
 <br>
 
