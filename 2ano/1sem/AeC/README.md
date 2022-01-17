@@ -5,8 +5,8 @@ Lista dos vários detalhes técnicos da cadeira que podem ser encontrados na aba
 
 <br>
 
-## [Aulas Gravadas](aulas/README.md)
-Gravações em vídeo das aulas teóricas do Ano Lectivo 2020/2021, que foram realizadas online por consequência da pandemia COVID-19.
+## [Aulas Teóricas Gravadas](aulas/README.md)
+Screencasts das aulas teóricas do Ano Lectivo 2020/2021, que foram realizadas online por consequência da pandemia COVID-19.
 <br>Devido ao tamanho destes ficheiros .webm (cerca de 1Gb por aula) não farei upload direto deles, antes fornecerei os links Dropbox onde se encontram.
 <br>Mesmo sem conta Dropbox é possível visualizar-los, no entanto caso disporem de conta podem fazer o download (são ao todo 19 aulas)
 
