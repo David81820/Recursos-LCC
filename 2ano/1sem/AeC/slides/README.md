@@ -8,3 +8,4 @@
 
 ## Resumos
 * [**[A]** Resumos 1](resumos1.pdf)
+* [**[A]** Resumos 2](resumos2.pdf)
