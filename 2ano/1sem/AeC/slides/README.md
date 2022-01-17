@@ -7,4 +7,4 @@
 <br>
 
 ## Resumos
-* [**[A]** Resumos 1](Resumos1.pdf)
+* [**[A]** Resumos 1](resumos1.pdf)
