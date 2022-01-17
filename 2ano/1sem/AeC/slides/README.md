@@ -1,3 +1,10 @@
+## [Aulas Gravadas](aulas/README.md)
+Aqui encontram-se links Dropbox com as gravações das aulas teóricas do Ano Lectivo 2020/2021.
+<br>Como estes ficheiros são demasiados grandes (1Gb por cada aula), claro que não vou fazer upload direto deles.
+<br>Mas caso tiverem conta Dropbox, podem fazer download de cada aula (são 19 ao todo).
+
+<br>
+
 ## Apontamentos das Aulas Teóricas 
 * [**Análise de Correcção**](Correccao.pdf)
 * [**Análise de Complexidade**](Complexidade.pdf)
