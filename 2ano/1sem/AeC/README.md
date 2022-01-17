@@ -11,6 +11,7 @@ Aqui abaixo listei também algum material "não-oficial":
 
 * [**Site de visualização de Árvores AVL**](https://www.cs.usfca.edu/~galles/visualization/AVLtree.html)
 * [**"O Manual de Design de Algoritmos" - Steven S. Skiena - 2ª Edição**](SkienaTheAlgorithmDesignManual.pdf)
+* [**Theoretical Computer Science Cheat Sheet**](cheat.pdf)
 
 <br>
 
