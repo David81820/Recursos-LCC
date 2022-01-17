@@ -1,4 +1,5 @@
-## Notas
+## Slides Teóricos (JSP)
+Sucintas notas da matéria, elaboradas pelo professor Jorge Sousa Pinto
 * [**C1-2. Especificação e Correcção de Algoritmos**]()
 * [**T5. Análise Amortizada de Algoritmos**]()
 * [**T4. Tópicos sobre Algoritmos de Ordenação**]()
