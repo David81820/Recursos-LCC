@@ -7,7 +7,7 @@ Lista dos vários detalhes técnicos da cadeira que podem ser encontrados na aba
 
 ## [Material Teórico da UC](slides/README.md)
 Várias notas e explicações.
-Aqui abaixo listei também algum material "não-oficial":
+<br>Aqui abaixo listei também algum material "não-oficial":
 
 * [**Site de visualização de Árvores AVL**](https://www.cs.usfca.edu/~galles/visualization/AVLtree.html)
 * [**"O Manual de Design de Algoritmos" - Steven S. Skiena - 2ª Edição**](SkienaTheAlgorithmDesignManual.pdf)
