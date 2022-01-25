@@ -20,17 +20,17 @@ Atenção ás resoluções, pois são do ano lectivo anterior (com a excepção 
 Funções importantes á matéria, e precisas ao longo das várias fichas de exercícios.
 <br>
 * [horner.m](horner.m) - Função Matlab que implementa o algoritmo de Horner para calcular o valor de um polinómio num ponto
-* [intdectobin.m]() - Função Matlab que converte para binário a representação decimal de um número inteiro positivo
-* [fracdectobin.m]() - Função Matlab que converte para binário a representação decimal de um número fracionário puro
-* [chop.m]()
-* [expTaylor.m]()
-* [bisec.m]() - Implementa o método da bisseção para calcular uma raiz de uma equação não linear
-* [poLagrange.m]() - Implementa a fórmula interpoladora de Lagrange
-* [TabDifDiv.m]() - TabDifDiv.m calcula as diferenças divididas
-* [polNewton.m]() - implementa a fórmula interpoladora de Newton
-* [trapezios.m]() - implementa a regra dos trapézios
-* [simpson.m]() - Implementa a regra de Simpson
-* [GaussElim.m]() - GaussElim.m implementa o método de eliminação de Gauss sem pivotação para resolver o sistema Ax=b.
-* [GaussElimPP.m]() - GaussElimPP.m inclui pivotação parcial.
-* [STriangular.m]() - Ambas as últimas duas usam STriangular.m que implementa o método de substituição inversa para resolver um sistema triangular superior.
+* [intdectobin.m](intdectobin.m) - Função Matlab que converte para binário a representação decimal de um número inteiro positivo
+* [fracdectobin.m](fracdectobin.m) - Função Matlab que converte para binário a representação decimal de um número fracionário puro
+* [chop.m](chop.m)
+* [expTaylor.m](expTaylor.m)
+* [bisec.m](bisec.m) - Implementa o método da bisseção para calcular uma raiz de uma equação não linear
+* [poLagrange.m](poLagrange.m) - Implementa a fórmula interpoladora de Lagrange
+* [TabDifDiv.m](TabDifDiv.m) - TabDifDiv.m calcula as diferenças divididas
+* [polNewton.m](polNewton.m) - implementa a fórmula interpoladora de Newton
+* [trapezios.m](trapezios.m) - implementa a regra dos trapézios
+* [simpson.m](simpson.m) - Implementa a regra de Simpson
+* [GaussElim.m](GaussElim.m) - GaussElim.m implementa o método de eliminação de Gauss sem pivotação para resolver o sistema Ax=b.
+* [GaussElimPP.m](GaussElimPP.m) - GaussElimPP.m inclui pivotação parcial.
+* [STriangular.m](STriangular.m) - Ambas as últimas duas usam STriangular.m que implementa o método de substituição inversa para resolver um sistema triangular superior.
  
