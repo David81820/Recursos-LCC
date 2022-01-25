@@ -19,7 +19,7 @@ Atenção ás resoluções, pois são do ano lectivo anterior (com a excepção 
 ## Funções MatLab
 Funções importantes á matéria, e precisas ao longo das várias fichas de exercícios.
 <br>
-* [horner.m] - Função Matlab que implementa o algoritmo de Horner para calcular o valor de um polinómio num ponto
+* [horner.m]() - Função Matlab que implementa o algoritmo de Horner para calcular o valor de um polinómio num ponto
 * [intdectobin.m]() - Função Matlab que converte para binário a representação decimal de um número inteiro positivo
 * [fracdectobin.m]() - Função Matlab que converte para binário a representação decimal de um número fracionário puro
 * [chop.m]()
