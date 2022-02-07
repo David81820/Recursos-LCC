@@ -20,3 +20,4 @@
 * [**2016-2017**](AeC-201617-Recurso.pdf)
 * [**2017-2018**](AeC-201718-Exame.pdf)
 * [**2018-2019**](AeC-201819-Recurso.pdf)
+* [**2019-2020 + Resolução**](AeC_2021_resE.pdf)
