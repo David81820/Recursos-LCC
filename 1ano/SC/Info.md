@@ -26,7 +26,7 @@ Ao completar com sucesso a UC cada estudante deverá demonstrar que adquiriu os 
 - aptidões transversais, nomeadamente a ter desenvolvido a capacidade de raciocínio na resolução de problemas, e a capacidade de comunicação escrita e oral
 <br><br>
 ## Programa sucinto
-**1. Organização e estrutura de um computador**
+<br><br>**1. Organização e estrutura de um computador**
 <br>  A informação num computador:
 * representação da informação (texto, números, imagens e comandos para o processador);
 * representação binária de inteiros e de valores reais (inc. norma IEEE 754).
