@@ -27,8 +27,8 @@ Ao completar com sucesso a UC cada estudante deverá demonstrar que adquiriu os 
 <br><br>
 ## Programa sucinto
 **1. Organização e estrutura de um computador**
-A informação num computador: representação da informação (texto, números, imagens e comandos para o processador); representação binária de inteiros e de valores reais (inc. norma IEEE 754).
-Estrutura interna dum computador; execução de instruções; níveis de abstração; execução de programas num ambiente laboratorial (x86 em Linux).
+<br>  A informação num computador: representação da informação (texto, números, imagens e comandos para o processador); representação binária de inteiros e de valores reais (inc. norma IEEE 754).
+<br>  Estrutura interna dum computador; execução de instruções; níveis de abstração; execução de programas num ambiente laboratorial (x86 em Linux).
 2. Arquitetura do instruction set
 Estrutura dum instruction set: operações/operandos, acesso a dados, tipos e formatos de instruções, modelo de programação dum processador.
 O nível ISA do x86 em Linux: operações aritméticas e acesso a operandos, estruturas de controlo em C, funções/procedimentos.
