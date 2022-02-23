@@ -26,10 +26,8 @@ Ao completar com sucesso a UC cada estudante deverá demonstrar que adquiriu os 
 - aptidões transversais, nomeadamente a ter desenvolvido a capacidade de raciocínio na resolução de problemas, e a capacidade de comunicação escrita e oral
 <br><br>
 ## Programa sucinto
-<br><br>**1. Organização e estrutura de um computador**
-<br>  A informação num computador:
-* representação da informação (texto, números, imagens e comandos para o processador);
-* representação binária de inteiros e de valores reais (inc. norma IEEE 754).
+**1. Organização e estrutura de um computador**
+<br>  A informação num computador:  representação da informação (texto, números, imagens e comandos para o processador);  representação binária de inteiros e de valores reais (inc. norma IEEE 754).
 <br>  Estrutura interna dum computador; execução de instruções; níveis de abstração; execução de programas num ambiente laboratorial (x86 em Linux).
 <br><br>**2. Arquitetura do instruction set**
 <br>  Estrutura dum instruction set: operações/operandos, acesso a dados, tipos e formatos de instruções, modelo de programação dum processador.
