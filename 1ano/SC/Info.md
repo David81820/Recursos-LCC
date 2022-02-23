@@ -30,12 +30,12 @@ Ao completar com sucesso a UC cada estudante deverá demonstrar que adquiriu os 
 <br>  A informação num computador:  *representação da informação (texto, números, imagens e comandos para o processador)**;**  representação binária de inteiros e de valores reais (inc. norma IEEE 754).*
 <br>  Estrutura interna dum computador; execução de instruções; níveis de abstração; execução de programas num ambiente laboratorial (x86 em Linux).
 <br><br>**2. Arquitetura do instruction set**
-<br>  Estrutura dum instruction set: operações/operandos, acesso a dados, tipos e formatos de instruções, modelo de programação dum processador.
-<br>  O nível ISA do x86 em Linux: operações aritméticas e acesso a operandos, estruturas de controlo em C, funções/procedimentos.
+<br>  Estrutura dum instruction set:  *operações/operandos, acesso a dados, tipos e formatos de instruções, modelo de programação dum processador.*
+<br>  O nível ISA do x86 em Linux:  *operações aritméticas e acesso a operandos, estruturas de controlo em C, funções/procedimentos.*
 <br>  Análise comparativa do instruction set de outras arquiteturas com a do IA-32.
 <br><br>**3. Avaliação do desempenho de computadores**
 <br>  Metodologia de avaliação de desempenho.
-<br>  Fatores da arquitetura dum computador no seu desempenho
+<br>  Fatores da arquitetura dum computador no seu desempenho.
 <br><br>
 ## Bibliografia essencial
 * Computer Systems: A Programmer's Perspective (CS:APP), Randal Bryant and David O'Hallaron, Pearson, 3rd Ed., 2015.
