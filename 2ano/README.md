@@ -15,3 +15,7 @@ O segundo ano é geralmente considerado o mais "difícil".
 * **Laboratório de Algoritmia II** - 5 ECTS
 * **Programação Orientada aos Objetos** - 5 ECTS
 * **Sistemas Operativos** - 5 ECTS
+
+<br><br>
+
+[![retroceder](https://github.com/David81820/Recursos-LCC/blob/main/Rewind-Button-PNG-Pic.png)](https://github.com/David81820/Recursos-LCC)
