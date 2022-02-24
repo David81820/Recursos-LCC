@@ -18,3 +18,7 @@ Fichas de exercícios fornecidas pelo corpo docente.
 ## [Testes e Exames](testes/README.md)
 Testes e Exames dos anos anteriores.
 <br>Infelizmente, á excepção dos testes mais antigos (anos lectivos 2013/2014), não consegui encontrar resoluções.
+
+<br><br>
+
+[![retroceder](https://github.com/David81820/Recursos-LCC/blob/main/Rewind-Button-PNG-Pic.png)](https://github.com/David81820/Recursos-LCC/tree/main/2ano)
