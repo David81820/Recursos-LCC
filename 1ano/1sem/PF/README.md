@@ -33,3 +33,7 @@ Fichas de exercícios fornecidas pelo corpo docente, juntamente com resolução 
 
 ## [Testes e Exames](testes/README.md)
 As 50 Questões, Testes e Exames desde do ano lectivo 2015-2016, até 2020-2021. Incluí resoluções feitas por alunos.
+
+<br><br>
+
+[![retroceder](https://github.com/David81820/Recursos-LCC/blob/main/Rewind-Button-PNG-Pic.png)](https://github.com/David81820/Recursos-LCC/tree/main/1ano)
