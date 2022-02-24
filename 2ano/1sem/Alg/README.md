@@ -17,3 +17,7 @@ Fichas de exercícios fornecidas pelo corpo docente nos anos lectivos de 2020/20
 
 ## [Testes e Exames](testes/README.md)
 Testes e Exames dos anos anteriores, juntamente com as suas resoluções.
+
+<br><br>
+
+[![retroceder](https://github.com/David81820/Recursos-LCC/blob/main/Rewind-Button-PNG-Pic.png)](https://github.com/David81820/Recursos-LCC/tree/main/2ano)
