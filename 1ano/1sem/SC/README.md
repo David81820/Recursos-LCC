@@ -17,3 +17,6 @@ Fichas de exercícios fornecidas pelo corpo docente.
 
 ## [Testes e Exames](testes/README.md)
 
+<br>
+
+![retroceder](Rewind-Button-PNG-Pic.png)
