@@ -10,5 +10,5 @@
 * [Guião 7](Guião-VII-SC1415.pdf) - [resolução](Guião-VII-SC1415-r.pdf)
 * [Guião 8](Guião-VIII-SC1415.pdf)
 
-No caso de terem reparado, os ficheiros das resoluções têm datas que não correspondem ao ano lectivo 2016/2017. Não se preocupem.
-<br>Estes ficheiros não só são da autoria dos professores, como também foram publicados no Blackboard do ano lectivo 2016/2017.
+No caso de terem reparado, alguns ficheiros das resoluções têm datas que não correspondem ao ano lectivo 2016/2017. Não se preocupem.
+<br>Estes ficheiros não só são da autoria dos professores, como também foram publicados pelos mesmo no Blackboard no ano lectivo 2016/2017.
