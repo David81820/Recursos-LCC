@@ -34,3 +34,7 @@ Embora as fichas de ambos anos lectivos apresentem exercícios semelhantes, exis
 ### [Resolução dos exercícios 53 a 68](exerc53_68.pdf)
 **Válido para ambos anos lectivos.**
 <br> Não tem etiqueta pois este ficheiro foi fornecido pelo corpo docente no BlackBoard da UC no ano lectivo 2021/2022.
+
+<br><br>
+
+[![retroceder](https://github.com/David81820/Recursos-LCC/blob/main/Rewind.png)](https://david81820.github.io/Recursos-LCC/2ano/1sem/Alg)
