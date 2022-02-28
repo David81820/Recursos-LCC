@@ -180,3 +180,8 @@ factorial 4
 = 4 * 6
 = 24
 ```
+
+<br><br>
+
+[![retroceder](https://github.com/David81820/Recursos-LCC/blob/main/Rewind.png)](https://david81820.github.io/Recursos-LCC/1ano/1sem/PF)
+
