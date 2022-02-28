@@ -56,3 +56,8 @@ Pode ser adotado o método de avaliação periódica ou continua.
 <br>A avaliação é feita com base em instrumentos de avaliação (IA) previamente definidos.
 <br>A classificação final é calculada a partir das classificações obtidas em cada IA.
 <br>Os alunos que não obtenham aprovação no quadro de avaliação continua ou periódica poderão ser admitidos a exame final.
+
+<br><br>
+
+[![retroceder](https://github.com/David81820/Recursos-LCC/blob/main/Rewind.png)](https://david81820.github.io/Recursos-LCC/2ano/1sem/Alg)
+
