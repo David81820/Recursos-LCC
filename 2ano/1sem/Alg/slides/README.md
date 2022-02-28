@@ -30,3 +30,8 @@ Apontamentos da UC fornecidos pelo corpo docente, no ano lectivo 2021/2022.
 * [**[I] Resumos**](Álgebra-Resumos.pdf)
 <br>Como a etiqueta indica, este resumo é feito pela minha pessoa.
 <br><br>[Também incluí o manuscrito em formato Word para quem quiser realizar alterações.](https://github.com/David81820/Recursos-LCC/blob/main/2ano/1sem/Alg/slides/%C3%81lgebra%20Resumos.docx)
+
+<br><br>
+
+[![retroceder](https://github.com/David81820/Recursos-LCC/blob/main/Rewind.png)](https://david81820.github.io/Recursos-LCC/2ano/1sem/Alg)
+
