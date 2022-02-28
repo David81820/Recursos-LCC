@@ -44,3 +44,8 @@ Em geral estas questões não sofreram alterações significativas ao longo dos 
 <br>[**[A] Resolução**](exame/Exame1819.md)
 * [**2019-2020**](exame/Exame1920.jpg)
 <br>[**[A] Resolução**](exame/Exame1920.md)
+
+<br><br>
+
+[![retroceder](https://github.com/David81820/Recursos-LCC/blob/main/Rewind.png)](https://david81820.github.io/Recursos-LCC/1ano/1sem/PF)
+
