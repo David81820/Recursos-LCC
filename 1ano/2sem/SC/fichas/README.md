@@ -15,4 +15,4 @@ No caso de terem reparado, alguns ficheiros das resoluções têm datas que não
 
 <br><br>
 
-[![retroceder](https://github.com/David81820/Recursos-LCC/blob/main/Rewind-Button-PNG-Pic.png)](https://david81820.github.io/Recursos-LCC/1ano/2sem/SC)
+[![retroceder](https://github.com/David81820/Recursos-LCC/blob/main/Rewind.png)](https://david81820.github.io/Recursos-LCC/1ano/2sem/SC)
