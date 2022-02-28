@@ -20,4 +20,4 @@ Testes e Exames dos anos anteriores, juntamente com as suas resoluções.
 
 <br><br>
 
-[![retroceder](https://github.com/David81820/Recursos-LCC/blob/main/Rewind-Button-PNG-Pic.png)](https://github.com/David81820/Recursos-LCC/tree/main/2ano)
+[![retroceder](https://github.com/David81820/Recursos-LCC/blob/main/Rewind.png)](https://github.com/David81820/Recursos-LCC/tree/main/2ano)
