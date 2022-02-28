@@ -34,4 +34,3 @@ Apontamentos da UC fornecidos pelo corpo docente, no ano lectivo 2021/2022.
 <br><br>
 
 [![retroceder](https://github.com/David81820/Recursos-LCC/blob/main/Rewind.png)](https://david81820.github.io/Recursos-LCC/2ano/1sem/Alg)
-
