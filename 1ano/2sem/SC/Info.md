@@ -50,3 +50,7 @@ Aulas teóricas: exposição/discussão de conceitos e exemplificação da sua a
 1. Participação dos alunos na preparação e execução das práticas experimentais
 2. Prova(s) escrita(s) individual
 3. Exame de recurso
+
+<br><br>
+
+[![retroceder](https://github.com/David81820/Recursos-LCC/blob/main/Rewind-Button-PNG-Pic.png)](https://david81820.github.io/Recursos-LCC/1ano)
