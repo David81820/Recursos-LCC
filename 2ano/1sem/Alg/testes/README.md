@@ -43,3 +43,7 @@ Mais alguns testes modelos:
 * [**Teste 2**](teste2_2122_res.pdf)
 * [**Teste 3**](teste3_2122_res.pdf)
 * [**Teste 4**](teste4_2122_res.pdf)
+
+<br><br>
+
+[![retroceder](https://github.com/David81820/Recursos-LCC/blob/main/Rewind.png)](https://david81820.github.io/Recursos-LCC/2ano/1sem/Alg)
