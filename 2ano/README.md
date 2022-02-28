@@ -18,4 +18,4 @@ O segundo ano é geralmente considerado o mais "difícil".
 
 <br><br>
 
-[![retroceder](./Rewind.png)](https://david81820.github.io/Recursos-LCC)
+[![retroceder](Rewind.png)](https://david81820.github.io/Recursos-LCC)
