@@ -22,4 +22,4 @@ O segundo ano é geralmente considerado o mais "difícil".
 
 <br>
 
-<img src="blob/main/Rewind.png">
+<img src="main/Rewind.png">
