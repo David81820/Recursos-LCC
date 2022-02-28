@@ -12,3 +12,7 @@
 
 No caso de terem reparado, alguns ficheiros das resoluções têm datas que não correspondem ao ano lectivo 2016/2017. Não se preocupem.
 <br>Estes ficheiros não só são da autoria dos professores, como também foram publicados pelos mesmo no Blackboard no ano lectivo 2016/2017.
+
+<br><br>
+
+[![retroceder](https://github.com/David81820/Recursos-LCC/blob/main/Rewind-Button-PNG-Pic.png)](https://david81820.github.io/Recursos-LCC/1ano/2sem/SC)
