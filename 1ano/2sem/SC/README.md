@@ -21,4 +21,4 @@ Fichas de exercícios fornecidas pelo corpo docente.
 
 <br><br>
 
-[![retroceder](https://github.com/David81820/Recursos-LCC/blob/main/Rewind-Button-PNG-Pic.png)](https://github.com/David81820/Recursos-LCC/main/1ano)
+[![retroceder](https://github.com/David81820/Recursos-LCC/blob/main/Rewind-Button-PNG-Pic.png)](https://david81820.github.io/Recursos-LCC/1ano)
