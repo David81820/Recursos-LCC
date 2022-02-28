@@ -27,3 +27,8 @@ As fichas também não sofreram grandes alterações ao longo dos anos (antes de
 ### [Ficha 9](ficha9.pdf)
 [[A] Resolução 1](f9_res1.md)
 <br>[[A] Resolução 2](f9_res2.md)
+
+<br><br>
+
+[![retroceder](https://github.com/David81820/Recursos-LCC/blob/main/Rewind.png)](https://david81820.github.io/Recursos-LCC/1ano/1sem/PF)
+
