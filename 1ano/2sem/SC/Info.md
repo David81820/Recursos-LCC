@@ -53,4 +53,4 @@ Aulas teóricas: exposição/discussão de conceitos e exemplificação da sua a
 
 <br><br>
 
-[![retroceder](https://github.com/David81820/Recursos-LCC/blob/main/Rewind-Button-PNG-Pic.png)](https://david81820.github.io/Recursos-LCC/1ano)
+[![retroceder](https://github.com/David81820/Recursos-LCC/blob/main/Rewind-Button-PNG-Pic.png)](https://david81820.github.io/Recursos-LCC/1ano/2sem/SC)
