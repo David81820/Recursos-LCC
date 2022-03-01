@@ -37,4 +37,4 @@ Embora as fichas de ambos anos lectivos apresentem exercícios semelhantes, exis
 
 <br><br>
 
-[![retroceder](https://github.com/David81820/Recursos-LCC/blob/main/Rewind.png)](https://david81820.github.io/Recursos-LCC/2ano/1sem/Alg)
+[![retroceder](https://raw.githubusercontent.com/David81820/Recursos-LCC/main/Rewind.png)](https://david81820.github.io/Recursos-LCC/2ano/1sem/Alg)
