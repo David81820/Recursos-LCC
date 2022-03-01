@@ -28,3 +28,7 @@ Dois resumos distintos, o 1º sendo de 2018 e o 2º de 2015.
 * [**[A]** Resumos 2](resumos2.pdf)
 
 [Formulário de Hoare](Formulario_Hoare.pdf)
+
+<br><br>
+
+[![retroceder](https://raw.githubusercontent.com/David81820/Recursos-LCC/main/Rewind.png)](https://david81820.github.io/Recursos-LCC/2ano/1sem/AeC)
