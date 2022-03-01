@@ -20,4 +20,4 @@
 
 <br><br>
 
-[Link para a Dropbox.](https://www.dropbox.com/sh/h29s8e8o0scl3sj/AADVGNG6bzhkl_EFqCpFwKiha?dl=0)
+[![retroceder](https://raw.githubusercontent.com/David81820/Recursos-LCC/main/Rewind.png)](https://david81820.github.io/Recursos-LCC/2ano/1sem/AeC)
