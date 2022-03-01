@@ -21,3 +21,7 @@
 * [**2017-2018**](AeC-201718-Exame.pdf)
 * [**2018-2019**](AeC-201819-Recurso.pdf)
 * [**2019-2020 + Resolução**](AeC_2021_resE.pdf)
+
+<br><br>
+
+[![retroceder](https://raw.githubusercontent.com/David81820/Recursos-LCC/main/Rewind.png)](https://david81820.github.io/Recursos-LCC/2ano/1sem/AeC)
