@@ -19,4 +19,4 @@ O primeiro ano é maioritariamente constituído por cadeiras focadas em matemát
 
 <br><br>
 
-[![retroceder](https://raw.githubusercontent.com/David81820/Recursos-LCC/main/Rewind.png)](https://github.com/David81820/Recursos-LCC)
+[![retroceder](https://raw.githubusercontent.com/David81820/Recursos-LCC/main/Rewind.png)](https://david81820.github.io/Recursos-LCC/)
