@@ -47,3 +47,7 @@ A escolaridade da UC é utilizada da seguinte forma:
 <br><br>
 ## Métodos de avaliação
 A avaliação é feita através de dois testes, um intercalar e outro final, ambos com peso de 50%, sendo requisito para a aprovação a obtenção de uma classificação mínima de 25% em cada um dos testes.
+
+<br><br>
+
+[![retroceder](https://raw.githubusercontent.com/David81820/Recursos-LCC/main/Rewind.png)](https://david81820.github.io/Recursos-LCC/2ano/1sem/AeC)
