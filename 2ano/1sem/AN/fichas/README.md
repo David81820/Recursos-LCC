@@ -33,4 +33,8 @@ Funções importantes á matéria, e precisas ao longo das várias fichas de exe
 * [GaussElim.m](GaussElim.m) - GaussElim.m implementa o método de eliminação de Gauss sem pivotação para resolver o sistema Ax=b.
 * [GaussElimPP.m](GaussElimPP.m) - GaussElimPP.m inclui pivotação parcial.
 * [STriangular.m](STriangular.m) - Ambas as últimas duas usam STriangular.m que implementa o método de substituição inversa para resolver um sistema triangular superior.
+
+<br><br>
+
+[![retroceder](https://raw.githubusercontent.com/David81820/Recursos-LCC/main/Rewind.png)](https://david81820.github.io/Recursos-LCC/2ano/1sem/AeC)
  
