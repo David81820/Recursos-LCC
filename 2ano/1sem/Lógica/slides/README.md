@@ -19,3 +19,7 @@ Um compêndio da matéria elaborado pelo corpo docente em Dezembro de 2020 ("edi
 Algo que encontrei na Dropbox de Engenharia Informática - uma compilação dos slides mais importante.
 * [Parte 1](Folha_Logica_Teste1.pdf)
 * [Parte 2](Logica_Parte2.pdf)
+
+<br><br>
+
+[![retroceder](https://raw.githubusercontent.com/David81820/Recursos-LCC/main/Rewind.png)](https://david81820.github.io/Recursos-LCC/2ano/1sem/Lógica)
