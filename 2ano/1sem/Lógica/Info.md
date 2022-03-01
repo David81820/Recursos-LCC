@@ -49,3 +49,7 @@ O sistema de avaliação é baseado em instrumentos de avaliação, tais como:
 - Exame escrito e/ou oral;
 - Testes escritos e/ou orais;
 - Trabalhos escritos ou práticos, individuais ou de grupo, que poderão envolver o uso de ferramentas computacionais e que poderão ser defendidos oralmente.
+
+<br><br>
+
+[![retroceder](https://raw.githubusercontent.com/David81820/Recursos-LCC/main/Rewind.png)](https://david81820.github.io/Recursos-LCC/2ano/1sem/Lógica)
