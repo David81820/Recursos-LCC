@@ -36,5 +36,5 @@ Funções importantes á matéria, e precisas ao longo das várias fichas de exe
 
 <br><br>
 
-[![retroceder](https://raw.githubusercontent.com/David81820/Recursos-LCC/main/Rewind.png)](https://david81820.github.io/Recursos-LCC/2ano/1sem/AeC)
+[![retroceder](https://raw.githubusercontent.com/David81820/Recursos-LCC/main/Rewind.png)](https://david81820.github.io/Recursos-LCC/2ano/1sem/AN)
  
