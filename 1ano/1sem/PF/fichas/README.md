@@ -30,5 +30,5 @@ As fichas também não sofreram grandes alterações ao longo dos anos (antes de
 
 <br><br>
 
-[![retroceder](https://github.com/David81820/Recursos-LCC/blob/main/Rewind.png)](https://david81820.github.io/Recursos-LCC/1ano/1sem/PF)
+[![retroceder](https://raw.githubusercontent.com/David81820/Recursos-LCC/main/Rewind.png)](https://david81820.github.io/Recursos-LCC/1ano/1sem/PF)
 
