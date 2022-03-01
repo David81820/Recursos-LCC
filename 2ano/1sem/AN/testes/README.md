@@ -33,3 +33,7 @@ Todo material aqui contido, provém do corpo docente através da plataforma Blac
 
 E ainda temos aqui uma prova complementar realizada pelo BlackBoard no ano lectivo 2020/2021:
 * [**Prova Complementar BB (20/21)**](AN_provaComplementar_2021.PNG)
+
+<br><br>
+
+[![retroceder](https://raw.githubusercontent.com/David81820/Recursos-LCC/main/Rewind.png)](https://david81820.github.io/Recursos-LCC/2ano/1sem/AN)
