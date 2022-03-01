@@ -19,4 +19,4 @@ O terceiro ano aprensenta apenas 2 cadeiras de matemática, sendo as restantes u
 
 <br><br>
 
-[![retroceder](https://github.com/David81820/Recursos-LCC/blob/main/Rewind-Button-PNG-Pic.png)](https://github.com/David81820/Recursos-LCC)
+[![retroceder](https://raw.githubusercontent.com/David81820/Recursos-LCC/main/Rewind.png)](https://david81820.github.io/Recursos-LCC)
