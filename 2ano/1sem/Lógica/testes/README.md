@@ -41,3 +41,7 @@
 * [**Exame 2013/2014**](exame_13-14.pdf)
 * [**Exame 2016/2017**](exame_16-17.pdf)
 * [**Exame 2018/2019**](exame_18-19.pdf)
+
+<br><br>
+
+[![retroceder](https://raw.githubusercontent.com/David81820/Recursos-LCC/main/Rewind.png)](https://david81820.github.io/Recursos-LCC/2ano/1sem/Lógica)
