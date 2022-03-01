@@ -48,3 +48,7 @@ Todas as aulas decorrem em laboratório de computação.
 A avaliação é periódica e as provas de avaliação consistem em testes escritos, de natureza individual, realizados em laboratório de computação.
 <br> A avaliação também poderá incluir trabalhos, individuais ou em grupo, de natureza computacional.
 <br> Informação mais detalhada é dada em cada ano aos estudantes.
+
+<br><br>
+
+[![retroceder](https://raw.githubusercontent.com/David81820/Recursos-LCC/main/Rewind.png)](https://david81820.github.io/Recursos-LCC/2ano/1sem/AN)
