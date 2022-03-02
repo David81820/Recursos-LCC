@@ -13,7 +13,7 @@ Lista dos vários detalhes técnicos da cadeira que podem ser encontrados na aba
 <br>
 
 ## [Fichas](fichas/README.md)
-Fichas de exercícios fornecidas pelo corpo docente.
+TPC's e Guiões dos anos lectivos 2014/2015 a 2019/2020.
 
 <br>
 
