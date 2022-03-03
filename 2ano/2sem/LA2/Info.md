@@ -60,3 +60,7 @@ O semestre é organizado em blocos de 3 aulas P cada, cada bloco dedicado a uma 
 ## Métodos de avaliação
 A avaliação é feita em 5 torneios de programação ao longo do semestre, onde os alunos se organizam em grupos de 2 alunos para tentar resolver 2 problemas sobre uma determinada estratégia de resolução algorítmica, num período de tempo limitado.
 <br>A nota final da UC é proporcional ao número de problemas resolvidos ao longo do semestre.
+
+<br><br>
+
+[![retroceder](https://raw.githubusercontent.com/David81820/Recursos-LCC/main/Rewind.png)](https://david81820.github.io/Recursos-LCC/2ano/2sem/LA2)
