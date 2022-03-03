@@ -11,7 +11,7 @@ Lista dos vários detalhes técnicos da cadeira que podem ser encontrados na aba
 <br>
 
 ## [Fichas](fichas/README.md)
-
+"Treinos" dados pelo corpo docente, para preparar alunos aos torneios de avaliação.
 
 <br>
 
