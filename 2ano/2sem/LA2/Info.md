@@ -1,16 +1,16 @@
 ## Informação geral
 **Código:** 9696
-**Área científica predominante:** Tecnologias da Computação
-**Regime:** Semestral
-**ECTS:** 5
-**Tipo de ensino:** Presencial
-**Língua de instrução:** Portuguesa
+<br>**Área científica predominante:** Tecnologias da Computação
+<br>**Regime:** Semestral
+<br>**ECTS:** 5
+<br>**Tipo de ensino:** Presencial
+<br>**Língua de instrução:** Portuguesa
 
 <br>
 
 ## Carga Horária
 **Trabalho autónomo:** 110  Horas
-**Aulas:** 30  horas  -  Práticas Laboratoriais
+<br>**Aulas:** 30  horas  -  Práticas Laboratoriais
 
 <br>
 
@@ -26,9 +26,11 @@ Esta unidade curricular ocorre no 2º semestre do 2º ano, tendo os alunos já a
 - Implementar essa estratégia de forma eficiente numa linguagem de programação de alto nível;
 - Organizar o trabalho em grupo por forma a resolver um determinado problema num tempo limitado.
 
+<br>
+
 ## Pré-requisitos recomendados
-Programação Imperativa.
-<br>Algoritmos e Complexidade.
+* **Programação Imperativa.**
+* **Algoritmos e Complexidade.**
 
 <br>
 
