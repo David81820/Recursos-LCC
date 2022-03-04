@@ -12,10 +12,10 @@ Estes são os torneios do ano lectivo **2020/2021**.
 * [**Torneio 1**](t1-2021.md)
 <br>  [A] [Resolução](t1-2021-res.md)
 * [**Torneio 2**](t2-2021.md)
-* [**Torneio 3**]()
+* [**Torneio 3**](t3-2021.md)
 * [**Torneio 4**](t4-2021.md)
-* [**Torneio 5**]()
-* [**Torneio Extra**]()
+* [**Torneio 5**](t5-2021.md)
+* [**Torneio Extra**](tE-2021.md)
 
 <br><br>
 
