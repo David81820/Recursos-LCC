@@ -1,9 +1,9 @@
 Estes são os torneios do ano lectivo **2020/2021**.
 <br>
-<br>Uma observação importante - no código dos ficheiros irão encontrar uma secção entitulada de 'Testes'.
+<br>**Observação importante, quanto ao código dos ficheiros irão encontrar uma secção entitulada de 'Testes'.**
 <br>Isso é o código que os professores usaram para verificar se o exercício resolvido estava correto.
 <br>O problema é que esse código continha apenas uma parte dos testes - ou seja, durante o torneio, quando os alunos clicavam no botão 'Test' do Codeboard (plataforma onde foram realizados os torneios), a maioria dos testes aplicados estavam "fora" do código acedível pelos alunos.
-<br>Por isso, tenham noção que mesmo se o vosso código estiver correto para os testes desse código, não significa que estará correto para todos testes.
+<br>*Por isso, tenham noção que mesmo se o vosso código estiver correto para os testes desse código, não significa que estará correto para todos testes.*
 
 <br>
 
