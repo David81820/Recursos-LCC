@@ -1,6 +1,6 @@
 ## 2020/2021
 * [**Torneio 1**](t1-2021.md)
-<br>  [Resolução](t1-2021-res.md)
+<br>  [Resolução](t1-2021-res.py)
 * [**Torneio 2**]()
 * [**Torneio 3**]()
 * [**Torneio 4**]()
