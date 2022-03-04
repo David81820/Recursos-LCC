@@ -1,5 +1,5 @@
 ## 2020/2021
-* [**Torneio 1**](https://codeboard.io/projects/217112/submissions/715851)
+* [**Torneio 1**](t1-2021.md)
 * [**Torneio 2**]()
 * [**Torneio 3**]()
 * [**Torneio 4**]()
