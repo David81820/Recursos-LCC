@@ -16,7 +16,7 @@ Lista dos vários detalhes técnicos da cadeira que podem ser encontrados na aba
 <br>
 
 ## [Testes e Exames](testes/README.md)
-
+Os torneios de avaliação (por enquanto só tenho o 1º do ano lectivo 2020/2021.
 
 <br><br>
 
