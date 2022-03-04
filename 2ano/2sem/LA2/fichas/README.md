@@ -5,7 +5,7 @@ Os treinos maioritariamente não mudam ao longo dos anos lectivos (pelo menos no
 <br>
 
 * [**Treino 1**](https://codeboard.io/projects/148692)
-<br>    [A] [Resolução](torneio1-res.py)
+<br>    [A] [Resolução](torneio1-res.md)
 * [**Treino 2**](https://codeboard.io/projects/153023)
 * [**Treino 3**](https://codeboard.io/projects/155406)
 * [**Treino 4**](https://codeboard.io/projects/155407)
