@@ -6,7 +6,7 @@ Lista dos vários detalhes técnicos da cadeira que podem ser encontrados na aba
 <br>
 
 ## [Material Teórico da UC](slides/README.md)
-
+* **Sintaxe básica de Python**
 
 <br>
 
