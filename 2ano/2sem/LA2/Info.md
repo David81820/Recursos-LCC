@@ -1,3 +1,7 @@
+# Laboratório de Algoritmia II
+
+<br>
+
 ## Informação geral
 **Código:** 9696
 <br>**Área científica predominante:** Tecnologias da Computação
