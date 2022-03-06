@@ -6,6 +6,8 @@ Lista dos vários detalhes técnicos da cadeira que podem ser encontrados na aba
 <br>
 
 ## [Material Teórico da UC](slides/README.md)
+PDF's fornecidos pelo corpo docente - cada um relacionado a um Treino/Torneio.
+
 * [**Sintaxe básica de Python**](http://rigaux.org/language-study/syntax-across-languages-per-language/Python.html)
 
 <br>
