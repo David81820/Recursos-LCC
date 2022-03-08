@@ -18,9 +18,9 @@
 <br>
 
 ## 2021/2022
-* [**Torneio 1**]()
-<br>  [A] [Resoução - 100%]()
-<br>  [I] [Resolução]()
+* [**Torneio 1**](t1-2122.md)
+<br>  [A] [Resoução - 100%](t1-2122-res.md)
+<br>  [I] [Resolução](t1-2122-resI.md)
 
 <br><br>
 
