@@ -10,6 +10,11 @@ PDF's fornecidos pelo corpo docente - cada um relacionado a um Treino/Torneio.
 
 * [**Sintaxe básica de Python**](http://rigaux.org/language-study/syntax-across-languages-per-language/Python.html)
 
+<br> Hiperligações á documentação oficial do Python, que os professores dão no BlackBoard:
+* [Documentação oficial](https://docs.python.org/3/index.html)
+* [Tutorial sobre estruturas de dados](https://docs.python.org/3/tutorial/datastructures.html)
+* [Tutorial sobre ordenação](https://docs.python.org/3/howto/sorting.html)
+
 <br>
 
 ## [Fichas](fichas/README.md)
