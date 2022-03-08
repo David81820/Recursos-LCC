@@ -1,6 +1,3 @@
-Estes são os torneios do ano lectivo **2020/2021**.
-<br>Ao contrário dos treinos, não é possível dar a hiperligação á plataforma Codeboard onde estes torneios eram realizados.
-<br>
 <br>**Observação importante, quanto ao código dos ficheiros irão encontrar uma secção entitulada de 'Testes'.**
 <br>Isso é o código que os professores usaram para verificar se o exercício resolvido estava correto.
 <br>O problema é que esse código continha apenas uma parte dos testes - ou seja, durante o torneio, quando os alunos clicavam no botão 'Test' do Codeboard, a maioria dos testes aplicados estavam "fora" do código acedível pelos alunos.
@@ -9,6 +6,7 @@ Estes são os torneios do ano lectivo **2020/2021**.
 
 <br>
 
+## 2020/2021
 * [**Torneio 1**](t1-2021.md)
 <br>  [A] [Resolução](t1-2021-res.md)
 * [**Torneio 2**](t2-2021.md)
@@ -16,6 +14,12 @@ Estes são os torneios do ano lectivo **2020/2021**.
 * [**Torneio 4**](t4-2021.md)
 * [**Torneio 5**](t5-2021.md)
 * [**Torneio Extra**](tE-2021.md)
+
+<br>
+
+## 2021/2022
+* [**Torneio 1**]()
+<br>  [A] [Resoução - 100T%]() - [I] [Resolução]()
 
 <br><br>
 
