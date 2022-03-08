@@ -7,3 +7,7 @@
 * [**Documentação oficial**](https://docs.python.org/3/index.html)
 * [**Tutorial sobre estruturas de dados**](https://docs.python.org/3/tutorial/datastructures.html)
 * [**Tutorial sobre ordenação**](https://docs.python.org/3/howto/sorting.html)
+
+<br><br>
+
+[![retroceder](https://raw.githubusercontent.com/David81820/Recursos-LCC/main/Rewind.png)](https://david81820.github.io/Recursos-LCC/2ano/2sem/LA2)
