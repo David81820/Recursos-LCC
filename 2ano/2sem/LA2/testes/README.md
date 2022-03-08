@@ -19,7 +19,7 @@
 
 ## 2021/2022
 * [**Torneio 1**]()
-<br>  [A] [Resoução - 100T%]()<p>&nbsp;</p>adsad
+<br>  [A] [Resoução - 100T%]() <p>&nbsp; adsad
 <br>  [I] [Resolução]()
 
 <br><br>
