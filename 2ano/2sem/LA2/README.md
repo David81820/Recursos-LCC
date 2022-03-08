@@ -9,6 +9,8 @@ Lista dos vários detalhes técnicos da cadeira que podem ser encontrados na aba
 PDF's fornecidos pelo corpo docente - cada um relacionado a um Treino/Torneio - entre outros conteúdos.
 
 * [**Sintaxe básica de Python**](http://rigaux.org/language-study/syntax-across-languages-per-language/Python.html)
+* [**Automate the Boring Stuff with Python - Practical Programming for Total Beginners**](https://automatetheboringstuff.com/)
+* [**Pyhton - GeeksforGeeks**](https://www.geeksforgeeks.org/python-programming-language/)
 
 <br>
 
