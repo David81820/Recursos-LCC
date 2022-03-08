@@ -19,7 +19,7 @@
 
 ## 2021/2022
 * [**Torneio 1**]()
-<br>  [A] [Resoução - 100T%]()   -   [I] [Resolução]()
+<br>  [A] [Resoução - 100T%]()  emsp -   [I] [Resolução]()
 
 <br><br>
 
