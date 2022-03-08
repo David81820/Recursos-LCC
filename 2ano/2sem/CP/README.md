@@ -1,5 +1,27 @@
-Aulas 2020/2021
-https://www.youtube.com/watch?v=NdYvknBBz-c&list=PLZYyhr30Tukpu9DqwIJV2m16MYRXYwIs_&index=1
+[Título](CP.png)
+
+## [Detalhes da UC](Info.md)
+Lista dos vários detalhes técnicos da cadeira que podem ser encontrados na aba "Plano de Estudos" do catálogo electrónico na página [Oferta Educativa - LCC](https://www.uminho.pt/PT/ensino/oferta-educativa/_layouts/15/UMinho.PortalUM.UI/Pages/CatalogoCursoDetail.aspx?itemId=3851&catId=12).
+
+<br>
+
+## [Aulas Teóricas Gravadas](https://www.youtube.com/watch?v=NdYvknBBz-c&list=PLZYyhr30Tukpu9DqwIJV2m16MYRXYwIs_&index=1)
+Vídeos das aulas teóricas do Ano Lectivo 2020/2021, que foram realizadas online por consequência da pandemia COVID-19.
+
+<br>
+
+## [Material Teórico da UC](slides/README.md)
+
+
+<br>
+
+## [Fichas](fichas/README.md)
+
+
+<br>
+
+## [Testes e Exames](testes/README.md)
+
 
 <br><br>
 
