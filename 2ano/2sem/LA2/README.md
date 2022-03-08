@@ -18,7 +18,7 @@ PDF's fornecidos pelo corpo docente - cada um relacionado a um Treino/Torneio.
 <br>
 
 ## [Testes e Exames](testes/README.md)
-Os torneios de avaliação do ano lectivo 2020/2021.
+Os torneios de avaliação dos anos lectivos 2020/2021 e 2021/2022.
 
 <br><br>
 
