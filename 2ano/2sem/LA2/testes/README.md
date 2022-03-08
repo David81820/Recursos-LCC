@@ -19,7 +19,7 @@
 
 ## 2021/2022
 * [**Torneio 1**]()
-<br>  [A] [Resoução - 100%]()
+<br>  [A] [Resoução - 100%]() &nbsp  kkk
 <br>  [I] [Resolução]()
 
 <br><br>
