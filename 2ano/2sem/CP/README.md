@@ -11,6 +11,10 @@ Vídeos das aulas teóricas do Ano Lectivo 2020/2021, que foram realizadas onlin
 <br>
 
 ## [Material Teórico da UC](slides/README.md)
+Nesta cadeira, o corpo docente publica o material associado a cada aula, antes da mesma. O objectivo sendo que os alunos
+
+* 
+
 
 
 <br>
