@@ -22,7 +22,6 @@ Vídeos das aulas teóricas do Ano Lectivo 2020/2021, que foram realizadas onlin
 
 ## [Testes e Exames](testes/README.md)
 
-
 <br><br>
 
 [![retroceder](https://raw.githubusercontent.com/David81820/Recursos-LCC/main/Rewind.png)](https://david81820.github.io/Recursos-LCC/2ano)
