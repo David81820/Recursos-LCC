@@ -17,8 +17,6 @@ Nesta cadeira o corpo docente publica o material associado a cada aula antes da 
 
 * [**Página Oficial**](https://haslab.github.io/CP/)
 
-
-
 <br>
 
 ## [Fichas](fichas/README.md)
