@@ -15,7 +15,7 @@ Nesta cadeira o corpo docente publica o material associado a cada aula antes da 
 <br>Outra importante distinção de outras UC's é o facto que o corpo docente não publica nem avisos, nem material do curso na plataforma BlackBoard.
 <br>Ao invés, eles publicam todo tipo de conteúdo relevante num site exclusivo á UC:
 
-* [**Página oficial**](https://haslab.github.io/CP/)
+* [**Página Oficial**](https://haslab.github.io/CP/)
 
 
 
