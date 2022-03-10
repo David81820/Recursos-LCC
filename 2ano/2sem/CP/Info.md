@@ -62,4 +62,8 @@ A metodologia de ensino orienta-se para o método pedagógico conhecido como [**
 ## Métodos de avaliação
 A avaliação é feita com base numa prova individual sem consulta, com exame de recurso, e num trabalho de grupo a realizar fora das aulas e sujeito a uma prova oral (apresentação e demonstração do trabalho).
 <br>Alunos do mesmo grupo poderão ter classificações diferentes conforme a sua prestação oral. O trabalho será realizado na linguagem Haskell.
+
+<br><br>
+
+[![retroceder](https://raw.githubusercontent.com/David81820/Recursos-LCC/main/Rewind.png)](https://david81820.github.io/Recursos-LCC/2ano/2sem/CP)
  
