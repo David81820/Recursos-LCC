@@ -12,3 +12,7 @@
 * [Ficha 11](1920/f11-1920.pdf) --- [Resolução](1920/f11-1920-res.md)
 * [Ficha 12](1920/f12-1920.pdf) --- [Resolução](1920/f12-1920-res.md)
 * [Ficha 13](1920/f13-1920.pdf)
+
+<br><br>
+
+[![retroceder](https://raw.githubusercontent.com/David81820/Recursos-LCC/main/Rewind.png)](https://david81820.github.io/Recursos-LCC/2ano/2sem/CP)
