@@ -11,4 +11,4 @@
 * [Ficha 10](1920/f10-1920.pdf) --- [Resolução](1920/f10-1920-res.pdf)
 * [Ficha 11](1920/f11-1920.pdf) --- [Resolução](1920/f11-1920-res.pdf)
 * [Ficha 12](1920/f12-1920.pdf) --- [Resolução](1920/f12-1920-res.pdf)
-* [Ficha 13](1920/f13-1920.pdf) --- [Resolução](1920/f13-1920-res.pdf)
+* [Ficha 13](1920/f13-1920.pdf)
