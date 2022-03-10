@@ -3,22 +3,23 @@
 * [Ficha 2](f2-1920.pdf)
 * [Ficha 3](f3-1920.pdf)
 * [Ficha 4](f4-1920.pdf)
-<br> [Resolução](f4-1920-res.pdf)<br>
+<br> [Resolução](f4-1920-res.pdf)
+
 * [Ficha 5](f5-1920.pdf)
-<br> [Resolução](f5-1920-res.pdf)<br>
+<br> [Resolução](f5-1920-res.pdf)
 * [Ficha 6](f6-1920.pdf)
-<br> [Resolução](f6-1920-res.pdf)<br>
+<br> [Resolução](f6-1920-res.pdf)
 * [Ficha 7](f7-1920.pdf)
-<br> [Resolução](f7-1920-res.pdf)<br>
+<br> [Resolução](f7-1920-res.pdf)
 * [Ficha 8](f8-1920.pdf)
-<br> [Resolução](f8-1920-res.pdf)<br>
+<br> [Resolução](f8-1920-res.pdf)
 * [Ficha 9](f9-1920.pdf)
-<br> [Resolução](f9-1920-res.pdf)<br>
+<br> [Resolução](f9-1920-res.pdf)
 * [Ficha 10](f10-1920.pdf)
-<br> [Resolução](f10-1920-res.pdf)<br>
+<br> [Resolução](f10-1920-res.pdf)
 * [Ficha 11](f11-1920.pdf)
-<br> [Resolução](f11-1920-res.pdf)<br>
+<br> [Resolução](f11-1920-res.pdf)
 * [Ficha 12](f12-1920.pdf)
-<br> [Resolução](f12-1920-res.pdf)<br>
+<br> [Resolução](f12-1920-res.pdf)
 * [Ficha 13](f13-1920.pdf)
 <br> [Resolução](f13-1920-res.pdf)
