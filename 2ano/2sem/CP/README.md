@@ -16,6 +16,7 @@ Nesta cadeira o corpo docente publica o material associado a cada aula antes da 
 <br>Ao invés, eles publicam todo tipo de conteúdo relevante num site exclusivo á UC:
 
 * [**Página Oficial**](https://haslab.github.io/CP/)
+* [Página Oficial (Antiga)](http://wiki.di.uminho.pt/twiki/bin/view/Education/CP/WebHome)
 
 <br>
 
