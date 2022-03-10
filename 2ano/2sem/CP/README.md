@@ -11,9 +11,11 @@ Vídeos das aulas teóricas do Ano Lectivo 2020/2021, que foram realizadas onlin
 <br>
 
 ## [Material Teórico da UC](slides/README.md)
-Nesta cadeira, o corpo docente publica o material associado a cada aula, antes da mesma. O objectivo sendo que os alunos
+Nesta cadeira o corpo docente publica o material associado a cada aula antes da mesma com o intuito de os alunos preparem-se com antecedência.
+<br>Outra importante distinção de outras UC's é o facto que o corpo docente não publica nem avisos, nem material do curso na plataforma BlackBoard.
+<br>Ao invés, eles publicam todo tipo de conteúdo relevante num site exclusivo á UC:
 
-* 
+* [**Página oficial**](https://haslab.github.io/CP/)
 
 
 
