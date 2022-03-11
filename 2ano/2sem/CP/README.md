@@ -5,7 +5,7 @@ Lista dos vários detalhes técnicos da cadeira que podem ser encontrados na aba
 
 <br>
 
-## [Aulas Teóricas Gravadas]()
+## [Aulas Teóricas Gravadas](https://www4.di.uminho.pt/~jno/media/cp/)
 Nessa página encontra-se gravadas explicações sobre a matéria pelo corpo docente (sendo até possível selecionar por tópico).
 
 [Mas também para quem quiser, aqui estão vídeos das aulas teóricas online do Ano Lectivo 2020/2021, publicadas no 'YouTube'.](https://www.youtube.com/watch?v=NdYvknBBz-c&list=PLZYyhr30Tukpu9DqwIJV2m16MYRXYwIs_&index=1)
