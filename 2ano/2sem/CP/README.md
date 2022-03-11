@@ -26,6 +26,7 @@ Fichas de exercícios do ano lectivo 2019/2020, com resoluções a algumas.
 <br>
 
 ## [Testes e Exames](testes/README.md)
+Nesta cadeira existe apenas um teste por semestre (a outra metade da avaliação resulta do trabalho de grupo).
 
 <br><br>
 
