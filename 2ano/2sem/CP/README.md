@@ -21,7 +21,7 @@ Nesta cadeira o corpo docente publica o material associado a cada aula antes da 
 <br>
 
 ## [Fichas](fichas/README.md)
-
+Fichas de exercícios do ano lectivo 2019/2020, com resoluções a algumas.
 
 <br>
 
