@@ -5,18 +5,23 @@ Lista dos vários detalhes técnicos da cadeira que podem ser encontrados na aba
 
 <br>
 
-## [Aulas Teóricas Gravadas](https://www.youtube.com/watch?v=NdYvknBBz-c&list=PLZYyhr30Tukpu9DqwIJV2m16MYRXYwIs_&index=1)
-Vídeos das aulas teóricas do Ano Lectivo 2020/2021, que foram realizadas online por consequência da pandemia COVID-19.
+## [Aulas Teóricas Gravadas]()
+Nessa página encontra-se gravadas explicações sobre a matéria pelo corpo docente (sendo até possível selecionar por tópico).
+
+[Mas também para quem quiser, aqui estão vídeos das aulas teóricas online do Ano Lectivo 2020/2021, publicadas no 'YouTube'.](https://www.youtube.com/watch?v=NdYvknBBz-c&list=PLZYyhr30Tukpu9DqwIJV2m16MYRXYwIs_&index=1)
 
 <br>
 
-## [Material Teórico da UC](slides/README.md)
+## Material Teórico da UC
 Nesta cadeira o corpo docente publica o material associado a cada aula antes da mesma com o intuito de os alunos preparem-se com antecedência.
 <br>Outra importante distinção de outras UC's é o facto que o corpo docente não publica nem avisos, nem material do curso na plataforma BlackBoard.
 <br>Ao invés, eles publicam todo tipo de conteúdo relevante num site exclusivo á UC:
 
 * [**Página Oficial**](https://haslab.github.io/CP/)
-* [Página Oficial (Antiga)](http://wiki.di.uminho.pt/twiki/bin/view/Education/CP/WebHome)
+* [Anos Anteriores](https://haslab.github.io/CP/Past/index)
+
+Nestas Páginas, encontra-se todo material referente á cadeira.
+
 
 <br>
 
