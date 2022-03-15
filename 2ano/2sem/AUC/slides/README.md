@@ -4,8 +4,8 @@
 
 <br>
 
-* [**Notas de Álgebra Universal - 2018/2019**](notas de álgebra universal - 1819.pdf)
-* [**Notas de Teoria de Categorias - 2018/2019**](notas de teoria de categorias - 1819.pdf)
+* [**Notas de Álgebra Universal - 2018/2019**](notas de álgebra universal_1819.pdf)
+* [**Notas de Teoria de Categorias - 2018/2019**](notas de teoria de categorias_1819.pdf)
 
 <br><br>
 
