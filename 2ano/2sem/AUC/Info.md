@@ -69,3 +69,7 @@ A Unidade Curricular está organizada em sessões que incluem aulas teóricas, e
 O sistema de avaliação é definido anualmente nos termos estabelecidos no Regulamento Académico.
 <br>A avaliação pode ser contínua ou periódica, combinando dois ou mais instrumentos de avaliação.
 <br>A nota final é calculada a partir das classificações obtidas em cada elemento de avaliação, através de fórmula indicada no Dossiê da Unidade Curricular.
+
+<br><br>
+
+[![retroceder](https://raw.githubusercontent.com/David81820/Recursos-LCC/main/Rewind.png)](https://david81820.github.io/Recursos-LCC/2ano/2sem/AUC)
