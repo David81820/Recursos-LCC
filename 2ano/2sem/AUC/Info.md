@@ -1,6 +1,8 @@
 # Álgebra Universal e Categorias
 #
 
+<br>
+
 ## Informação geral
 **Código:** 10860
 <br>**Área científica predominante:** Matemática
