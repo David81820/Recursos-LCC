@@ -11,6 +11,8 @@
 <br>**Tipo de ensino:** Presencial
 <br>**Língua de instrução:** Português
 
+<br>
+
 ## Carga Horária
 **Trabalho autónomo:** 80  horas
 
