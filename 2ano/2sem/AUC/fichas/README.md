@@ -14,10 +14,8 @@
 
 <br>
 
-## 2021/2022
-* [**Ficha 1**](AUC-2122-f1.pdf)
-* [**Ficha 2**](AUC-2122-f2.pdf)
-* [**Ficha 3**](AUC-2122-f3.pdf)
+Após comparações notei que as fichas do ano lectivo 20/21 são iguais ás de 21/22. Também são idênticas ás de 19/20 (existem apenas pequenas alterações em alguns exercícios, por fim as fichas desse ano têm menos exercícios por ficha, mas mais fichas).
+Por essas razões, não irei incluir as fichas de exercícios desses anos lectivos.
 
 <br><br>
 
