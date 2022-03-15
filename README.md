@@ -4,7 +4,7 @@
 <br>
 
 ### Isto é um trabalho em progresso!
-### De momento apenas as cadeiras do 1º Semestre do 2º Ano estão devidamente organizadas (fora disso tenho apenas PF e SC).
+### De momento apenas algumas cadeiras do 2º Ano estão devidamente organizadas (fora disso tenho apenas PF e SC).
 <br><br><br>
 
 ## Aviso
