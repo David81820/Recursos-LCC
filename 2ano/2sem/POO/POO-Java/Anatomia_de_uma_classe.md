@@ -245,7 +245,7 @@ Lista dos principais objetos imutáveis disponíveis:
  * LocalDate
  * LocalTime
  * LocalDateTime
-(existem mais))
+(existem mais)
 
 <br><br>
 
