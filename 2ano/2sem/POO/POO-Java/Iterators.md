@@ -246,7 +246,7 @@ public List<ListElem> getAbove(int x){
 [mapToIntMethod]: https://docs.oracle.com/javase/8/docs/api/java/util/stream/Stream.html#mapToInt-java.util.function.ToIntFunction-
 [IntStream]: https://docs.oracle.com/javase/8/docs/api/java/util/stream/IntStream.html
 [sumMethod]: https://docs.oracle.com/javase/8/docs/api/java/util/stream/IntStream.html#sum--
-[averageMethod]: https://docs.oracle.com/javase/8/docs/api/java/util/stream/IntStream.html#average--)
+[averageMethod]: https://docs.oracle.com/javase/8/docs/api/java/util/stream/IntStream.html#average--
 
 <br><br>
 
