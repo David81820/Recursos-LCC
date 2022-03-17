@@ -4,25 +4,27 @@
 <br>
 
 ## Informação geral
-Código:14306
-<br>Área científica predominante:
-<br>Informática
-<br>Regime:Semestral
-<br>ECTS:5
-<br>Tipo de ensino:Presencial
+**Código:** 14306
+<br>**Área científica predominante:** Informática
+<br>**Regime:** Semestral
+<br>**ECTS:** 5
+<br>**Tipo de ensino:** Presencial
 
 <br>
 
 ## Carga Horária
-Trabalho autónomo:80  horas
-<br>Aulas:
+**Trabalho autónomo:** 80  horas
+
+**Aulas:**
 <br>30  horas  -  Práticas Laboratoriais
 <br>30  horas  -  Teóricas
 
 <br>
 
 ## Objetivos de ensino
-Esta UC possibilita o contacto dos alunos com um novo paradigma de programação e aumenta a capacidade dos alunos de construção de aplicações software mais complexas. A adopção de um novo paradigma, com a posterior implementação de uma aplicação software complexa, estimula o desenvolvimento das capacidades de abstração o que está de acordo com os objetivos enunciados. A introdução de competências relativas à execução de testes e a  mecanismos de programação genérica reforça as competências adquiridas na UC de programação imperativa.
+Esta UC possibilita o contacto dos alunos com um novo paradigma de programação e aumenta a capacidade dos alunos de construção de aplicações software mais complexas.
+A adopção de um novo paradigma, com a posterior implementação de uma aplicação software complexa, estimula o desenvolvimento das capacidades de abstração o que está de acordo com os objetivos enunciados.
+A introdução de competências relativas à execução de testes e a  mecanismos de programação genérica reforça as competências adquiridas na UC de programação imperativa.
 
 <br>
 
@@ -39,15 +41,17 @@ Os alunos deverão ser capazes de:
 
 ## Programa sucinto
 1. Introdução à Programação por Objectos: 
-  1.1. concepção modular de aplicações; 
-  1.2. tipos abstractos de dados;
+<br>  1.1. concepção modular de aplicações; 
+<br>  1.2. tipos abstractos de dados;
+
 2. Noção de Objecto em POO: 
-  2.1. estado interno, comportamento e mensagens; 
-  2.2. encapsulamento;
+<br>  2.1. estado interno, comportamento e mensagens; 
+<br>  2.2. encapsulamento;
+
 3. Classes, hierarquias de classes e polimorfismo;
-4. Herança simples, herança múltipla e classes abstractas;
-5. Testes Unitários e Programação Genérica;
-6. Concepção e análise de aplicações: padrões arquitecturais.
+<br>4. Herança simples, herança múltipla e classes abstractas;
+<br>5. Testes Unitários e Programação Genérica;
+<br>6. Concepção e análise de aplicações: padrões arquitecturais.
 
 <br>
 
@@ -61,9 +65,14 @@ Os alunos deverão ser capazes de:
 <br>
 
 ## Métodos de ensino
-A metodologia de ensino considera três componentes. Uma mais expositiva, nas aulas teóricas, onde se procede à apresentação e discussão dos conceitos. Outra eminentemente prática, nas aulas práticas laboratoriais, em que se pretende praticar os conhecimentos adquiridos, através da realização de mini-projectos. Finalmente, a realização, em grupo, de uma aplicação software efectuada ao longo do semestre.
+A metodologia de ensino considera três componentes. Uma mais expositiva, nas aulas teóricas, onde se procede à apresentação e discussão dos conceitos.
+Outra eminentemente prática, nas aulas práticas laboratoriais, em que se pretende praticar os conhecimentos adquiridos, através da realização de mini-projectos.
+Finalmente, a realização, em grupo, de uma aplicação software efectuada ao longo do semestre.
 
 <br>
 
 ## Métodos de avaliação
-A metodologia de avaliação considera duas componentes. Uma componente individual, através de um exame escrito final, em que é aferida a compreensão dos conceitos bem como a capacidade de os aplicar. Uma componente de trabalho em equipa, através de um trabalho prático, com entregas faseadas ao longo do semestre, em que é aferida a capacidade de aplicação da abordagem proposta. O exame escrito tem um peso na classificação que se situa entre os 50% a 60%, enquanto a componente de trabalho em equipa tem um peso que se situa entre os 40% a 60%.
+A metodologia de avaliação considera duas componentes.
+Uma componente individual, através de um exame escrito final, em que é aferida a compreensão dos conceitos bem como a capacidade de os aplicar.
+Uma componente de trabalho em equipa, através de um trabalho prático, com entregas faseadas ao longo do semestre, em que é aferida a capacidade de aplicação da abordagem proposta.
+O exame escrito tem um peso na classificação que se situa entre os 50% a 60%, enquanto a componente de trabalho em equipa tem um peso que se situa entre os 40% a 60%.
