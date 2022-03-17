@@ -49,9 +49,9 @@ Os alunos deverão ser capazes de:
 <br>  2.2. encapsulamento;
 
 3. Classes, hierarquias de classes e polimorfismo;
-<br>4. Herança simples, herança múltipla e classes abstractas;
-<br>5. Testes Unitários e Programação Genérica;
-<br>6. Concepção e análise de aplicações: padrões arquitecturais.
+4. Herança simples, herança múltipla e classes abstractas;
+5. Testes Unitários e Programação Genérica;
+6. Concepção e análise de aplicações: padrões arquitecturais.
 
 <br>
 
