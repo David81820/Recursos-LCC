@@ -227,7 +227,7 @@ comportamento mas este depende de fatores que não conhecemos na superclasse,
 por exemplo.
 
 Em Java cada classe pode apenas estender uma superclasse. (C++, por exemplo,
-permite herança múltipla))
+permite herança múltipla)
 
 <br><br>
 
