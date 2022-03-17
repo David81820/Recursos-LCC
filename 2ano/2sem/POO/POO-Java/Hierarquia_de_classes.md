@@ -227,4 +227,8 @@ comportamento mas este depende de fatores que não conhecemos na superclasse,
 por exemplo.
 
 Em Java cada classe pode apenas estender uma superclasse. (C++, por exemplo,
-permite herança múltipla)
+permite herança múltipla))
+
+<br><br>
+
+[![retroceder](https://raw.githubusercontent.com/David81820/Recursos-LCC/main/Rewind.png)](https://david81820.github.io/Recursos-LCC/2ano/2sem/POO/POO-Java)
