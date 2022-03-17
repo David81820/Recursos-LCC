@@ -1,4 +1,4 @@
-# POO-Java
+# POO e Java
 É importante distinguir POO de Java.
 <br>Java é a linguagem usada para explicar os conceitos de POO.
 <br>Algumas coisas são válidas em Java mas não são válidas no contexto da cadeira.
