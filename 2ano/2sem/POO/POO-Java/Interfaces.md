@@ -139,7 +139,7 @@ public interface Musica{
 ```
 
 Assim todas as classes que implementem esta interface tem também este
-método. Este pode ser `Overriden` para alterar o seu comportamento.)
+método. Este pode ser `Overriden` para alterar o seu comportamento.
 
 <br><br>
 
