@@ -8,6 +8,8 @@ Lista dos vários detalhes técnicos da cadeira que podem ser encontrados na aba
 ## [Material Teórico da UC](slides/README.md)
 
 
+<br>
+
 Contudo também tenho aqui uma série de páginas, criadas por alunos de MIEI (ou agora é LEI outra vez?), que exploram os conteúdos leccionados em POO:
 
 * [**[A] Java em POO**](POO-Java/README.md)
