@@ -206,4 +206,8 @@ public method() throws MyException{
 [ErrorDocs]: https://docs.oracle.com/javase/8/docs/api/index.html?java/lang/Error.html
 [OutOfMemoryDocs]: https://docs.oracle.com/javase/8/docs/api/index.html?java/lang/OutOfMemoryError.html
 [RuntimeExceptions]: https://docs.oracle.com/javase/8/docs/api/java/lang/RuntimeException.html
-[ArrayOutOfBoundsDocs]: https://docs.oracle.com/javase/8/docs/api/java/lang/ArrayIndexOutOfBoundsException.html
+[ArrayOutOfBoundsDocs]: https://docs.oracle.com/javase/8/docs/api/java/lang/ArrayIndexOutOfBoundsException.html)
+
+<br><br>
+
+[![retroceder](https://raw.githubusercontent.com/David81820/Recursos-LCC/main/Rewind.png)](https://david81820.github.io/Recursos-LCC/2ano/2sem/POO/POO-Java)
