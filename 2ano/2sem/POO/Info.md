@@ -56,11 +56,11 @@ Os alunos deverão ser capazes de:
 <br>
 
 ## Bibliografia essencial
-* Java 8 POO + Construções Funcionais, F. Mário Martins, Editora FCA, Série Tecnologias de Informação, ISBN-978-972-722-838-6, 2017. 
-* Object Oriented Design with Applications G. Booch, Third Edition, Addison-Wesley Professional, ISBN 978-020-189-551-3, 2007. 
-* Objects First with Java - A Practical Introduction using BlueJ, David J. Barnes & Michael Kölling, Sixth Edition, Pearson Education, ISBN 978-1-292-15904-1, 2016.
-* Java Program Design- Principles, Polymorphism, and Patterns, Edward Sciore, Apress Media, ISBN 978-1-4842-4142-4, 2019.
-* Fundamentals of Java Programming, Mitsunori Ogihara, Springer, ISBN 978-3-319-89490-4, 2018.
+* **Java 8 POO + Construções Funcionais**, F. Mário Martins, Editora FCA, Série Tecnologias de Informação, ISBN-978-972-722-838-6, 2017. 
+* **Object Oriented Design with Applications G. Booch**, Third Edition, Addison-Wesley Professional, ISBN 978-020-189-551-3, 2007. 
+* **Objects First with Java - A Practical Introduction using BlueJ**, David J. Barnes & Michael Kölling, Sixth Edition, Pearson Education, ISBN 978-1-292-15904-1, 2016.
+* **Java Program Design- Principles, Polymorphism, and Patterns**, Edward Sciore, Apress Media, ISBN 978-1-4842-4142-4, 2019.
+* **Fundamentals of Java Programming**, Mitsunori Ogihara, Springer, ISBN 978-3-319-89490-4, 2018.
 
 <br>
 
