@@ -80,4 +80,8 @@ temos sempre de ter em programação imperativa.
 Em Java todos os objectos são pointers, (excepto os tipos primitivos, `int`,
 `long`, `float`, `double`, `byte`, etc), logo onde no código em `C`tem de se
 explicitamente passar um pointer para as funções, em Java isto e implícito,
-fazendo o `'.'` em Java equivalente ao `'->'` em `C`.
+fazendo o `'.'` em Java equivalente ao `'->'` em `C`.)
+
+<br><br>
+
+[![retroceder](https://raw.githubusercontent.com/David81820/Recursos-LCC/main/Rewind.png)](https://david81820.github.io/Recursos-LCC/2ano/2sem/POO/POO-Java)
