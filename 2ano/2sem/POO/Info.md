@@ -76,3 +76,7 @@ A metodologia de avaliação considera duas componentes.
 <br>Uma componente individual, através de um exame escrito final, em que é aferida a compreensão dos conceitos bem como a capacidade de os aplicar.
 <br>Uma componente de trabalho em equipa, através de um trabalho prático, com entregas faseadas ao longo do semestre, em que é aferida a capacidade de aplicação da abordagem proposta.
 <br>O exame escrito tem um peso na classificação que se situa entre os 50% a 60%, enquanto a componente de trabalho em equipa tem um peso que se situa entre os 40% a 60%.
+
+<br><br>
+
+[![retroceder](https://raw.githubusercontent.com/David81820/Recursos-LCC/main/Rewind.png)](https://david81820.github.io/Recursos-LCC/2ano/2sem/POO)
