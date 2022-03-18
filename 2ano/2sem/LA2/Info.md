@@ -46,9 +46,9 @@ Esta unidade curricular ocorre no 2º semestre do 2º ano, tendo os alunos já a
 <br>
 
 ### Bibliografia essencial
-* Backhouse, R. (2011). Algorithmic Problem Solving. John Wiley and Sons.
-* Levitin, A., Levitin, M. (2012). Algorithmic Puzzles. Oxford University Press.
-* Arefin, A. S. (2006). Art of Programming Contest. Gyankosh Prokashoni.
+* Backhouse, R. (2011). **Algorithmic Problem Solving**. John Wiley and Sons.
+* Levitin, A., Levitin, M. (2012). **Algorithmic Puzzles**. Oxford University Press.
+* Arefin, A. S. (2006). **Art of Programming Contest**. Gyankosh Prokashoni.
 
 <br>
 
