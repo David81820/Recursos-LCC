@@ -2,7 +2,7 @@
 
 <br>
 
-## Informação geral
+### Informação geral
 **Código:** 14309
 <br>**Área científica predominante:** Informática
 <br>**Regime:** Semestral
