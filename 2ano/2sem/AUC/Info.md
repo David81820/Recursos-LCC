@@ -1,9 +1,8 @@
 # Álgebra Universal e Categorias
-#
 
 <br>
 
-## Informação geral
+### Informação geral
 **Código:** 10860
 <br>**Área científica predominante:** Matemática
 <br>**Regime:** Semestral
@@ -13,7 +12,7 @@
 
 <br>
 
-## Carga Horária
+### Carga Horária
 **Trabalho autónomo:** 80  horas
 
 **Aulas:**
@@ -22,13 +21,13 @@
 
 <br>
 
-## Objetivos de ensino
+### Objetivos de ensino
 Pretende-se dotar os alunos de conhecimentos de Álgebra Universal e da Teoria de Categorias, familiarizá-los com métodos de prova usuais nestas áreas e desenvolver a sua capacidade de abstração.
 <br>Os conceitos lecionados na unidade curricular permitem que o aluno tenha uma visão global de conceitos abordados em outras unidades curriculares do curso.
 
 <br>
 
-## Resultados de aprendizagem
+### Resultados de aprendizagem
 - Demonstrar conhecimentos de conceitos básicos de Álgebra Universal;
 - Demonstrar conhecimentos de conceitos básicos da Teoria de Categorias;
 - Estruturar e redigir demonstrações de resultados básicos de Álgebra Universal e da Teoria de Categorias;
@@ -38,7 +37,7 @@ Pretende-se dotar os alunos de conhecimentos de Álgebra Universal e da Teoria d
 
 <br>
 
-## Programa sucinto
+### Programa sucinto
 1. Álgebras, operações e subálgebras.
 2. Congruências e álgebras quociente.
 3. Homomorfismos e teoremas do homomorfismo e do isomorfismo;
@@ -52,7 +51,7 @@ Pretende-se dotar os alunos de conhecimentos de Álgebra Universal e da Teoria d
 
 <br>
 
-## Bibliografia essencial
+### Bibliografia essencial
 * Burris, S., Sankappanavar, H.P. (1981). A Course in Universal Algebra. Springer-Verlag.
 * Denecke, K., Wismath, S. L. (2002). Universal Algebra and Applications in Theoretical Computer Science. Chapman & Hall/CRC.
 * Awodey, S. (2006). Category Theory. Clarendon Press.
@@ -60,12 +59,12 @@ Pretende-se dotar os alunos de conhecimentos de Álgebra Universal e da Teoria d
 
 <br>
 
-## Métodos de ensino
+### Métodos de ensino
 A Unidade Curricular está organizada em sessões que incluem aulas teóricas, em que os alunos tomam contacto com conceitos, bem como com as suas propriedades fundamentais e as respetivas demonstrações, e aulas teórico-práticas, dedicadas à resolução de problemas relacionados com os conteúdos abordados nas aulas teóricas.
 
 <br>
 
-## Métodos de avaliação
+### Métodos de avaliação
 O sistema de avaliação é definido anualmente nos termos estabelecidos no Regulamento Académico.
 <br>A avaliação pode ser contínua ou periódica, combinando dois ou mais instrumentos de avaliação.
 <br>A nota final é calculada a partir das classificações obtidas em cada elemento de avaliação, através de fórmula indicada no Dossiê da Unidade Curricular.
