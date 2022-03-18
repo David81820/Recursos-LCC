@@ -1,9 +1,8 @@
 # Programação Orientada aos Objetos
-#
 
 <br>
 
-## Informação geral
+### Informação geral
 **Código:** 14306
 <br>**Área científica predominante:** Informática
 <br>**Regime:** Semestral
@@ -12,7 +11,7 @@
 
 <br>
 
-## Carga Horária
+### Carga Horária
 **Trabalho autónomo:** 80  horas
 
 **Aulas:**
@@ -21,14 +20,14 @@
 
 <br>
 
-## Objetivos de ensino
+### Objetivos de ensino
 Esta UC possibilita o contacto dos alunos com um novo paradigma de programação e aumenta a capacidade dos alunos de construção de aplicações software mais complexas.
 A adopção de um novo paradigma, com a posterior implementação de uma aplicação software complexa, estimula o desenvolvimento das capacidades de abstração o que está de acordo com os objetivos enunciados.
 A introdução de competências relativas à execução de testes e a  mecanismos de programação genérica reforça as competências adquiridas na UC de programação imperativa.
 
 <br>
 
-## Resultados de aprendizagem
+### Resultados de aprendizagem
 Os alunos deverão ser capazes de: 
 - enunciar os conceitos fundamentais da PPO: objectos, classes, herança e polimorfismo; 
 - analisar a estruturação de um domínio em classes; 
@@ -39,7 +38,7 @@ Os alunos deverão ser capazes de:
 
 <br>
 
-## Programa sucinto
+### Programa sucinto
 1. Introdução à Programação por Objectos: 
 <br>  1.1. concepção modular de aplicações; 
 <br>  1.2. tipos abstractos de dados;
@@ -55,7 +54,7 @@ Os alunos deverão ser capazes de:
 
 <br>
 
-## Bibliografia essencial
+### Bibliografia essencial
 * **Java 8 POO + Construções Funcionais**, F. Mário Martins, Editora FCA, Série Tecnologias de Informação, ISBN-978-972-722-838-6, 2017. 
 * **Object Oriented Design with Applications G. Booch**, Third Edition, Addison-Wesley Professional, ISBN 978-020-189-551-3, 2007. 
 * **Objects First with Java - A Practical Introduction using BlueJ**, David J. Barnes & Michael Kölling, Sixth Edition, Pearson Education, ISBN 978-1-292-15904-1, 2016.
@@ -64,14 +63,14 @@ Os alunos deverão ser capazes de:
 
 <br>
 
-## Métodos de ensino
+### Métodos de ensino
 A metodologia de ensino considera três componentes. Uma mais expositiva, nas aulas teóricas, onde se procede à apresentação e discussão dos conceitos.
 <br>Outra eminentemente prática, nas aulas práticas laboratoriais, em que se pretende praticar os conhecimentos adquiridos, através da realização de mini-projectos.
 <br>Finalmente, a realização, em grupo, de uma aplicação software efectuada ao longo do semestre.
 
 <br>
 
-## Métodos de avaliação
+### Métodos de avaliação
 A metodologia de avaliação considera duas componentes.
 <br>Uma componente individual, através de um exame escrito final, em que é aferida a compreensão dos conceitos bem como a capacidade de os aplicar.
 <br>Uma componente de trabalho em equipa, através de um trabalho prático, com entregas faseadas ao longo do semestre, em que é aferida a capacidade de aplicação da abordagem proposta.
