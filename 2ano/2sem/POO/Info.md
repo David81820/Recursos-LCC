@@ -22,8 +22,8 @@
 
 ### Objetivos de ensino
 Esta UC possibilita o contacto dos alunos com um novo paradigma de programação e aumenta a capacidade dos alunos de construção de aplicações software mais complexas.
-A adopção de um novo paradigma, com a posterior implementação de uma aplicação software complexa, estimula o desenvolvimento das capacidades de abstração o que está de acordo com os objetivos enunciados.
-A introdução de competências relativas à execução de testes e a  mecanismos de programação genérica reforça as competências adquiridas na UC de programação imperativa.
+<br>A adopção de um novo paradigma, com a posterior implementação de uma aplicação software complexa, estimula o desenvolvimento das capacidades de abstração o que está de acordo com os objetivos enunciados.
+<br>A introdução de competências relativas à execução de testes e a  mecanismos de programação genérica reforça as competências adquiridas na UC de programação imperativa.
 
 <br>
 
