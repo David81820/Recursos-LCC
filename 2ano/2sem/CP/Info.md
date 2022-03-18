@@ -47,9 +47,9 @@ A disciplina tem por objectivo ensinar a programar de forma científica, com bas
 <br>
 
 ### Bibliografia essencial
-* J.N. Oliveira. Program Design by Calculation, 2008 (Chapters 2, 3 and 4). Draft of textbook in preparation, current version: October 2019. Available from http://www4.di.uminho.pt/~jno/ps/pdbc.pdf . Informatics Department, University of Minho. 
-* A. Cunha. Cálculo de Programas: notas teórico-práticas. Departamento de Informática, Universidade do Minho, 2005. 
-* R. Bird and O. de Moor. Algebra of Programming. Series in Computer Science. Prentice-Hall International, 1997. C. A. R. Hoare, series editor. BGUM 510.5-B .
+* J.N. Oliveira. **Program Design by Calculation**, 2008 (Chapters 2, 3 and 4). Draft of textbook in preparation, current version: October 2019. Available from http://www4.di.uminho.pt/~jno/ps/pdbc.pdf . Informatics Department, University of Minho. 
+* A. Cunha. **Cálculo de Programas: notas teórico-práticas**. Departamento de Informática, Universidade do Minho, 2005. 
+* R. Bird and O. de Moor. **Algebra of Programming**. Series in Computer Science. Prentice-Hall International, 1997. C. A. R. Hoare, series editor. BGUM 510.5-B .
 
 <br>
 
