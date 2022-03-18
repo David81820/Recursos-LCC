@@ -52,10 +52,10 @@ Pretende-se dotar os alunos de conhecimentos de Álgebra Universal e da Teoria d
 <br>
 
 ### Bibliografia essencial
-* Burris, S., Sankappanavar, H.P. (1981). A Course in Universal Algebra. Springer-Verlag.
-* Denecke, K., Wismath, S. L. (2002). Universal Algebra and Applications in Theoretical Computer Science. Chapman & Hall/CRC.
-* Awodey, S. (2006). Category Theory. Clarendon Press.
-* Mac Lane, S. (1998). Categories for the Working Mathematician. Springer.
+* Burris, S., Sankappanavar, H.P. (1981). **A Course in Universal Algebra**. Springer-Verlag.
+* Denecke, K., Wismath, S. L. (2002). **Universal Algebra and Applications in Theoretical Computer Science**. Chapman & Hall/CRC.
+* Awodey, S. (2006). **Category Theory**. Clarendon Press.
+* Mac Lane, S. (1998). **Categories for the Working Mathematician**. Springer.
 
 <br>
 
