@@ -1,4 +1,8 @@
-## Informação geral
+# Análise Numérica
+
+<br>
+
+### Informação geral
 **Código:** 7090
 <br> **Área científica predominante:** Matemática
 <br> **Regime:** Semestral
@@ -6,7 +10,7 @@
 <br> **Tipo de ensino:** Presencial
 <br> **Língua de instrução:** Portuguesa
 <br><br>
-## Carga Horária
+### Carga Horária
 **Trabalho autónomo:** 135  horas
 
 **Aulas:**
