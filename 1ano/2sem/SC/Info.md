@@ -59,9 +59,10 @@ Ao completar com sucesso a UC cada estudante deverá demonstrar que adquiriu os 
 <br>
 
 ### Métodos de ensino
-Aulas teóricas: exposição/discussão de conceitos e exemplificação da sua aplicação, com divulgação dos slides usados nas atividades letivas.
+**Aulas teóricas:** exposição/discussão de conceitos e exemplificação da sua aplicação, com divulgação dos slides usados nas atividades letivas.
 <br>Resolução em casa de problemas de aplicação de conceitos e preparação prévia dos trabalhos experimentais, de acordo com guiões previamente disponibilizados.
-<br>Práticas laboratoriais: discussão coletiva dos resultados dos trabalhos de casa e aplicação de técnicas de interpretação de código em ambiente laboratorial controlado, usando um servidor remoto acessível a todos os alunos, quer durante as aulas quer fora delas.
+
+**Práticas laboratoriais:** discussão coletiva dos resultados dos trabalhos de casa e aplicação de técnicas de interpretação de código em ambiente laboratorial controlado, usando um servidor remoto acessível a todos os alunos, quer durante as aulas quer fora delas.
 
 <br>
 
