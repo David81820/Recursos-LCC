@@ -52,8 +52,8 @@ A Análise Numérica é uma unidade integradora de competências nas áreas da M
 <br>
 
 ### Bibliografia essencial
-* Quarteroni, A., Saleri, F. (2007). Cálculo científico com Matlab e Octave. Springer Verlag.
-* Valença, M. R. (1993). Métodos Numéricos. Liv. Minho.
+* Quarteroni, A., Saleri, F. (2007). **Cálculo científico com Matlab e Octave**. Springer Verlag.
+* Valença, M. R. (1993). **Métodos Numéricos**. Liv. Minho.
 
 <br>
 
