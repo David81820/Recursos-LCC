@@ -22,7 +22,7 @@ Esta unidade curricular visa tornar os estudantes aptos a analisar algoritmos (d
 
 <br>
 
-## Resultados de aprendizagem
+### Resultados de aprendizagem
 Após a frequência da UC os alunos serão capazes de:
 - Analisar a correção de algoritmos face a especificações lógicas (contratos), recorrendo à noção de invariante de ciclo. 
 - Analisar a complexidade assimptótica de um algoritmo iterativo ou recursivo. 
