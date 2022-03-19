@@ -9,7 +9,7 @@
 * [**Ficha 8**](AUC-2021-f8.pdf)
 * [**Ficha 9**](AUC-2021-f9.pdf)
 
-**Resoluções** > [Fichas 1 a 5](AUC-2021-f1a5.pdf) | [Fichas 6 a 9](AUC-2021-f6a9.pdf)
+**Resoluções** > [Fichas 1 a 5](AUC-2021-f1a5.pdf) -- [Fichas 6 a 9](AUC-2021-f6a9.pdf)
 
 
 <br>
