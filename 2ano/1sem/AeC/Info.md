@@ -47,11 +47,11 @@ Após a frequência da UC os alunos serão capazes de:
 <br>
 
 ### Bibliografia essencial
-* Thomas H. Cormen, Charles E. Leiserson, Ronald L. Rivest, and Clifford Stein. Introduction to Algorithms, Third Edition. The MIT Press, 2009. 
-* Donald E. Knuth. The Art of Computer Programming, Volume I: Fundamental Algorithms, 2nd Edition. Addison-Wesley, 1973. 
-* Donald E. Knuth. The Art of Computer Programming, Volume III: Sorting and Searching. Addison-Wesley, 1973. 
-* Donald E. Knuth. The Art of Computer Programming, Volume II: Seminumerical Algorithms, 2nd Edition. Addison-Wesley, 1981. 
-* Robert Sedgewick. Algorithms in C: parts 1-4, Fundamentals, Data Structures, Sorting, and Searching, third edition. Addison-Wesley Longman Publishing Co., Inc., Boston, MA, USA, 1997.
+* Thomas H. Cormen, Charles E. Leiserson, Ronald L. Rivest, and Clifford Stein. **Introduction to Algorithms, Third Edition**. The MIT Press, 2009. 
+* Donald E. Knuth. **The Art of Computer Programming, Volume I: Fundamental Algorithms, 2nd Edition**. Addison-Wesley, 1973. 
+* Donald E. Knuth. **The Art of Computer Programming, Volume III: Sorting and Searching**. Addison-Wesley, 1973. 
+* Donald E. Knuth. **The Art of Computer Programming, Volume II: Seminumerical Algorithms, 2nd Edition**. Addison-Wesley, 1981. 
+* Robert Sedgewick. **Algorithms in C: parts 1-4, Fundamentals, Data Structures, Sorting, and Searching, third edition**. Addison-Wesley Longman Publishing Co., Inc., Boston, MA, USA, 1997.
 
 <br>
 
