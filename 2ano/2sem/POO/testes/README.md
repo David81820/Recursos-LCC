@@ -1,5 +1,5 @@
 [**? Teste/Exame ? - 20??/20?? - 2ª Parte**](POO-idfk-2021-pt2.pdf)
-<br> [Resouloção](idfk-res.md)
+<br> [Resolução](idfk-res.md)
 
 <br>
 
