@@ -17,12 +17,12 @@ Também tenho aqui uma série de páginas criadas por alunos de MIEI (ou agora �
 <br>
 
 ## [Fichas](fichas/README.md)
-
+Fichas de exercícios do ano lectivo 201/20
 
 <br>
 
 ## [Testes e Exames](testes/README.md)
-
+Teste e exames de vários anos lectivos (mas com poucas resoluções).
 
 <br><br>
 
