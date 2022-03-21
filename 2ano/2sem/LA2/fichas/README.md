@@ -1,6 +1,6 @@
 Os treinos maioritariamente não mudam ao longo dos anos lectivos (pelo menos nos anos que encontrei, 2019/2020 a 2021/2022)
 <br>Contudo no ano lectivo 2021/2022, os treinos sofreram as seguintes alterações:
-* os exercícios 'fatoriza' e 'repete' do Treino 1, foram substituídos pelos exercícios do Torneio 1 de 2020/2021 (resolução na página de testes)
+* os exercícios 'fatoriza' e 'repete' do Treino 1, foram substituídos pelos exercícios do Torneio 1 de 2020/2021 (resolução na página "Teste")
 
 <br>
 
