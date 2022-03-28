@@ -104,26 +104,29 @@ Assuma que o tabuleiro tem tamanho ilimitado.
 '''
 
 def saltos(o,d):
-    numsaltos = 0
+    
+    jumps = 0
+    
     pai = {}
-    vis = {o}
-    queue = [o]
-    while queue:
-        x,y = queue.pop(0)
-        if (x,y) == d:
-            break
-        for i in [-2,-1,1,2]:
-            for k in [-2,-1,1,2]:
-                if abs(i) != abs(k):
-                    if (x+i,y+k) not in vis:
-                        vis.add((x+i,y+k))
-                        pai[(x+i,y+k)] = (x,y) 
-                        queue.append((x+i,y+k))
-
-    while d in pai:
+    vis = {o}               # fila (neste caso uma lista) com os vértices a visitar a seguir
+    queue = [o]                 # i.e. vértices já descobertos mas ainda não visitados
+    while queue:                    # enquanto existir algo na fila
+        x,y = queue.pop(0)              # retira-se o elemento no topo da fila que será agora visitado - (x,y) porque tamos a trabalhar com coordenadas
+        if (x,y) == d:                      # se o elemento agora visitado é o destino, então podemos parar a travessia
+            break;
+        for i in [-2,-1,1,2]:               # no xadrez, o cavalo move-se em L
+            for j in [-2,-1,1,2]:
+                if abs(i) != abs(j):            # como o movimento é em L, os valores i,j não podem ser iguais
+                    if (x+i,y+j) not in vis:
+                        vis.add((x+i,y+j))
+                        pai[(x+i,y+j)] = (x,y)
+                        queue.append((x+i,y+j))
+    
+    while d in pai:     # agora é só contar o nº de saltos até o destino
         d = pai[d]
-        numsaltos += 1
-    return numsaltos
+        jumps += 1
+    
+    return jumps
 
 
 
@@ -144,7 +147,6 @@ identificado pelo primeiro (e último) caracter do respectivo nome.
 
 def build(ruas):
     adj = {}
-
     for rua in ruas:
         c1 = rua[0]
         c2 = rua[-1]
@@ -203,21 +205,20 @@ def tamanho(ruas):
 def fw(adj):
     dist = {}
     for o in adj:
-        dist[o] = {}
+        dist[o] = {}                # para cada vértice do grafo coloca-se o dicionário vazio
         for d in adj:
-            if o == d:
-                dist[o][d] = 0
-            elif d in adj[o]:
-                dist[o][d] = adj[o][d]
-            else:
-                dist[o][d] = float("inf")
+            if o == d:                  # se os vértices "o" e "d" forem iguais
+                dist[o][d] = 0          # coloca-se a distância a 0
+            elif d in adj[o]:                   # se os vértices "o" e "d" forem adjacentes
+                dist[o][d] = adj[o][d]          # inicializam-se com o peso da sua aresta conectora
+            else:                                       # se não forem adjacentes
+                dist[o][d] = float("inf")               # inicializam-se temporariamente como infintos
     for k in adj:
-        for o in adj:
-            for d in adj:
-                if dist[o][k] + dist[k][d] < dist[o][d]:
-                    dist[o][d] = dist[o][k] + dist[k][d]
-    return dist 
-
+        for o in adj:                                           # o que essencialmente está a acontecer neste triplo ciclo é que
+            for d in adj:                                       # para calcular a distância mais curta entre "o" e "d",
+                if dist[o][k] + dist[k][d] < dist[o][d]:        # testa-se exaustivamente todas as possibilidades de
+                    dist[o][d] = dist[o][k] + dist[k][d]        # vértices intermédios até chegar-mos á melhor estimativa
+    return dist
 
 def tamanho(ruas):
     adj = build(ruas)
@@ -271,10 +272,10 @@ def dfs_aux(adj,o,vis):
 ################################
 
 def bfs(adj,o):
-    vis = {o}
-    queue = [o]
-    while queue:
-        v = queue.pop(0)
+    vis = {o}				# "queue" - fila (neste caso uma lista) com os vértices a visitar a seguir 
+	queue = [o]				 # i.e. vértices já descobertos mas ainda não visitados
+	while queue:			  # enquanto existir algo na fila
+		v = queue.pop(0)	   # retira-se o elemento no topo da fila que será agora visitado
         for d in adj[v]:
             if d not in vis:
                 vis.add(d)
@@ -339,8 +340,8 @@ def bfs(adj, o):
 
 def erdos(artigos,n):
     adj = build(artigos)
-    dictAutores = bfs(adj, "Paul Erdos")
-    final = [ x for x, y in sorted(dictAutores.items(), key = lambda x: (x[1], x[0])) if y <= n ]
+    dicA = bfs(adj, "Paul Erdos")
+    final = [ k for k, v in sorted(dicA.items(), key = lambda x: (x[1], x[0])) if v <= n ]          # k=key , v=value
     
     return final
 
