@@ -2,7 +2,7 @@
 * [**2015/2016**](AUC-1516-t1.pdf) -- [Resolução](AUC-1516-t1-res.pdf)
 * [**2016/2017**](AUC-1617-t1.pdf) -- [Resolução](AUC-1617-t1-res.pdf)
 * [**2017/2018**](AUC-1718-t1.pdf) -- [Resolução](AUC-1718-t1-res.pdf)
-* [**2020/2021**](AUC-2021-t1.pdf)
+* [**2020/2021**](AUC-2021-t1.pdf) -- [Resolução](AUC-2021-t1-res.png)
 
 <br>
 
