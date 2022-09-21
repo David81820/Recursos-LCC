@@ -55,7 +55,6 @@ Uma função em C, é um conjunto de codigo que é executado quando a função �
 Em particular, a função `main` tem a qualidade única de ser sempre executada quando corremos programas C e também ser é sempre a primeira.
 <br>Ou seja, sempre que a função `main` é chamada, tudo o que está entre chavetas é executado.
 
-<br>
 
 ### Assinatura de uma Função
 
@@ -73,7 +72,6 @@ De facto, todas funções seguem este esquema de assinatura:
 tipo nome(tipo1 argumento1, tipo2 argumento2, etc...);
 ```
 
-<br>
 
 ### Corpo de uma função
 
