@@ -8,5 +8,7 @@
  7. [Structs](./Structs.md)
  8. [Linked Lists](./LinkedLists.md)
 
+<br>
+
 ## Auxiliar
  1. [GDB Debugger](./GDB.md)
