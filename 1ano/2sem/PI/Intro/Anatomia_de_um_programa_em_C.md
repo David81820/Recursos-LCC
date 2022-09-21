@@ -85,7 +85,6 @@ int exemplo(){
 }
 ```
 
-<br>
 
 ### Como chamar uma função?
 
