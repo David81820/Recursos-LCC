@@ -9,85 +9,90 @@
 
 // Comentário
 /*
-  Também
+  Outra forma
+  de fazer
   um
   comentário
   */
 
 int main() {
     printf("Hello, World!\n");
-
     return 0;
 }
 ```
-Este é o clássico programa HelloWorld escrito em C.
+Aqui temos o clássico programa HelloWorld escrito em C.
+
+<br>
 
 ## Comentários
 
-Tudo o que vem a seguir a `//` é um comentário em C. Tudo o que se encontra entre `/* */` é um comentário também.
-  * `// Comment` Comentários de uma linha;
-  * `/* Comment2.0 */` Comentários de várias linhas.
+Qual a diferença entre comentários `//` e comentários `/* */` ?.
+<br>Ora :
+  * `// Comment` são comentários de apenas uma linha;
+  * contrariamente comentários `/* Comment2.0 */` podem extender-se por várias linhas, enquanto não forem fechados.
+
+<br>
 
 ## Includes
 
-Várias funções em C ja estão definidas, para as utilizarmos temos apenas que as importar.
+Várias funções em C já se encontrão definidas, para as utilizarmos temos apenas que as importar.
 
-Em C isso é feito utilizando a diretiva, de pré-processamento, `#include` seguida do ficheiro que contém a função pretendida entre  `<  >`.
-Os ficheiros `.h`, header files, são os ficheiros importados que contêm todas as assinaturas das nossas funções (aprofundado mais à frente).
+Em C isto é feito utilizando a diretiva, de pré-processamento - `#include` - seguida do ficheiro que contém a função pretendida entre  `<  >`.
+<br>Os ficheiros `.h` são header files - ficheiros importados que contêm todas as assinaturas das nossas funções (aprofundado mais à frente).
 
-Visto que pretendemos escrever "Hello, World" no ecrã, temos que ter uma função que passe o nosso texto para o terminal (standard output). Essa função já existe em C e chama-se `printf`, mas para a usarmos temos que incluir (importar) o ficheiro que a define (tecnicamente é onde se encontra a sua assinatura). A função `printf` encontra-se no ficheiro `stdio.h`. Stdio é uma abreviatura para Standard Input Output.
+Visto que pretendíamos escrever "Hello, World" no ecrã, temos que ter uma função que imprima o nosso texto no terminal (standard output).
+<br>Essa função já existe em C e chama-se `printf`, mas para a utilizarmos temos que incluir (importar) o ficheiro que a define (tecnicamente é onde se encontra a sua assinatura).
+<br>A função `printf` encontra-se no ficheiro `stdio.h` - Stdio é uma abreviatura para Standard Input Output.
 
-Mas como sabemos onde se encontram as funções que queremos usar e como usá-las?
-A resposta é simples, documentação.
+Agora para saber quais funções usar, como as usar e onde as encontrar, a chata resposta é ler documentação referente ao C.
 
-Portanto `#include <stdio.h>` importa várias funções, sendo uma delas a `printf`, podemos então usar livremente esta função.
+<br>
 
+## Introdução às Funções
 
-## Main e introdução às funções
+Uma função em C, é um conjunto de codigo que é executado quando a função é chamada.
 
-A próxima linha de código é uma função muito importante, a função `main`.
+Em particular, a função `main` tem a qualidade única de ser sempre executada quando corremos programas C e também ser é sempre a primeira.
+<br>Ou seja, sempre que a função `main` é chamada, tudo o que está entre chavetas é executado.
 
-A função `main` tem a particularidade de ser sempre executada quando corremos os nossos programas, além do mais é sempre a primeira!
-Mas que raio é uma função em C?!?! Uma função em C é um conjunto de codigo C que é executado quando a função é chamada. Podemos pensar que sempre que a função `main` é chamada, tudo o que está entre chavetas é executado.
+<br>
 
-Isto leva-nos a mais duas definições:
-  * Assinatura da função;
-  * Corpo da função.
-
-### Assinatura de uma função
+### Assinatura de uma Função
 
 A assinatura de uma função é o que a caracteriza, o caso da nossa `main` a sua assinatura é:
 ```c
 int main()
-/* o mesmo que
+/* equivalente a :
 int main(null)
 */
 ```
 Daqui podemos inferir que a função main devolve um `int` e não recebe argumentos.
 
-De facto todas as assinaturas de funções seguem este esquema:
+De facto, todas funções seguem este esquema de assinatura:
 ```c
-tipo nome(tipo1 argumento1, tipo2 argumento2, tipo2 argumento3, [etc]);
+tipo nome(tipo1 argumento1, tipo2 argumento2, etc...);
 ```
+
+<br>
 
 ### Corpo de uma função
 
-O corpo de uma função, a sua implementação, é todo escrito entre chavetas. É aqui que o seu comportamento é definido.
+O corpo de uma função, a sua implementação, é todo código escrito entre chavetas. É aqui definido o seu comportamento.
 
-No caso da nossa função `main` apenas chama a função `printf` e retorna 0.
-
-### Como chamamos uma função?
-
-Como podemos ver pelo nosso programa, chamamos uma função simplesmente usando o seu nome e passando os argumentos necessários.
 ```c
-printf("Hello, World!\n");
-
-/*
-Aqui a função printf recebe um argumento:
- "Hello, World!\n"
-*/
+int exemplo(){
+    // tudo aqui inserido constituí o corpo da função - essencialmente a sua operação
+}
 ```
 
+<br>
+
+### Como chamar uma função?
+
+Simplesmente usando o seu nome e passando os argumentos necessários.
+
+<br>
+
 ## Return
-Como a nossa `main` é do tipo int, tal como já vimos nas assinaturas de funções, tem que devolver um int.
-Esta operação de "devolver" é feita com o `return` em C. Como neste caso não tem grande significado, fazemos simplesmente return 0.
+Esta operação de "devolver", dá o valor final de uma função.
+<br>Como a nossa `main` é do tipo int, então terá que devolver um número inteiro.
