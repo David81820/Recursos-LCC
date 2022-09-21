@@ -8,7 +8,7 @@ Lista dos vários detalhes técnicos da cadeira que podem ser encontrados na aba
 ## [[A] Introdução ao C](Intro.md)
 C é a linguagem usada para introduzir e explicar os conceitos do paradigma de programação imperativa.
 
-* [**Sintaxe de Programação básica**](http://rigaux.org/language-study/syntax-across-languages-per-language/Haskell.html)
+* [**Sintaxe de Programação básica**](http://rigaux.org/language-study/syntax-across-languages-per-language/C.html)
 
 <br>
 
