@@ -51,7 +51,8 @@ Dito isto, avancemos então para o material acumulado.
 
 [**E-Mail Universitário**](http://mail.alunos.uminho.pt/)
 
-[**Página dos Horários**](https://alunos.uminho.pt/pt/estudantes/paginas/infouteishorarios.aspx)
+[**Página de Horários Universitários**](https://alunos.uminho.pt/pt/estudantes/paginas/infouteishorarios.aspx)
+<br> [E aqui está um site agradável para criação de horários.](https://gizmoa.com/college-schedule-maker/)
 
 **[Calendário Escolar UM](https://alunos.uminho.pt/PT/estudantes/Paginas/InfoUteisCalendarioEscolar.aspx)  e  [Calendário Escolar - Escola de Ciências](https://www.ecum.uminho.pt/pt/Ensino/Paginas/Calendario-e-Horarios.aspx)**
 
