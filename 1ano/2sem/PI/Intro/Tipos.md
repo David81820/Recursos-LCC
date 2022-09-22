@@ -18,53 +18,43 @@ Estes são os tipos mais comuns em C, mas ainda temos algums 'derivados' deles:
 E onde é que estão os booleanos?
 
 Em C booleanos propriamente ditos não existem.
-<br>Utiliza-se o `0` como valor para `false` e tudo o resto para `true`.
+<br>A prática mais comum é utilizar `0` como valor para `false` e `0` como `true`.
 
+Podem também reparar que não foi discutido o tamanho de cada tipo. Na verdade o C apenas define um tamanho mínimo para cada tipo de dados.
 
-Podem também reparar que não falámos do tamanho de cada tipo. Na verdade o C apenas define um tamanho mínimo para cada tipo de dados.
+<br>
 
 ## Variáveis
 
-Variáveis são 'caixas' que guardam valores.
-A declaração de uma variável, reserva e dá um nome a uma área na memória, que vai guardar um valor de um tipo específico.
-C é uma linguagem fortemente tipada. Isto é, cada variável tem um tipo declarado e bem definido.
+Variáveis são "caixas" que guardam valores.
+<br>A declaração de uma variável, reserva e dá um nome a uma área na memória, que vai guardar um valor de um tipo específico.
+<br>C é uma linguagem fortemente tipada. Isto é, cada variável tem um tipo declarado e bem definido.
 
 A forma de declarar uma variável em C é:
 ```c
 tipo nome;
 ```
-Mais concretamente:
+Dando um exemplo mais concreto:
 ```c
-int x;
+int x = 7;
 ```
-Cria uma variável chamada `x` do tipo `int`. `x` corresponde a uma área na memória que pode guardar um `int`.
+Foi alocada uma área na memória ligada à uma variável chamada `x`, que atualmente guarda um valor de `int` - especificamente o número 7.
 
-Como podemos atribuir valores a variáveis?
+**De notar que se não atribuir-mos qualquer valor a uma varíavel, `tipo id;`, o espaço de memória reservado nao é limpo**
+<br>Ou seja, até atribuirmos um valor, `id` pode conter "lixo".
 
-É simples:
-```c
-int y;
-y = 5;
-
-// ou
-
-int x = 5;
-x = 3; // o valor de uma var pode mudar
-```
-**Notar que ao fazermos `int x;` o espaço de memória reservado nao é limpo**
-Ou seja, até atribuirmos um valor, `x` pode conter lixo.
+<br>
 
 ### Alguns detalhes
 
-1. As variáveis em C são case sensitive;
-2. As variáveis em C podem começar com um `_`, ou uma letra. Podem conter números;
-    * Prática comum `int ponto;`;
-    * Não recomendado numerar variaveis, começar com `_`.
-
-3. Podemos declarar variáveis do mesmo tipo seguidas
+1. As variáveis em C são 'case sensitive';
+2. As variáveis em C podem conter números e até começar com um `_` (contudo não é recomendável).
+3. Podemos declarar variáveis do mesmo tipo seguidas:
 ```c
 float x, y, z;
 ```
+<br>
+
 ## Operadores
 
 O operador para atribuir um valor a uma variável é o `=`.
@@ -89,54 +79,43 @@ Operadores lógicos
 2. `||` Or;
 3. `&&` And;
 
+<br>
+
 ### Operadores que manipulam variáveis
 
-Estar sempre a fazer
+Em vez de se fazer:
 ```c
 int x = 5
 // ...
 x = x + 5;
 ```
-Quando queremos aumentar (ou diminuir) o valor da nossa variável podemos simplesmente fazer:
+Podemos simplesmente fazer:
 ```c
 int x = 5
 // ...
 x += 5;
 ```
-Pode-se ler como, `x` toma o valor actual de `x` mais 5.
 Isto funciona para todas as operações matemáticas.
 
 
-Caso do `++` e do `--`
-
+Depois temos o `++` e `--`
 ```c
-int x = 5;
-
-x++; // x tem o valor de 6 agora
-
-// equivalente a fazer
+x++;
+// é o equivalente a fazer:
 x = x + 1;
 ```
-Por analogia
-```c
-int x = 5;
+Obviamente que `--` fará uma subtração por 1 valor.
 
-x--; // x tem o valor de 4 agora
-
-// equivalente a fazer
-x = x - 1;
-```
-
-Podemos utilizar estes operadores antes da variável, mas o aumento ou decréscimo é feito antes de avaliar a variável.
+Estes operadores têm a peculiaridade de poderem ser usado depois ou antes da variável, tendo efeitos diferents no seus valores:
 ```c
 int x = 5;
 int y = 3;
 
 x = y++;
-// x tem valor 3
-// y tem valor 4
+// x tem agora valor 3
+// y tem agora valor 4
 ```
-Mas...
+Contrariamente:
 ```c
 int x = 5;
 int y = 3;
