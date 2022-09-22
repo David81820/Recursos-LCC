@@ -18,7 +18,7 @@ Estes são os tipos mais comuns em C, mas ainda temos algums 'derivados' deles:
 E onde é que estão os booleanos?
 
 Em C booleanos propriamente ditos não existem.
-<br>A prática mais comum é utilizar `0` como valor para `false` e `0` como `true`.
+<br>A prática mais comum é utilizar `0` como valor para `false` e `1` como `true`.
 
 Podem também reparar que não foi discutido o tamanho de cada tipo. Na verdade o C apenas define um tamanho mínimo para cada tipo de dados.
 
