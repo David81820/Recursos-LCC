@@ -5,23 +5,15 @@ Lista dos vários detalhes técnicos da cadeira que podem ser encontrados na aba
 
 <br>
 
-## [[A] Introdução ao C](Intro.md)
+## [[A] Introdução ao C](Intro/README.md)
 C é a linguagem usada para introduzir e explicar os conceitos do paradigma de programação imperativa.
 
 * [**Sintaxe de Programação básica**](http://rigaux.org/language-study/syntax-across-languages-per-language/C.html)
 
 <br>
 
-## [Slides da UC](slides-PF-Haskell.pdf)
+## [Slides da UC]()
 Estes slides apesar de terem sido fornecidos pelos professores, são notados pelos mesmos como "antigos".
-
-Aqui está alguns slides extra, "não-oficiais" claro:
-* [[A] Haskell_Cheat_Sheet.pdf](slides/Haskell_Cheat_Sheet.pdf)
-* [[A] Haskell_Programação.pdf](slides/Haskell_Programação.pdf)
-* [[A] Introdução_ao_Haskell.pdf](slides/Introdução_ao_Haskell.pdf)
-* [[A] Programação_Haskell.pdf](slides/Programação_Haskell.pdf)
-* [[A] Tabela_ASCII.pdf](slides/Tabela_ASCII.pdf)
-* [[A] Tutorial_Haskell.pdf](slides/Tutorial_Haskell.pdf)
 
 <br>
 
