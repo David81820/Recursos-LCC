@@ -13,7 +13,7 @@ C é a linguagem usada para introduzir e explicar os conceitos do paradigma de p
 <br>
 
 ## [Slides da UC]()
-Estes slides apesar de terem sido fornecidos pelos professores, são notados pelos mesmos como "antigos".
+
 
 <br>
 
