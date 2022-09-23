@@ -178,6 +178,7 @@ void list_free(LLigada lista) {
 Para libertar uma lista ligada, temos apenas de visitar todos os nodos e libertá-los individualmente.
 <br>Tendo cuidado de não libertar um nodo sem guardar uma referencia para o próximo. Senão nunca mais conseguimos avançar.
 
+<br>
 
 ## Discussão
 
