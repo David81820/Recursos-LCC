@@ -54,8 +54,8 @@ int list_at(LLigada lista, int indice) {
                         // reservada para um array pode causar um Seg Fault.
 }
 ```
-Como podemos ver, aceder a um elemento de uma lista ligada num determinado índice e mais complexo do que num array.
-<br>Para além de ser mais custoso. Este custo acrescido ocorre porque, no caso do array, acedesse diretamente à posição de memória que contém o valor pretendido.
+Como podemos ver, aceder a um elemento de uma lista ligada num determinado índice é mais complexo do que num array - para além de ser mais custoso..
+<br>Este custo acrescido ocorre porque, no caso do array, acedesse diretamente à posição de memória que contém o valor pretendido.
 <br>No caso da lista ligada, é necessário percorrer todos os elementos até chegar à posição pretendida.
 
 ### 3. Adicionar um elemento ao inicio da lista.
