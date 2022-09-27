@@ -4,7 +4,7 @@
 <br>
 
 ### Isto é um trabalho em progresso!
-### De momento apenas algumas cadeiras do 2º Ano estão devidamente organizadas (fora disso tenho apenas PF e SC).
+#### Ainda não tenho material de muitas UC's - especialmente do 3º ano.
 <br><br><br>
 
 ## Aviso
