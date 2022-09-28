@@ -1,12 +1,12 @@
 ## 2018/2019
 * [**Ficha 1**](Calculo_folha1.pdf) - [Resolução](html/Folha1.html)
-* [**Ficha 2**](Calculo_folha2.pdf) - [Resolução]()
-* [**Ficha 3**](Calculo_folha3.pdf) - [Resolução]()
-* [**Ficha 4**](Calculo_folha4.pdf) - [Resolução]()
-* [**Ficha 5**](CalculoEE_folha5.pdf) - [Resolução]()
-* [**Ficha 6**](CalculoEE_folha6.pdf) - [Resolução]()
-* [**Ficha 7**](Calculo_folha7.pdf) - [Resolução]()
-* [**Ficha 8**](Calculo_folha8.pdf) - [Resolução]()
+* [**Ficha 2**](Calculo_folha2.pdf) - [Resolução](html/Folha%202.html)
+* [**Ficha 3**](Calculo_folha3.pdf) - [Resolução](html/Folha%203.html)
+* [**Ficha 4**](Calculo_folha4.pdf) - [Resolução](html/Folha%204.html)
+* [**Ficha 5**](CalculoEE_folha5.pdf) - [Resolução](html/Folha5.html)
+* [**Ficha 6**](CalculoEE_folha6.pdf) - [Resolução](html/Folha6.html)
+* [**Ficha 7**](Calculo_folha7.pdf) - [Resolução](html/Folha7.html)
+* [**Ficha 8**](Calculo_folha8.pdf) - [Resolução](html/Folha8.html)
 
 <br>
 

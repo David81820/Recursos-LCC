@@ -5,7 +5,7 @@
 
 ### Isto é um trabalho em progresso!
 #### Ainda não tenho material de muitas UC's - especialmente do 3º ano.
-<br><br><br>
+<br><br>
 
 ## Aviso
 Esta colecção não deve ser usada como substituto ás aulas e material disponibilizado pelos professores.
@@ -52,7 +52,7 @@ Dito isto, avancemos então para o material acumulado.
 [**E-Mail Universitário**](http://mail.alunos.uminho.pt/)
 
 [**Página de Horários Universitários**](https://alunos.uminho.pt/pt/estudantes/paginas/infouteishorarios.aspx)
-<br> [E aqui está um site agradável para criação de horários.](https://gizmoa.com/college-schedule-maker/)
+<br> [E aqui está um site agradável para desenhar horários.](https://gizmoa.com/college-schedule-maker/)
 
 **[Calendário Escolar UM](https://alunos.uminho.pt/PT/estudantes/Paginas/InfoUteisCalendarioEscolar.aspx)  e  [Calendário Escolar - Escola de Ciências](https://www.ecum.uminho.pt/pt/Ensino/Paginas/Calendario-e-Horarios.aspx)**
 
