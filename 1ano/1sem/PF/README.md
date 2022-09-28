@@ -13,7 +13,7 @@ Haskell é a linguagem usada para introduzir e explicar os conceitos do paradigm
 
 <br>
 
-## [Slides da UC](slides-PF-Haskell.pdf)
+## [Material Teórico](slides-PF-Haskell.pdf)
 Estes slides apesar de terem sido fornecidos pelos professores, são notados pelos mesmos como "antigos".
 
 Aqui está alguns slides extra, "não-oficiais" claro:
@@ -26,8 +26,8 @@ Aqui está alguns slides extra, "não-oficiais" claro:
 
 <br>
 
-## [Fichas](fichas/README.md)
-Fichas de exercícios fornecidas pelo corpo docente, juntamente com resolução dos alunos.
+## [Fichas de Exercícios](fichas/README.md)
+Folhas de exercícios fornecidas pelo corpo docente, juntamente com resoluções de alunos.
 
 <br>
 

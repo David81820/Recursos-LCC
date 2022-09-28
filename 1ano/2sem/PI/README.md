@@ -12,13 +12,13 @@ C é a linguagem usada para introduzir e explicar os conceitos do paradigma de p
 
 <br>
 
-## [Slides da UC]()
+## [Material Teórico]()
 
 
 <br>
 
-## [Fichas](fichas/README.md)
-Fichas de exercícios fornecidas pelo corpo docente, juntamente com resolução dos alunos.
+## [Fichas de Exercícios](fichas/README.md)
+Folhas de exercícios fornecidas pelo corpo docente, juntamente com resolução dos alunos.
 
 <br>
 

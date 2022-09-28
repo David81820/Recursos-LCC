@@ -6,3 +6,7 @@
 * [**Ficha 5**](Ex5-2021.pdf) - [Resolução](Ex5-2021-res.pdf)
 * [**Ficha 6**](Ex6-2021.pdf) - [Resolução](Ex6-2021-res.pdf)
 * [**Ficha 7**](Ex7-2021.pdf) - [[A] Resolução](A-Ex7-2021-res.pdf)
+
+<br><br>
+
+[![retroceder](https://raw.githubusercontent.com/David81820/Recursos-LCC/main/Rewind.png)](https://david81820.github.io/Recursos-LCC/1ano)

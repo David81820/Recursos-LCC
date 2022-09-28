@@ -5,7 +5,7 @@ Lista dos vários detalhes técnicos da cadeira que podem ser encontrados na aba
 
 <br>
 
-## [Material Teórico da UC](slides/README.md)
+## [Material Teórico](slides/README.md)
 
 
 <br>
@@ -16,8 +16,8 @@ Também tenho aqui uma série de páginas criadas por alunos de MIEI (ou agora �
 
 <br>
 
-## [Fichas](fichas/README.md)
-Fichas de exercícios do ano lectivo 201/20
+## [Fichas de Exercícios](fichas/README.md)
+Folhas de exercícios do ano lectivo 201/20
 
 <br>
 

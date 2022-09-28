@@ -116,3 +116,7 @@ Isto permite-nos saber o comprimento da string "apenas olhando para ela"
     }
 ```
 Temos então aqui uma definição da `strlen`. Uma função que retorna o comprimento de uma string.
+
+<br><br>
+
+[![retroceder](https://raw.githubusercontent.com/David81820/Recursos-LCC/main/Rewind.png)](https://david81820.github.io/Recursos-LCC/1ano)

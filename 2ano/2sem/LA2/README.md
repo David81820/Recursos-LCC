@@ -5,7 +5,7 @@ Lista dos vários detalhes técnicos da cadeira que podem ser encontrados na aba
 
 <br>
 
-## [Material Teórico da UC](slides/README.md)
+## [Material Teórico](slides/README.md)
 PDF's fornecidos pelo corpo docente - cada um relacionado a um Treino/Torneio - entre outros conteúdos.
 
 * [Sintaxe básica de Python](http://rigaux.org/language-study/syntax-across-languages-per-language/Python.html)
@@ -14,7 +14,7 @@ PDF's fornecidos pelo corpo docente - cada um relacionado a um Treino/Torneio - 
 
 <br>
 
-## [Fichas](fichas/README.md)
+## [Fichas de Exercícios](fichas/README.md)
 "Treinos" dados pelo corpo docente, para preparar alunos aos torneios de avaliação.
 
 <br>

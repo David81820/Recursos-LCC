@@ -174,3 +174,7 @@ int main(){
 ```
 Com se pode ver o padrão mantem-se. Se a variavel é um apontador usa-se
 a `->` caso contrario, usa-se o `.`.
+
+<br><br>
+
+[![retroceder](https://raw.githubusercontent.com/David81820/Recursos-LCC/main/Rewind.png)](https://david81820.github.io/Recursos-LCC/1ano)

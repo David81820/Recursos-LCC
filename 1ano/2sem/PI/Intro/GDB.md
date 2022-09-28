@@ -118,3 +118,7 @@ Porque a preguiça não tem limites, os commandos mais utilizados tem uma abrevi
 |`next`    | `n`         |
 |`step`    | `s`         |
 |`continue`| `c`         |
+
+<br><br>
+
+[![retroceder](https://raw.githubusercontent.com/David81820/Recursos-LCC/main/Rewind.png)](https://david81820.github.io/Recursos-LCC/1ano)

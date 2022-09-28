@@ -187,3 +187,7 @@ As listas ligadas têm vantagens e desvantagens dependendo do problema a resolve
 <br>Por exemplo, se temos de adicionar muitas vezes no inicio de uma lista a operação é simples e em tempo constante, enquanto que para fazer o mesmo num array, todos os elementos do array teriam de ser copiados para a frente para fazer espaço para o novo elemento.
 
 - [1] Na pratica, com as maquinas que temos agora, uma lista ligada é quase sempre a escolha errada. Mesmo no caso exemplo acima, há soluções mais eficientes do que uma lista ligada.
+
+<br><br>
+
+[![retroceder](https://raw.githubusercontent.com/David81820/Recursos-LCC/main/Rewind.png)](https://david81820.github.io/Recursos-LCC/1ano)

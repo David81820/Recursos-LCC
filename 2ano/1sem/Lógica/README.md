@@ -5,12 +5,12 @@ Lista dos vários detalhes técnicos da cadeira que podem ser encontrados na aba
 
 <br>
 
-## [Material Teórico da UC](slides/README.md)
+## [Material Teórico](slides/README.md)
 Desde slides oficiais, a "resumos" da matéria compildados por alunos.
 
 <br>
 
-## [Fichas](fichas/README.md)
+## [Fichas de Exercícios](fichas/README.md)
 Fichas de exercícios fornecidas pelo corpo docente.
 
 <br>

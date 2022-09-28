@@ -7,12 +7,12 @@ Lista dos vários detalhes técnicos da cadeira que podem ser encontrados na aba
 
 <br>
 
-## [Slides da UC](slides-PF-Haskell.pdf)
+## [Material Teórico]()
 
 
 <br>
 
-## [Fichas](fichas/README.md)
+## [Fichas de Exercícios](fichas/README.md)
 TPC's e Guiões dos anos lectivos 2014/2015 a 2019/2020.
 
 <br>

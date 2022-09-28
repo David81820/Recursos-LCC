@@ -18,3 +18,7 @@
 * [**2017/2018 Versão 1**](Exame-1718.pdf) -- [**2017/2018 Versão 2**](Exame-1718-v2.pdf)
 * [**2018/2019**](Exame-1819.pdf)
 * [**2019/2020**](Exame-1920.pdf)
+
+<br><br>
+
+[![retroceder](https://raw.githubusercontent.com/David81820/Recursos-LCC/main/Rewind.png)](https://david81820.github.io/Recursos-LCC/1ano)

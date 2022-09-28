@@ -12,7 +12,7 @@ Nessa página encontra-se gravadas explicações sobre a matéria pelo corpo doc
 
 <br>
 
-## Material Teórico da UC
+## Material Teórico
 Nesta cadeira o corpo docente publica o material associado a cada aula antes da mesma com o intuito de os alunos preparem-se com antecedência.
 <br>Outra importante distinção de outras UC's é o facto que o corpo docente não publica nem avisos, nem material do curso na plataforma BlackBoard.
 <br>Ao invés, eles publicam todo tipo de conteúdo relevante num site exclusivo á UC:
@@ -30,8 +30,8 @@ Outro Material:
 
 <br>
 
-## [Fichas](fichas/README.md)
-Fichas de exercícios do ano lectivo 2019/2020, com resoluções a algumas.
+## [Fichas de  Exercícios](fichas/README.md)
+Folhas de exercícios do ano lectivo 2019/2020, com resoluções a algumas.
 
 <br>
 

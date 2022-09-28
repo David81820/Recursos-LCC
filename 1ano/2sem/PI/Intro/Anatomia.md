@@ -93,3 +93,7 @@ Simplesmente usando o seu nome e passando os argumentos necessários.
 ## Return
 Esta operação de "devolver", dá o valor final de uma função.
 <br>Como a nossa `main` é do tipo int, então terá que devolver um número inteiro.
+
+<br><br>
+
+[![retroceder](https://raw.githubusercontent.com/David81820/Recursos-LCC/main/Rewind.png)](https://david81820.github.io/Recursos-LCC/1ano)

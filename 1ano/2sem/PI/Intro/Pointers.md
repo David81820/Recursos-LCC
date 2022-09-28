@@ -170,3 +170,7 @@ O resto dos elementos são apontadores e seguindos estes apontadores temos os va
  1. Esta sintaxe para declarar um apontador é flexivel, isto é, `int *x`, `int* x` e `int * x` são todas equivalentes.
 
 [extraNotes]: ./Pointers.md#extra-notes
+
+<br><br>
+
+[![retroceder](https://raw.githubusercontent.com/David81820/Recursos-LCC/main/Rewind.png)](https://david81820.github.io/Recursos-LCC/1ano)

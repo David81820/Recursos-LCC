@@ -12,7 +12,7 @@ Screencasts das aulas teóricas do Ano Lectivo 2020/2021, que foram realizadas o
 
 <br>
 
-## [Material Teórico da UC](slides/README.md)
+## [Material Teórico](slides/README.md)
 Várias notas e explicações.
 <br>Aqui abaixo listei também algum material "não-oficial":
 
@@ -24,8 +24,8 @@ Várias notas e explicações.
 
 <br>
 
-## [Fichas](fichas/README.md)
-Fichas de exercícios fornecidas pelo corpo docente, desde do ano lectivo 2010/2011 a 2021/2022.
+## [Fichas de Exercícios](fichas/README.md)
+Folhas de exercícios fornecidas pelo corpo docente, desde do ano lectivo 2010/2011 a 2021/2022.
 
 <br>
 

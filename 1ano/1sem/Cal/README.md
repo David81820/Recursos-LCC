@@ -7,18 +7,18 @@ Lista dos vários detalhes técnicos da cadeira que podem ser encontrados na aba
 
 <br>
 
-## [Slides da UC](slides-PF-Haskell.pdf)
+## [Material Teórico]()
 
 
 <br>
 
-## [Fichas](fichas/README.md)
-
+## [Fichas de Exercícios](fichas/README.md)
+Folhas de exercícios fornecidas pelo corpo docente, juntamente com resoluções dadas pelos mesmos.
 
 <br>
 
 ## [Testes e Exames](testes/README.md)
-
+Testes desde o ano lectivo 2016/2017 a 2021/2022. Exames apenas de 2017/2018 a 2019/2020. Sem resoluções a ambos
 
 <br><br>
 

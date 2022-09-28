@@ -5,13 +5,13 @@ Lista dos vários detalhes técnicos da cadeira que podem ser encontrados na aba
 
 <br>
 
-## [Material Teórico da UC](slides/README.md)
+## [Material Teórico](slides/README.md)
 Slides e apontamentos oficiais, juntamente com os meus resumos da matéria.
 
 <br>
 
-## [Fichas](fichas/README.md)
-Fichas de exercícios fornecidas pelo corpo docente nos anos lectivos de 2020/2021 e 2021/2022.
+## [Fichas de Exercícios](fichas/README.md)
+Folhas de exercícios fornecidas pelo corpo docente nos anos lectivos de 2020/2021 e 2021/2022.
 
 <br>
 
