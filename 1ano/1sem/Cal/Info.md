@@ -12,8 +12,8 @@
 
 ### Carga Horária
 **Trabalho autónomo:** 80  horas
-**Aulas:**
-60  horas  -  Teórico-práticas
+<br>**Aulas:**
+<br>60  horas  -  Teórico-práticas
 
 <br>
 
@@ -60,3 +60,7 @@ As aulas de exposição dos conteúdos são acompanhadas de exemplos para promov
 ### Métodos de avaliação
 **Avaliação periódica:** baseada em dois ou mais elementos de avaliação, que poderão incluir testes escritos, trabalhos individuais ou em grupo, testes ou trabalhos de natureza computacional, realizados ao longo do semestre.
 **Avaliação por exame:** exame final.
+
+<br><br>
+
+[![retroceder](https://raw.githubusercontent.com/David81820/Recursos-LCC/main/Rewind.png)](https://david81820.github.io/Recursos-LCC/1ano)
