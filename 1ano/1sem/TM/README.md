@@ -6,7 +6,7 @@ Lista dos vários detalhes técnicos da cadeira que podem ser encontrados na aba
 <br>
 
 ## [Material Teórico](slides/README.md)
-
+A matéria encontra-se divida em 6 capítulos. À partida, cada teste apenas abrange 3 capítulos.
 
 <br>
 

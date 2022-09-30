@@ -5,7 +5,7 @@ O primeiro ano é maioritariamente constituído por cadeiras focadas em matemát
 * **Álgebra Linear CC** - 7,5 ECTS
 * [**Cálculo**](1sem/Cal/README.md) - 5 ECTS
 * [**Programação Funcional**](1sem/PF/README.md) - 5 ECTS
-* **Tópicos de Matemática** - 7,5 ECTS
+* [**Tópicos de Matemática**](1sem/TM/README.md) - 7,5 ECTS
 * Uma de várias cadeiras opcionais UMinho, todas com "custo" de 5 ECTS. Nisto não posso ajudar...
 <br><br><br>
 ## 2º Semestre
