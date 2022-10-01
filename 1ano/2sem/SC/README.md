@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://raw.githubusercontent.com/David81820/Recursos-LCC/main/1ano/1sem/SC/SC.png">
+  <img src="https://raw.githubusercontent.com/David81820/Recursos-LCC/main/1ano/2sem/SC/SC.png">
 </p>
 
 <br>
