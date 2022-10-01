@@ -11,12 +11,12 @@
 <br>
 
 ## 2021/2022
-[**1. Noções elementares de Lógica**](1-Logica.pdf)
-[**2. Teoria elementar de Conjuntos**](2-Conjuntos.pdf)
-[**3. Indução nos Naturais**](3-Inducao.pdf)
-[**4. Funções**](4-Funcoes.pdf)
-[**5. Relações Binárias**](5-Relacoes.pdf)
-[**6. Cardinalidade**](6-Cardinalidade.pdf)
+1. [**Noções elementares de Lógica**](1-Logica.pdf)
+2. [**Teoria elementar de Conjuntos**](2-Conjuntos.pdf)
+3. [**Indução nos Naturais**](3-Inducao.pdf)
+4. [**Funções**](4-Funcoes.pdf)
+5. [**Relações Binárias**](5-Relacoes.pdf)
+6. [**Cardinalidade**](6-Cardinalidade.pdf)
 
 <br><br>
 
