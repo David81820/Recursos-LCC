@@ -64,4 +64,4 @@ A avaliação pode ser contínua ou periódica, combinando dois ou mais instrume
 
 <br><br>
 
-[![retroceder](https://raw.githubusercontent.com/David81820/Recursos-LCC/main/Rewind.png)](https://david81820.github.io/Recursos-LCC/1ano)
+[![retroceder](https://raw.githubusercontent.com/David81820/Recursos-LCC/main/Rewind.png)](https://david81820.github.io/Recursos-LCC/1ano/1sem/TM)

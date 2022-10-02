@@ -63,4 +63,4 @@ As aulas de exposição dos conteúdos são acompanhadas de exemplos para promov
 
 <br><br>
 
-[![retroceder](https://raw.githubusercontent.com/David81820/Recursos-LCC/main/Rewind.png)](https://david81820.github.io/Recursos-LCC/1ano)
+[![retroceder](https://raw.githubusercontent.com/David81820/Recursos-LCC/main/Rewind.png)](https://david81820.github.io/Recursos-LCC/1ano/1sem/Cal)

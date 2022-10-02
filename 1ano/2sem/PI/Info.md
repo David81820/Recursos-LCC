@@ -61,3 +61,7 @@ A escolaridade da UC é utilizada da seguinte forma:
 A avaliação é feita por um teste final escrito e/ou exame de recurso.
 <br>O acesso ao teste final é feito através da resposta a uma questão escolhida aleatoriamente de um conjunto de 50 questões que os alunos conhecem antecipadamente.
 <br>Essas questões são uma parte do repositório de desafios de programação que estão disponibilizados no sistema de "online coding" referido acima.
+
+<br><br>
+
+[![retroceder](https://raw.githubusercontent.com/David81820/Recursos-LCC/main/Rewind.png)](https://david81820.github.io/Recursos-LCC/1ano/2sem/PI)

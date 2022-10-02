@@ -22,4 +22,4 @@ Lista dos vários detalhes técnicos da cadeira que podem ser encontrados na aba
 
 <br><br>
 
-[![retroceder](https://raw.githubusercontent.com/David81820/Recursos-LCC/main/Rewind.png)](https://david81820.github.io/Recursos-LCC/2ano)
+[![retroceder](https://raw.githubusercontent.com/David81820/Recursos-LCC/main/Rewind.png)](https://david81820.github.io/Recursos-LCC/1ano)

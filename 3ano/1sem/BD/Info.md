@@ -75,4 +75,4 @@ Os alunos para obterem aproveitamento a esta unidade curricular têm que realiza
 
 <br><br>
 
-[![retroceder](https://raw.githubusercontent.com/David81820/Recursos-LCC/main/Rewind.png)](https://david81820.github.io/Recursos-LCC/2ano)
+[![retroceder](https://raw.githubusercontent.com/David81820/Recursos-LCC/main/Rewind.png)](https://david81820.github.io/Recursos-LCC/3ano/1sem/BD)
