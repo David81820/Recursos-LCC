@@ -2,7 +2,7 @@ O terceiro ano aprensenta apenas 2 cadeiras de matemática, sendo as restantes u
 <br>Um ano particularmente intenso em trabalhos de grupo...<br><br>
 
 ## 1º Semestre
-* **Bases de Dados** - 5 ECTS
+* [**Bases de Dados**](1sem/BD/README.md) - 5 ECTS
 * **Computabilidade e Complexidade** - 7,5 ECTS
 * **Lógica Computacional** - 5 ECTS
 * **Probabilidades e Aplicações** - 7,5 ECTS
