@@ -36,29 +36,29 @@ Os alunos deverão ser capazes de:
 2. Introdução aos Sistemas de Bases de Dados.
 3. Sistemas de Gestão de Bases de Dados.
 4. Desenvolvimento de Bases de Dados. 
-    4.1. O Processo de desenvolvimento. 
-    4.2. Levantamento e Análise de Requisitos. 
-    4.3. Modelação e Implementação de Bases de Dados.
+<br>    4.1. O Processo de desenvolvimento. 
+<br>    4.2. Levantamento e Análise de Requisitos. 
+<br>    4.3. Modelação e Implementação de Bases de Dados.
 5. Bases de Dados Relacionais. 
-    5.1. O Modelo Relacional e a Álgebra Relacional. 
-    5.2. A Linguagem SQL. 
-    5.3. Transações e Concorrência. 
-    5.4. Segurança e Recuperação de Dados. 
-    5.5. Monitorização e Otimização de Desempenho.
+<br>    5.1. O Modelo Relacional e a Álgebra Relacional. 
+<br>    5.2. A Linguagem SQL. 
+<br>    5.3. Transações e Concorrência. 
+<br>    5.4. Segurança e Recuperação de Dados. 
+<br>    5.5. Monitorização e Otimização de Desempenho.
 6. Bases de Dados não Relacionais (NoSQL). 
-    6.1. Modelos, Características e Funcionalidades.
-    6.2. Bases de Dados Orientadas por Documentos (Document Stores) 
-    6.3. Bases de Dados Orientadas por Grafos (Graph Databases)
+<br>    6.1. Modelos, Características e Funcionalidades.
+<br>    6.2. Bases de Dados Orientadas por Documentos (Document Stores) 
+<br>    6.3. Bases de Dados Orientadas por Grafos (Graph Databases)
 7. Aplicações e Ferramentas.
 
 <br>
 
 ### Bibliografia essencial
-Connolly, T.  &  Begg, C. - **Database Systems, A Practical Approach to Design, Implementation, and Management** - Addison-Wesley, 4ª Edição (2004) - ISBN-10: 0321210255 ; ISBN-13: 978-0321210258.
-<br>Garcia-Molina, H.  &  Ullman, J.  &  Widom, J. - **Database Systems: The Complete Book** - Prentice Hall, 2ª Edição (2008) - ISBN-10: 0131873253 ; ISBN-13: 978-0131873254.
-<br>Ramakrishman, R. - **Database Management Systems** - McGraw-Hill Higher Education, 3ª Edição (2002) - ISBN-10: 0071230572 ; ISBN-13: 978-0071230575.
-<br>G. Harrison - **Next Generation Databases: NoSQLand Big Data** - 1st Edition, Apress (2015).
-<br>Gouveia, F. - **Fundamentos de Bases de Dados** - FCA (2014).
+* Connolly, T.  &  Begg, C. - **Database Systems, A Practical Approach to Design, Implementation, and Management** - Addison-Wesley, 4ª Edição (2004) - ISBN-10: 0321210255 ; ISBN-13: 978-0321210258.
+* Garcia-Molina, H.  &  Ullman, J.  &  Widom, J. - **Database Systems: The Complete Book** - Prentice Hall, 2ª Edição (2008) - ISBN-10: 0131873253 ; ISBN-13: 978-0131873254.
+* Ramakrishman, R. - **Database Management Systems** - McGraw-Hill Higher Education, 3ª Edição (2002) - ISBN-10: 0071230572 ; ISBN-13: 978-0071230575.
+* G. Harrison - **Next Generation Databases: NoSQLand Big Data** - 1st Edition, Apress (2015).
+* Gouveia, F. - **Fundamentos de Bases de Dados** - FCA (2014).
 
 <br>
 
