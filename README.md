@@ -4,7 +4,9 @@
 <br>
 
 ### Isto é um trabalho em progresso!
-#### Ainda não tenho material de muitas UC's - especialmente do 3º ano.
+#### Apesar de ter uma quantidade de material razoável para o 1º e 2º ano, estes ainda não se podem considerar "completos".
+#### O 3º ano em especial foi pouco trabalho, de momento tendo apenas "Base de Dados".
+
 <br><br>
 
 ## Aviso
