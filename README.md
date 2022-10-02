@@ -5,7 +5,7 @@
 
 ### Isto é um trabalho em progresso!
 #### Apesar de ter uma quantidade de material razoável para o 1º e 2º ano, estes ainda não se podem considerar "completos".
-#### O 3º ano em especial foi pouco trabalho, de momento tendo apenas "Base de Dados".
+#### O 3º ano em especial está muito incompleto, tendo de momento apenas "Base de Dados".
 
 <br><br>
 
