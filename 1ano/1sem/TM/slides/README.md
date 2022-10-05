@@ -9,12 +9,12 @@
 <br>
 
 ## 2021/2022
-* [**1º - Noções elementares de Lógica**]()
-* [**2º - Teoria Elementar de Conjuntos**]()
-* [**3º - Indução nos Naturais**]()
-* [**4º -  Funções**]()
-* [**5º - Relações Binárias**]()
-* [**6º - Cardinalidade de Conjuntos**]()
+* [**1º - Noções elementares de Lógica**](1-Logica.pdf)
+* [**2º - Teoria Elementar de Conjuntos**](2-Conjuntos.pdf)
+* [**3º - Indução nos Naturais**](3-Inducao.pdf)
+* [**4º -  Funções**](4-Funcoes.pdf)
+* [**5º - Relações Binárias**](5-Relacoes.pdf)
+* [**6º - Cardinalidade de Conjuntos**](6-Cardinalidade.pdf)
 
 <br><br>
 
