@@ -11,12 +11,17 @@
 <br>
 
 ## 2021/2022
-[**Noções elementares de Lógica**](1-Logica.pdf)
+[**1. Noções elementares de Lógica**](1-Logica.pdf)
 <br>[**2. Teoria elementar de Conjuntos**](2-Conjuntos.pdf)
 <br>[**3. Indução nos Naturais**](3-Inducao.pdf)
 <br>[**4. Funções**](4-Funcoes.pdf)
 <br>[**5. Relações Binárias**](5-Relacoes.pdf)
 <br>[**6. Cardinalidade**](6-Cardinalidade.pdf)
+
+<br>
+
+## 2022/2023
+* [**Folhas de Exercícios com algumas resoluções**](exercicios_resolu%C3%A7%C3%B5es_tm_2223.pdf)
 
 <br><br>
 
