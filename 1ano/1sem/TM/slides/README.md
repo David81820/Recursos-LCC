@@ -16,6 +16,13 @@
 * [**5º - Relações Binárias**](5-Relacoes.pdf)
 * [**6º - Cardinalidade de Conjuntos**](6-Cardinalidade.pdf)
 
+<br>
+
+## 2022/2023
+* [**1º - Cálculo Proposicional**](1~calc-prop.pdf)
+* [**2º - Método de Indução**](2~inducao.pdf)
+* [**3º - Conjuntos**](3~conjuntos.pdf)
+
 <br><br>
 
 [![retroceder](https://raw.githubusercontent.com/David81820/Recursos-LCC/main/Rewind.png)](https://david81820.github.io/Recursos-LCC/1ano/1sem/TM)
