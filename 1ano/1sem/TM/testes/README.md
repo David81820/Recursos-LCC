@@ -30,6 +30,15 @@
 * [**2018/2019**](Ex-1819.pdf)
 * [**2019/2020**](Ex-1920.pdf) - [Resolução](Ex-1920-res.pdf)
 
+<br>
+
+## 2022/2023
+Neste ano, o corpo docente decidiu realizar 3 testes.
+<br>
+* [**1º Teste**](T1-2223.pdf) - [Resolução](T1-2223-res.pdf)
+* [**2º Teste**](T2-2223.pdf) - [Resolução](T2-2223-res.pdf)
+* [**3º Teste**] - [Versão A](T3-2223-A.pdf) - [Versão B](T3-2223-B.pdf)
+
 <br><br>
 
 [![retroceder](https://raw.githubusercontent.com/David81820/Recursos-LCC/main/Rewind.png)](https://david81820.github.io/Recursos-LCC/1ano/1sem/TM)

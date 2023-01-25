@@ -22,6 +22,11 @@
 * [**1º - Cálculo Proposicional**](1~calc-prop.pdf)
 * [**2º - Método de Indução**](2~inducao.pdf)
 * [**3º - Conjuntos**](3~conjuntos.pdf)
+* [**4º - Relações Binárias**](4~relacoes.pdf)
+* [**5º - Funções**](5~funções.pdf)
+* [**6º - Relações de Equivalência**](6~equivalencia.pdf)
+* [**7º - Relações de Ordem Parcial**](7~rop.pdf)
+* [**8º - Cardinalidade**](8~card.pdf)
 
 <br><br>
 
