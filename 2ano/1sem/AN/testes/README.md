@@ -28,6 +28,7 @@ Todo material aqui contido, provém do corpo docente através da plataforma Blac
 * [**2017-2018**](exame_1718.pdf)
 * [**2018-2019**](exame_1819.pdf)
 * [**2019-2020**](exame_1920.pdf)
+* [**Época Especial 2021-2022**](exameEE_2122.pdf)
 
 <br>
 
