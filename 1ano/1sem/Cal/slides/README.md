@@ -1,6 +1,9 @@
 <p align="center">
-<font size="24">Slides | </font><font size="18">Cálculo</font>
+<font size="24">Slides | </font>
+<font size="18">Cálculo</font>
 </p>
+
+<br>
 
 ## Apontamentos 2006/2007
 * [**Sucessões e Séries**](Apontamentos-Sucessoes-e-Series-2006-07.pdf)
