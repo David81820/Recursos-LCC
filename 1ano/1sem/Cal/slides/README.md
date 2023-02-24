@@ -1,7 +1,5 @@
 <p align="center">
-<font size="24">
-Cálculo
-</font>
+<font size="24">Slides | </font><font size="18">Cálculo</font>
 </p>
 
 ## Apontamentos 2006/2007
