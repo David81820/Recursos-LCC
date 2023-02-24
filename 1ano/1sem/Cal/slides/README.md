@@ -1,6 +1,5 @@
 <p align="center">
-<font size="24">Slides | </font>
-<font size="16">Cálculo</font>
+<font size="24">Slides | Cálculo</font>
 </p>
 
 <br>
