@@ -1,4 +1,8 @@
-<p align="center">Cálculo</p>
+<p align="center">
+<font size="24">
+Cálculo
+</font>
+</p>
 
 ## Apontamentos 2006/2007
 * [**Sucessões e Séries**](Apontamentos-Sucessoes-e-Series-2006-07.pdf)
