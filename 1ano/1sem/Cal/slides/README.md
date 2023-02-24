@@ -1,3 +1,7 @@
+<p align="center">
+    # Cálculo
+</p>
+
 ## Apontamentos 2006/2007
 * [**Sucessões e Séries**](Apontamentos-Sucessoes-e-Series-2006-07.pdf)
 * [**Limites e Continuidade**](Apontamentos-Limites-e-Continuidade-2006-07.pdf)
@@ -25,10 +29,17 @@
 <br>
 
 ## Formulários
+### 2019/2020
 * [**Séries de números reais**](Formul%C3%A1rio%201.pdf)
 * [**Funções importantes**](Formul%C3%A1rio%202.pdf)
 * [**Regras de derivação**](Formul%C3%A1rio%203.pdf)
 * [**Primitivas imediatas**](Formul%C3%A1rio%204.pdf)
+### 2022/2023
+* [**Séries**](Formulario_Series_2223.pdf)
+* [**1º - Trigonometricas + Hiperbolicas**](Formulario_Trigonometricas_Hiperbolicas_2223.pdf)
+* [**2º - Trigonometricas + Hiperbolicas**](Segundo_Formulario_Trigonometricas_Hiperbolicas_2223.pdf)
+* [**Derivadas**](Formulario_Derivadas_2223.pdf)
+* [**Primitivas**](Formulario_Primitivas_2223.pdf)
 
 <br>
 

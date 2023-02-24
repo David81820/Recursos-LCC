@@ -20,7 +20,7 @@ Folhas de exercícios fornecidas pelo corpo docente, juntamente com resoluções
 <br>
 
 ## [Testes e Exames](testes/README.md)
-Testes desde o ano lectivo 2016/2017 a 2021/2022. Exames apenas de 2017/2018 a 2019/2020. Sem resoluções a ambos...
+Testes desde o ano lectivo 2016/2017 a 2022/2023. Exames apenas de 2017/2018 a 2019/2020. Sem resoluções "oficiais" a ambos...
 
 <br><br>
 
