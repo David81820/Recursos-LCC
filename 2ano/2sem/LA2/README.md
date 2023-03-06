@@ -26,4 +26,9 @@ Os torneios de avaliação dos anos lectivos 2020/2021 e 2021/2022.
 
 <br><br>
 
+https://github.com/z8Tygas/Laboratorios-de-Algoritmia-II/tree/main/Torneio%201
+<br>https://github.com/Carricossauro/University/tree/master/2%C2%BA%20Ano/Laborat%C3%B3rios%20de%20Algoritmia%20II
+
+<br><br>
+
 [![retroceder](https://raw.githubusercontent.com/David81820/Recursos-LCC/main/Rewind.png)](https://david81820.github.io/Recursos-LCC/2ano)
