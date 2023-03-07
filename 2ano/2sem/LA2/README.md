@@ -16,7 +16,7 @@ PDF's fornecidos pelo corpo docente - cada um relacionado a um Treino/Torneio - 
 
 <br>
 
-## [Treinos e Torneios](codidgo/README.md)
+## [Treinos e Torneios](codigo/README.md)
 "Treinos" são os exercícios de preparação, e "Torneios" são os exercícios de avaliação.
 <br>Embora Torneios sejam diferentes todos anos, os Treinos raramente são alterados e quando são é para incluir um exercício de um Torneio passado.
 
