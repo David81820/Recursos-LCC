@@ -16,18 +16,14 @@ PDF's fornecidos pelo corpo docente - cada um relacionado a um Treino/Torneio - 
 
 <br>
 
-## [Fichas de Exercícios](fichas/README.md)
-"Treinos" dados pelo corpo docente, para preparar alunos aos torneios de avaliação.
+## [Treinos e Torneios](codidgo/README.md)
+"Treinos" são os exercícios de preparação, e "Torneios" são os exercícios de avaliação.
+<br>Embora Torneios sejam diferentes todos anos, os Treinos raramente são alterados e quando são é para incluir um exercício de um Torneio passado.
 
 <br>
 
 ## [Testes e Exames](testes/README.md)
 Os torneios de avaliação dos anos lectivos 2020/2021 e 2021/2022.
-
-<br><br>
-
-https://github.com/z8Tygas/Laboratorios-de-Algoritmia-II/tree/main/Torneio%201
-<br>https://github.com/Carricossauro/University/tree/master/2%C2%BA%20Ano/Laborat%C3%B3rios%20de%20Algoritmia%20II
 
 <br><br>
 

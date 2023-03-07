@@ -6,21 +6,27 @@
 
 <br>
 
-## 2020/2021
-* [**Torneio 1**](t1-2021.md)
-<br>  [A] [Resolução](t1-2021-res.md)
-* [**Torneio 2**](t2-2021.md)
-* [**Torneio 3**](t3-2021.md)
-* [**Torneio 4**](t4-2021.md)
-* [**Torneio 5**](t5-2021.md)
-* [**Torneio Extra**](tE-2021.md)
+<details>
+    <summary>**Introdução ao Python**</summary>
 
 <br>
 
-## 2021/2022
-* [**Torneio 1**](t1-2122.md)
-<br>  [A] [Resoução - 100%](t1-2122-res.md)
-<br>  [I] [Resolução](t1-2122-resI.md)
+[Aloca](1ºT/aloca.md)
+[Apelidos](1ºT/apelidos.md)
+[Cruzamentos](1ºT/cruzamentos.md)
+[Diferentes](1ºT/diferentes.md)
+[Fatoriza](1ºT/fatoriza.md)
+[Formata](1ºT/formata.md)
+[Formula 1](1ºT/formula1.md)
+[Frequência](1ºT/frequencia.md)
+[Futebol](1ºT/futebol.md)
+[Hacker](1ºT/hacker.md)
+[Horário](1ºT/horario.md)
+[ISBN](1ºT/isbn.md)
+[Repete](1ºT/repete.md)
+[Robot](1ºT/robot.md)
+
+</details>
 
 <br><br>
 
