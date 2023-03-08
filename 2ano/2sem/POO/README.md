@@ -8,7 +8,7 @@ Lista dos vários detalhes técnicos da cadeira que podem ser encontrados na aba
 <br>
 
 ## [Material Teórico](slides/README.md)
-
+Slides com a matéria lecionada, fornecidos pelo corpo docente.
 
 <br>
 
