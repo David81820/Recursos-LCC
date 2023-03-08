@@ -7,24 +7,24 @@
 <br>
 
 <details>
-    <summary>**Introdução ao Python**</summary>
+    <summary>Introdução ao Python</summary>
 
 <br>
 
-[Aloca](1ºT/aloca.md)
-[Apelidos](1ºT/apelidos.md)
-[Cruzamentos](1ºT/cruzamentos.md)
-[Diferentes](1ºT/diferentes.md)
-[Fatoriza](1ºT/fatoriza.md)
-[Formata](1ºT/formata.md)
-[Formula 1](1ºT/formula1.md)
-[Frequência](1ºT/frequencia.md)
-[Futebol](1ºT/futebol.md)
-[Hacker](1ºT/hacker.md)
-[Horário](1ºT/horario.md)
-[ISBN](1ºT/isbn.md)
-[Repete](1ºT/repete.md)
-[Robot](1ºT/robot.md)
+<br>[Aloca](1ºT/aloca.md)
+<br>[Apelidos](1ºT/apelidos.md)
+<br>[Cruzamentos](1ºT/cruzamentos.md)
+<br>[Diferentes](1ºT/diferentes.md)
+<br>[Fatoriza](1ºT/fatoriza.md)
+<br>[Formata](1ºT/formata.md)
+<br>[Formula 1](1ºT/formula1.md)
+<br>[Frequência](1ºT/frequencia.md)
+<br>[Futebol](1ºT/futebol.md)
+<br>[Hacker](1ºT/hacker.md)
+<br>[Horário](1ºT/horario.md)
+<br>[ISBN](1ºT/isbn.md)
+<br>[Repete](1ºT/repete.md)
+<br>[Robot](1ºT/robot.md)
 
 </details>
 

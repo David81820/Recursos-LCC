@@ -9,7 +9,7 @@ O terceiro ano aprensenta apenas 2 cadeiras de matemática, sendo as restantes u
 * **Processamento de Linguagens e Compiladores** - 5 ECTS
 <br><br><br>
 ## 2º Semestre
-* **Computação Gráfica** - 5 ECTS
+* [**Computação Gráfica**](2sem/CG/README.md) - 5 ECTS
 * **Interação e Concorrência** - 5 ECTS
 * **Programação Concorrente** - 5 ECTS
 * **Semântica das Linguagens de Programação** - 5 ECTS

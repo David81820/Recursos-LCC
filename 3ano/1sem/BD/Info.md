@@ -12,7 +12,7 @@
 <br>
 
 ### Carga Horária
-**Trabalho autónomo:** 80  horas
+**Trabalho autónomo:** 80 horas
 <br>**Aulas:**
 <br>30  horas  -  Práticas Laboratoriais
 <br>30  horas  -  Teóricas
