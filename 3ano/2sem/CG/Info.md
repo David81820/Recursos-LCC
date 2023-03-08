@@ -68,4 +68,4 @@ Sessões de exposição teórica para cobrir os aspectos relacionados com os fun
 
 <br><br>
 
-[![retroceder](https://raw.githubusercontent.com/David81820/Recursos-LCC/main/Rewind.png)](https://david81820.github.io/Recursos-LCC/3ano/1sem/BD)
+[![retroceder](https://raw.githubusercontent.com/David81820/Recursos-LCC/main/Rewind.png)](https://david81820.github.io/Recursos-LCC/3ano/2sem/CG)
