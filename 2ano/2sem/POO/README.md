@@ -19,7 +19,7 @@ Também tenho aqui uma série de páginas criadas por alunos de MIEI (ou agora �
 <br>
 
 ## [Fichas de Exercícios](fichas/README.md)
-Folhas de exercícios do ano lectivo 201/20
+Folhas de exercícios - são iguais todos anos.
 
 <br>
 
