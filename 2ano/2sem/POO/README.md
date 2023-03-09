@@ -10,8 +10,6 @@ Lista dos vários detalhes técnicos da cadeira que podem ser encontrados na aba
 ## [Material Teórico](slides/README.md)
 Slides com a matéria lecionada, fornecidos pelo corpo docente.
 
-<br>
-
 Também tenho aqui uma série de páginas criadas por alunos de MIEI (ou agora é LEI outra vez?), que exploram em detalhe a relação entre Java e os conteúdos leccionados em POO:
 
 * [**[A] Java em POO**](POO-Java/README.md)
