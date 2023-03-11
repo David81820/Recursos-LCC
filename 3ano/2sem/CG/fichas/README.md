@@ -1,15 +1,7 @@
-https://www.dropbox.com/sh/75gmp2trwrcqdfc/AABZLLBdeShNhT1fe6iZv6tia/3%C2%BA%20Ano/2%C2%BA%20Semestre/Computa%C3%A7%C3%A3o%20Gr%C3%A1fica?dl=0&subfolder_nav_tracking=1
+### Transformações Geométricas
+* [Ficha 1](Ficha1%20-%20Transforma%C3%A7%C3%B5es%20Geom%C3%A9tricas.pdf)
+* [Ficha 2](Ficha2%20-%20Transforma%C3%A7%C3%B5es%20Geom%C3%A9tricas.pdf)
 
-https://github.com/ricascross/LCC/tree/main/3%C2%BAAno/2%C2%BASemestre/CG
+<br><br>
 
-https://github.com/RisingFisan/CG
-
-https://github.com/NECC/Material-Do-Curso/tree/main/3%C2%BA%20ano/Computa%C3%A7%C3%A3o%20Gr%C3%A1fica
-
-https://github.com/JoseFilipeFerreira/notes/tree/master/CG
-
-https://github.com/z8Tygas/CG
-
-https://github.com/Carricossauro/University/tree/master/3%C2%BA%20Ano/Computa%C3%A7%C3%A3o%20Gr%C3%A1fica
-
-https://github.com/IvoLims/Comp_Grafica/tree/main/Gui%C3%B5es
+[![retroceder](https://raw.githubusercontent.com/David81820/Recursos-LCC/main/Rewind.png)](https://david81820.github.io/Recursos-LCC/3ano/2sem/CG)
