@@ -11,7 +11,8 @@
 
 <br>
 
-<br>[Aloca](1ºT/aloca.md)
+ul>
+<details><summary><a href="1ºT/aloca.md">Aloca</a></summary></details>
 <br>[Apelidos](1ºT/apelidos.md)
 <br>[Cruzamentos](1ºT/cruzamentos.md)
 <br>[Diferentes](1ºT/diferentes.md)
