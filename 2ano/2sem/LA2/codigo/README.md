@@ -25,6 +25,7 @@
 <br>[ISBN](1ºT/isbn.md)
 <br>[Repete](1ºT/repete.md)
 <br>[Robot](1ºT/robot.md)
+<br>[Area](1ºT/area.md)
 
 </details>
 
