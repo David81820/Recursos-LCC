@@ -9,27 +9,23 @@
 <details>
     <summary>Introdução ao Python</summary>
 
-<br>
-
 <ul>
 <details><summary><a href="1ºT/aloca.html">Aloca</a></summary></details>
+<details><summary><a href="1ºT/apelidos.html">Apelidos</a></summary></details>
+<details><summary><a href="1ºT/cruzamentos.html">Cruzamentos</a></summary></details>
+<details><summary><a href="1ºT/diferentes.html">Diferentes</a></summary></details>
+<details><summary><a href="1ºT/fatoriza.html">Fatoriza</a></summary></details>
+<details><summary><a href="1ºT/formata.html">Formata</a></summary></details>
+<details><summary><a href="1ºT/formula1.html">Formula 1</a></summary></details>
+<details><summary><a href="1ºT/frequenica.html">Frequência</a></summary></details>
+<details><summary><a href="1ºT/futebol.html">Futebol</a></summary></details>
+<details><summary><a href="1ºT/hacker.html">Hacker</a></summary></details>
+<details><summary><a href="1ºT/horaio.html">Horário</a></summary></details>
+<details><summary><a href="1ºT/isbn.html">ISBN</a></summary></details>
+<details><summary><a href="1ºT/repete.html">Repete</a></summary></details>
+<details><summary><a href="1ºT/robot.html">Robot</a></summary></details>
+<details><summary><a href="1ºT/area.html">Area</a></summary></details>
 </ul>
-
-<br>[Apelidos](1ºT/apelidos.md)
-<br>[Cruzamentos](1ºT/cruzamentos.md)
-<br>[Diferentes](1ºT/diferentes.md)
-<br>[Fatoriza](1ºT/fatoriza.md)
-<br>[Formata](1ºT/formata.md)
-<br>[Formula 1](1ºT/formula1.md)
-<br>[Frequência](1ºT/frequencia.md)
-<br>[Futebol](1ºT/futebol.md)
-<br>[Hacker](1ºT/hacker.md)
-<br>[Horário](1ºT/horario.md)
-<br>[ISBN](1ºT/isbn.md)
-<br>[Repete](1ºT/repete.md)
-<br>[Robot](1ºT/robot.md)
-<br>[Area](1ºT/area.md)
-
 </details>
 
 <br><br>
