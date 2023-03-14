@@ -23,3 +23,5 @@ def area(pecas):    # pensa nas peças como quadrados 2D, em cada um os lados me
     return res
 
 ```
+
+[![retroceder](https://raw.githubusercontent.com/David81820/Recursos-LCC/main/Rewind.png)](https://david81820.github.io/Recursos-LCC/2ano/2sem/LA2/codigo)
