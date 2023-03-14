@@ -12,7 +12,7 @@
 <br>
 
 <ul>
-<details><summary><a href="1ºT/aloca.md">Aloca</a></summary></details>
+<details><summary><a href="1ºT/aloca.html">Aloca</a></summary></details>
 </ul>
 
 <br>[Apelidos](1ºT/apelidos.md)
