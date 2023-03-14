@@ -13,6 +13,7 @@
 
 <ul>
 <details><summary><a href="1ºT/aloca.md">Aloca</a></summary></details>
+</ul>
 
 <br>[Apelidos](1ºT/apelidos.md)
 <br>[Cruzamentos](1ºT/cruzamentos.md)
@@ -28,8 +29,6 @@
 <br>[Repete](1ºT/repete.md)
 <br>[Robot](1ºT/robot.md)
 <br>[Area](1ºT/area.md)
-
-</ul>
 
 </details>
 
