@@ -1,11 +1,9 @@
-## Exercícios I
+### Exercícios I
 
 <details>
   <summary>ExerciciosI</summary>
 
-
-```java
-
+<pre><code lang="java">
 public class ExerciciosI {
     public int dayOfTheWeek(int day, int month, int year) {
         int totalDays = (int)((year - 1900) * 365.25);
@@ -18,8 +16,7 @@ public class ExerciciosI {
         return totalDays % 7;
     }
 }
-
-```
+</code></pre>
 </details>
 
 <br>
