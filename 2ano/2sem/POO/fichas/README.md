@@ -1,5 +1,5 @@
 
-* [**Ficha 1**](poo-f1.pdf) - Resoluções
+* [**Ficha 1**](poo-f1.pdf) - [Resoluções](f1-res.md)
 * [**Ficha 3**](poo-f3.pdf)
 * [**Ficha 4**](poo-f4.pdf)
 * [**Ficha 5**](poo-f5.pdf)
