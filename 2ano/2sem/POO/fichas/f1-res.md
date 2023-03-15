@@ -1,8 +1,10 @@
+## Exercícios I
+
 <details>
-  <summary>Exercícios I</summary>
+  <summary>ExerciciosI</summary>
   
-  ```java
-  public class ExerciciosI {
+```java
+public class ExerciciosI {
     public int dayOfTheWeek(int day, int month, int year) {
         int totalDays = (int)((year - 1900) * 365.25);
         if(year % 4 == 0 && (year % 100 != 0 || year % 400 == 0) && month < 3) totalDays--;
@@ -14,10 +16,14 @@
         return totalDays % 7;
     }
 }
-  ```
+```
+</details>
 
-  ```java
-  import java.util.Scanner;
+<details>
+  <summary>TestePrograma</summary>
+
+```java
+ import java.util.Scanner;
 
 public class TestePrograma {
     public static void main(String[] args) {
@@ -52,8 +58,7 @@ public class TestePrograma {
         }
     }
 }
-  ```
-  
+```
 </details>
 
 <br><br>
