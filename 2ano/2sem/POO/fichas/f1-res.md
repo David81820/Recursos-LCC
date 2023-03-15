@@ -3,8 +3,7 @@
 <details>
   <summary>ExerciciosI</summary>
 
-<pre><code lang="java">
-public class ExerciciosI {
+<pre><code lang="java">public class ExerciciosI {
     public int dayOfTheWeek(int day, int month, int year) {
         int totalDays = (int)((year - 1900) * 365.25);
         if(year % 4 == 0 && (year % 100 != 0 || year % 400 == 0) && month < 3) totalDays--;
@@ -24,8 +23,7 @@ public class ExerciciosI {
 <details>
   <summary>TestePrograma</summary>
 
-```java
- import java.util.Scanner;
+<pre><code lang="java">import java.util.Scanner;
 
 public class TestePrograma {
     public static void main(String[] args) {
@@ -60,7 +58,7 @@ public class TestePrograma {
         }
     }
 }
-```
+</code></pre>
 </details>
 
 <br><br>
