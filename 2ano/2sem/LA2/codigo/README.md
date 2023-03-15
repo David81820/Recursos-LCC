@@ -10,23 +10,31 @@
     <summary>Introdução ao Python</summary>
 
 <ul>
-<details><summary><a href="1ºT/aloca.html">Aloca</a></summary></details>
-<details><summary><a href="1ºT/apelidos.html">Apelidos</a></summary></details>
-<details><summary><a href="1ºT/cruzamentos.html">Cruzamentos</a></summary></details>
+<details><summary><a href="1ºT/aloca.html">Aloca</a></summary>https://codeboard.io/projects/311283</details>
+<details><summary><a href="1ºT/apelidos.html">Apelidos</a></summary>https://codeboard.io/projects/311284</details>
+<details><summary><a href="1ºT/cruzamentos.html">Cruzamentos</a></summary>https://codeboard.io/projects/311285</details>
 <details><summary><a href="1ºT/diferentes.html">Diferentes</a></summary></details>
 <details><summary><a href="1ºT/fatoriza.html">Fatoriza</a></summary></details>
-<details><summary><a href="1ºT/formata.html">Formata</a></summary></details>
+<details><summary><a href="1ºT/formata.html">Formata</a></summary>https://codeboard.io/projects/312631</details>
 <details><summary><a href="1ºT/formula1.html">Formula 1</a></summary></details>
-<details><summary><a href="1ºT/frequenica.html">Frequência</a></summary></details>
-<details><summary><a href="1ºT/futebol.html">Futebol</a></summary></details>
-<details><summary><a href="1ºT/hacker.html">Hacker</a></summary></details>
-<details><summary><a href="1ºT/horaio.html">Horário</a></summary></details>
-<details><summary><a href="1ºT/isbn.html">ISBN</a></summary></details>
+<details><summary><a href="1ºT/frequenica.html">Frequência</a></summary>https://codeboard.io/projects/311413</details>
+<details><summary><a href="1ºT/futebol.html">Futebol</a></summary>https://codeboard.io/projects/311417</details>
+<details><summary><a href="1ºT/hacker.html">Hacker</a></summary>https://codeboard.io/projects/311431</details>
+<details><summary><a href="1ºT/horaio.html">Horário</a></summary>https://codeboard.io/projects/312630</details>
+<details><summary><a href="1ºT/isbn.html">ISBN</a></summary>https://codeboard.io/projects/311435</details>
 <details><summary><a href="1ºT/repete.html">Repete</a></summary></details>
-<details><summary><a href="1ºT/robot.html">Robot</a></summary></details>
+<details><summary><a href="1ºT/robot.html">Robot</a></summary>https://codeboard.io/projects/311441</details>
 <details><summary><a href="1ºT/area.html">Area</a></summary></details>
 </ul>
 </details>
+
+<br>
+
+<details>
+    <summary>Algoritmos de grafos</summary>
+
+<ul>
+</ul>
 
 <br><br>
 
