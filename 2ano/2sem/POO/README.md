@@ -14,6 +14,7 @@ Também tenho aqui uma série de páginas criadas por alunos de MIEI (ou agora �
 
 * [**[A] Java em POO**](POO-Java/README.md)
 
+Outros recursos:
 * [Sintaxe básica de programação em Java](http://rigaux.org/language-study/syntax-across-languages-per-language/Java.html)
 
 <br>
