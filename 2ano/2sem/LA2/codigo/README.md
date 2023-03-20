@@ -34,7 +34,7 @@
     <summary>Algoritmos de grafos</summary>
 
 <ul>
-<details><summary><a href="2ºT/area.html">Aloca</a></summary><a href="https://codeboard.io/projects/318576">Codeboard</a></details>
+<details><summary><a href="2ºT/area.html">Aloca</a> -- <a href="https://codeboard.io/projects/318576">Codeboard</a></summary></details>
 </ul>
 </details>
 
