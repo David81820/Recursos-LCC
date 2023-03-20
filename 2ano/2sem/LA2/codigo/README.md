@@ -10,20 +10,20 @@
     <summary>Introdução ao Python</summary>
 
 <ul>
-<details><summary><a href="1ºT/aloca.html">Aloca</a></summary>https://codeboard.io/projects/311283</details>
-<details><summary><a href="1ºT/apelidos.html">Apelidos</a></summary>https://codeboard.io/projects/311284</details>
-<details><summary><a href="1ºT/cruzamentos.html">Cruzamentos</a></summary>https://codeboard.io/projects/311285</details>
+<details><summary><a href="1ºT/aloca.html">Aloca</a> -- <a href="https://codeboard.io/projects/311283">Codeboard</a></summary></details>
+<details><summary><a href="1ºT/apelidos.html">Apelidos</a> -- <a href="https://codeboard.io/projects/311284">Codeboard</a></summary></details>
+<details><summary><a href="1ºT/cruzamentos.html">Cruzamentos</a> -- <a href="https://codeboard.io/projects/311285">Codeboard</a></summary></details>
 <details><summary><a href="1ºT/diferentes.html">Diferentes</a></summary></details>
 <details><summary><a href="1ºT/fatoriza.html">Fatoriza</a></summary></details>
-<details><summary><a href="1ºT/formata.html">Formata</a></summary>https://codeboard.io/projects/312631</details>
+<details><summary><a href="1ºT/formata.html">Formata</a> -- <a href="https://codeboard.io/projects/312631">Codeboard</a></summary></details>
 <details><summary><a href="1ºT/formula1.html">Formula 1</a></summary></details>
-<details><summary><a href="1ºT/frequenica.html">Frequência</a></summary>https://codeboard.io/projects/311413</details>
-<details><summary><a href="1ºT/futebol.html">Futebol</a></summary>https://codeboard.io/projects/311417</details>
-<details><summary><a href="1ºT/hacker.html">Hacker</a></summary>https://codeboard.io/projects/311431</details>
-<details><summary><a href="1ºT/horaio.html">Horário</a></summary>https://codeboard.io/projects/312630</details>
-<details><summary><a href="1ºT/isbn.html">ISBN</a></summary>https://codeboard.io/projects/311435</details>
+<details><summary><a href="1ºT/frequenica.html">Frequência</a> -- <a href="https://codeboard.io/projects/311413">Codeboard</a></summary></details>
+<details><summary><a href="1ºT/futebol.html">Futebol</a> -- <a href="https://codeboard.io/projects/311417">Codeboard</a></summary></details>
+<details><summary><a href="1ºT/hacker.html">Hacker</a> -- <a href="https://codeboard.io/projects/311431">Codeboard</a></summary></details>
+<details><summary><a href="1ºT/horaio.html">Horário</a> -- <a href="https://codeboard.io/projects/312630">Codeboard</a></summary></details>
+<details><summary><a href="1ºT/isbn.html">ISBN</a> -- <a href="https://codeboard.io/projects/311435">Codeboard</a></summary></details>
 <details><summary><a href="1ºT/repete.html">Repete</a></summary></details>
-<details><summary><a href="1ºT/robot.html">Robot</a></summary>https://codeboard.io/projects/311441</details>
+<details><summary><a href="1ºT/robot.html">Robot</a> -- <a href="https://codeboard.io/projects/311441">Codeboard</a></summary></details>
 <details><summary><a href="1ºT/area.html">Area</a></summary></details>
 </ul>
 </details>
@@ -35,6 +35,7 @@
 
 <ul>
 <details><summary><a href="2ºT/area.html">Aloca</a> -- <a href="https://codeboard.io/projects/318576">Codeboard</a></summary></details>
+<details><summary><a href="2ºT/cavalo.html">Aloca</a> -- <a href="https://codeboard.io/projects/318579">Codeboard</a></summary></details>
 </ul>
 </details>
 
