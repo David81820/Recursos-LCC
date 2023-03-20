@@ -79,12 +79,12 @@ def bfs(adj,o):
                 vis.add(d)
                 custo += 1
                 queue.append(d)
-    return custo
+    return custo+1
 
 def area(p,mapa):
     adj = build(mapa)
-    custo = bfs(adj, p)
-    return (custo, custo+1) [mapa[p[1]][p[0]] == '.' ]
+    res = bfs(adj, p)
+    return res
 
 ```
 
