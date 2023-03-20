@@ -37,6 +37,7 @@
 <details><summary><a href="2ºT/area.html">Aloca</a> -- <a href="https://codeboard.io/projects/318576">Codeboard</a></summary></details>
 <details><summary><a href="2ºT/cavalo.html">Cavalo</a> -- <a href="https://codeboard.io/projects/318579">Codeboard</a></summary></details>
 <details><summary><a href="2ºT/cidade.html">Cidade</a> -- <a href="https://codeboard.io/projects/318582">Codeboard</a></summary></details>
+<details><summary><a href="2ºT/continente.html">Continente</a> -- <a href="https://codeboard.io/projects/318584">Codeboard</a></summary></details>
 </ul>
 </details>
 
