@@ -39,6 +39,7 @@
 <details><summary><a href="2ºT/cidade.html">Cidade</a> -- <a href="https://codeboard.io/projects/318582">Codeboard</a></summary></details>
 <details><summary><a href="2ºT/continente.html">Continente</a> -- <a href="https://codeboard.io/projects/318584">Codeboard</a></summary></details>
 <details><summary><a href="2ºT/erdos.html">Erdos</a> -- <a href="https://codeboard.io/projects/318585">Codeboard</a></summary></details>
+<details><summary><a href="2ºT/labirinto.html">Labirinto</a> -- <a href="https://codeboard.io/projects/318586">Codeboard</a></summary></details>
 </ul>
 </details>
 
