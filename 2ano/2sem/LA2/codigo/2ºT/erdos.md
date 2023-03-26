@@ -44,6 +44,6 @@ def erdos(artigos,n):
     adj = build(artigos)
     g = bfs(adj,"Paul Erdos")
     res = [x for x,y in sorted( g.items(), key=lambda x:(x[1],x[0]) ) if y<=n]
-    return g.items()
+    return res
 
 ```
