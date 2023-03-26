@@ -17,10 +17,10 @@
 <details><summary><a href="1ºT/fatoriza.html">Fatoriza</a></summary></details>
 <details><summary><a href="1ºT/formata.html">Formata</a> -- <a href="https://codeboard.io/projects/312631">Codeboard</a></summary></details>
 <details><summary><a href="1ºT/formula1.html">Formula 1</a></summary></details>
-<details><summary><a href="1ºT/frequenica.html">Frequência</a> -- <a href="https://codeboard.io/projects/311413">Codeboard</a></summary></details>
+<details><summary><a href="1ºT/frequencia.html">Frequência</a> -- <a href="https://codeboard.io/projects/311413">Codeboard</a></summary></details>
 <details><summary><a href="1ºT/futebol.html">Futebol</a> -- <a href="https://codeboard.io/projects/311417">Codeboard</a></summary></details>
 <details><summary><a href="1ºT/hacker.html">Hacker</a> -- <a href="https://codeboard.io/projects/311431">Codeboard</a></summary></details>
-<details><summary><a href="1ºT/horaio.html">Horário</a> -- <a href="https://codeboard.io/projects/312630">Codeboard</a></summary></details>
+<details><summary><a href="1ºT/horario.html">Horário</a> -- <a href="https://codeboard.io/projects/312630">Codeboard</a></summary></details>
 <details><summary><a href="1ºT/isbn.html">ISBN</a> -- <a href="https://codeboard.io/projects/311435">Codeboard</a></summary></details>
 <details><summary><a href="1ºT/repete.html">Repete</a></summary></details>
 <details><summary><a href="1ºT/robot.html">Robot</a> -- <a href="https://codeboard.io/projects/311441">Codeboard</a></summary></details>
@@ -38,6 +38,7 @@
 <details><summary><a href="2ºT/cavalo.html">Cavalo</a> -- <a href="https://codeboard.io/projects/318579">Codeboard</a></summary></details>
 <details><summary><a href="2ºT/cidade.html">Cidade</a> -- <a href="https://codeboard.io/projects/318582">Codeboard</a></summary></details>
 <details><summary><a href="2ºT/continente.html">Continente</a> -- <a href="https://codeboard.io/projects/318584">Codeboard</a></summary></details>
+<details><summary><a href="2ºT/erdos.html">Continente</a> -- <a href="https://codeboard.io/projects/318585">Codeboard</a></summary></details>
 </ul>
 </details>
 
