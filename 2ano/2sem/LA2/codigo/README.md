@@ -42,8 +42,7 @@
 <details><summary><a href="2ºT/labirinto.html">Labirinto</a> -- <a href="https://codeboard.io/projects/318586">Codeboard</a></summary></details>
 <details><summary><a href="2ºT/travessia.html">Travessia (60%)</a> -- <a href="https://codeboard.io/projects/318588">Codeboard</a></summary></details>
 <details><summary><a href="2ºT/viagem.html">Viagem</a> -- <a href="https://codeboard.io/projects/318589">Codeboard</a></summary></details>
-<details><summary><a href="2ºT/centros.html">Centros</a></summary></details>
-<details><summary><a href="2ºT/distancia.html">Distância</a></summary></details>
+
 </ul>
 </details>
 
