@@ -40,6 +40,7 @@
 <details><summary><a href="2ºT/continente.html">Continente</a> -- <a href="https://codeboard.io/projects/318584">Codeboard</a></summary></details>
 <details><summary><a href="2ºT/erdos.html">Erdos (80%)</a> -- <a href="https://codeboard.io/projects/318585">Codeboard</a></summary></details>
 <details><summary><a href="2ºT/labirinto.html">Labirinto</a> -- <a href="https://codeboard.io/projects/318586">Codeboard</a></summary></details>
+<details><summary><a href="2ºT/viagem.html">Viagem</a> -- <a href="https://codeboard.io/projects/318589">Codeboard</a></summary></details>
 </ul>
 </details>
 
