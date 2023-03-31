@@ -4,11 +4,10 @@
   <summary>ExerciciosI</summary>
 
 <pre><code lang="java">package ex1;
-import static java.lang.Math.abs;
-import static java.lang.Math.sqrt;
+import java.util.*;
+import java.time.*;
+import static java.lang.Math.*;
 
-import java.util.Scanner;
-import java.time.LocalDateTime;
 
 public class exI {
     public static void main(String[] args) {
