@@ -12,6 +12,11 @@ valor. A lista de resultado deve ser ordenada pelo número de Erdos, e, para
 autores com o mesmo número, lexicograficamente.
 '''
 
+
+########################
+    Resolução 80%
+########################
+
 def build(artigos):
     adj = {}
     for autores in artigos.values():
@@ -45,6 +50,37 @@ def erdos(artigos,n):
     g = bfs(adj,"Paul Erdos")
     res = [x for x,y in sorted( g.items(), key=lambda x:(x[1],x[0]) ) if y<=n]
     return res
+
+
+########################
+    Resolução 100%
+########################
+
+def erdos(artigos, n):
+    coautores = {}
+    for artigo, autores in artigos.items():
+        for autor in autores:
+            if autor not in coautores:
+                coautores[autor] = set()
+            coautores[autor].add(artigo)
+    
+    queue = ["Paul Erdos"]
+    visited = set(queue)
+    dist = {"Paul Erdos": 0}
+    while queue:
+        atual = queue.pop(0)
+        if dist[atual] >= n:
+            break
+        for artigo in coautores.get(atual, set()):
+            for autor in artigos[artigo]:
+                if autor not in visited:
+                    dist[autor] = dist[atual] + 1
+                    visited.add(autor)
+                    queue.append(autor)
+    
+    dist = sorted(dist.items(), key=lambda x: (x[1], x[0]))
+    dist = [x[0] for x in dist]
+    return dist
 
 ```
 
