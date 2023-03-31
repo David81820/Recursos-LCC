@@ -112,38 +112,26 @@ public class exI {
     }
 
     // Ex 7
-    private static void idade() { // Tenho a certeza absoluta que ha uma maneira melhor de fazer isto
+    private static void idade() {
         Scanner input = new Scanner(System.in);
-        System.out.print("Dia: ");
-        int dia = input.nextInt();
-        System.out.print("Mes: ");
-        int mes = input.nextInt();
-        System.out.print("Ano: ");
-        int ano = input.nextInt();
-
-        int day = LocalDateTime.now().getDayOfMonth();
-        int month = LocalDateTime.now().getMonthValue();
-        int year = LocalDateTime.now().getYear();
-        int hora = LocalDateTime.now().getHour();
-        int min = LocalDateTime.now().getMinute();
-
-        int difAno;
-        difAno = year - ano;
-
-        int horas;
-        horas = (difAno) * 24 * 365 + (year - ano)/4;
-        for (int i = mes; i < month; i++) {
-            horas += 30*24;
-            if (i == 1 || i == 3 || i == 5 || i == 7 || i == 8 || i == 10)
-                horas += 24;
-            else if (i == 2)
-                horas -= 2*24;
-        }
-        for (int i = dia; i <= day; i++) {
-            horas += 24;
-        }
-        System.out.println("Diferença em horas: " + horas);
-        System.out.println("Altura do calculo: " + day + "/" + month + "/" + year + ". Hora: " + hora + ":" + min);
+        
+        System.out.println("\n\nIntroduz uma data de nascimento.\nComeçando pelo ano: ");
+        String ano = input.next();
+        int y = Integer.parseInt( ano );
+        System.out.println("\nAgora o mês, em formato numérico: ");
+        String mes = input.next();
+        int m = Integer.parseInt( mes );
+        System.out.println("\nFinalmente o dia do mês: ");
+        String dia = input.next();
+        int d = Integer.parseInt( dia );
+        
+        LocalDateTime ani = LocalDateTime.of( y , m , d , 0, 0 ,0 );
+        
+        LocalDateTime now = LocalDateTime.now();
+        
+        long numberOfHours = Duration.between(ani, now).toHours();
+        
+        System.out.println("\nNúmero de horas passadas entre a data de nascimento e hoje : " +numberOfHours);
     }
 
     // Auxiliares
