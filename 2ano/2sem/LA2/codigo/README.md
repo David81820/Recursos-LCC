@@ -44,7 +44,7 @@
 <details><summary><a href="2ºT/viagem.html">Viagem</a> -- <a href="https://codeboard.io/projects/318589">Codeboard</a></summary></details>
 <details><summary><a href="2ºT/centros.html">Centros</a></summary></details>
 <details><summary><a href="2ºT/distancia.html">Distância</a></summary></details>
-<details><summary><a href="2ºT/viagemT.html">Viagem Torneio 2022/2023 (??% - resposta incompleta)</a></summary></details>
+<details><summary><a href="2ºT/viagemT.html">[I] Viagem Torneio 2022/2023 (não sei a percentagem final, contudo ambos testes estão corretos)</a> -- <a href="https://codeboard.io/projects/382825">Codeboard</a></summary></details>
 </ul>
 </details>
 
