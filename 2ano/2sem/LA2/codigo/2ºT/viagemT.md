@@ -13,18 +13,6 @@ máxima deve ser visitado primeiro o que tiver o código mais pequeno
 em ordem lexicográfica.
 '''
 
-# Ora o 1º problema deste exercício deve-se ao facto de que os elementos do array 'voos' não estão devidamente separados para usar-mos diretamente a função 'build'.
-# Esta função divide cada elemento num "triplo" com o formato (origem, distância, destino).
-def div(voos):
-    res = []
-    for v in range(0,len(voos)):
-        o = voos[v][:3]             # tiramos os primeiros 3 charateres dum elemento
-        d = voos[v][-3:]            # tiramos os últimos 3 charateres dum elemento
-        m = voos[v][3:-3]           # tiramos os charateres do meio
-        res.append((o,int(m),d))    # int(m) converte de char para int
-    return res
-
-
 def build(voos):
     adj = {}
     for o,m,d in voos:
@@ -56,11 +44,25 @@ def fw(adj):
     return dist
 
 
+# Ora o 1º problema deste exercício deve-se ao facto de que os elementos do array 'voos' não estão devidamente separados para usar-mos diretamente a função 'build'.
+# Esta função divide cada elemento num "triplo" com o formato (origem, distância, destino).
+def div(voos):
+    res = []
+    for v in range(0,len(voos)):
+        o = voos[v][:3]             # tiramos os primeiros 3 charateres dum elemento
+        d = voos[v][-3:]            # tiramos os últimos 3 charateres dum elemento
+        m = voos[v][3:-3]           # tiramos os charateres do meio
+        res.append((o,int(m),d))    # int(m) converte de char para int
+    return res
+
+
 # Agora está aqui a verdadeira dor de cabeça...
 # O exercício pede para devolver os voos mais distantes entre dois aeroportos, contudo não podemos repetir aeroportos.
 # A dificuldade está não na lógica, mas na sintaxe. 
 def cal(d,o):         # d = grafo / o = aeroporto de partida
-    res = [o]                           # começa-mos por anexar o voo inicial
+    res = [o]            # começa-mos por anexar o voo inicial
+    if len(d.keys())==1:    # caso apenas haja 1 voo, devolvemos logo
+        return res
     for n in range (1,len(d.keys())):       # só saimos daqui quando tivermos todos aeroportos em 'res', por isso usamos .keys()
         elem = d[res[n-1]]              # dá as distâncias ao aeroporto mais recentemente inserido em 'res'
         m = []
