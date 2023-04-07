@@ -59,7 +59,7 @@ def fw(adj):
 # Agora está aqui a verdadeira dor de cabeça...
 # O exercício pede para devolver os voos mais distantes entre dois aeroportos, contudo não podemos repetir aeroportos.
 # A dificuldade está não na lógica, mas na sintaxe. 
-def cal(d,o,v):         # d = grafo / o = aeroporto de partida / v = lista de voos
+def cal(d,o):         # d = grafo / o = aeroporto de partida
     res = [o]                           # começa-mos por anexar o voo inicial
     for n in range (1,len(d.keys())):       # só saimos daqui quando tivermos todos aeroportos em 'res', por isso usamos .keys()
         elem = d[res[n-1]]              # dá as distâncias ao aeroporto mais recentemente inserido em 'res'
@@ -82,7 +82,7 @@ def viagem(inicio,voos):
     new = div(voos)     # formata o array 'voos'
     adj = build(new)    # constroí o grafo pesado
     dist = fw(adj)              # usamos o método Floyd-Warshall
-    res = cal(dist,inicio,voos)     # calcula os voos mais distantes
+    res = cal(dist,inicio)     # calcula os voos mais distantes
     return res
 
 
