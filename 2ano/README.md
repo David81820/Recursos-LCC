@@ -10,7 +10,7 @@ O segundo ano é geralmente considerado o mais "difícil".
 <br><br><br>
 ## 2º Semestre
 * [**Álgebra Universal e Categorias**](2sem/AUC) - 5 ECTS
-* **Autómatos e Linguagens Formais** - 5 ECTS
+* [**Autómatos e Linguagens Formais**](2sem/ALF) - 5 ECTS
 * [**Cálculo de Programas**](2sem/CP) - 5 ECTS
 * [**Laboratório de Algoritmia II**](2sem/LA2) - 5 ECTS
 * [**Programação Orientada aos Objetos**](2sem/POO) - 5 ECTS
