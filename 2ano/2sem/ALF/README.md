@@ -12,12 +12,12 @@ Lista dos vários detalhes técnicos da cadeira que podem ser encontrados na aba
 
 <br>
 
-## [Fichas de Exercícios](fichas/README.md)
+## [Fichas de Exercícios](fichas.md)
 
 
 <br>
 
-## [Testes e Exames](testes/README.md)
+## [Testes e Exames](testes.md)
 
 
 <br><br>

@@ -48,6 +48,16 @@
 </ul>
 </details>
 
+<br>
+
+<details>
+    <summary>Programação dinâmica</summary>
+
+<ul>
+<details><summary><a href="3ºT/crescente.html">Crescente</a> -- <a href="https://codeboard.io/projects/323208">Codeboard</a></summary></details>
+</ul>
+</details>
+
 <br><br>
 
 [![retroceder](https://raw.githubusercontent.com/David81820/Recursos-LCC/main/Rewind.png)](https://david81820.github.io/Recursos-LCC/2ano/2sem/LA2)
