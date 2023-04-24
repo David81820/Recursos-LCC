@@ -14,26 +14,24 @@ função a todos os sufixos da sequência de entrada.
 #  Resolução 1 = 90%
 #############################################
 
-def aux(x,n):
-    res = 1
-    last = x
-    for i in range(len(n)):
-        new = n[i]
-        if last <= new:
-            res += 1
-            last = new
-    return res
-
+def aux(i,l):
+    n = 1
+    last = i
+    for x in l:
+        if last<=x:
+            n += 1
+            last = x
+    return n
 
 def crescente(lista):
-    if len(lista) == 0:
+    if len(lista)==0:
         return 0
-    elif len(lista) == 1:
+    elif len(lista)==1:
         return 1
-    cump = []
+    res = []
     for i in range(1, len(lista)):
-        cump.append(aux(lista[0],lista[i:]))
-    return max(cump)
+        res.append(aux(lista[0],lista[i:]))
+    return max(res)
 
 
 #############################################
@@ -41,14 +39,15 @@ def crescente(lista):
 #############################################
 
 def crescente(lista):
-    if len(lista) == 0:
+    n = len(lista)
+    if n == 0:
         return 0
-    dic = {len(lista)-1:1}
-    i = len(lista)-2
+    dic = {n-1:1}
+    i = n-2
     while i>=0:
         dic[i] = 1
         mx = 0
-        for j in range(i+1, len(lista)):
+        for j in range(i+1, n):
             if (lista[i]<=lista[j] and dic[j]>mx):
                 mx = dic[j]
         dic[i] += mx
