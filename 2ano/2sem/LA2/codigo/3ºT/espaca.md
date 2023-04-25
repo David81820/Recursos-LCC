@@ -29,6 +29,24 @@ def espaca(frase,palavras):
         res = dic[len(frase)]
     return res
 
+
+#######################################
+#  Resolução 2 - 100%
+#######################################
+
+def espaca(frase,palavras):
+    dic = {0:[]}
+    mx = 0
+    for i in range(1, len(frase)+1):
+        for palavra in palavras:
+            n = len(palavra)
+            if i-n in dic and frase[i-n:].startswith(palavra):
+                dic[i] = dic[i-n].copy()
+                dic[i].append(palavra)
+                mx = i
+    return ' '.join(dic[mx])
+
+
 ```
 
 [![retroceder](https://raw.githubusercontent.com/David81820/Recursos-LCC/main/Rewind.png)](https://david81820.github.io/Recursos-LCC/2ano/2sem/LA2/codigo)

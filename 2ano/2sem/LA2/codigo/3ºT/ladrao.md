@@ -11,6 +11,9 @@ venda no mercado negro, e o seu peso. Deve devolver o máximo lucro que o ladrã
 poderá  obter para a capacidade de carga especificada.
 """
 
+#######################################
+#  Resolução 1 - 80%
+#######################################
 
 def sack(W, wt, val, n):
     if n == 0 or W == 0:
@@ -31,6 +34,32 @@ def ladrao(lim,obj):
         w.append(o[2])
     res = sack(lim, w, v, n)
     return res
+
+
+#######################################
+#  Resolução 2 - 100%
+#######################################
+
+def ladrao(capacidade,objectos):
+    dic = {}
+    dic[0] = 0
+    possiveis = {}
+    possiveis[0] = objectos.copy()
+    for i in range (1,capacidade+1):
+        r = 0
+        sobram = objectos.copy()
+        for obj in objectos:
+            if obj[2] <=i and obj in possiveis[i-obj[2]]:
+                a = dic[i-obj[2]] + obj[1]
+                if a > r:
+                    r = a
+                    sobram = possiveis[i-obj[2]].copy()
+                    sobram.remove(obj)
+        dic[i] = r
+        possiveis[i] = sobram
+            
+    
+    return max(dic.items(), key=lambda x: x[1])[1]
 
 ```
 

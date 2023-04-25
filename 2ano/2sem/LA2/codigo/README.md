@@ -55,6 +55,8 @@
 
 <ul>
 <details><summary><a href="3ºT/crescente.html">Crescente</a> -- <a href="https://codeboard.io/projects/323208">Codeboard</a></summary></details>
+<details><summary><a href="3ºT/espaca.html">Espaça</a> -- <a href="https://codeboard.io/projects/323210">Codeboard</a></summary></details>
+<details><summary><a href="3ºT/ladrao.html">Ladrão</a> -- <a href="https://codeboard.io/projects/323211">Codeboard</a></summary></details>
 </ul>
 </details>
 
