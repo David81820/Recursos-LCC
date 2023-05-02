@@ -19,15 +19,15 @@ O quão menos encapsulado ficava se `bar` fosse simplesmente `public`? É a mesm
 coisa!
 <br>Ha duas principais razões para encapsulamento:
 
-- Mudar a representação interna do objecto não devia ser uma breaking change que
+- Mudar a representação interna do objecto não devia ser uma 'breaking change' que
     implica mudar o codigo que o usa.
     - Se eu quiser mudar `Foo` para ter um `int` em vez de uma `String` vou ter
-    de mudar o `getter` e o `setter` que e uma breaking change.
+    de mudar o `getter` e o `setter` que é uma breaking change.
 - Impedir uso incorrecto do objecto.
     - Nem preciso de explicar esta, se podes diretamente alterar os campos do
         objecto nada te impede de o fazer mal.
 
-Efectivamente este código e equivalente a `public String bar`. Mas deu mais
+Efectivamente este código é equivalente a `public String bar`. Mas deu mais
 trabalho e não se conseguiu nada.
 
 Mas as solução e fazer tudo `public`? Não, é fazer coisas que fazem sentido e
@@ -69,13 +69,13 @@ Agora podias dizer qualquer coisa como: "Mas e se eu quiser que o ponto passe a 
 <br>E para isso relembro te que tens um construtor: `ponto = new Ponto(x, y);`.
 <br>Setters não servem para nada em 99% dos casos.
 
-Claro que há situações em que um `setter` faz sentido mas são muito raras e normalmente da para fazer uma API melhor.
-<br>Olhem para os métodos do `ArrayList` por exemplo? Quantos setters e que aquilo tem?
+Claro que há situações em que um `setter` faz sentido mas são muito raras e normalmente dá para fazer uma API melhor.
+<br>Olhem para os métodos do `ArrayList` por exemplo? Quantos setters é que aquilo tem?
 
 
 ### Artigo
 
-- [Getter and setters are evil][https://www.yegor256.com/2014/09/16/getters-and-setters-are-evil.html]
+- [Getter and setters are evil](https://www.yegor256.com/2014/09/16/getters-and-setters-are-evil.html)
 
 
 <br>
