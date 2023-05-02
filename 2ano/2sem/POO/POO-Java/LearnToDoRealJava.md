@@ -15,7 +15,7 @@ class Foo {
     void setBar(String bar) { this.bar = bar; }
 }
 ```
-O quão menos encapsulado ficava se `bar` fosse simplesmente `public`? E a mesma
+O quão menos encapsulado ficava se `bar` fosse simplesmente `public`? É a mesma
 coisa!
 <br>Ha duas principais razões para encapsulamento:
 
