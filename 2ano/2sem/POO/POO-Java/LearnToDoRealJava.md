@@ -89,8 +89,8 @@ Herança é considerado um dos maiores erros de programação orientada a object
 <br>Eu podia falar aqui de todas as maneiras em que herança é má ideia, mas há gente mais inteligente que eu que já falou sobre isso.
 
 ### Artigos
-- [Why Extends is Evil][https://www.javaworld.com/article/2073649/why-extends-is-evil.html]
-- [Inheritance is a Procedural Technique for Code Reuse][https://www.yegor256.com/2016/09/13/inheritance-is-procedural.html]
+- [Why Extends is Evil](https://www.javaworld.com/article/2073649/why-extends-is-evil.html)
+- [Inheritance is a Procedural Technique for Code Reuse](https://www.yegor256.com/2016/09/13/inheritance-is-procedural.html)
 
 <br><br>
 
