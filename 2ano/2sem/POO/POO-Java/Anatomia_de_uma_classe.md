@@ -4,6 +4,7 @@ Notas:
  * Código entre [ ] é opcional. Ou seja, fica ao teu critério se é necessário.
  * As palavras 'MyClass', 'XClass', 'SuperClass' e 'InterfaceClass' são apenas exemplificativas.
 
+<br>
 
 ### Declaração
 
@@ -11,6 +12,8 @@ Nesta declaração indicamos o nome da nossa class, se estende uma classe e se, 
 ```java
 public class MyClass [extends SuperClass] [implements InterfaceClass, ...] {
 ```
+
+<br>
 
 ### Variáveis de instância
 Estas devem ser sempre `private` para garantir o encapsulamento do estado
@@ -22,8 +25,12 @@ interno do objeto.
     private ArrayList<String> nomes;
     private ArrayList<XClass> outrasCenas;
 ```
+
+<br>
+
 ### Construtores
 Os contrutores permitem instanciar novos objetos da classe. Devem inicializar todos as variáveis de instância.
+<br>
 
 #### Construtor vazio
 Este construtor inicializa as variáveis de instância com valores por defeito.
@@ -36,6 +43,7 @@ Este construtor inicializa as variáveis de instância com valores por defeito.
         this.outrasCenas = new ArrayList<>();
     }
 ```
+<br>
 
 #### Construtor parametrizado
 Este construtor recebe como parâmetro os valores que as variáveis de instância
@@ -60,6 +68,7 @@ As diferentes atribuições feitas neste construtor são explicadas através dos
         }
     }
 ```
+<br>
 
 #### Construtor de cópia
 Este construtor permite criar uma cópia exata de outra instância deste objeto.
@@ -76,9 +85,12 @@ Este construtor permite criar uma cópia exata de outra instância deste objeto.
     }
 ```
 
+<br>
+
 ### Getters
 Os getters permitem aceder às variáveis de instância de uma instância da nossa
  classe. Devem ser `public` apenas os que queremos que seja possível aceder.
+<br>
 
 #### Get de uma variável de tipo primitivo
 As variáveis são 'passed by value', ou seja, o seu valor é copiado. Logo, este get é simples.
@@ -89,6 +101,7 @@ As variáveis são 'passed by value', ou seja, o seu valor é copiado. Logo, est
         return this.num;
     }
 ```
+<br>
 
 #### Get de um objeto imutável
 Uma string é imutável, logo retornar um apontador para este objeto que pertence ao estado interno
@@ -98,6 +111,7 @@ no nosso objeto não tem problema.
         return this.nome;
     }
 ```
+<br>
 
 #### Get de um objeto mutável
 Um objeto mutável deve ser clonado para manter o encapsulamento. Se este objeto fosse alterado
@@ -109,6 +123,7 @@ fora da instância que o retornou, implicaria alterar o estado interno da mesma 
         return this.outraCena.clone();
     }
 ```
+<br>
 
 #### Get de uma lista de objetos imutáveis
 Tem que se criar uma lista nova. Apesar de cada objeto individual da lista ser imutável, a lista
@@ -129,6 +144,7 @@ Ou
         return this.nomes.clone();
     }
 ```
+<br>
 
 #### Get de uma lista de objetos mutáveis
 Como no get anterior, tem que ser criada uma nova lista. Mas, os elementos ao serem adicionados à mesma,
@@ -142,6 +158,8 @@ têm que ser clonados.
         return newOCenas;
     }
 ```
+
+<br>
 
 ### Setters
 Os setters seguem o mesmo princípio dos getters. Objetos imutáveis e tipos primitivos
@@ -179,10 +197,12 @@ não têm que ser clonados, tudo o resto sim.
 ```
 *Nota: Setters de uma lista nem sempre fazem sentido. Dependendo do contexto, pode fazer mais
 sentido implementar métodos que adicionem ou removam elementos às listas.*
+<br>
 
 ### Métodos "obrigatórios" de definir.
 Estes métodos devem ser definidos para todas as classes que sejam criadas. Salvo exceções em que
 sejam inúteis.
+<br>
 
 #### equals
 O equals é o mais importante, e raramente é inútil.
@@ -209,6 +229,7 @@ Análise do código:
  4. Verifica-se se todos os elementos da classe são iguais.
     * Para tipos primitivos podemos comparar normalmente com `==`.
     * Para classes chamamos o `equals` das mesmas.
+<br>
 
 #### toString
 O toString é importante para efeitos de debug. Pode também ser adaptado para aplicações de terminal.
@@ -223,6 +244,7 @@ O toString é importante para efeitos de debug. Pode também ser adaptado para a
         return sb.toString();
     }
 ```
+<br>
 
 #### Clone
 O clone deve ser implementado porque o Nestor diz que sim. Objetos imutáveis não devem

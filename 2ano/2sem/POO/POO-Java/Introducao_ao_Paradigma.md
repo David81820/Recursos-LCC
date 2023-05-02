@@ -39,7 +39,7 @@ int main() {
 Este padrão de funções que recebem a estrutura para fazer alterações sobre o
 mesmo é muito comum. Este tipos de funções são o que chamamos de comportamento
 e no paradigma orientado a objetos são definidas juntas com a estrutura em si.
-Em Java usamos classes para criar esta relação e estas funções chamam-se **metodos**.
+Em Java usamos classes para criar esta relação e estas funções chamam-se **métodos**.
 
 Logo em Java definiríamos esta `Class` da seguinte forma.
 
@@ -78,8 +78,8 @@ temos sempre de ter em programação imperativa.
 ## Nota
 
 Em Java todos os objectos são pointers, (excepto os tipos primitivos, `int`,
-`long`, `float`, `double`, `byte`, etc), logo onde no código em `C`tem de se
-explicitamente passar um pointer para as funções, em Java isto e implícito,
+`long`, `float`, `double`, `byte`, etc), logo onde no código em `C` tem de se
+explicitamente passar um pointer para as funções, em Java isto é implícito,
 fazendo o `'.'` em Java equivalente ao `'->'` em `C`.
 
 <br><br>
