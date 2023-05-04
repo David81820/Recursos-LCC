@@ -33,7 +33,7 @@ Os contrutores permitem instanciar novos objetos da classe. Devem inicializar to
 <br>
 
 #### Construtor vazio
-Este construtor inicializa as variáveis de instância com valores por defeito.
+Este construtor inicializa as variáveis de instância com valores pré-definidos.
 ```java
     public MyClass(){
         this.num = 0;
@@ -197,6 +197,7 @@ não têm que ser clonados, tudo o resto sim.
 ```
 *Nota: Setters de uma lista nem sempre fazem sentido. Dependendo do contexto, pode fazer mais
 sentido implementar métodos que adicionem ou removam elementos às listas.*
+
 <br>
 
 ### Métodos "obrigatórios" de definir.
@@ -229,7 +230,7 @@ Análise do código:
  4. Verifica-se se todos os elementos da classe são iguais.
     * Para tipos primitivos podemos comparar normalmente com `==`.
     * Para classes chamamos o `equals` das mesmas.
-<br>
+<br><br>
 
 #### toString
 O toString é importante para efeitos de debug. Pode também ser adaptado para aplicações de terminal.
