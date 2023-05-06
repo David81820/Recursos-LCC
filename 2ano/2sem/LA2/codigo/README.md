@@ -1,8 +1,5 @@
-<br>**Observação importante, quanto ao código dos ficheiros irão encontrar uma secção entitulada de 'Testes'.**
-<br>Isso é o código que os professores usaram para verificar se o exercício resolvido estava correto.
-<br>O problema é que esse código continha apenas uma parte dos testes - ou seja, durante o torneio, quando os alunos clicavam no botão 'Test' do Codeboard, a maioria dos testes aplicados estavam "fora" do código acedível pelos alunos.
-<br>
-<br>*Por isso, tenham noção que mesmo se a vossa resolução estiver correta para os testes do código, não significa que estará correta para todos testes.*
+Para verificar a percentagem total de correção do código de um exercício, no _Codeboard_ cliclem nos botões:  Run > Test > Submit
+<br>Excepto quando indicado o contrário, a percentagem de correção dos exercícios é de 100%.
 
 <br>
 
@@ -40,11 +37,11 @@
 <details><summary><a href="2ºT/continente.html">Continente</a> -- <a href="https://codeboard.io/projects/318584">Codeboard</a></summary></details>
 <details><summary><a href="2ºT/erdos.html">Erdos</a> -- <a href="https://codeboard.io/projects/318585">Codeboard</a></summary></details>
 <details><summary><a href="2ºT/labirinto.html">Labirinto</a> -- <a href="https://codeboard.io/projects/318586">Codeboard</a></summary></details>
-<details><summary><a href="2ºT/travessia.html">Travessia (60%)</a> -- <a href="https://codeboard.io/projects/318588">Codeboard</a></summary></details>
+<details><summary><a href="2ºT/travessia.html">Travessia</a> -- <a href="https://codeboard.io/projects/318588">Codeboard</a></summary></details>
 <details><summary><a href="2ºT/viagem.html">Viagem</a> -- <a href="https://codeboard.io/projects/318589">Codeboard</a></summary></details>
 <details><summary><a href="2ºT/centros.html">Centros</a></summary></details>
 <details><summary><a href="2ºT/distancia.html">Distância</a></summary></details>
-<details><summary><a href="2ºT/viagemT.html">[I] Viagem Torneio 2022/2023 (30% / 40% - dependendo do "temperamento")</a> -- <a href="https://codeboard.io/projects/382825">Codeboard</a></summary></details>
+<details><summary><a href="2ºT/viagemT.html">[I] Viagem Torneio 2022/2023 (20% /30% / 40% - dependendo do "temperamento")</a> -- <a href="https://codeboard.io/projects/382825">Codeboard</a></summary></details>
 </ul>
 </details>
 

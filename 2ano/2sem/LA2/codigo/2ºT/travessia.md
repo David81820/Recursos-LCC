@@ -13,6 +13,10 @@ ponto para iniciar a travessia e o respectivo custo. No caso de haver dois ponto
 com igual custo, deve devolver a coordenada mais a Oeste.
 '''
 
+#############################################
+#  Resolução 1 = 60%
+#############################################
+
 def build(mapa):
     adj = {}
     for x in range(len(mapa[0])):
@@ -81,6 +85,71 @@ def travessia(mapa):
                 if temp < cheap[2] and caminho[0][1] == 0:
                     cheap = (i, k, temp)
     return (cheap[0], cheap[2])
+
+
+
+#############################################
+#  Resolução 2 = 100%
+#############################################
+
+def verifica(mapa, i, j):
+    return (0<=i<len(mapa[0]) and 0<=j<len(mapa))
+
+
+def dijkstra(adj,o):
+    dist = {}
+    dist[o] = 0
+    orla = {o}
+    while orla:
+        v = min(orla,key=lambda x: dist[x])
+        orla.remove(v)
+        for d in adj[v]:
+            if d not in dist:
+                orla.add(d)
+                dist[d] = float("inf")
+            if dist[v] + adj[v][d] < dist[d]:
+                dist[d] = dist[v] + adj[v][d]
+                
+    return dist
+
+
+def travessia(mapa):
+    grafo = {}
+    
+    for j in range(len(mapa)):
+        for i in range(len(mapa[0])):
+            if (i,j) not in grafo:
+                grafo[(i,j)] = {}
+            
+            #esquerda
+            if(verifica(mapa, i-1, j) == True and abs(int(mapa[j][i]) - int(mapa[j][i-1])) <= 2):
+                grafo[(i,j)][(i-1,j)] = 1 + abs(int(mapa[j][i]) - int(mapa[j][i-1]))
+            #direita
+            if(verifica(mapa, i+1, j) == True and abs(int(mapa[j][i]) - int(mapa[j][i+1])) <= 2):
+                grafo[(i,j)][(i+1,j)] = 1 + abs(int(mapa[j][i]) - int(mapa[j][i+1]))
+            #cima
+            if(verifica(mapa, i, j-1) == True and abs(int(mapa[j][i]) - int(mapa[j-1][i])) <= 2):
+                grafo[(i,j)][(i,j-1)] = 1 + abs(int(mapa[j][i]) - int(mapa[j-1][i]))
+            #baixo
+            if(verifica(mapa, i, j+1) == True and abs(int(mapa[j][i]) - int(mapa[j+1][i])) <= 2):
+                grafo[(i,j)][(i,j+1)] = 1 + abs(int(mapa[j][i]) - int(mapa[j+1][i]))
+            
+    print(grafo)
+    
+    r = (0,0)
+    dists = []
+   
+    for k in range(len(mapa[0])):
+        custos = dijkstra(grafo, (k,0))
+        for i in range(len(mapa[0])):
+            if (i, len(mapa)-1) in custos:
+                dists.append( (k, custos[(i,len(mapa)-1)])  )
+        
+    
+    dists.sort(key = lambda x: (x[1],x[0]))
+    print(dists)
+
+    return dists[0]
 
 ```
 

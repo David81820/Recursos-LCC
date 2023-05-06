@@ -19,11 +19,7 @@ PDF's fornecidos pelo corpo docente - cada um relacionado a um Treino/Torneio - 
 ## [Treinos e Torneios](codigo/README.md)
 "Treinos" são os exercícios de preparação, e "Torneios" são os exercícios de avaliação.
 <br>Embora Torneios sejam diferentes todos anos, os Treinos raramente são alterados e quando são é para incluir um exercício de um Torneio passado.
-
-<br>
-
-## [Testes e Exames](testes/README.md)
-Os torneios de avaliação dos anos lectivos 2020/2021 e 2021/2022.
+<br>Aqui encontram-se todos exercícios e resoluções (embora algumas incompletas) de todos Treinos e Torneios que consegui encontrar.
 
 <br><br>
 
