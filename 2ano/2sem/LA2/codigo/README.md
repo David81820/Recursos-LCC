@@ -55,6 +55,7 @@ Para verificar a percentagem total de correção do código de um exercício, no
 <details><summary><a href="3ºT/espaca.html">Espaça</a> -- <a href="https://codeboard.io/projects/323210">Codeboard</a></summary></details>
 <details><summary><a href="3ºT/ladrao.html">Ladrão</a> -- <a href="https://codeboard.io/projects/323211">Codeboard</a></summary></details>
 <details><summary><a href="3ºT/robot.html">Robot</a> -- <a href="https://codeboard.io/projects/323212">Codeboard</a></summary></details>
+<details><summary><a href="3ºT/saque.html">Saque</a> -- <a href="https://codeboard.io/projects/323213">Codeboard</a></summary></details>
 <details><summary><a href="3ºT/soma.html">Soma</a> -- <a href="https://codeboard.io/projects/323214">Codeboard</a></summary></details>
 </ul>
 </details>
