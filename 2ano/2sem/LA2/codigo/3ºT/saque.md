@@ -16,6 +16,7 @@ atravessa o campo deslocando-se apenas para a direita e para baixo. Assuma que
 é sempre possível atravessar o campo dessa forma.
 """
 
+
 def saque(mapa):
     c = len(mapa)
     l = len(mapa[0])
