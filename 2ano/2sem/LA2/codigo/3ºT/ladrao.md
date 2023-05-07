@@ -11,6 +11,7 @@ venda no mercado negro, e o seu peso. Deve devolver o máximo lucro que o ladrã
 poderá  obter para a capacidade de carga especificada.
 """
 
+
 #######################################
 #  Resolução 1 - 80%
 #######################################
@@ -34,6 +35,7 @@ def ladrao(lim,obj):
         w.append(o[2])
     res = sack(lim, w, v, n)
     return res
+
 
 
 #######################################
