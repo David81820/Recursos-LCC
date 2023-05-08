@@ -41,7 +41,7 @@ Para verificar a percentagem total de correção do código de um exercício, no
 <details><summary><a href="2ºT/viagem.html">Viagem</a> -- <a href="https://codeboard.io/projects/318589">Codeboard</a></summary></details>
 <details><summary><a href="2ºT/centros.html">Centros</a></summary></details>
 <details><summary><a href="2ºT/distancia.html">Distância</a></summary></details>
-<details><summary><a href="2ºT/viagemT.html">[I] Viagem Torneio 2022/2023 (20% /30% / 40% - dependendo do "temperamento")</a> -- <a href="https://codeboard.io/projects/382825">Codeboard</a></summary></details>
+<details><summary><a href="2ºT/viagemT.html">[I] Viagem > Torneio 2022/2023 (20% /30% / 40% - dependendo do "temperamento")</a> -- <a href="https://codeboard.io/projects/382825">Codeboard</a></summary></details>
 </ul>
 </details>
 
@@ -58,6 +58,9 @@ Para verificar a percentagem total de correção do código de um exercício, no
 <details><summary><a href="3ºT/saque.html">Saque</a> -- <a href="https://codeboard.io/projects/323213">Codeboard</a></summary></details>
 <details><summary><a href="3ºT/soma.html">Soma</a> -- <a href="https://codeboard.io/projects/323214">Codeboard</a></summary></details>
 <details><summary><a href="3ºT/validas.html">Válidas</a> -- <a href="https://codeboard.io/projects/323215">Codeboard</a></summary></details>
+<details><summary><a href="3ºT/vendedor.html">Vendedor</a> -- <a href="https://codeboard.io/projects/323216">Codeboard</a></summary></details>
+<details><summary><a href="3ºT/binario.html">Binário > Torneio 2021/2022 (não tenho link do Codeboard infelizmente) </a></summary></details>
+<details><summary><a href="3ºT/filtra.html">Filtra > Torneio 2021/2022 (não tenho link do Codeboard infelizmente) </a></summary></details>
 </ul>
 </details>
 
