@@ -7,12 +7,12 @@ Lista dos vários detalhes técnicos da cadeira que podem ser encontrados na aba
 
 <br>
 
-## [Material Teórico](slides)
+## [Material Teórico](slides/README.md)
 
 
 <br>
 
-## [Fichas de Exercícios](fichas.md)
+## [Fichas de Exercícios](fichas/README.md)
 
 
 <br>
