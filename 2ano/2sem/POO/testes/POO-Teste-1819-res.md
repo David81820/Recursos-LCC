@@ -25,27 +25,14 @@ public class PolyAsList{
 
 
 
-    public  void   addMonomio(int  grau , double  coef){ 
+    public void addMonomio(int grau, double coef){
         int graus = this.polinomio.size();
-        
-        if (grau == graus+1){ grau = 4 
+        if(graus<=grau)
+            for(int i=graus, i<grau, i++)
+                this.polinomio.add(0.0);
             this.polinomio.add(coef);
-        }
-        
-        if (grau>graus+1){    
-            this.polinomio.add(0.0);
-            addMonomio(grau+1,coef);
-        }
-        
-        if (grau<=graus){
-            for (int n=0;n<graus;n++){
-                if (n==grau){
-                    double ad = this.polinomio.get(n); 
-                    double teste = ad + coef; 
-                    this.polinomio.set(n,teste); 
-                }
-            }
-        }
+        else
+            this.polinomio.set(grau,coef);
     }
 
 

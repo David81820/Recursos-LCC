@@ -18,7 +18,6 @@
 * [**2018/2019**](POO-Teste-1819.pdf)
 <br> [[A] Resolução](POO-Teste-1819-res.md)
 
-
 * [**2020/2021 - 2ª Parte**](POO-Teste-2021-pt2.pdf)
 * [**2021/2022 - 2ª Parte**](POO-Teste-2122-ParteII.pdf)
 
