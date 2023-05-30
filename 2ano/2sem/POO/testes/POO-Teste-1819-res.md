@@ -19,10 +19,6 @@ public class PolyAsList{
         this.polinomio = pol.stream().collect(Collectors.toList());
     }
 
-    public PolyAsList(PolyAsList pList){
-        this(pList.polinomio);
-    }
-
 
 
     public void addMonomio(int grau, double coef){
@@ -38,12 +34,9 @@ public class PolyAsList{
 
     public  double  calcula(double x){
         double res = 0.0;
-
         for(int n=0; n<this.polinomio.size();n++){
-
             res += this.polinomio.get(n) * (Math.pow(x,n));  
         }
-
         return res; 
     }
 
@@ -55,14 +48,12 @@ public class PolyAsList{
 
     public  PolyAsList  derivada (){
         List<Double> ret = new ArrayList<>(); 
-
         for (int n=0;n<this.polinomio.size();n++){
             if(n==0){
                 this.polinomio.remove(n);
             }
             ret.add((this.polinomio.get(n)*n));
         }
-
         return new PolyAsList(ret);
     }
 
@@ -75,7 +66,7 @@ public class PolyAsList{
             if (i>0)
                 sb.append(" + ");
         }
-        return  sb.toString();
+        return sb.toString();
     }
                                                                      
 }
