@@ -1,4 +1,4 @@
-[**? Teste/Exame ? - 20??/20?? - 2ª Parte**](POO-idfk-2021-pt2.pdf)
+[**Teste ou Exame - 20??/20?? - 2ª Parte**](POO-idfk-2021-pt2.pdf)
 <br> [[A] Resolução](idfk-res.md)
 
 <br>
@@ -18,9 +18,9 @@
 * [**2018/2019**](POO-Teste-1819.pdf)
 <br> [[A] Resolução](POO-Teste-1819-res.md)
 
-<br>
 
 * [**2020/2021 - 2ª Parte**](POO-Teste-2021-pt2.pdf)
+* [**2021/2022 - 2ª Parte**](POO-Teste-2122-ParteII.pdf)
 
 <br>
 
@@ -33,6 +33,8 @@
 * [**2017/2018**](POO-Exame-1718.pdf)
 * [**2018/2019**](POO-Exame-1819.pdf)
 * [**2020/2021**](POO-Exame-2021.pdf)
+
+* [**2021/2022 - 2ª Parte**](POO-Exame-2122-ParteII.pdf)
 
 <br><br>
 

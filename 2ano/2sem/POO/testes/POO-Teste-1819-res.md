@@ -3,15 +3,30 @@
 // ___ 1 ‾‾‾
 //------------------------------------------------------------------------------------------
 
+import java.util.List;
+import java.util.ArrayList;
+
+
 public class PolyAsList{
     List<Double> polinomio; 
+
+
+    public PolyAsList(){
+        this.polinomio = new ArrayList<>();
+    }
 
     public PolyAsList(List<Double> pol){
         this.polinomio = pol.stream().collect(Collectors.toList());
     }
 
+    public PolyAsList(PolyAsList pList){
+        this(pList.polinomio);
+    }
+
+
+
     public  void   addMonomio(int  grau , double  coef){ 
-        int graus = this.polinomio.size(); [1,2,3] = 3
+        int graus = this.polinomio.size();
         
         if (grau == graus+1){ grau = 4 
             this.polinomio.add(coef);
@@ -33,6 +48,7 @@ public class PolyAsList{
         }
     }
 
+
     public  double  calcula(double x){
         double res = 0.0;
 
@@ -44,9 +60,11 @@ public class PolyAsList{
         return res; 
     }
 
+
     public  int  grau (){
         return this.polinomio.size()-1;
     }
+
 
     public  PolyAsList  derivada (){
         List<Double> ret = new ArrayList<>(); 
@@ -60,6 +78,18 @@ public class PolyAsList{
 
         return new PolyAsList(ret);
     }
+
+
+
+    public String toString(){
+        StringBuilder sb = new StringBuilder();
+        for(int i = polinomio.size()-1; i>=0; i--){
+            sb.append(polinomio.get(i)).append("x^").append(i);
+            if (i>0)
+                sb.append(" + ");
+        }
+        return  sb.toString();
+    }
                                                                      
 }
 
@@ -72,9 +102,12 @@ public class PolyAsList{
 import  java.util.Set;
 import  java.util.Map;
 import  java.util.HashMap;
+
+
 public  class  Grafo {//  vari ́aveis  de  inst^anciaprivate Map <String , Set <String >> adj;
 
-    private Map <String , Set <String >> adj;
+    private Map<String  Set<String >> adj;
+    
     
     public Grafo(){
         this.adj = new HashMap<>();     
@@ -83,6 +116,8 @@ public  class  Grafo {//  vari ́aveis  de  inst^anciaprivate Map <String , Set 
     public Grafo(Map<String, Set<String>> adj){
         this.adj = adj.entryset().stream().collect(Collectors.toMap(e->e.getKey(), e->e.getValue()));
     }
+
+
 
     public void addArco(String vOrig, String vDest){
         Set<String> adjac = this.adj.get(vOrig); 
@@ -93,12 +128,41 @@ public  class  Grafo {//  vari ́aveis  de  inst^anciaprivate Map <String , Set 
         this.adj.put(vDest,adjacaux);
     }
 
+
     public boolean isSink(String v){
         return this.adj.get(v).size()==0;
     }
 
+
     public int size(){
         int vertices = this.adj.KeySet().count(); 
+    }
+
+
+    boolean haCaminho(String vOrig, String vDest){
+        if(!this.adj.constainsKey(vOrig) || !this.adj.constainsKey(vDest))
+            return false;
+        Set<String> visitados = new HashSet<String>();
+        visitados.add(vOrig);
+        List<String> queue = new ArrayList<String>();
+        queue.add(vOrig);
+        for(String v = vOrig; !queue.isEmpty(); v = queue.get(0)){
+            if(v.equals(vDest))
+                return true;
+            this.adj.get(v).forEach( newV -> {
+                if (!visitdados.contains(newV)){
+                    visitados.add(newV);
+                    queue.add(newV);
+                }
+            } );
+        }
+    }
+
+
+    Set<Map.Entry<String, String>> fanOut (String v){
+        if(!this.adj.containsKey(v))
+            return new HashSet<>();
+        return this.adj.get(v).entrySet().stream().collect(Collectors.toSet());
     }
   
 }
@@ -109,15 +173,16 @@ public  class  Grafo {//  vari ́aveis  de  inst^anciaprivate Map <String , Set 
 // ___ 3 ‾‾‾
 //------------------------------------------------------------------------------------------
 
-public  abstract  class  Imovel  implements  Serializable 
-{
+public  abstract  class  Imovel  implements  Serializable {
     private  String  codImovel;
     private  String  morada;
     private  String  nifProprietario;
     private  double  area;
     private  double  precoBase;
+
     private  abstract  double  precoDia ();
-    ...}
+}
+
 
 public  class  Apartamento  extends  Imovel {
     private  String  andar;
@@ -126,13 +191,14 @@ public  class  Apartamento  extends  Imovel {
     public double precoDia(){
         return ((factorQualidade * super().getprecoBase()) + super().getprecoBase());
     }
-    ...}
+}
+
 
 public  class  Moradia  extends  Imovel {
     private  double  areaPrivativa;
-    private  double  areaExterior;...
-
+    private  double  areaExterior;
 }
+
     
 public  class  Bungalow  extends  Imovel {
     private  double  factorQualidade;
@@ -141,13 +207,14 @@ public  class  Bungalow  extends  Imovel {
     public double precoDia(){
         return ((factorQualidade + espessuraParedes)/2 * super.getprecoBase() + super.getprecoBase());
     }
+}
 
-    ...}
     
 public  class  Cliente  implements  Serializable {
     private  String  nome;
     private  String  codCliente;
-    private  List <Aluguer > meusAlugueres;...}
+    private  List <Aluguer > meusAlugueres;
+}
     
 public  class  Aluguer  implements  Serializable {
     private  String  codCliente;
@@ -167,7 +234,6 @@ public  class  POOAirBnB  implements  Serializable {
         else{
             this.imoveis.put(i.getId(),i.clone());
         }
-
     }
 
     public double valorTotalAluguerCliente(String codCliente){

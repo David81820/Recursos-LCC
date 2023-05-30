@@ -13,6 +13,7 @@ Slides com a matéria lecionada, fornecidos pelo corpo docente.
 Também tenho aqui uma série de páginas criadas por alunos de MIEI (ou agora é LEI outra vez?), que exploram em detalhe a relação entre Java e os conteúdos leccionados em POO:
 
 * [**[A] Java em POO**](POO-Java/README.md)
+* [**[A] Resumos de POO**](ResumosPOO.pdf)
 
 Outros recursos:
 * [Sintaxe básica de programação em Java](http://rigaux.org/language-study/syntax-across-languages-per-language/Java.html)
