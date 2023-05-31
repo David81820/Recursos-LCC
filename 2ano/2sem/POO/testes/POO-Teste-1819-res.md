@@ -92,7 +92,7 @@ public  class  Grafo {//  vari ́aveis  de  inst^anciaprivate Map <String , Set 
     }
 
     public Grafo(Map<String, Set<String>> adj){
-        this.adj = adj.entryset().stream().collect(Collectors.toMap(e->e.getKey(), e->new ArrayList<String>(e.getValue())));
+        this.adj = adj.entryset().stream().collect(Collectors.toMap(e->e.getKey(), e->new HashSet<String>(e.getValue())));
     }
 
 
@@ -119,6 +119,7 @@ public  class  Grafo {//  vari ́aveis  de  inst^anciaprivate Map <String , Set 
     }
 
 
+////////////////////////////////////////////////////////////////////////////////////////////////
     boolean haCaminho(String vOrig, String vDest){
         if(!this.adj.constainsKey(vOrig) || !this.adj.constainsKey(vDest))
             return false;
@@ -137,6 +138,25 @@ public  class  Grafo {//  vari ́aveis  de  inst^anciaprivate Map <String , Set 
             } );
         }
     }
+
+//          OU
+
+    public boolean haCaminho(String vOrig, String vDest){
+        if(!this.adj.constains(vOrig) || !this.adj.constainsKey(vDest))
+            return false;
+        return haCaminhoAux(vOrig, vDest, new HashSet<String>());
+    }
+
+    public boolean haCaminhoAux(String vOrig, String vDest, Set<String>){
+        if(vOrig.equals(vDest)
+            return true;
+        visitados.add(vOrig);
+        for(String v : adj.get(vOrig)){
+            if(!visitados.contains(v) && (haCaminho(v, vDest))
+                return true;
+        }
+    }
+//////////////////////////////////////////////////////////////////////////////////////////
 
 
     Set<Map.Entry<String, String>> fanOut (String v){
