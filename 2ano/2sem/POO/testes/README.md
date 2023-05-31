@@ -34,6 +34,7 @@
 * [**2020/2021**](POO-Exame-2021.pdf)
 
 * [**2021/2022 - 2ª Parte**](POO-Exame-2122-ParteII.pdf)
+<br>[[A] Resolução](https://skillful-value-ee4.notion.site/Resolu-o-Exame-POO-2022-0c728ff5f7ed42a78ce0cca87f6d5658)
 
 <br><br>
 
