@@ -173,114 +173,132 @@ public  class  Grafo {//  vari ́aveis  de  inst^anciaprivate Map <String , Set 
 // ___ 3 ‾‾‾
 //------------------------------------------------------------------------------------------
 
-public  abstract  class  Imovel  implements  Serializable {
-    private  String  codImovel;
-    private  String  morada;
-    private  String  nifProprietario;
-    private  double  area;
-    private  double  precoBase;
+import java.util.*;
+import java.time.*;
 
-    private  abstract  double  precoDia ();
+public abstract class Imovel implements Serializable {
+	private String codImovel ;
+	private String morada ;
+	private String nifProprietario ;
+	private double area ;
+	private double precoBase ;
+	
+	private abstract double precoDia ();
+	
+	...
 }
 
 
-public  class  Apartamento  extends  Imovel {
-    private  String  andar;
-    private  double  factorQualidade;
-    
-    public double precoDia(){
-        return ((factorQualidade * super().getprecoBase()) + super().getprecoBase());
-    }
+public class Apartamento extends Imovel {
+	private String andar ;
+	private double factorQualidade ;
+	
+	...
+	
+	public double precoDia(){
+		return (1 + this.factorQualidade) * super.getPrecoBase();
+	}
 }
 
 
-public  class  Moradia  extends  Imovel {
-    private  double  areaPrivativa;
-    private  double  areaExterior;
+public class Moradia extends Imovel {
+	private double areaPrivativa ;
+	private double areaExterior ;
+	
+	...
+	
+	public double precoDia(){
+		return super.getPrecoBase() * ((this.areaPrivativa * 0.3) + (this.areaExterior * 0.7));
+	}
 }
 
-    
-public  class  Bungalow  extends  Imovel {
-    private  double  factorQualidade;
-    private  double  espessuraParedes;
 
-    public double precoDia(){
-        return ((factorQualidade + espessuraParedes)/2 * super.getprecoBase() + super.getprecoBase());
-    }
+public class Bungalow extends Imovel {
+	private double factorQualidade ;
+	private double espessuraParedes ;
+	
+	...
+	
+	public double precoDia(){
+		return super.getPrecoBase * ((this.factorQualidade + this.espessuraParedes)*0.5);
+	}
 }
 
-    
-public  class  Cliente  implements  Serializable {
-    private  String  nome;
-    private  String  codCliente;
-    private  List <Aluguer > meusAlugueres;
+
+public class Cliente implements Serializable {
+	private String nome ;
+	private String codCliente ;
+	private List<Aluguer> meusAlugueres ;
+	
+	...
 }
-    
-public  class  Aluguer  implements  Serializable {
-    private  String  codCliente;
-    private  String  codImovel;
-    private  LocalDate  dataInicio;
-    private  LocalDate  dataFim;
+
+
+public class Aluguer implements Serializable {
+	private String codCliente ;
+	private String codImovel ;
+	private LocalDate dataInicio ;
+	private LocalDate dataFim ;
+	
+	...
 }
-    
-public  class  POOAirBnB  implements  Serializable {
-    private Map <String , Imovel > imoveis;
-    private Map <String , Cliente > clientes;...
-    
-    public void insereImovel(Imovel i) extends ImovelJaExistente{
-        if(this.imoveis.KeySet().contains(i.getId())){
-            throw new ImovelJaExistente("Imovel ja existente"); 
-        }
-        else{
-            this.imoveis.put(i.getId(),i.clone());
-        }
-    }
 
-    public double valorTotalAluguerCliente(String codCliente){
-        double preco = 0.0; 
-        if(this.clientes.KeySet().contains(codCliente)){
-            List<Aluguer> alugueres = this.clientes.get(codCliente).getMeusAlugueres();
 
-            for (Aluguer a : alugueres){
-                for(Imovel i : this.imoveis.values()){
-                    if (i.getcodimovel().equals(a.getcodimovel())){
-                        int nrodias = a.getdatafim() - a.getdatainicio();
-                        preco += i.precoDia() * nrodias;
-                    }
-                }
-            }
-        }
-        else{
-            throw new ImovelJaExistente("");
-        }
-        return preco; 
-    }
-
-    public List<Cliente> ordena(){
-        Comparator<Cliente> comp = (e1,e2) -> e2.valorTotalAluguerCliente() - e1.valorTotalAluguerCliente(); 
-        return this.clientes.values().sorted(comp).collect(Collectors(toList()));
-    }
-
-    public String clienteMaisGastador(){
-        return ordena().get(0);
-    }
-
-    public Map<String, Set<String>> clientesPorImovel(){
-        Map<String, Set<String>> ret = new HashMap<>(); 
-        
+public class POOAirBnB implements Serializable {
+	private Map<String, Imovel> imoveis ;
+	private Map<String, Cliente> clientes ;
+	
+	...
+	
+	public void insereImovel(Imovel i) extends ImovelJaExistente{
+		if(this.imoveis.constainsKey(i.getCodImovel()))
+			throw new ImovelJaExistente();
+		else
+			this.imoveis.put(i.getCodImovel(), i.clone());
+	}
+	
+	public double valorTotalAluguerCliente(String codCliente){
+		if(!this.clientes.containsKey(codCliente))
+			return 0;
+		double sum = 0.0;
+		List<Aluguer> als = this.clientes.get(codCliente).getMeusAlugueres();
+		for(Aluguer a : als){
+			int dias = Period.between(a.getDataInicio(), a.getDataFim());
+			dias = Math.abs(dias);
+			sum += dias * this.imoveis.get(a.getCodImovel()).precoDia();
+		}
+		return sum;
+	}
+	
+	public String clienteMaisGastador(){
+		if(this.clientes.isEmpty())
+			return null;
+		return this.clientes.values().stream().sorted( (a,b) -> this.valorTotalAluguerCliente(a.getNome()) - this.valorTotalAluguerCliente(b.getNome()) ).findFirst().get().getNome();
+	}
+	
+	public Map<String, Set<String>> clientesPorImovel(){
+	
+	/// Método 1
+		Map<String, Set<String>> res = new HashMap<>();        
         for (Cliente t : this.clientes.values()){
             
         }
-
-        return ret; 
-    }
-  
+        return res; 
+	
+	
+	/// Método 2
+		return clientes.values()
+				   .stream()
+				   .map(Cliente::getMeusAlugueres)
+				   .flatMap(List::stream)
+				   .collect(
+				   		groupingBy(Aluguer::getCodImovel, mapping(Aluguer::getCodCliente, toSet())));
+	}
 }
 
-public ImovelJaExistente extends Exception{
-    public ImovelJaExistente(String msg){
-        super(msg);
-    }
+public class ImovelJaExistente extends Exception{
+	public ImovelJaExistente(){ super(); }
+	public ImovelJaExistente(String msg){ super(msg); }
 }
 
 ```
