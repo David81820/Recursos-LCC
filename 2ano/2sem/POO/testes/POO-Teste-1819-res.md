@@ -159,7 +159,7 @@ public  class  Grafo {//  vari ́aveis  de  inst^anciaprivate Map <String , Set 
 //////////////////////////////////////////////////////////////////////////////////////////
 
 
-    Set<Map.Entry<String, String>> fanOut (String v){
+    public Set<Map.Entry<String, String>> fanOut (String v){
         if(!this.adj.containsKey(v))
             return new HashSet<>();
         return this.adj.get(v).entrySet().stream().collect(Collectors.toSet());
