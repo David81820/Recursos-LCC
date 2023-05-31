@@ -92,28 +92,30 @@ public  class  Grafo {//  vari ́aveis  de  inst^anciaprivate Map <String , Set 
     }
 
     public Grafo(Map<String, Set<String>> adj){
-        this.adj = adj.entryset().stream().collect(Collectors.toMap(e->e.getKey(), e->e.getValue()));
+        this.adj = adj.entryset().stream().collect(Collectors.toMap(e->e.getKey(), e->new HashMap<>(e.getValue())));
     }
 
 
 
     public void addArco(String vOrig, String vDest){
-        Set<String> adjac = this.adj.get(vOrig); 
-        adjac.add(vDest);
-        this.adj.put(vOrig,adjac);
-        Set<String> adjacaux = this.adj.get(vDest); 
-        adjac.add(vOrig);
-        this.adj.put(vDest,adjacaux);
+        this.adj.putIfAbsent(vOrig, new HashSet<>());
+        this.adj.putIfAbsent(vDest, new HashSet<>());
+        this.adj.get(vOrig).add(vDest);
     }
 
 
     public boolean isSink(String v){
-        return this.adj.get(v).size()==0;
+        if(!this.adj.containsKey(v))
+            return false;
+        else
+            return this.adj.get(v).isEmpty();
     }
 
 
     public int size(){
-        int vertices = this.adj.KeySet().count(); 
+        int sum = 0;
+        this.adj.values().forEach(v -> sum += 1 + v.size());
+        return sum;
     }
 
 
