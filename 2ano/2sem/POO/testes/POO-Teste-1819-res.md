@@ -92,7 +92,7 @@ public  class  Grafo {//  vari ́aveis  de  inst^anciaprivate Map <String , Set 
     }
 
     public Grafo(Map<String, Set<String>> adj){
-        this.adj = adj.entryset().stream().collect(Collectors.toMap(e->e.getKey(), e->new HashMap<>(e.getValue())));
+        this.adj = adj.entryset().stream().collect(Collectors.toMap(e->e.getKey(), e->new ArrayList<String>(e.getValue())));
     }
 
 
