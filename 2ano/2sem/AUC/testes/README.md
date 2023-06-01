@@ -3,6 +3,7 @@
 * [**2016/2017**](AUC-1617-t1.pdf) -- [Resolução](AUC-1617-t1-res.pdf)
 * [**2017/2018**](AUC-1718-t1.pdf) -- [Resolução](AUC-1718-t1-res.pdf)
 * [**2020/2021**](AUC-2021-t1.pdf) -- [Resolução](AUC-2021-t1-res.png)
+* [**2022/2023**](AUC-2223-t1.pdf) -- [Resolução](AUC-2223-t1-res.pdf)
 
 <br>
 
@@ -11,6 +12,11 @@
 * [**2016/2017**](AUC-1617-t2.pdf) -- [Resolução](AUC-1617-t2-res.pdf)
 * [**2017/2018**](AUC-1718-t2.pdf) -- [Resolução](AUC-1718-t2-res.pdf)
 * [**2020/2021**](AUC-2021-t2.pdf)
+* [**2022/2023**](AUC-2223-t2.pdf) -- [Resolução](AUC-2223-t2-res.pdf)
+
+<br>
+
+* [**3º Teste 2022/2023**](AUC-2223-t3.pdf) -- [Resolução](AUC-2223-t3-res.pdf)
 
 <br>
 
