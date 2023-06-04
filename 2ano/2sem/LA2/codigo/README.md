@@ -1,5 +1,7 @@
 Para verificar a percentagem total de correção do código de um exercício, no _Codeboard_ cliclem nos botões:  Run > Test > Submit
+<br>Infelizmente, para alguns exercícios não encontrei o seu link para o Codeboard.
 <br>Excepto quando indicado o contrário, a percentagem de correção dos exercícios é de 100%.
+<br>Para exercícios com (??%) significa que, embora não sei a percentagem de correção total, pelo menos os seus "testes.py" estão ambos corretos.
 
 <br>
 
@@ -59,8 +61,10 @@ Para verificar a percentagem total de correção do código de um exercício, no
 <details><summary><a href="3ºT/soma.html">Soma</a> -- <a href="https://codeboard.io/projects/323214">Codeboard</a></summary></details>
 <details><summary><a href="3ºT/validas.html">Válidas</a> -- <a href="https://codeboard.io/projects/323215">Codeboard</a></summary></details>
 <details><summary><a href="3ºT/vendedor.html">Vendedor</a> -- <a href="https://codeboard.io/projects/323216">Codeboard</a></summary></details>
-<details><summary><a href="3ºT/binario.html">Torneio 2021/2022 (não tenho link do Codeboard infelizmente) > Binário (80%)</a></summary></details>
-<details><summary><a href="3ºT/filtra.html">Torneio 2021/2022 (não tenho link do Codeboard infelizmente) > Filtra (80%)</a></summary></details>
+<details><summary><a href="3ºT/binario.html">Torneio 2021/2022 > Binário (80%)</a></summary></details>
+<details><summary><a href="3ºT/filtra.html">Torneio 2021/2022 > Filtra (80%)</a></summary></details>
+<details><summary><a href="3ºT/filtra23.html">Torneio 2022/2023 > Filtra (??%)</a> -- <a href="https://codeboard.io/projects/388670">Codeboard</a></summary></details>
+<details><summary><a href="3ºT/filtra23.html">Torneio 2022/2023 > Duplica (??%)</a> -- <a href="https://codeboard.io/projects/388658">Codeboard</a></summary></details>
 </ul>
 </details>
 
