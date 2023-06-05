@@ -44,6 +44,7 @@ Para verificar a percentagem total de correção do código de um exercício, no
 <details><summary><a href="2ºT/centros.html">Centros</a></summary></details>
 <details><summary><a href="2ºT/distancia.html">Distância</a></summary></details>
 <details><summary><a href="2ºT/viagemT.html">Torneio 2022/2023 > [I] Viagem (90%)</a> -- <a href="https://codeboard.io/projects/382825">Codeboard</a></summary></details>
+<details><summary><a href="2ºT/perimetro.html">Torneio 2022/2023 > [I] Perímetro (50%)</a> -- <a href="https://codeboard.io/projects/381701">Codeboard</a></summary></details>
 </ul>
 </details>
 
@@ -82,6 +83,8 @@ Para verificar a percentagem total de correção do código de um exercício, no
 <details><summary><a href="4ºT/sacos.html">Sacos</a> -- <a href="https://codeboard.io/projects/331277">Codeboard</a></summary></details>
 <details><summary><a href="4ºT/superstring.html">Superstring</a> -- <a href="https://codeboard.io/projects/331278">Codeboard</a></summary></details>
 <details><summary><a href="4ºT/uniao.html">União</a> -- <a href="https://codeboard.io/projects/331285">Codeboard</a></summary></details>
+</ul>
+</details>
 
 <br><br>
 
