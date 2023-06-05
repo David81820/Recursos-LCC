@@ -13,9 +13,10 @@ máxima deve ser visitado primeiro o que tiver o código mais pequeno
 em ordem lexicográfica.
 '''
 
+
 def build(voos):
     adj = {}
-    for o,m,d in voos:
+    for o, m, d in voos:
         if o not in adj:
             adj[o] = {}
         if d not in adj:
@@ -44,49 +45,57 @@ def fw(adj):
     return dist
 
 
-# Ora o 1º problema deste exercício deve-se ao facto de que os elementos do array 'voos' não estão devidamente separados para usar-mos diretamente a função 'build'.
-# Esta função divide cada elemento num "triplo" com o formato (origem, distância, destino).
 def div(voos):
     res = []
-    for v in range(0,len(voos)):
-        o = voos[v][:3]             # tiramos os primeiros 3 charateres dum elemento
-        d = voos[v][-3:]            # tiramos os últimos 3 charateres dum elemento
-        m = voos[v][3:-3]           # tiramos os charateres do meio
-        res.append((o,int(m),d))    # int(m) converte de char para int
+    for v in range(len(voos)):
+        o = voos[v][:3]
+        d = voos[v][-3:]
+        m = voos[v][3:-3]
+        res.append((o, int(m), d))
     return res
 
 
-# Agora está aqui a verdadeira dor de cabeça...
-# O exercício pede para devolver os voos mais distantes entre dois aeroportos, contudo não podemos repetir aeroportos.
-# A dificuldade está não na lógica, mas na sintaxe. 
-def cal(d,o):         # d = grafo / o = aeroporto de partida
-    res = [o]            # começa-mos por anexar o voo inicial
-    if len(d.keys())==1:    # caso apenas haja 1 voo, devolvemos logo
-        return res
-    for n in range (1,len(d.keys())):       # só saimos daqui quando tivermos todos aeroportos em 'res', por isso usamos .keys()
-        elem = d[res[n-1]]              # dá as distâncias ao aeroporto mais recentemente inserido em 'res'
-        m = []
-        if (max(elem, key=elem.get) in res)==False:     # se o voo mais distante não já tiver em 'res' adiciona-mos-lo
-            res += [max(elem, key=elem.get)]            # por alguma razão se apenas escrevesse-mos max(elem) haveria problemas
-        else:
-            while len(elem)>0:
-                m += [max(elem, key=elem.get)]          # array dos aeroportos ordenados do mais distante para o mais próximo
-                del elem[max(elem, key=elem.get)]       # temos de apagar o valor máximo, para não voltar a ser anexado na próxima itereção
-            for i in m:
-                if i not in res:        # percorremos 'm' até encontrar-mos um voo que não repita em 'res'
-                    res += [i]
+def cal(dist, inicio):
+    res = [inicio]
+    unvisited = set(dist.keys()) - {inicio}
+    while unvisited:
+        max_dist = float("-inf")
+        next_airport = None
+        for airport in unvisited:
+            if dist[inicio][airport] > max_dist:
+                max_dist = dist[inicio][airport]
+                next_airport = airport
+            elif dist[inicio][airport] == max_dist and airport < next_airport:
+                next_airport = airport
+        res.append(next_airport)
+        inicio = next_airport
+        unvisited.remove(next_airport)
     return res
 
 
-def viagem(inicio,voos):
-    if not len(voos):   # verifica se o grafo não está vazio
+def viagem(inicio, voos):
+    if not voos:
         return []
-    new = div(voos)     # formata o array 'voos'
-    adj = build(new)    # constroí o grafo pesado
-    dist = fw(adj)              # usamos o método Floyd-Warshall
-    res = cal(dist,inicio)     # calcula os voos mais distantes
+    new = div(voos)
+    adj = build(new)
+    dist = fw(adj)
+    res = cal(dist, inicio)
     return res
 
+
+
+#==================================
+#           TESTES
+
+# 1
+voos = ["OPO300LIS","LIS150FAO","OPO500MAD","MAD500LIS"]
+inicio = "OPO"
+resultado = ["OPO","MAD","FAO","LIS"]
+
+# 2
+voos = ["OPO300LIS","LIS200FAO","OPO500MAD","MAD500LIS"]
+inicio = "LIS"
+resultado = ["LIS","MAD","FAO","OPO"]
 
 ```
 

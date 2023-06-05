@@ -43,7 +43,7 @@ Para verificar a percentagem total de correção do código de um exercício, no
 <details><summary><a href="2ºT/viagem.html">Viagem</a> -- <a href="https://codeboard.io/projects/318589">Codeboard</a></summary></details>
 <details><summary><a href="2ºT/centros.html">Centros</a></summary></details>
 <details><summary><a href="2ºT/distancia.html">Distância</a></summary></details>
-<details><summary><a href="2ºT/viagemT.html">Torneio 2022/2023 > [I] Viagem (20% /30% / 40% - dependendo do "temperamento")</a> -- <a href="https://codeboard.io/projects/382825">Codeboard</a></summary></details>
+<details><summary><a href="2ºT/viagemT.html">Torneio 2022/2023 > [I] Viagem (90%)</a> -- <a href="https://codeboard.io/projects/382825">Codeboard</a></summary></details>
 </ul>
 </details>
 
@@ -63,8 +63,8 @@ Para verificar a percentagem total de correção do código de um exercício, no
 <details><summary><a href="3ºT/vendedor.html">Vendedor</a> -- <a href="https://codeboard.io/projects/323216">Codeboard</a></summary></details>
 <details><summary><a href="3ºT/binario.html">Torneio 2021/2022 > Binário (80%)</a></summary></details>
 <details><summary><a href="3ºT/filtra.html">Torneio 2021/2022 > Filtra (80%)</a></summary></details>
-<details><summary><a href="3ºT/filtra23.html">Torneio 2022/2023 > Filtra (??%)</a> -- <a href="https://codeboard.io/projects/388670">Codeboard</a></summary></details>
-<details><summary><a href="3ºT/filtra23.html">Torneio 2022/2023 > Duplica (??%)</a> -- <a href="https://codeboard.io/projects/388658">Codeboard</a></summary></details>
+<details><summary><a href="3ºT/filtra23.html">Torneio 2022/2023 > [I] Filtra (??%)</a> -- <a href="https://codeboard.io/projects/388670">Codeboard</a></summary></details>
+<details><summary><a href="3ºT/filtra23.html">Torneio 2022/2023 > [I] Duplica (??%)</a> -- <a href="https://codeboard.io/projects/388658">Codeboard</a></summary></details>
 </ul>
 </details>
 
