@@ -30,7 +30,7 @@ Para verificar a percentagem total de correção do código de um exercício, no
 <br>
 
 <details>
-    <summary>Algoritmos de grafos</summary>
+    <summary>Algoritmos de Grafos</summary>
 
 <ul>
 <details><summary><a href="2ºT/area.html">Aloca</a> -- <a href="https://codeboard.io/projects/318576">Codeboard</a></summary></details>
@@ -50,7 +50,7 @@ Para verificar a percentagem total de correção do código de um exercício, no
 <br>
 
 <details>
-    <summary>Programação dinâmica</summary>
+    <summary>Programação Dinâmica</summary>
 
 <ul>
 <details><summary><a href="3ºT/crescente.html">Crescente</a> -- <a href="https://codeboard.io/projects/323208">Codeboard</a></summary></details>
@@ -67,6 +67,21 @@ Para verificar a percentagem total de correção do código de um exercício, no
 <details><summary><a href="3ºT/filtra23.html">Torneio 2022/2023 > [I] Duplica (??%)</a> -- <a href="https://codeboard.io/projects/388658">Codeboard</a></summary></details>
 </ul>
 </details>
+
+<br>
+
+<details>
+    <summary>Pesquisa Exaustiva</summary>
+
+<ul>
+<details><summary><a href="4ºT/amigos.html">Amigos</a> -- <a href="https://codeboard.io/projects/331265">Codeboard</a></summary></details>
+<details><summary><a href="4ºT/anel.html">Anel</a> -- <a href="https://codeboard.io/projects/331267">Codeboard</a></summary></details>
+<details><summary><a href="4ºT/cobertura.html">Cobertura</a> -- <a href="https://codeboard.io/projects/331268">Codeboard</a></summary></details>
+<details><summary><a href="4ºT/hamilton.html">Hamilton</a> -- <a href="https://codeboard.io/projects/331269">Codeboard</a></summary></details>
+<details><summary><a href="4ºT/multiplos.html">Múltiplos</a> -- <a href="https://codeboard.io/projects/331274">Codeboard</a></summary></details>
+<details><summary><a href="4ºT/sacos.html">Sacos</a> -- <a href="https://codeboard.io/projects/331277">Codeboard</a></summary></details>
+<details><summary><a href="4ºT/superstring.html">Superstring</a> -- <a href="https://codeboard.io/projects/331278">Codeboard</a></summary></details>
+<details><summary><a href="4ºT/uniao.html">União</a> -- <a href="https://codeboard.io/projects/331285">Codeboard</a></summary></details>
 
 <br><br>
 
