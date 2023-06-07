@@ -17,7 +17,7 @@ Lista dos vários detalhes técnicos da cadeira que podem ser encontrados na aba
 
 <br>
 
-## [Testes e Exames](testes.md)
+## [Testes e Exames](testes/README.md)
 
 
 <br><br>
