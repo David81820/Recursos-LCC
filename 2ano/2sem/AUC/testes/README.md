@@ -22,8 +22,10 @@
 
 ## Exames
 * [**2015/2016**](AUC-1516-tE.pdf) -- [Resolução](AUC-1516-tE-res.pdf)
+* [**2015/2016 - Época Especial**](exame_especial_AUC_1516.pdf)
 * [**2016/2017**](AUC-1617-tE.pdf) -- [Resolução](AUC-1617-tE-res.pdf)
 * [**2017/2018**](AUC-1718-tE.pdf) -- [Resolução](AUC-1718-tE-res.pdf)
+* [**2017/2018 - Época Especial**](exame_especial_AUC_1718.pdf)
 * [**2020/2021**](AUC-2021-tE.pdf)
 
 <br><br>
