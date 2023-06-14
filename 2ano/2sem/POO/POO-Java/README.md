@@ -1,4 +1,4 @@
-# POO e Java
+<h1 style="text-align: center;">Programação Orientada a Objectos e Java</h1>
 É importante distinguir POO de Java.
 <br>Java é a linguagem usada para explicar os conceitos de POO.
 <br>Algumas coisas são válidas em Java mas não são válidas no contexto da cadeira.
