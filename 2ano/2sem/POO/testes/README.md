@@ -35,7 +35,7 @@
 
 * [**2021/2022 - 2ª Parte**](POO-Exame-2122-ParteII.pdf)
 <br>[[A] Resolução](https://chicoferreira.notion.site/Resolu-o-Exame-POO-2022-0c728ff5f7ed42a78ce0cca87f6d5658)
-Certos segmentos do código não é possível em Java 8, por isso não se fiem nesta resolução a 100%.
+<br>Certos segmentos do código são é possíveis em Java 8, por isso não se fiem nesta resolução a 100%.
 
 <br><br>
 
