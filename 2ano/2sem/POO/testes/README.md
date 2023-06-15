@@ -20,7 +20,7 @@
 
 * [**2020/2021 - 2ª Parte**](POO-Teste-2021-pt2.pdf)
 * [**2021/2022 - 2ª Parte**](POO-Teste-2122-ParteII.pdf)
-* [**2021/2022 - 2ª Parte**](POO-Teste-2223-ParteII.pdf)
+* [**2022/2023 - 2ª Parte**](POO-Teste-2223-ParteII.pdf)
 
 <br>
 
