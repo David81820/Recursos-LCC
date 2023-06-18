@@ -32,7 +32,8 @@
 * [**2015/2016**](POO-Exame-1516.pdf)
 * [**2017/2018**](POO-Exame-1718.pdf)
 * [**2018/2019**](POO-Exame-1819.pdf)
-* [**2020/2021**](POO-Exame-2021.pdf)
+* [**2020/2021**](POO-Exame-2021.pdf) -- [Época Especial](POO-Exame-2021-Especial.pdf)
+<br> [[A] Resolução](https://github.com/highonskooma/POO/tree/Exame2021/IdeaProjects/Exame2021/src/Exame2021)
 
 * [**2021/2022 - 2ª Parte**](POO-Exame-2122-ParteII.pdf)
 <br>[[A] Resolução](https://chicoferreira.notion.site/Resolu-o-Exame-POO-2022-0c728ff5f7ed42a78ce0cca87f6d5658)
