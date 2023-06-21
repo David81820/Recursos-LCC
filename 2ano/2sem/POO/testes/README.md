@@ -18,7 +18,8 @@
 * [**2018/2019**](POO-Teste-1819.pdf)
 <br> [[A] Resolução](POO-Teste-1819-res.md)
 
-* [**2020/2021 - 2ª Parte**](POO-Teste-2021-pt2.pdf)
+* [**2020/2021**](POO-Teste-2021.pdf) -- [2ª Parte](POO-Teste-2021-pt2.pdf)
+<br> [[A] Resolução](https://github.com/NECC/Material-Do-Curso/blob/main/2%C2%BA%20ano/Programa%C3%A7%C3%A3o%20Orientada%20aos%20Objetos/Testes%20e%20Exames/solu%C3%A7%C3%A3o%20exame%202021%20(14%20junho).md)
 * [**2021/2022 - 2ª Parte**](POO-Teste-2122-ParteII.pdf)
 * [**2022/2023 - 2ª Parte**](POO-Teste-2223-ParteII.pdf)
 
