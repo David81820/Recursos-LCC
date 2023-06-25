@@ -1,3 +1,5 @@
+<h1 style="text-align: center;">LA2 | 2º Torneio</h1>
+
 ```Python
 
 '''
@@ -82,10 +84,12 @@ def viagem(inicio, voos):
     res = cal(dist, inicio)
     return res
 
+```
 
 
-#==================================
-#           TESTES
+## Testes
+
+```Python
 
 # 1
 voos = ["OPO300LIS","LIS150FAO","OPO500MAD","MAD500LIS"]

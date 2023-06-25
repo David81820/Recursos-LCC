@@ -13,7 +13,7 @@ Para verificar a percentagem total de correção do código de um exercício, no
 <details><summary><a href="1ºT/apelidos.html">Apelidos</a> -- <a href="https://codeboard.io/projects/311284">Codeboard</a></summary></details>
 <details><summary><a href="1ºT/cruzamentos.html">Cruzamentos</a> -- <a href="https://codeboard.io/projects/311285">Codeboard</a></summary></details>
 <details><summary><a href="1ºT/diferentes.html">Diferentes</a></summary></details>
-<details><summary><a href="1ºT/fatoriza.html">Fatoriza</a></summary></details>
+<details><summary><a href="1ºT/fatoriza.html">Factoriza</a></summary></details>
 <details><summary><a href="1ºT/formata.html">Formata</a> -- <a href="https://codeboard.io/projects/312631">Codeboard</a></summary></details>
 <details><summary><a href="1ºT/formula1.html">Formula 1</a></summary></details>
 <details><summary><a href="1ºT/frequencia.html">Frequência</a> -- <a href="https://codeboard.io/projects/311413">Codeboard</a></summary></details>
