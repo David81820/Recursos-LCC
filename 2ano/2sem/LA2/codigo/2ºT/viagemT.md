@@ -1,4 +1,4 @@
-<h1 style="text-align: center;">LA2 | Algoritmos de Grafos | Viagem 2022/2023</h1>
+<h1 style="text-align: center;">Algoritmos de Grafos | Viagem 2022/2023</h1>
 
 ```Python
 
