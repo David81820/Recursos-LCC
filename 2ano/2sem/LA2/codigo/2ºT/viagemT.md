@@ -1,4 +1,4 @@
-<h1 style="text-align: center;">Algoritmos de Grafos | Viagem 2022/2023</h1>
+<h1 style="text-align: center;">Algoritmos de Grafos | Viagem (Torneio 2022/2023)</h1>
 
 ```Python
 
@@ -95,12 +95,12 @@ def viagem(inicio, voos):
 # 1
 voos = ["OPO300LIS","LIS150FAO","OPO500MAD","MAD500LIS"]
 inicio = "OPO"
-resultado = ["OPO","MAD","FAO","LIS"]
+> Resultado = ["OPO","MAD","FAO","LIS"]
 
 # 2
 voos = ["OPO300LIS","LIS200FAO","OPO500MAD","MAD500LIS"]
 inicio = "LIS"
-resultado = ["LIS","MAD","FAO","OPO"]
+> Resultado = ["LIS","MAD","FAO","OPO"]
 ```
 
 [![retroceder](https://raw.githubusercontent.com/David81820/Recursos-LCC/main/Rewind.png)](https://david81820.github.io/Recursos-LCC/2ano/2sem/LA2/codigo)
