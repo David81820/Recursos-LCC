@@ -1,4 +1,4 @@
-<h1 style="text-align: center;">LA2 | 2º Torneio</h1>
+<h1 style="text-align: center;">LA2 | Algoritmos de Grafos | Viagem 2022/2023</h1>
 
 ```Python
 
@@ -86,11 +86,12 @@ def viagem(inicio, voos):
 
 ```
 
+<br>
+
 
 ## Testes
 
 ```Python
-
 # 1
 voos = ["OPO300LIS","LIS150FAO","OPO500MAD","MAD500LIS"]
 inicio = "OPO"
@@ -100,7 +101,6 @@ resultado = ["OPO","MAD","FAO","LIS"]
 voos = ["OPO300LIS","LIS200FAO","OPO500MAD","MAD500LIS"]
 inicio = "LIS"
 resultado = ["LIS","MAD","FAO","OPO"]
-
 ```
 
 [![retroceder](https://raw.githubusercontent.com/David81820/Recursos-LCC/main/Rewind.png)](https://david81820.github.io/Recursos-LCC/2ano/2sem/LA2/codigo)
