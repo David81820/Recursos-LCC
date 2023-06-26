@@ -95,9 +95,9 @@ Para verificar a percentagem total de correção do código de um exercício, no
 <details><summary><a href="5ºT/calculadora.html">Torneio Extra > Calculadora</a></summary></details>
 <br>
 <details><summary><a href="5ºT/distancia.html">Distância [50%]</a></summary></details>
-<details><summary><a href="5ºT/ilhas.html">Ilhas [??%]</a></summary></details>
+<details><summary><a href="5ºT/ilhas.html">[I] Ilhas [??%]</a></summary></details>
 <details><summary><a href="5ºT/numero.html">Número [50%]</a></summary></details>
-<details><summary><a href="5ºT/puzzle.html">Puzzle [??%]</a></summary></details>
+<details><summary><a href="5ºT/puzzle.html">[I] Puzzle [??%]</a></summary></details>
 </ul>
 </details>
 
