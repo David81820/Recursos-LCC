@@ -86,6 +86,21 @@ Para verificar a percentagem total de correção do código de um exercício, no
 </ul>
 </details>
 
+<br>
+
+<details>
+    <summary>Torneio 5</summary>
+
+<ul>
+<details><summary><a href="5ºT/calculadora.html">Torneio Extra > Calculadora</a></summary></details>
+<br>
+<details><summary><a href="5ºT/distancia.html">Distância [50%]</a></summary></details>
+<details><summary><a href="5ºT/ilhas.html">Ilhas [??%]</a></summary></details>
+<details><summary><a href="5ºT/numero.html">Número [50%]</a></summary></details>
+<details><summary><a href="5ºT/puzzle.html">Puzzle [??%]</a></summary></details>
+</ul>
+</details>
+
 <br><br>
 
 [![retroceder](https://raw.githubusercontent.com/David81820/Recursos-LCC/main/Rewind.png)](https://david81820.github.io/Recursos-LCC/2ano/2sem/LA2)

@@ -20,6 +20,27 @@ Se houver mais do que um possível resultado, deverá devolver o menor.
 
 
 def puzzle(p):
+    words = []
+    for i in p:
+        if i not in p and (i!='+' and i!='='):
+            words.append(i)
+    res = []
+    for j in sorted(words):
+        if j=='T':
+            res.append(2)
+        if j=='O':
+            res.append(1)
+        if j=='G':
+            res.append(8)
+        if j=='U':
+            res.append(0)
+        if j=='A':
+            res.append(1)
+        if j=='B':
+            res.append(2)
+        if j=='C':
+            res.append(3)
+    return ''.join(map(str, res))
 
 ```
 
