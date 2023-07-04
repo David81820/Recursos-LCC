@@ -1,3 +1,5 @@
+<h1 style="text-align: center;">LA2 | Treino 4 | Superstring</h1>
+
 ```Python
 
 '''
@@ -59,6 +61,22 @@ def superstring(strings):
         s+=string
     return s
 
+```
+
+
+<br>
+
+
+## Testes
+
+```Python
+# 1
+strings = ['ana','nao','ama']
+> Resultado = 'amanao'
+
+# 2
+strings = ['acor','laco','cola']
+> Resultado = 'colacor'
 ```
 
 [![retroceder](https://raw.githubusercontent.com/David81820/Recursos-LCC/main/Rewind.png)](https://david81820.github.io/Recursos-LCC/2ano/2sem/LA2/codigo)

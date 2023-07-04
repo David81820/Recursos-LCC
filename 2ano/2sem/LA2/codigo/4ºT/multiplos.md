@@ -1,3 +1,5 @@
+<h1 style="text-align: center;">LA2 | Treino 4 | Múltiplos</h1>
+
 ```Python
 
 '''
@@ -33,6 +35,24 @@ def aux(p,c,d):
 def multiplos(n,d):
     return aux(n,[],d)
 
+```
+
+
+<br>
+
+
+## Testes
+
+```Python
+# 1
+n = 3
+d = 3
+> Resultado = 6
+
+# 2
+n = 5
+d = 12
+> Resultado = 24
 ```
 
 [![retroceder](https://raw.githubusercontent.com/David81820/Recursos-LCC/main/Rewind.png)](https://david81820.github.io/Recursos-LCC/2ano/2sem/LA2/codigo)

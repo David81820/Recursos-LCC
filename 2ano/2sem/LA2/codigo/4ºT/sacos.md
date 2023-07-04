@@ -1,3 +1,5 @@
+<h1 style="text-align: center;">LA2 | Treino 4 | Sacos</h1>
+
 ```Python
 
 '''
@@ -35,6 +37,24 @@ def aux(peso, compras, list):
     compras.append(produto)
     return False
 
+```
+
+
+<br>
+
+
+## Testes
+
+```Python
+# 1
+peso = 10
+compras = [3,6,2,1,5,7,2,4,1]
+> Resultado = 4
+
+# 2
+peso = 11
+sets = compras = [3,3,3,3,5,5,11]
+> Resultado = 3
 ```
 
 [![retroceder](https://raw.githubusercontent.com/David81820/Recursos-LCC/main/Rewind.png)](https://david81820.github.io/Recursos-LCC/2ano/2sem/LA2/codigo)

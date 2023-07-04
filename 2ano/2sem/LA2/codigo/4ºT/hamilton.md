@@ -1,3 +1,5 @@
+<h1 style="text-align: center;">LA2 | Treino 4 | Hamilton</h1>
+
 ```Python
 
 '''
@@ -59,6 +61,22 @@ def hamilton(arestas):
         return c
     return None
 
+```
+
+
+<br>
+
+
+## Testes
+
+```Python
+# 1
+arestas = [(0,1),(1,2),(0,3),(1,3),(1,4),(2,4),(3,4)]
+> Resultado = [0,1,2,4,3]
+
+# 2
+arestas = [(0,1),(1,2),(0,3),(1,3),(1,4),(2,4)]
+> Resultado = None
 ```
 
 [![retroceder](https://raw.githubusercontent.com/David81820/Recursos-LCC/main/Rewind.png)](https://david81820.github.io/Recursos-LCC/2ano/2sem/LA2/codigo)

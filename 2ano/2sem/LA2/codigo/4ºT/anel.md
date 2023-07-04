@@ -1,3 +1,5 @@
+<h1 style="text-align: center;">LA2 | Treino 4 | Anel</h1>
+
 ```Python
 
 '''
@@ -49,6 +51,22 @@ def anel(n):
     if aux(n,c):
         return c
 
+```
+
+
+<br>
+
+
+## Testes
+
+```Python
+# 1
+n = 4
+> Resultado = [[1,2,3,4],[1,4,3,2],[2,1,4,3],[2,3,4,1],[3,2,1,4],[3,4,1,2],[4,1,2,3],[4,3,2,1]]
+
+# 2
+n = 2
+> Resultado = [[1,2],[2,1]]
 ```
 
 [![retroceder](https://raw.githubusercontent.com/David81820/Recursos-LCC/main/Rewind.png)](https://david81820.github.io/Recursos-LCC/2ano/2sem/LA2/codigo)

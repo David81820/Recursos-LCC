@@ -1,3 +1,5 @@
+<h1 style="text-align: center;">LA2 | Treino 4 | Amigos</h1>
+
 ```Python
 
 '''
@@ -60,6 +62,22 @@ def amigos(conhecidos):
             return i
     return 0
 
+```
+
+
+<br>
+
+
+## Testes
+
+```Python
+# 1
+conhecidos = {('pedro','maria'),('pedro','jose'),('pedro','manuel'),('maria','jose'),('maria','francisca'),('jose','francisca'),('francisca','manuel')}
+> Resultado = 3
+
+# 2
+conhecidos = {('pedro','maria'),('jose','francisca'),('manuel','pedro')}
+> Resultado = 2
 ```
 
 [![retroceder](https://raw.githubusercontent.com/David81820/Recursos-LCC/main/Rewind.png)](https://david81820.github.io/Recursos-LCC/2ano/2sem/LA2/codigo)

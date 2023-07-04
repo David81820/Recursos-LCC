@@ -1,3 +1,5 @@
+<h1 style="text-align: center;">LA2 | Treino 4 | União</h1>
+
 ```Python
 
 '''
@@ -52,6 +54,22 @@ def uniao(sets):
             return i
     return len(sets)
 
+```
+
+
+<br>
+
+
+## Testes
+
+```Python
+# 1
+sets = [{1,2,3},{2,4},{3,4},{4,5}]
+> Resultado = 2
+
+# 2
+sets = [{1},{2},{3,4},{5,6,7,8},{1,3,5,7},{2,4,6,8},{9}]
+> Resultado = 3
 ```
 
 [![retroceder](https://raw.githubusercontent.com/David81820/Recursos-LCC/main/Rewind.png)](https://david81820.github.io/Recursos-LCC/2ano/2sem/LA2/codigo)

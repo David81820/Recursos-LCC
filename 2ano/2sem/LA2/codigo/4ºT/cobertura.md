@@ -1,3 +1,5 @@
+<h1 style="text-align: center;">LA2 | Treino 4 | Cobertura</h1>
+
 ```Python
 
 '''
@@ -49,6 +51,22 @@ def cobertura(arestas):
         if aux(sorted(list(grafo.keys())),[],i,arestas):
             return i
 
+```
+
+
+<br>
+
+
+## Testes
+
+```Python
+# 1
+arestas = [('portugal','espanha'),('espanha','franca'),('franca','alemanha'),('alemanha','belgica'),('belgica','franca'),('usa','canada'),('usa','mexico'),('marrocos','argelia'),('argelia','libia'),('argelia','mali')]
+> Resultado = 5
+
+# 2
+arestas = [('a','b'),('b','c'),('c','d'),('d','e'),('e','f'),('f','g'),('g','h')]
+> Resultado = 4
 ```
 
 [![retroceder](https://raw.githubusercontent.com/David81820/Recursos-LCC/main/Rewind.png)](https://david81820.github.io/Recursos-LCC/2ano/2sem/LA2/codigo)

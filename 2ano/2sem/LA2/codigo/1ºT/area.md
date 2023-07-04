@@ -1,3 +1,5 @@
+<h1 style="text-align: center;">LA2 | Torneio 1 (2022/2023) | Área</h1>
+
 ```Python
 
 """
@@ -22,6 +24,22 @@ def area(pecas):    # pensa nas peças como quadrados 2D, em cada um os lados me
     
     return res
 
+```
+
+
+<br>
+
+
+## Testes
+
+```Python
+# 1
+sets = [{1,2,3},{2,4},{3,4},{4,5}]
+> Resultado = 6
+
+# 2
+pecas = [(0,1,True,3),(1,0,False,3)]
+> Resultado = 5
 ```
 
 [![retroceder](https://raw.githubusercontent.com/David81820/Recursos-LCC/main/Rewind.png)](https://david81820.github.io/Recursos-LCC/2ano/2sem/LA2/codigo)

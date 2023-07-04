@@ -1,3 +1,5 @@
+<h1 style="text-align: center;">LA2 | Torneio 3 (2021/2022) | Binário</h1>
+
 ```Python
 
 '''

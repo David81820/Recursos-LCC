@@ -1,7 +1,11 @@
-Para verificar a percentagem total de correção do código de um exercício, no _Codeboard_ cliclem nos botões:  Run > Test > Submit
+<h1 style="text-align: center;">LAII | Treinos e Torneios</h1>
+
+Para verificar a percentagem total de correção do código de um exercício, na plataforma _Codeboard.io_, cliclem nos botões:  Run > Test > Submit.
 <br>Infelizmente, para alguns exercícios não encontrei o seu link para o Codeboard.
 <br>Excepto quando indicado o contrário, a percentagem de correção dos exercícios é de 100%.
-<br>Para exercícios com (??%) significa que, embora não sei a percentagem de correção total, pelo menos os seus "testes.py" estão ambos corretos.
+<br>Para exercícios com (??%) significa que, embora não saiba a percentagem de correção total, pelo menos os seus "testes.py" estão ambos corretos.
+<br>Também devo notar que todas resoluções, são da autoria de alunos não dos professores.
+<br>Por isso apenas as minha próprias resoluções estarão marcadas com a etiqueta **[I]**.
 
 <br>
 
@@ -23,7 +27,8 @@ Para verificar a percentagem total de correção do código de um exercício, no
 <details><summary><a href="1ºT/isbn.html">ISBN</a> -- <a href="https://codeboard.io/projects/311435">Codeboard</a></summary></details>
 <details><summary><a href="1ºT/repete.html">Repete</a></summary></details>
 <details><summary><a href="1ºT/robot.html">Robot</a> -- <a href="https://codeboard.io/projects/311441">Codeboard</a></summary></details>
-<details><summary><a href="1ºT/area.html">Area</a></summary></details>
+<details><summary><a href="1ºT/area.html">[I] Área</a> -- <a href="https://codeboard.io/projects/376696">Codeboard</a></summary></details>
+<details><summary><a href="1ºT/wordle.html">Wordle</a> -- <a href="https://codeboard.io/projects/376689">Codeboard</a></summary></details>
 </ul>
 </details>
 
@@ -43,8 +48,8 @@ Para verificar a percentagem total de correção do código de um exercício, no
 <details><summary><a href="2ºT/viagem.html">Viagem</a> -- <a href="https://codeboard.io/projects/318589">Codeboard</a></summary></details>
 <details><summary><a href="2ºT/centros.html">Centros</a></summary></details>
 <details><summary><a href="2ºT/distancia.html">Distância</a></summary></details>
-<details><summary><a href="2ºT/viagemT.html">Torneio 2022/2023 > [I] Viagem (90%)</a> -- <a href="https://codeboard.io/projects/382825">Codeboard</a></summary></details>
-<details><summary><a href="2ºT/perimetro.html">Torneio 2022/2023 > [I] Perímetro (50%)</a> -- <a href="https://codeboard.io/projects/381701">Codeboard</a></summary></details>
+<details><summary><a href="2ºT/viagemT.html">[I] Viagem 2023 (90%)</a> -- <a href="https://codeboard.io/projects/382825">Codeboard</a></summary></details>
+<details><summary><a href="2ºT/perimetro.html">[I] Perímetro (50%)</a> -- <a href="https://codeboard.io/projects/381701">Codeboard</a></summary></details>
 </ul>
 </details>
 
@@ -62,10 +67,10 @@ Para verificar a percentagem total de correção do código de um exercício, no
 <details><summary><a href="3ºT/soma.html">Soma</a> -- <a href="https://codeboard.io/projects/323214">Codeboard</a></summary></details>
 <details><summary><a href="3ºT/validas.html">Válidas</a> -- <a href="https://codeboard.io/projects/323215">Codeboard</a></summary></details>
 <details><summary><a href="3ºT/vendedor.html">Vendedor</a> -- <a href="https://codeboard.io/projects/323216">Codeboard</a></summary></details>
-<details><summary><a href="3ºT/binario.html">Torneio 2021/2022 > Binário (80%)</a></summary></details>
-<details><summary><a href="3ºT/filtra.html">Torneio 2021/2022 > Filtra (80%)</a></summary></details>
-<details><summary><a href="3ºT/filtra23.html">Torneio 2022/2023 > [I] Filtra (??%)</a> -- <a href="https://codeboard.io/projects/388670">Codeboard</a></summary></details>
-<details><summary><a href="3ºT/filtra23.html">Torneio 2022/2023 > [I] Duplica (??%)</a> -- <a href="https://codeboard.io/projects/388658">Codeboard</a></summary></details>
+<details><summary><a href="3ºT/binario.html">Binário (80%)</a></summary></details>
+<details><summary><a href="3ºT/filtra.html">Filtra 2022 (80%)</a></summary></details>
+<details><summary><a href="3ºT/filtra23.html">[I] Filtra 2023 (??%)</a> -- <a href="https://codeboard.io/projects/388670">Codeboard</a></summary></details>
+<details><summary><a href="3ºT/filtra23.html">[I] Duplica (??%)</a> -- <a href="https://codeboard.io/projects/388658">Codeboard</a></summary></details>
 </ul>
 </details>
 
@@ -83,6 +88,8 @@ Para verificar a percentagem total de correção do código de um exercício, no
 <details><summary><a href="4ºT/sacos.html">Sacos (90%)</a> -- <a href="https://codeboard.io/projects/331277">Codeboard</a></summary></details>
 <details><summary><a href="4ºT/superstring.html">Superstring (90%)</a> -- <a href="https://codeboard.io/projects/331278">Codeboard</a></summary></details>
 <details><summary><a href="4ºT/uniao.html">União</a> -- <a href="https://codeboard.io/projects/331285">Codeboard</a></summary></details>
+<details><summary><a href="4ºT/superstring.html">Segredo (70/80%)</a> -- <a href="https://codeboard.io/projects/391542">Codeboard</a></summary></details>
+<details><summary><a href="4ºT/superstring.html">Bits (0%)</a> -- <a href="https://codeboard.io/projects/391529">Codeboard</a></summary></details>
 </ul>
 </details>
 
@@ -98,6 +105,8 @@ Para verificar a percentagem total de correção do código de um exercício, no
 <details><summary><a href="5ºT/ilhas.html">[I] Ilhas [??%]</a></summary></details>
 <details><summary><a href="5ºT/numero.html">Número [50%]</a></summary></details>
 <details><summary><a href="5ºT/puzzle.html">[I] Puzzle [??%]</a></summary></details>
+<details><summary><a href="5ºT/centros.html">Centros</a> -- <a href="https://codeboard.io/projects/393819">Codeboard</a></summary></details>
+<details><summary><a href="5ºT/decifrar.html">[I] Decifrar</a> -- <a href="https://codeboard.io/projects/393817">Codeboard</a></summary></details>
 </ul>
 </details>
 
