@@ -1,4 +1,4 @@
-<h1 style="text-align: center;">LAII | Torneio 2 (Torneio 2022/2023) | Viagem</h1>
+<h1 style="text-align: center;">LA2 | Torneio 2 (Torneio 2022/2023) | Viagem</h1>
 
 ```Python
 

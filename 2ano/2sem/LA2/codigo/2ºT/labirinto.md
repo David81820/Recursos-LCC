@@ -1,3 +1,5 @@
+<h1 style="text-align: center;">LA2 | Treino 2 | Labirinto</h1>
+
 ```Python
 
 '''
