@@ -13,6 +13,10 @@ temos 1100, 0110 e 0011.
 '''
 
 
+###########################################
+#   Resolução com pesquisa exaustiva
+###########################################
+
 def bits(n,k):
     result = 0
     for i in range(2**n):
