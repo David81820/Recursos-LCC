@@ -12,7 +12,24 @@ aparece na mesma posição na palavra secreta ou numa posição diferente.
 """
 
 
-def wordle(secreta,tentativa):
+def wordle(secreta, tentativa):
+    res = []
+    usados = set()
+
+    for i in range(len(tentativa)):
+        char = tentativa[i]
+
+        if char in secreta:
+            secretIndex = secreta.find(char)
+
+            if secretIndex == i:
+                res.append((char, i, True))
+            elif secretIndex not in usados:
+                res.append((char, i, False))
+
+            usados.add(secretIndex)
+
+    return res
 
 ```
 

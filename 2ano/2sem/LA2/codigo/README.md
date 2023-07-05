@@ -30,7 +30,7 @@ Para verificar a percentagem total de correção do código de um exercício, na
 <details><summary><a href="1ºT/repete.html">Repete</a></summary></details>
 <details><summary><a href="1ºT/robot.html">Robot</a> -- <a href="https://codeboard.io/projects/311441">Codeboard</a></summary></details>
 <details><summary><a href="1ºT/area.html">[I] Área</a> -- <a href="https://codeboard.io/projects/376696">Codeboard</a></summary></details>
-<details><summary><a href="1ºT/wordle.html">Wordle</a> -- <a href="https://codeboard.io/projects/376689">Codeboard</a></summary></details>
+<details><summary><a href="1ºT/wordle.html">[I] Wordle [??%]</a> -- <a href="https://codeboard.io/projects/376689">Codeboard</a></summary></details>
 </ul>
 </details>
 
