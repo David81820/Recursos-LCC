@@ -1,4 +1,4 @@
-<h1 style="text-align: center;">LAII | Treinos e Torneios</h1>
+<h1 style="text-align: center;">Laboratório de Algoritmia II | Treinos e Torneios</h1>
 
 <br>
 

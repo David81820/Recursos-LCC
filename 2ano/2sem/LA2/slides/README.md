@@ -1,4 +1,4 @@
-<h1 style="text-align: center;">LA2 | Material Teórico</h1>
+<h1 style="text-align: center;">Laboratório de Algoritmia II | Material Teórico</h1>
 
 <br>
 
