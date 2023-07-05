@@ -1,5 +1,7 @@
 <h1 style="text-align: center;">LA2 | Material Teórico</h1>
 
+<br>
+
 **1)** [**Introdução ao Python**](LA2-1.pdf)
 <br>**2)** [**Algoritmos de Grafos**](LA2-2.pdf)
 <br>**3)** [**Programação Dinâmica**](LA2-3.pdf)

@@ -1,5 +1,7 @@
 <h1 style="text-align: center;">LAII | Treinos e Torneios</h1>
 
+<br>
+
 Para verificar a percentagem total de correção do código de um exercício, na plataforma _Codeboard.io_, cliclem nos botões:  Run > Test > Submit.
 <br>Infelizmente, para alguns exercícios não encontrei o seu link para o Codeboard.
 <br>Excepto quando indicado o contrário, a percentagem de correção dos exercícios é de 100%.

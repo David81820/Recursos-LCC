@@ -1,4 +1,4 @@
-# Laboratório de Algoritmia II
+<h1 style="text-align: center;">Laboratório de Algoritmia II | Informações</h1>
 
 <br>
 
