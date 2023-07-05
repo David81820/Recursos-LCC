@@ -101,65 +101,24 @@ def filtra(padrao, strings):
         
     return r
 
+```
 
-'''
-##
-# Main function of the Python program.
-#
-##
-from filtra import filtra
-def main():
-    print("<h3>filtra</h3>")
-    padrao = "a?*"
-    strings = ["abc","aabbc","a","baaa"]
-    print("filtra(",padrao,",",strings,") =")
-    print(filtra(padrao,strings))
-    
-if __name__ == '__main__':
-    main()
-##
-#
-# All tests in the folder "test" are executed
-# when the "Test" action is invoked.
-#
-##
-from Root.src.filtra import filtra
-import unittest
-class filtraTest(unittest.TestCase):
-    def test_filtra_0(self):
-        with test_timeout(self,1):
-            padrao = "a?*"
-            strings = ["abc","aabbc","a","baaa"]
-            self.assertEqual(filtra(padrao,strings), ['abc','aabbc'])
-    def test_filtra_1(self):
-        with test_timeout(self,1):
-            padrao = "??a*"
-            strings = ["abc","aaabc","aba","baaa"]
-            self.assertEqual(filtra(padrao,strings), ['aaabc','aba','baaa'])
-if __name__ == '__main__':
-    unittest.main()
-import time
-import signal
-class TestTimeout(Exception):
-    pass
-class test_timeout:
-  def __init__(self, test, seconds, error_message=None):
-    if error_message is None:
-      error_message = 'test timed out after {}s.'.format(seconds)
-    self.seconds = seconds
-    self.error_message = error_message
-    self.test = test
-  def handle_timeout(self, signum, frame):
-    raise TestTimeout(self.error_message)
-  def __enter__(self):
-    signal.signal(signal.SIGALRM, self.handle_timeout)
-    signal.alarm(self.seconds)
-  def __exit__(self, exc_type, exc_val, exc_tb):
-    signal.alarm(0)
-    if exc_type is not None and exc_type is not AssertionError:
-        self.test.fail("execution error")
-'''
 
+<br>
+
+
+## Testes
+
+```Python
+# 1
+padrao = "a?*"
+strings = ["abc","aabbc","a","baaa"]
+> Resultado = ['abc','aabbc']
+
+# 2
+padrao = "??a*"
+strings = ["abc","aaabc","aba","baaa"]
+> Resultado = ['aaabc','aba','baaa']
 ```
 
 [![retroceder](https://raw.githubusercontent.com/David81820/Recursos-LCC/main/Rewind.png)](https://david81820.github.io/Recursos-LCC/2ano/2sem/LA2/codigo)

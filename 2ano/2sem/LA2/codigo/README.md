@@ -91,7 +91,7 @@ Para verificar a percentagem total de correção do código de um exercício, na
 <details><summary><a href="4ºT/superstring.html">Superstring (90%)</a> -- <a href="https://codeboard.io/projects/331278">Codeboard</a></summary></details>
 <details><summary><a href="4ºT/uniao.html">União</a> -- <a href="https://codeboard.io/projects/331285">Codeboard</a></summary></details>
 <details><summary><a href="4ºT/superstring.html">Segredo (70/80%)</a> -- <a href="https://codeboard.io/projects/391542">Codeboard</a></summary></details>
-<details><summary><a href="4ºT/superstring.html">Bits (0%)</a> -- <a href="https://codeboard.io/projects/391529">Codeboard</a></summary></details>
+<details><summary><a href="4ºT/bits.html">[4chan :)] Bits (??%)</a> -- <a href="https://codeboard.io/projects/391529">Codeboard</a></summary></details>
 </ul>
 </details>
 

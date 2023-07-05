@@ -13,7 +13,43 @@ temos 1100, 0110 e 0011.
 '''
 
 
-def bits(n, k):
+def bits(n,k):
+    result = 0
+    for i in range(2**n):
+        txt = "{0:b}".format(i)
+        for q in txt.split('0'):
+            if (0<len(q) & len(q)<k):
+                break
+        else:
+            result+=1
+    return result
+
+
+
+################################################
+#   Resolução sem usar pesquisa exaustiva
+################################################
+
+def choose(n,k):
+    if n<k:
+        return 0
+    else:
+        numerator, denominator, k=1, 1, min(k, n-k)
+        for i in range(k):
+            numerator *= n-i
+            denominator *= i+1
+        return numerator // denominator
+
+
+def bits(n,k):
+    output = 1
+    for ones in range(k, n+1):
+        zeros = n - ones
+        for runs in range(1, ones):     # ones = k+1
+            a = choose( zeros-(runs-1)+(runs+1)-1 , runs+1-1 )
+            b = choose( ones-(runs*k)+(runs)-1 , runs-1 )
+            output += a * b
+    return output
 
 ```
 
