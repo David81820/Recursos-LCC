@@ -1,3 +1,5 @@
+<h1 style="text-align: center;">LA2 | Treino 3 | Soma</h1>
+
 ```Python
 
 """
@@ -18,6 +20,22 @@ def maxsoma(lista):
         sum[i] = max(sum[i-1]+lista[i], sum[i])
     return max(sum)
 
+```
+
+
+<br>
+
+
+## Testes
+
+```Python
+# 1
+lista = [-2,1,-3,4,-1,2,1,-5,4]
+> Resultado = 6
+
+# 2
+lista = [1,2,3,4,-11,1,2,3,4,5]
+> Resultado = 15
 ```
 
 [![retroceder](https://raw.githubusercontent.com/David81820/Recursos-LCC/main/Rewind.png)](https://david81820.github.io/Recursos-LCC/2ano/2sem/LA2/codigo)

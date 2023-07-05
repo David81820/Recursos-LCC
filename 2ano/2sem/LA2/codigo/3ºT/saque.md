@@ -1,3 +1,5 @@
+<h1 style="text-align: center;">LA2 | Treino 3 | Saque</h1>
+
 ```Python
 
 """
@@ -44,6 +46,33 @@ def saque(mapa):
     
     return dic[meta]
 
+```
+
+
+<br>
+
+
+## Testes
+
+```Python
+# 1
+mapa = [".3......",
+        "........",
+        "...5#...",
+        "...##...",
+        ".....9..",
+        "..2.....",
+        "..2.....",
+        "..2....."]
+> Resultado = 12
+
+# 2
+mapa = ["11111",
+        "0###1",
+        "0###1",
+        "0###1",
+        "00001"]
+> Resultado = 9
 ```
 
 [![retroceder](https://raw.githubusercontent.com/David81820/Recursos-LCC/main/Rewind.png)](https://david81820.github.io/Recursos-LCC/2ano/2sem/LA2/codigo)

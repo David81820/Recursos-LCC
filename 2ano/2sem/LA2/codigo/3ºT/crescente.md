@@ -1,3 +1,5 @@
+<h1 style="text-align: center;">LA2 | Treino 3 | Crescente</h1>
+
 ```Python
 
 """
@@ -74,6 +76,22 @@ def crescente(lista):
         maxSub = max(maxSub, cache[x])
         return maxSub
 
+```
+
+
+<br>
+
+
+## Testes
+
+```Python
+# 1
+lista = [5,2,7,4,3,8]
+> Resultado = 3
+
+# 2
+lista = [15,27,14,38,26,55,46,65,85]
+> Resultado = 6
 ```
 
 [![retroceder](https://raw.githubusercontent.com/David81820/Recursos-LCC/main/Rewind.png)](https://david81820.github.io/Recursos-LCC/2ano/2sem/LA2/codigo)

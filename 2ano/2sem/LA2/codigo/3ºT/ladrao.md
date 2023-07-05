@@ -1,3 +1,5 @@
+<h1 style="text-align: center;">LA2 | Treino 3 | Ladrão</h1>
+
 ```Python
 
 """
@@ -63,6 +65,24 @@ def ladrao(capacidade,objectos):
     
     return max(dic.items(), key=lambda x: x[1])[1]
 
+```
+
+
+<br>
+
+
+## Testes
+
+```Python
+# 1
+soma = 10
+objectos = [("microondas",30,6),("jarra",14,3),("giradiscos",16,4),("radio",9,2)]
+> Resultado = [[8,1,7,3,3,6,3,5],[1,1,1,2,3,1,2]]
+
+# 2
+soma = 10
+objectos = [('A',10,1),('B',20,1),('C',30,1),('D',40,1),('E',50,1),('F',60,1),('G',70,1),('H',80,1),('I',90,1),('J',100,1)]
+> Resultado = 550
 ```
 
 [![retroceder](https://raw.githubusercontent.com/David81820/Recursos-LCC/main/Rewind.png)](https://david81820.github.io/Recursos-LCC/2ano/2sem/LA2/codigo)

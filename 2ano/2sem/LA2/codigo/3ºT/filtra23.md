@@ -36,19 +36,22 @@ def filtra(strings, a, b):
             filtrado.append(str)
     return filtrado
 
+```
 
 
-#==================================
-#           TESTES
+<br>
 
+
+## Testes
+
+```Python
 # 1
 strings = ["ACDB","ABCD","ADCB"]
-resultado = ["ACDB","ABCD"]
+> Resultado = ["ACDB","ABCD"]
 
 # 2
 strings = ["ACDABC","ABCACD","AACCBC","AABCDC"]
-resultado = ["ACDABC","ABCACD","AABCDC"]
-
+> Resultado = ["ACDABC","ABCACD","AABCDC"]
 ```
 
 [![retroceder](https://raw.githubusercontent.com/David81820/Recursos-LCC/main/Rewind.png)](https://david81820.github.io/Recursos-LCC/2ano/2sem/LA2/codigo)

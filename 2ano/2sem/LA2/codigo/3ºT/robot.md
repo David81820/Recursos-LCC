@@ -1,3 +1,5 @@
+<h1 style="text-align: center;">LA2 | Treino 3 | Robot</h1>
+
 ```Python
 
 """
@@ -41,6 +43,24 @@ def probabilidade(passos,probs):
     
     return round(aux(passos, probs, (0,0), {}),2)
 
+```
+
+
+<br>
+
+
+## Testes
+
+```Python
+# 1
+passos = 2
+probs = {'U':0.25,'D':0.25,'L':0.25,'R':0.25}
+> Resultado = 0.25
+
+# 2
+capacidade = 6
+probs = {'U':0.17,'D':0.33,'L':0.29,'R':0.21}
+> Resultado = 0.08
 ```
 
 [![retroceder](https://raw.githubusercontent.com/David81820/Recursos-LCC/main/Rewind.png)](https://david81820.github.io/Recursos-LCC/2ano/2sem/LA2/codigo)

@@ -1,3 +1,5 @@
+<h1 style="text-align: center;">LA2 | Treino 3 | Espaça</h1>
+
 ```Python
 
 """
@@ -46,7 +48,24 @@ def espaca(frase,palavras):
                 mx = i
     return ' '.join(dic[mx])
 
+```
 
+
+<br>
+
+
+## Testes
+
+```Python
+# 1
+frase = "estecursoeomaior"
+palavras = ["e","o","so","maior","este","curso","urso","es","maio"]
+> Resultado = "este curso e o maior"
+
+# 2
+frase = "ogatomiaeavacamuge"
+palavras = ["o","oga","ga","gato","gatom","mia","eava","ava","e","a","va","vaca","mu","muge"]
+> Resultado = "o gato mia e a vaca muge"
 ```
 
 [![retroceder](https://raw.githubusercontent.com/David81820/Recursos-LCC/main/Rewind.png)](https://david81820.github.io/Recursos-LCC/2ano/2sem/LA2/codigo)

@@ -1,3 +1,5 @@
+<h1 style="text-align: center;">LA2 | Treino 3 | Vendedor</h1>
+
 ```Python
 
 """
@@ -69,6 +71,24 @@ def vendedor(capacidade,produtos):
                 ht[c].append(n)
     return (mxs[capacidade],sorted(ht[capacidade]))
 
+```
+
+
+<br>
+
+
+## Testes
+
+```Python
+# 1
+capacidade = 14
+conhecidos = {('pedro','maria'),('pedro','jose'),('pedro','manuel'),('maria','jose'),('maria','francisca'),('jose','francisca'),('francisca','manuel')}
+> Resultado = (190,["biblia","biblia","microondas"])
+
+# 2
+capacidade = 15
+produtos = [("Verde",4,12),("Azul",2,2),("Cinzento",2,1),("Laranja",1,1),("Amarelo",10,4)]
+> Resultado = (36,["Amarelo","Amarelo","Amarelo","Cinzento","Cinzento","Cinzento"])
 ```
 
 [![retroceder](https://raw.githubusercontent.com/David81820/Recursos-LCC/main/Rewind.png)](https://david81820.github.io/Recursos-LCC/2ano/2sem/LA2/codigo)

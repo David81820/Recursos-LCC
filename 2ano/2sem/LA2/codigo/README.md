@@ -72,7 +72,7 @@ Para verificar a percentagem total de correção do código de um exercício, na
 <details><summary><a href="3ºT/binario.html">Binário (80%)</a></summary></details>
 <details><summary><a href="3ºT/filtra.html">Filtra 2022 (80%)</a></summary></details>
 <details><summary><a href="3ºT/filtra23.html">[I] Filtra 2023 (??%)</a> -- <a href="https://codeboard.io/projects/388670">Codeboard</a></summary></details>
-<details><summary><a href="3ºT/filtra23.html">[I] Duplica (??%)</a> -- <a href="https://codeboard.io/projects/388658">Codeboard</a></summary></details>
+<details><summary><a href="3ºT/duplica.html">[I] Duplica (??%)</a> -- <a href="https://codeboard.io/projects/388658">Codeboard</a></summary></details>
 </ul>
 </details>
 
@@ -90,8 +90,8 @@ Para verificar a percentagem total de correção do código de um exercício, na
 <details><summary><a href="4ºT/sacos.html">Sacos (90%)</a> -- <a href="https://codeboard.io/projects/331277">Codeboard</a></summary></details>
 <details><summary><a href="4ºT/superstring.html">Superstring (90%)</a> -- <a href="https://codeboard.io/projects/331278">Codeboard</a></summary></details>
 <details><summary><a href="4ºT/uniao.html">União</a> -- <a href="https://codeboard.io/projects/331285">Codeboard</a></summary></details>
-<details><summary><a href="4ºT/superstring.html">Segredo (70/80%)</a> -- <a href="https://codeboard.io/projects/391542">Codeboard</a></summary></details>
-<details><summary><a href="4ºT/bits.html">[4chan :)] Bits (??%)</a> -- <a href="https://codeboard.io/projects/391529">Codeboard</a></summary></details>
+<details><summary><a href="4ºT/segredo.html">Segredo (70/80%)</a> -- <a href="https://codeboard.io/projects/391542">Codeboard</a></summary></details>
+<details><summary><a href="4ºT/bits.html">[4chan :D] Bits (??%)</a> -- <a href="https://codeboard.io/projects/391529">Codeboard</a></summary></details>
 </ul>
 </details>
 
