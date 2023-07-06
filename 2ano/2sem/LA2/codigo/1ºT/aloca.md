@@ -27,4 +27,20 @@ def aloca(prefs):
 
 ```
 
+
+<br>
+
+
+## Testes
+
+```Python
+# 1
+prefs = {10885:[1,5],40000:[5],10000:[1,2]}
+> Resultado = [40000]
+
+# 2
+prefs = {30000:[1],20000:[2],10000:[3]}
+> Resultado = []
+```
+
 [![retroceder](https://raw.githubusercontent.com/David81820/Recursos-LCC/main/Rewind.png)](https://david81820.github.io/Recursos-LCC/2ano/2sem/LA2/codigo)

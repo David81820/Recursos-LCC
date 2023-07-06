@@ -22,4 +22,20 @@ def frequencia(texto):
 
 ```
 
+
+<br>
+
+
+## Testes
+
+```Python
+# 1
+texto = "o tempo perguntou ao tempo quanto tempo o tempo tem"
+> Resultado = ['tempo','o','ao','perguntou','quanto','tem']
+
+# 2
+texto = "ola"
+> Resultado = ['ola']
+```
+
 [![retroceder](https://raw.githubusercontent.com/David81820/Recursos-LCC/main/Rewind.png)](https://david81820.github.io/Recursos-LCC/2ano/2sem/LA2/codigo)

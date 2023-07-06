@@ -24,4 +24,27 @@ def isbn(livros):
 
 ```
 
+
+<br>
+
+
+## Testes
+
+```Python
+# 1
+livros = {
+            "Todos os nomes":"9789720047572",
+            "Ensaio sobre a cegueira":"9789896604011",
+            "Memorial do convento":"9789720046711",
+            "Os cus de Judas":"9789722036757"
+        }
+> Resultado = ["Memorial do convento","Todos os nomes"]
+
+# 2
+livros = {
+            "Ola mundo":"0000000000001"
+        }
+> Resultado = ["Ola mundo"]
+```
+
 [![retroceder](https://raw.githubusercontent.com/David81820/Recursos-LCC/main/Rewind.png)](https://david81820.github.io/Recursos-LCC/2ano/2sem/LA2/codigo)

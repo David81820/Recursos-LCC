@@ -35,4 +35,20 @@ def cruzamentos(ruas):
 
 ```
 
+
+<br>
+
+
+## Testes
+
+```Python
+# 1
+ruas = ["raio","central","liberdade","chaos","saovictor","saovicente","saodomingos","souto","capelistas","anjo","taxa"]
+> Resultado = [('t',1),('a',2),('e',2),('l',2),('r',2),('c',3),('o',3),('s',6)]
+
+# 2
+ruas = ["ab","bc","bd","cd"]
+> Resultado = [('a',1),('c',2),('d',2),('b',3)]
+```
+
 [![retroceder](https://raw.githubusercontent.com/David81820/Recursos-LCC/main/Rewind.png)](https://david81820.github.io/Recursos-LCC/2ano/2sem/LA2/codigo)

@@ -36,4 +36,20 @@ def tabela(jogos):
 
 ```
 
+
+<br>
+
+
+## Testes
+
+```Python
+# 1
+jogos = [("Benfica",3,"Porto",2),("Benfica",0,"Sporting",0),("Porto",4,"Benfica",1),("Sporting",2,"Porto",2)]
+> Resultado = [('Porto', 4), ('Benfica', 4), ('Sporting', 2)]
+
+# 2
+jogos = [("Benfica",3,"Porto",2),("Benfica",0,"Sporting",0),("Porto",2,"Benfica",1),("Sporting",2,"Porto",2)]
+> Resultado = [('Benfica', 4), ('Porto', 4), ('Sporting', 2)]
+```
+
 [![retroceder](https://raw.githubusercontent.com/David81820/Recursos-LCC/main/Rewind.png)](https://david81820.github.io/Recursos-LCC/2ano/2sem/LA2/codigo)

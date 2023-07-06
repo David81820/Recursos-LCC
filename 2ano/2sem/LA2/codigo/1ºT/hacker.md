@@ -36,4 +36,23 @@ def hacker(log):
 
 ```
 
+
+<br>
+
+
+## Testes
+
+```Python
+# 1
+log = [("****1234********","maria@mail.pt"),
+        ("0000************","ze@gmail.com"),
+        ("****1111****3333","ze@gmail.com")]
+> Resultado = [("00001111****3333","ze@gmail.com"),("****1234********","maria@mail.pt")]
+
+# 2
+log = [("0000************","ze@gmail.com"),
+        ("****1234********","maria@mail.pt")]
+> Resultado = [("****1234********","maria@mail.pt"),("0000************","ze@gmail.com")]
+```
+
 [![retroceder](https://raw.githubusercontent.com/David81820/Recursos-LCC/main/Rewind.png)](https://david81820.github.io/Recursos-LCC/2ano/2sem/LA2/codigo)

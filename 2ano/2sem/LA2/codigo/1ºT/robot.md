@@ -39,4 +39,20 @@ def robot(comandos):
 
 ```
 
+
+<br>
+
+
+## Testes
+
+```Python
+# 1
+comando = "EEAADAAAAAADAAAADDDAAAHAAAH"
+> Resultado = [(-9,-2,0,2),(0,0,0,3)]
+
+# 2
+comando = "H"
+> Resultado = [(0,0,0,0)]
+```
+
 [![retroceder](https://raw.githubusercontent.com/David81820/Recursos-LCC/main/Rewind.png)](https://david81820.github.io/Recursos-LCC/2ano/2sem/LA2/codigo)

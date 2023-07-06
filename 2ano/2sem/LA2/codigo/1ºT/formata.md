@@ -79,4 +79,20 @@ def formata(codigo):
 
 ```
 
+
+<br>
+
+
+## Testes
+
+```Python
+# 1
+codigo = "int x;x=0;x=x+1;"
+> Resultado = "int x;\nx=0;\nx=x+1;"
+
+# 2
+codigo = "int main() {int x;x=0;     x=x+1;}"
+> Resultado = "int main() {\n  int x;\n  x=0;\n  x=x+1;\n}"
+```
+
 [![retroceder](https://raw.githubusercontent.com/David81820/Recursos-LCC/main/Rewind.png)](https://david81820.github.io/Recursos-LCC/2ano/2sem/LA2/codigo)

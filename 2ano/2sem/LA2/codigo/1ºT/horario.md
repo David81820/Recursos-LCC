@@ -61,4 +61,22 @@ def horario(ucs,alunos):
 
 ```
 
+
+<br>
+
+
+## Testes
+
+```Python
+# 1
+ucs = {"la2": ("quarta",16,2), "pi": ("terca",15,1), "cp": ("terca",14,2),"so": ("quinta",9,3)}
+alunos = {5000: {"la2","cp"}, 2000: {"la2","cp","pi"},3000: {"cp","poo"}, 1000: {"la2","cp","so"}}
+> Resultado = [(1000, 7), (5000, 4)]
+
+# 2
+ucs = {"la2": ("quarta",16,2), "pi": ("terca",15,1)}
+alunos = {5000: {"la2","pi"}, 2000: {"pi","la2"}}
+> Resultado = [(2000, 3), (5000, 3)]
+```
+
 [![retroceder](https://raw.githubusercontent.com/David81820/Recursos-LCC/main/Rewind.png)](https://david81820.github.io/Recursos-LCC/2ano/2sem/LA2/codigo)
