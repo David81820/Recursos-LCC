@@ -86,4 +86,24 @@ def erdos(artigos, n):
 
 ```
 
+
+<br>
+
+
+## Testes
+
+```Python
+# 1
+artigos = {"Adaptive register allocation with a linear number of registers": {"Carole Delporte-Gallet","Hugues Fauconnier","Eli Gafni","Leslie Lamport"},
+           "Oblivious collaboration": {"Yehuda Afek","Yakov Babichenko","Uriel Feige","Eli Gafni","Nati Linial","Benny Sudakov"},
+           "Optima of dual integer linear programs": {"Ron Aharoni","Paul Erdos","Nati Linial"}}
+n = 2
+> Resultado = ['Paul Erdos', 'Nati Linial', 'Ron Aharoni', 'Benny Sudakov', 'Eli Gafni', 'Uriel Feige', 'Yakov Babichenko', 'Yehuda Afek']
+
+# 2
+artigos = {"Specifying systems": {"Leslie Lamport"}, "Optima of dual integer linear programs": {"Ron Aharoni","Paul Erdos","Nati Linial"}}
+n = 1
+> Resultado = ['Paul Erdos', 'Nati Linial', 'Ron Aharoni']
+```
+
 [![retroceder](https://raw.githubusercontent.com/David81820/Recursos-LCC/main/Rewind.png)](https://david81820.github.io/Recursos-LCC/2ano/2sem/LA2/codigo)

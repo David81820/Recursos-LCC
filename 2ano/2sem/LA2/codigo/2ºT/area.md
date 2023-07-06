@@ -90,4 +90,37 @@ def area(p,mapa):
 
 ```
 
+
+<br>
+
+
+## Testes
+
+```Python
+# 1
+p = (3,2)
+mapa = ["..*..",
+        ".*.*.",
+        "*...*",
+        ".*.*.",
+        "..*.."]
+> Resultado = 5
+
+# 2
+p = (3,2)
+mapa = ["..*..",
+        ".*.*.",
+        "*....",
+        ".*.*.",
+        "..*.."]
+> Resultado = 12
+```
+
+            self.assertEqual(area((3,2),mapa),5)
+
+    def test_area_2(self):
+        with test_timeout(self,1):
+            
+            self.assertEqual(area((3,2),mapa),12)
+
 [![retroceder](https://raw.githubusercontent.com/David81820/Recursos-LCC/main/Rewind.png)](https://david81820.github.io/Recursos-LCC/2ano/2sem/LA2/codigo)

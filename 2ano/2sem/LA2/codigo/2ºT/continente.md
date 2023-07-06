@@ -76,4 +76,20 @@ def maior(vizinhos):
 
 ```
 
+
+<br>
+
+
+## Testes
+
+```Python
+# 1
+vizinhos = [["Portugal","Espanha"],["Espanha","França"],["França","Bélgica","Alemanha","Luxemburgo"],["Canada","Estados Unidos"]]
+> Resultado = 6
+
+# 2
+vizinhos = [["Portugal","Espanha"],["Espanha","França"]]
+> Resultado = 3
+```
+
 [![retroceder](https://raw.githubusercontent.com/David81820/Recursos-LCC/main/Rewind.png)](https://david81820.github.io/Recursos-LCC/2ano/2sem/LA2/codigo)

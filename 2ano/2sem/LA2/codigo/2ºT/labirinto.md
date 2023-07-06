@@ -81,4 +81,31 @@ def caminho(mapa):
 
 ```
 
+
+<br>
+
+
+## Testes
+
+```Python
+# 1
+mapa = ["  ########",
+        "# # #    #",
+        "# # #### #",
+        "# #      #",
+        "# # # ####",
+        "# # #    #",
+        "#   # #  #",
+        "##### ####",
+        "#        #",
+        "########  "]
+> Resultado = "ESSSSSSEENNNEESSSSSEEESE"
+
+# 2
+mapa = ['   ',
+        ' # ',
+        '   ']
+> Resultado = ["EESS","SSEE"]
+```
+
 [![retroceder](https://raw.githubusercontent.com/David81820/Recursos-LCC/main/Rewind.png)](https://david81820.github.io/Recursos-LCC/2ano/2sem/LA2/codigo)

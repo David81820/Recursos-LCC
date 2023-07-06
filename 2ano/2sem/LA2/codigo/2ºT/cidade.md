@@ -105,4 +105,20 @@ def tamanho(ruas):
 
 ```
 
+
+<br>
+
+
+## Testes
+
+```Python
+# 1
+ruas = ["raio","central","liberdade","chaos","saovictor","saovicente","saodomingos","souto","capelistas","anjo","taxa"]
+> Resultado = 25
+
+# 2
+ruas = ["ab","bc","bd","cd"]
+> Resultado = 4
+```
+
 [![retroceder](https://raw.githubusercontent.com/David81820/Recursos-LCC/main/Rewind.png)](https://david81820.github.io/Recursos-LCC/2ano/2sem/LA2/codigo)

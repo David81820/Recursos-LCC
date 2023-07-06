@@ -54,4 +54,33 @@ def viagem(rotas,o,d):
 
 ```
 
+
+<br>
+
+
+## Testes
+
+```Python
+# 1
+rotas = [["Porto",20,"Lisboa"],
+        ["Braga",3,"Barcelos",4,"Viana",3,"Caminha"],
+        ["Braga",3,"Famalicao",3,"Porto"],
+        ["Viana",4,"Povoa",3,"Porto"],
+        ["Lisboa",10,"Evora",8,"Beja",8,"Faro"]]
+o = "Caminha"
+d = "Lisboa"
+> Resultado = 30
+
+# 2
+rotas = [["Porto",20,"Lisboa"],
+        ["Braga",3,"Barcelos",4,"Viana",3,"Caminha"],
+        ["Braga",3,"Famalicao",3,"Porto"],
+        ["Viana",4,"Povoa",3,"Porto"],
+        ["Lisboa",10,"Evora",8,"Beja",8,"Faro"],
+        ["Porto",15,"Lisboa",20,"Faro"]]
+o = "Braga"
+d = "Faro"
+> Resultado = 41
+```
+
 [![retroceder](https://raw.githubusercontent.com/David81820/Recursos-LCC/main/Rewind.png)](https://david81820.github.io/Recursos-LCC/2ano/2sem/LA2/codigo)

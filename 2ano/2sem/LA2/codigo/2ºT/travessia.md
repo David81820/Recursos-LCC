@@ -155,4 +155,27 @@ def travessia(mapa):
 
 ```
 
+
+<br>
+
+
+## Testes
+
+```Python
+# 1
+mapa = ["4563",
+        "9254",
+        "7234",
+        "3231",
+        "3881"]
+> Resultado = (2,10)
+
+# 2
+mapa = ["90999",
+        "00000",
+        "92909",
+        "94909"]
+> Resultado = (1,5)
+```
+
 [![retroceder](https://raw.githubusercontent.com/David81820/Recursos-LCC/main/Rewind.png)](https://david81820.github.io/Recursos-LCC/2ano/2sem/LA2/codigo)

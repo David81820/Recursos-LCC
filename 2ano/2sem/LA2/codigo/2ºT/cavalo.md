@@ -34,4 +34,22 @@ def saltos(o,d):
 
 ```
 
+
+<br>
+
+
+## Testes
+
+```Python
+# 1
+o = (0,0)
+d = (1,1)
+> Resultado = 2
+
+# 2
+o = (0,0)
+d = (7,7)
+> Resultado = 6
+```
+
 [![retroceder](https://raw.githubusercontent.com/David81820/Recursos-LCC/main/Rewind.png)](https://david81820.github.io/Recursos-LCC/2ano/2sem/LA2/codigo)
