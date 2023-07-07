@@ -1,4 +1,4 @@
-# Autómatos e Linguagens Formais
+<h1 style="text-align: center;">Autómatos e Linguagens Formais | Informações</h1>
 
 <br>
 
