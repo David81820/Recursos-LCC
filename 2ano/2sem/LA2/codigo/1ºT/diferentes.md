@@ -23,21 +23,20 @@ def diferentes(frases):
 ###################################
 
 def diferentes(frases):
-    # Caso vazio
-    if frases == []:
+    if frases == []:    # Caso vazio
         return []
     
     
-    numcardifFinal = [] # Lista que vai ter os numeros de carateres de cada string
-    for string in frases: # Percorrer a lista frases
-        numcardifAux = [] # Lista auxiliar que vai conter os carateres sem repetições de cada string
-        for i in string: # Percorrer a string
-            if not i in numcardifAux: # Se o carater lido não estiver em "numcardifAux", é adicionado à respetiva lista
+    numcardifFinal = []     # Lista que vai ter os numeros de carateres de cada string
+    for string in frases:   # Percorrer a lista frases
+        numcardifAux = []       # Lista auxiliar que vai conter os carateres sem repetições de cada string
+        for i in string:              # Percorrer a string
+            if not i in numcardifAux:       # Se o carater lido não estiver em "numcardifAux", é adicionado à respetiva lista
                 numcardifAux.append(i)
-        numcardifFinal.append(len(numcardifAux)) # Adiciono o comprimento da lista "numcardifAux" que corresponde ao numero de carateres distintos da string
-    Final = list(zip(frases, numcardifFinal)) # Criar uma lista de tuplos (string, numero de char)
-    Final = sorted(Final, key=lambda x: (-x[1], x[0])) # Ordenar pela ordem decrescente do numero de carateres, depois crescente do comprimento da string e por fim por ordem alfabetica
-    Final = [x[0] for x in Final] # Ir buscar só as strings
+        numcardifFinal.append(len(numcardifAux))    # Adiciono o comprimento da lista "numcardifAux" que corresponde ao numero de carateres distintos da string
+    Final = list(zip(frases, numcardifFinal))           # Criar uma lista de tuplos (string, numero de char)
+    Final = sorted(Final, key=lambda x: (-x[1], x[0]))      # Ordenar pela ordem decrescente do numero de carateres, depois crescente do comprimento da string e por fim por ordem alfabetica
+    Final = [x[0] for x in Final]       # Ir buscar só as strings
     return Final
 
 ```
