@@ -11,17 +11,17 @@ Lista dos vários detalhes técnicos da cadeira que podem ser encontrados na aba
 <br>
 
 ## [Material Teórico](slides/README.md)
-
+Slides e apontamentos oficiais.
 
 <br>
 
 ## [Fichas de Exercícios](fichas/README.md)
-
+Folhas de exercícios fornecidas pelo corpo docente
 
 <br>
 
 ## [Testes e Exames](testes/README.md)
-
+Testes e Exames dos anos anteriores.
 
 <br><br>
 

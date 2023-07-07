@@ -1,5 +1,7 @@
 <h1 style="text-align: center;">ALF | Material Teórico</h1>
 
+<br>
+
 ## 2020 / 2021
 * [Linguagens Regulares](Linguagens%20Regulares.pdf)
 
