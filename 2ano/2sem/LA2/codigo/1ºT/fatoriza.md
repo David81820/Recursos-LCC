@@ -1,3 +1,5 @@
+<h1 style="text-align: center;">LA2 | Treino 1 | Fatoriza</h1>
+
 ```Python
 
 '''
@@ -16,6 +18,22 @@ def factoriza(n):
                 n /= i
     return soma
 
+```
+
+
+<br>
+
+
+## Testes
+
+```Python
+# 1
+n = 6
+> Resultado = 5
+
+# 2
+n = 28
+> Resultado = 9
 ```
 
 [![retroceder](https://raw.githubusercontent.com/David81820/Recursos-LCC/main/Rewind.png)](https://david81820.github.io/Recursos-LCC/2ano/2sem/LA2/codigo)

@@ -18,10 +18,10 @@ Para verificar a percentagem total de correção do código de um exercício, na
 <details><summary><a href="1ºT/aloca.html">Aloca</a> -- <a href="https://codeboard.io/projects/311283">Codeboard</a></summary></details>
 <details><summary><a href="1ºT/apelidos.html">Apelidos</a> -- <a href="https://codeboard.io/projects/311284">Codeboard</a></summary></details>
 <details><summary><a href="1ºT/cruzamentos.html">Cruzamentos</a> -- <a href="https://codeboard.io/projects/311285">Codeboard</a></summary></details>
-<details><summary><a href="1ºT/diferentes.html">Diferentes</a></summary></details>
+<details><summary><a href="1ºT/diferentes.html">[I + A] Diferentes</a></summary></details>
 <details><summary><a href="1ºT/fatoriza.html">Factoriza</a></summary></details>
 <details><summary><a href="1ºT/formata.html">Formata</a> -- <a href="https://codeboard.io/projects/312631">Codeboard</a></summary></details>
-<details><summary><a href="1ºT/formula1.html">Formula 1</a></summary></details>
+<details><summary><a href="1ºT/formula1.html">[I + A] Fórmula 1</a></summary></details>
 <details><summary><a href="1ºT/frequencia.html">Frequência</a> -- <a href="https://codeboard.io/projects/311413">Codeboard</a></summary></details>
 <details><summary><a href="1ºT/futebol.html">Futebol</a> -- <a href="https://codeboard.io/projects/311417">Codeboard</a></summary></details>
 <details><summary><a href="1ºT/hacker.html">Hacker</a> -- <a href="https://codeboard.io/projects/311431">Codeboard</a></summary></details>
@@ -48,6 +48,8 @@ Para verificar a percentagem total de correção do código de um exercício, na
 <details><summary><a href="2ºT/labirinto.html">Labirinto</a> -- <a href="https://codeboard.io/projects/318586">Codeboard</a></summary></details>
 <details><summary><a href="2ºT/travessia.html">Travessia</a> -- <a href="https://codeboard.io/projects/318588">Codeboard</a></summary></details>
 <details><summary><a href="2ºT/viagem.html">Viagem</a> -- <a href="https://codeboard.io/projects/318589">Codeboard</a></summary></details>
+<details><summary><a href="2ºT/deadcode.html">Deadcode (??%)</a></summary></details>
+<details><summary><a href="2ºT/pacman.html">Pacman (??%)</a></summary></details>
 <details><summary><a href="2ºT/centros.html">Centros</a></summary></details>
 <details><summary><a href="2ºT/distancia.html">Distância</a></summary></details>
 <details><summary><a href="2ºT/viagemT.html">[I] Viagem 2023 (90%)</a> -- <a href="https://codeboard.io/projects/382825">Codeboard</a></summary></details>
@@ -69,10 +71,12 @@ Para verificar a percentagem total de correção do código de um exercício, na
 <details><summary><a href="3ºT/soma.html">Soma</a> -- <a href="https://codeboard.io/projects/323214">Codeboard</a></summary></details>
 <details><summary><a href="3ºT/validas.html">Válidas</a> -- <a href="https://codeboard.io/projects/323215">Codeboard</a></summary></details>
 <details><summary><a href="3ºT/vendedor.html">Vendedor</a> -- <a href="https://codeboard.io/projects/323216">Codeboard</a></summary></details>
+<details><summary><a href="3ºT/duplica21.html">Duplica 2021 (??%)</a></summary></details>
+<details><summary><a href="3ºT/drone.html">Drone (??%)</a></summary></details>
 <details><summary><a href="3ºT/binario.html">Binário (80%)</a></summary></details>
-<details><summary><a href="3ºT/filtra.html">Filtra 2022 (80%)</a></summary></details>
+<details><summary><a href="3ºT/filtra22.html">Filtra 2022 (80%)</a></summary></details>
 <details><summary><a href="3ºT/filtra23.html">[I] Filtra 2023 (??%)</a> -- <a href="https://codeboard.io/projects/388670">Codeboard</a></summary></details>
-<details><summary><a href="3ºT/duplica.html">[I] Duplica (??%)</a> -- <a href="https://codeboard.io/projects/388658">Codeboard</a></summary></details>
+<details><summary><a href="3ºT/duplica23.html">[I] Duplica 2023 (??%)</a> -- <a href="https://codeboard.io/projects/388658">Codeboard</a></summary></details>
 </ul>
 </details>
 
@@ -90,6 +94,10 @@ Para verificar a percentagem total de correção do código de um exercício, na
 <details><summary><a href="4ºT/sacos.html">Sacos (90%)</a> -- <a href="https://codeboard.io/projects/331277">Codeboard</a></summary></details>
 <details><summary><a href="4ºT/superstring.html">Superstring (90%)</a> -- <a href="https://codeboard.io/projects/331278">Codeboard</a></summary></details>
 <details><summary><a href="4ºT/uniao.html">União</a> -- <a href="https://codeboard.io/projects/331285">Codeboard</a></summary></details>
+<details><summary><a href="4ºT/jogo.html">Jogo (0%)</a></summary></details>
+<details><summary><a href="4ºT/quadrado21.html">Quadrado 2021 (0%)</a></summary></details>
+<details><summary><a href="4ºT/centro.html">Centro (0%)</a></summary></details>
+<details><summary><a href="4ºT/quadrado22.html">Quadrado 2022 (0%)</a></summary></details>
 <details><summary><a href="4ºT/segredo.html">Segredo (70/80%)</a> -- <a href="https://codeboard.io/projects/391542">Codeboard</a></summary></details>
 <details><summary><a href="4ºT/bits.html">[4chan :D] Bits (??%)</a> -- <a href="https://codeboard.io/projects/391529">Codeboard</a></summary></details>
 </ul>

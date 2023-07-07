@@ -1,3 +1,5 @@
+<h1 style="text-align: center;">LA2 | Torneio 2 (2021/2022) | Distância</h1>
+
 ```Python
 
 '''
@@ -93,6 +95,34 @@ def distancia(mapa,o,d):
     else:
         return len(caminhofinal) -1
 
+```
+
+
+<br>
+
+
+## Testes
+
+```Python
+# 1
+mapa = ["#X###X",
+        "#  #  ",
+        "#X##  ",
+        "     X",
+        "  X###"]
+o = (1,0)
+d = (1,2)
+> Resultado = 4
+
+# 2
+mapa = ["#X###X",
+        "#  #  ",
+        "#X##  ",
+        "     X",
+        "  X###"]
+o = (1,0)
+d = (1,1)
+> Resultado = None
 ```
 
 [![retroceder](https://raw.githubusercontent.com/David81820/Recursos-LCC/main/Rewind.png)](https://david81820.github.io/Recursos-LCC/2ano/2sem/LA2/codigo)

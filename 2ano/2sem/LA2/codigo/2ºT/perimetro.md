@@ -34,4 +34,32 @@ def perimetro(figura):
 
 ```
 
+
+<br>
+
+
+## Testes
+
+```Python
+# 1
+figura = [".......",
+        "...#...",
+        "..###..",
+        ".#####.",
+        "..###..",
+        "...#...",
+        "......."]
+> Resultado = 20
+
+# 2
+figura = [".......",
+        "...#...",
+        "..#.#..",
+        ".#...#.",
+        "..#.#..",
+        "...#...",
+        "......."]
+> Resultado = 20
+```
+
 [![retroceder](https://raw.githubusercontent.com/David81820/Recursos-LCC/main/Rewind.png)](https://david81820.github.io/Recursos-LCC/2ano/2sem/LA2/codigo)

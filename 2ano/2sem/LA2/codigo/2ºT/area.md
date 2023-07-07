@@ -12,6 +12,7 @@ partir do canto superior esquerdo.
 O robot só consegue movimentar-se na horizontal ou na vertical. 
 '''
 
+
 def area(p,mapa):
     xi, yi = p
 
@@ -115,12 +116,5 @@ mapa = ["..*..",
         "..*.."]
 > Resultado = 12
 ```
-
-            self.assertEqual(area((3,2),mapa),5)
-
-    def test_area_2(self):
-        with test_timeout(self,1):
-            
-            self.assertEqual(area((3,2),mapa),12)
 
 [![retroceder](https://raw.githubusercontent.com/David81820/Recursos-LCC/main/Rewind.png)](https://david81820.github.io/Recursos-LCC/2ano/2sem/LA2/codigo)
