@@ -32,7 +32,47 @@ e a solução pela lista das posições das cartas no baralho, ou seja, [3,2,3,1
 '''
 
 
+def valid(cartas, sequencia):
+    s1 = ""
+    s2 = ""
+    for x in sequencia:
+        a, b = cartas[x]
+        s1 += a
+        s2 += b
+    return s1 == s2
+
+
+def complete(cartas, sequencia, k):
+    return len(sequencia) == k
+
+
+def extensions(cartas, sequencia, ordenada):
+    return ordenada
+
+
+def aux(cartas, sequencia, k, ordenada):
+    if complete(cartas, sequencia, k):
+        return valid(cartas, sequencia)
+    for x in extensions(cartas, sequencia, ordenada):
+        sequencia.append(x)
+        if aux(cartas, sequencia, k, ordenada):
+            return True
+        sequencia.pop()
+    return False
+
+
 def jogo(cartas):
+    ordenada = [x for x in range(len(cartas))]
+    ordenada.sort()
+    sequencia = []
+    k = 1
+    if cartas == []:
+        return []
+    while 1:
+        if aux(cartas, sequencia, k, ordenada):
+            res = [x+1 for x in sequencia]
+            return res
+        k += 1
 
 ```
 

@@ -94,10 +94,10 @@ Para verificar a percentagem total de correção do código de um exercício, na
 <details><summary><a href="4ºT/sacos.html">Sacos (90%)</a> -- <a href="https://codeboard.io/projects/331277">Codeboard</a></summary></details>
 <details><summary><a href="4ºT/superstring.html">Superstring (90%)</a> -- <a href="https://codeboard.io/projects/331278">Codeboard</a></summary></details>
 <details><summary><a href="4ºT/uniao.html">União</a> -- <a href="https://codeboard.io/projects/331285">Codeboard</a></summary></details>
-<details><summary><a href="4ºT/jogo.html">Jogo (0%)</a></summary></details>
+<details><summary><a href="4ºT/jogo.html">Jogo (50%)</a></summary></details>
 <details><summary><a href="4ºT/quadrado21.html">Quadrado 2021 (0%)</a></summary></details>
 <details><summary><a href="4ºT/centro.html">Centro (0%)</a></summary></details>
-<details><summary><a href="4ºT/quadrado22.html">Quadrado 2022 (0%)</a></summary></details>
+<details><summary><a href="4ºT/quadrado22.html">Quadrado 2022</a></summary></details>
 <details><summary><a href="4ºT/segredo.html">Segredo (70/80%)</a> -- <a href="https://codeboard.io/projects/391542">Codeboard</a></summary></details>
 <details><summary><a href="4ºT/bits.html">[4chan :D] Bits (??%)</a> -- <a href="https://codeboard.io/projects/391529">Codeboard</a></summary></details>
 </ul>

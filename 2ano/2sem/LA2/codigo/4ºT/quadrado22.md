@@ -15,7 +15,56 @@ ordem lexicográfica.
 '''
 
 
+def complete(quadrado, N, linha, coluna):
+    return linha > N - 1
+
+
+def valid(quadrado, N):
+    for i in range(N):
+        l = quadrado[i]
+        s = set(l)
+        if len(l) != len(set(s)):
+            return False
+        c = [x[i] for x in quadrado]
+        s = set(c)
+        if len(c) != len(set(s)):
+            return False
+    return True
+
+
+def extensions(quadrado, linha, coluna, N):
+    listaLinha = quadrado[linha]
+    listaColuna = [l[coluna] for l in quadrado]
+    
+    return [x for x in range(1, N+1) if x not in listaLinha and x not in listaColuna]
+
+
+def proxPos(N, linha, coluna):
+    if coluna == N - 1:
+        return linha+1, 0
+    return linha, coluna + 1
+
+
+def aux(quadrado, linha, coluna, N):
+    if complete(quadrado, N, linha, coluna):
+        return valid(quadrado, N)
+    l, c = proxPos(N, linha, coluna)
+    
+    if quadrado[linha][coluna] != 0:
+        return aux(quadrado, l, c, N)
+        
+    for x in extensions(quadrado, linha, coluna, N):
+        quadrado[linha][coluna] = x
+        if aux(quadrado, l, c, N):
+            return True
+        quadrado[linha][coluna] = 0
+        
+    return False
+
+
 def quadrado(q):
+    aux(q, 0, 0, len(q))
+    return q
 
 ```
 
