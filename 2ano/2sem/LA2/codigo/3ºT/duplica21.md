@@ -1,16 +1,15 @@
-Torneio 2020/2021
+<h1 style="text-align: center;">LA2 | Torneio 3 (2021/2022) | Duplica</h1>
 
-
+```Python
 
 """
-
 Implemente uma função que, dado um texto, duplique algumas palavras
 por forma a obter o maior texto possível. A única restrição é que
 não é possível duplicar duas palavras seguidas.
 Caso haja mais do que um resultado possíveis com o mesmo comprimento máximo deve
 retornar o menor deles em ordem lexicográfica.
-
 """
+
 
 def aux3(texto, pal, pSort, n):
     
@@ -89,22 +88,22 @@ def duplica(texto):
     elif t>3:
         return aux(texto, words, wSortLen, t)
 
+```
 
 
+<br>
 
 
+## Testes
 
-
-
-
-
-
-
-
-
-
+```Python
+# 1
 texto = "hoje e dia de torneio"
-            self.assertEqual(duplica(texto),"hoje hoje e dia dia de torneio torneio")
+> Resultado = "hoje hoje e dia dia de torneio torneio"
 
+# 2
 texto = "gosto muito de programar"
-            self.assertEqual(duplica(texto),"gosto gosto muito de programar programar")
+> Resultado = "gosto gosto muito de programar programar"
+```
+
+[![retroceder](https://raw.githubusercontent.com/David81820/Recursos-LCC/main/Rewind.png)](https://david81820.github.io/Recursos-LCC/2ano/2sem/LA2/codigo)
