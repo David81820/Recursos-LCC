@@ -4,7 +4,9 @@
 
 * [Exercicios de Autómatos Finitos](Exercicios%20Automatos%20Finitos.pdf)
 * [Exercícios sobre Linguagens](Exerc%C3%ADcios%20sobre%20Linguagens.pdf)
+
 <br>
+
 * [**Folhas de Exercícios (versão completa) - 2022/2023**](exercicios_ALF2223.pdf)
 
 <br><br>
