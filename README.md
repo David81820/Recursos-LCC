@@ -63,4 +63,6 @@ Por fim, caso não saibam como aceder à rede do campus UM - entitulada de "**ed
 
 <br><br><br>
 
-![GitHub Logo](LCC.png)
+<p align="center">
+    <img src="https://raw.githubusercontent.com/David81820/Recursos-LCC/LCC.png">
+</p>
