@@ -20,7 +20,7 @@ Aqui estão links, quase todos para o website 'Twitch', de vídeos das aulas rem
 
 <br>
 
-## [Fichas de Exercícios](fichas/README.md)
+## [Fichas de Exercícios](fichas/BD_FICHAS.md)
 
 * [Questões teóricas de MySQL, com soluções.](https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/blob/main/mysql/mysql-quiz.md)
 
