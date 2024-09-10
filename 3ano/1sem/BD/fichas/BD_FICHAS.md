@@ -1,5 +1,9 @@
+<h1 style="text-align: center;">BD | Testes e Exames</h1>
+
+<br>
+
 ## 2020/2021
-<br>As seguintes fichas foram também usadas nos anos lectivos de 2021/2022 e 2022/2023.
+As seguintes fichas foram também usadas nos anos lectivos de 2021/2022 e 2022/2023.
 * [**Ficha 1**](BD_2021_Ficha_1.pdf)
 * [**Ficha 2**](BD_2021_Ficha_2.pdf)
 * [**Ficha 3**](BD_2021_Ficha_3.pdf)
