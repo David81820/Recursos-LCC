@@ -1,4 +1,4 @@
-<h1 style="text-align: center;">BD | Testes e Exames</h1>
+<h1 style="text-align: center;">BD | Fichas de Exercícios</h1>
 
 <br>
 

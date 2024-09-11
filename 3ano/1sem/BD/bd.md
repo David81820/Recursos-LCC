@@ -14,13 +14,13 @@ Aqui estão links, quase todos para o website 'Twitch', de vídeos das aulas rem
 
 <br>
 
-## [Material Teórico](slides/bd-slides.md)
+## [Material Teórico](slides/bd_-_slides.md)
 
 * [**[A] Resumos dos "slides"**](https://ops4you.notion.site/Base-de-Dados-0a0c7e0cea1c4670b3b320f500fc4c62)
 
 <br>
 
-## [Fichas de Exercícios](fichas/BDfichas.md)
+## [Fichas de Exercícios](fichas/bd_fichas.md)
 
 * [Questões teóricas de MySQL, com soluções.](https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/blob/main/mysql/mysql-quiz.md)
 
