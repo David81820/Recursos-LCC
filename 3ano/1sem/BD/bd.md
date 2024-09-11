@@ -14,7 +14,7 @@ Aqui estão links, quase todos para o website 'Twitch', de vídeos das aulas rem
 
 <br>
 
-## [Material Teórico](slides/README.md)
+## [Material Teórico](slides/bd_slides.md)
 
 * [**[A] Resumos dos "slides"**](https://ops4you.notion.site/Base-de-Dados-0a0c7e0cea1c4670b3b320f500fc4c62)
 
@@ -26,7 +26,7 @@ Aqui estão links, quase todos para o website 'Twitch', de vídeos das aulas rem
 
 <br>
 
-## [Testes e Exames](testes/README.md)
+## [Testes e Exames](testes/bd_tests.md)
 Testes e exames desde o ano lectivo 1999/2000. Mas sem resoluções...
 
 <br><br>
