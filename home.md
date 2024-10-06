@@ -46,6 +46,8 @@ Dito isto, avancemos então para o material acumulado.
 [**NÚCLEO DE ESTUDANTES DE CIÊNCIAS DA COMPUTAÇÃO (NECC)**](https://necc.di.uminho.pt/)
 <br> Aqui podem pedir acesso ao Discord do NECC.
 
+[**Blackboard UM**](https://elearning.uminho.pt/)
+
 [**Alunos UM**](https://alunos.uminho.pt/PT)
 
 [**E-Mail Universitário**](http://mail.alunos.uminho.pt/)
@@ -58,8 +60,11 @@ Dito isto, avancemos então para o material acumulado.
 <br>
 
 Por fim, caso não saibam como aceder à rede do campus UM - entitulada de "**eduroam**" - as credenciais são:
-- o vosso e-mail académico (*aXXXXX@alunos.uminho.pt*);
-- seguido, da palavra-chave de dito e-mail.
+- em *"Método EAP"*, selecionem "PEAP"
+- em *"Autenticação da Fase 2"*, selecionem "MSCHAPV2"
+- no campo *"Domínio"*, introduzam "uminho.pt"
+- no campo *"Identidade"*, introduzam o vosso e-mail académico (*aXXXXX@alunos.uminho.pt*);
+- por em *"Senha"*, escrevam a palavra-chave de dito e-mail.
 
 <br><br><br>
 
