@@ -11,8 +11,8 @@ Esta colecção não deve ser usada como substituto ás aulas e material disponi
 <br> A sua intenção é apenas servir como um complemento ao estudo.
 
 À que ter especial cuidado com material proveniente de alunos, visto não serem fontes totalmente fidedignas quanto à sua "correcção".
-<br> Como tal, irei sinalizar material que eu saiba ter origem de alunos, com a etiqueta - **[A]** - no início do nome desses ficheiros. Material criado por mim terá a etiqueta - **[I]** - não só para meu benefício quanto a organização, mas também para quem consultar esse material, para além da minha pessoa, saiba que o material em questão mesmo se útil não é ainda menos digno de confiança que material [A].
-<br> Material "oficial" (i.e. material proporcionado pelos professores) não terão qualquer etiqueta.
+<br> Como tal, irei sinalizar material que eu saiba ter origem de alunos, com a etiqueta - **[A]** - no início do nome desses ficheiros. Material criado por mim terá a etiqueta - **[I]** - não só para meu benefício quanto a organização, mas também para quem 
+<br> Material "oficial" (i.e. material proporcionado pelos professores) não terá qualquer etiqueta.
 
 Dito isto, avancemos então para o material acumulado.
 <br><br><br>
@@ -41,10 +41,18 @@ Dito isto, avancemos então para o material acumulado.
         alt="Discord"
     />
 </a>
+<br>
+
+### DISCORD do N.E.C.C.:
+<a href="http://bit.ly/LccDiscord">
+    <img
+        src="https://img.shields.io/discord/418433020719136768.svg?colorB=Blue&logo=discord&label=Discord&style=for-the-badge"
+        alt="Discord"
+    />
+</a>
 <br><br>
 
 [**NÚCLEO DE ESTUDANTES DE CIÊNCIAS DA COMPUTAÇÃO (NECC)**](https://necc.di.uminho.pt/)
-<br> Aqui podem pedir acesso ao Discord do NECC.
 
 [**Blackboard UM**](https://elearning.uminho.pt/)
 
@@ -59,7 +67,7 @@ Dito isto, avancemos então para o material acumulado.
 
 <br>
 
-Por fim, caso não saibam como aceder à rede do campus UM - entitulada de "**eduroam**" - as credenciais são:
+Caso não saibam como aceder à rede do campus UM - entitulada de "**eduroam**" - as credenciais são:
 - em *"Método EAP"*, selecionem "PEAP"
 - em *"Autenticação da Fase 2"*, selecionem "MSCHAPV2"
 - no campo *"Domínio"*, introduzam "uminho.pt"
