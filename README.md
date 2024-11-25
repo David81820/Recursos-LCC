@@ -32,7 +32,16 @@ Dito isto, avancemos então para o material acumulado.
 
 <br><br>
 
-## Outros Recursos
+# Outros Recursos
+
+### DISCORD do N.E.C.C.:
+<a href="http://bit.ly/LccDiscord">
+    <img
+        src="https://img.shields.io/discord/418433020719136768.svg?colorB=Blue&logo=discord&label=Discord&style=for-the-badge"
+        alt="Discord"
+    />
+</a>
+<br>
 
 ### DISCORD de L.C.C.:
 <a href="https://discord.gg/7Mb6ZuQfEK">
@@ -42,15 +51,8 @@ Dito isto, avancemos então para o material acumulado.
     />
 </a>
 <br>
-
-### DISCORD do N.E.C.C.:
-<a href="http://bit.ly/LccDiscord">
-    <img
-        src="https://img.shields.io/discord/418433020719136768.svg?colorB=Blue&logo=discord&label=Discord&style=for-the-badge"
-        alt="Discord"
-    />
-</a>
-<br><br>
+Relativamente abandonado...
+<br>
 
 [**NÚCLEO DE ESTUDANTES DE CIÊNCIAS DA COMPUTAÇÃO (NECC)**](https://necc.di.uminho.pt/)
 
