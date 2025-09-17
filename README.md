@@ -24,6 +24,11 @@ No ano de 2006, as licenciaturas em Portugal sofreram uma enorme reestruturaçã
 
 Embora o curso tenha permanecido maioritariamente inalterado por vários anos, mudanças radicais eventualmente recaíram de novo sobre LCC.
 <br> No ano lectivo de 2025/2026, LCC sofreu uma série de alterações ao seu plano de estudo - algumas Unidades Curriculares foram substituídas por novas e em geral o curso sofreu uma re-organização quanto a que cadeiras são dadas em que semestres.
+<br> A imagem que se segue mostra algumas dessas alterações (atenção que não mostra as cadeiras antigas cortadas da Licenciatura, nem a novas que foram introduzidas):
+
+<p align="center">
+    <img src="https://raw.githubusercontent.com/David81820/Recursos-LCC/main/plano antigo - plano novo.png">
+</p>
 
 Sendo o autor deste repositótio um aluno que entrou no curso antes do ano lectivo 2025/2026, a maioria do material aqui reunido será por isso anterior a Setembro de 2025.
 <br> Adicionalmente decidi por isso também reorganizar a estrutura e contéudos deste repositório.
@@ -69,7 +74,7 @@ Contudo aviso que não irei incluir aqui as cadeiras novas à qual não me encon
 * Programação Funcional
 * Programação Imperativa
 * Programação Orientada aos Objetos
-* Projeto
+* Projecto
 * Semântica das Linguagens de Programação
 * Sistemas de Computação
 * Sistemas de Comunicações e Redes
