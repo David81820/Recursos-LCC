@@ -17,7 +17,7 @@ Há que ter especial cuidado com material proveniente de alunos, visto não sere
 <br>
 
 "Ano novo, vida nova!".
-<br> Ora pois este idioma também se aplica aos novos anos lectivos, mesmo quando as coisas parecem que nunca vão mudar.
+<br> Ora pois este idioma também se aplica aos novos anos lectivos, mesmo quando as coisas parecem que nunca vão mudar...
 
 No ano de 2006, as licenciaturas em Portugal sofreram uma enorme reestruturação consequência do Processo de Bolonha. 
 <br> O curso de LCC - até à altura designado por *Licenciatura em Matemática e Ciências da Computação* (um nome que alguns dos professores ainda consideram mais apto) - foi uma das vítimas, na altura gerando bastante confusão e frustração entre os alunos com as suas vastas alterações.
@@ -29,7 +29,9 @@ Sendo o autor deste repositótio um aluno que entrou no curso antes do ano lecti
 <br> Adicionalmente decidi por isso também reorganizar a estrutura e contéudos deste repositório.
 <br> O antigo sistema de organização, apesar de melhor dividido, estava a tornar-se massante de manter e trabalhar com o crescimento do repositório. E derradeiramente, esta alteração ao curso mostrou-me que esse sistema simplesmente não tinha quaisquer salvaguardas para situações como esta...
 
-Por isso irei listar todas atuais e passadas UCs (não vou apagar nenhuma cadeira dos meus ficheiro, mesmo que não exista presentemente no curso) por ordem alfabética, não obstante ao semestre e ano em que são leccionadas.
+**Por isso irei listar atuais e passadas UCs (não vou apagar nenhuma cadeira dos meus ficheiro, mesmo que não exista presentemente no curso) por ordem alfabética, não obstante ao semestre e ano em que são leccionadas.**
+
+Contudo aviso que não irei incluir aqui as cadeiras novas à qual não me encontro inscrito...
 
 <br>
 
@@ -38,39 +40,43 @@ Por isso irei listar todas atuais e passadas UCs (não vou apagar nenhuma cadeir
 <br>
 
 
-* Álgebra Linear CC
-* Cálculo
-* Programação Funcional
-* Tópicos de Matemática
-* Opção UMinho
-* Análise
-* Geometria
-* Matemática Discreta
-* Programação Imperativa
-* Sistemas de Computação
-* Laboratório de Algoritmia I
 * Álgebra
-* Algoritmos e Complexidade
-* Análise Numérica
-* Lógica CC
-* Sistemas de Comunicações e Redes
+* Álgebra Linear CC
 * Álgebra Universal e Categorias
+* Algoritmos e Complexidade
+* Análise
+* Análise Numérica
+* Aprendizagem Computacional
+* Aprendizagem Estatística CC
 * Autómatos e Linguagens Formais
-* Cálculo de Programas
-* Laboratório de Algoritmia II
-* Programação Orientada aos Objetos
-* Sistemas Operativos
 * Bases de Dados
 * Computabilidade e Complexidade
+* Computação Gráfica
+* Cálculo
+* Cálculo de Programas
+* Fundamentos de Criptografia e Segurança da Informação CC
+* Geometria
+* Interação e Concorrência
+* Laboratório de Algoritmia I
+* Laboratório de Algoritmia II
+* Lógica CC
 * Lógica Computacional
+* Matemática Discreta
+* Otimização
 * Probabilidades e Aplicações
 * Processamento de Linguagens e Compiladores
-* Computação Gráfica
-* Interação e Concorrência
 * Programação Concorrente
-* Semântica das Linguagens de Programação
-* Teoria de Números Computacional
+* Programação Funcional
+* Programação Imperativa
+* Programação Orientada aos Objetos
 * Projeto
+* Semântica das Linguagens de Programação
+* Sistemas de Computação
+* Sistemas de Comunicações e Redes
+* Sistemas Operativos
+* Teoria de Categorias CC
+* Teoria de Números Computacional
+* Tópicos de Matemática
 
 <br>
 
@@ -122,7 +128,8 @@ Caso não saibam como aceder à rede do campus UM - entitulada de "**eduroam**" 
 - no campo *"Identidade"*, introduzam o vosso e-mail académico (*aXXXXX@alunos.uminho.pt*);
 - por em *"Senha"*, escrevam a palavra-chave de dito e-mail.
 
-<br><br><br>
+<br><br>
+<br><br>
 
 <p align="center">
     <img src="https://raw.githubusercontent.com/David81820/Recursos-LCC/main/LCC.png">
