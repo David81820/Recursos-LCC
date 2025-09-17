@@ -57,7 +57,7 @@ Contudo aviso que não irei incluir aqui as cadeiras novas à qual não me encon
 * Bases de Dados
 * Computabilidade e Complexidade
 * Computação Gráfica
-* Cálculo
+* [Cálculo](calculo/README.md)
 * Cálculo de Programas
 * Fundamentos de Criptografia e Segurança da Informação CC
 * Geometria
