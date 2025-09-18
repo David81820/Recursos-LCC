@@ -1,6 +1,6 @@
 <br>
 
-## Atenção!! Este repositório encontra-se incompleto e em obras!
+<h1 align="center">Atenção!! Este repositório encontra-se incompleto e em obras!</h1>
 
 <br><br>
 
@@ -90,7 +90,7 @@ Lista dos vários detalhes técnicos da cadeira que podem ser encontrados na aba
 
 ---
 
-<br>
+<br><br>
 
 # Outros Recursos
 
@@ -136,6 +136,7 @@ Caso não saibam como aceder à rede do campus UM - entitulada de "**eduroam**" 
 - no campo *"Identidade"*, introduzam o vosso e-mail académico (*aXXXXX@alunos.uminho.pt*);
 - por em *"Senha"*, escrevam a palavra-chave de dito e-mail.
 
+<br><br>
 <br><br>
 <br><br>
 
