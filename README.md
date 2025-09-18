@@ -126,19 +126,52 @@ Lista dos vários detalhes técnicos da cadeira que podem ser encontrados na aba
 
 <br>
 
-[**NÚCLEO DE ESTUDANTES DE CIÊNCIAS DA COMPUTAÇÃO - NECC**](https://necc.di.uminho.pt/)
+**[Blackboard UM](https://elearning.uminho.pt/)**
 
-[**Blackboard UM**](https://elearning.uminho.pt/)
+**[Alunos UM](https://alunos.uminho.pt/PT)**
 
-[**Alunos UM**](https://alunos.uminho.pt/PT)
+**[E-Mail Universitário](http://mail.alunos.uminho.pt/)**
 
-[**E-Mail Universitário**](http://mail.alunos.uminho.pt/)
-
-[**Página de Horários Universitários**](https://alunos.uminho.pt/pt/estudantes/paginas/infouteishorarios.aspx)
+**[Página de Horários Universitários](https://alunos.uminho.pt/pt/estudantes/paginas/infouteishorarios.aspx)**
 <br> [E aqui está um site agradável para desenhar horários.](https://gizmoa.com/college-schedule-maker/)
 
 **[Calendário Escolar UM](https://alunos.uminho.pt/PT/estudantes/Paginas/InfoUteisCalendarioEscolar.aspx)  e  [Calendário Escolar - Escola de Ciências](https://www.ecum.uminho.pt/pt/Ensino/Paginas/Calendario-e-Horarios.aspx)**
 
+**[Bibliotecas da UM](https://www.usdb.uminho.pt/)**
+
+**[Repositório da Biblioteca](https://repositorium.sdum.uminho.pt/)**
+
+**[Sistema de reservas de salas da Biblioteca](https://reservas.sdum.uminho.pt/)**
+
+**[Repositório de dados da UM](https://datarepositorium.uminho.pt/)**
+
+**[Normas de formatação e identidade gráfica institucionalmente definidas pela UM](https://alunos.uminho.pt/pt/estudantes/paginas/infouteisformatacao.aspx)**
+
+**[Departamento de Informática da Universidade do Minho - DIUM](https://web.di.uminho.pt/sitedi/)**
+
+**[Escola de Ciências da Universidade do Minho - ECUM](https://www.ecum.uminho.pt/pt)**
+
+**[Mapa Interactivo](https://whereis.uminho.pt/)**
+
+<br>
+
+[Núcleo de Estudantes de Ciências da Computação - NECC](https://necc.di.uminho.pt/)
+
+[Repositório do N.E.C.C.](https://github.com/NECC/Material-Do-Curso)
+
+[Repositório de Engenharia Informática](https://drive.google.com/drive/folders/1tBpWJmF0gvXJuGDTxpHNRdjJGYIjbHZZ)
+
+[Servidor FTP do DIUM](https://ftp.di.uminho.pt/)
+
+[Modelos para dissertações com formatação requerida pela UM](https://github.com/joaomlourenco/novathesis)
+
+[Soluções de livros e os seus exercícios](https://www.studocu.com)
+
+[Comparador de empresas e salários em Portugal nas áreas de TI](https://pt.teamlyzer.com/)
+
+[Servidores DISCORD de Desenvolvedores de Portugal](https://discord.me/devpt)
+
+<br>
 <br>
 
 Caso não saibam como aceder à rede do campus UM - entitulada de "**eduroam**" - as credenciais são:
