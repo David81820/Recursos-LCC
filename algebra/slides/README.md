@@ -27,13 +27,10 @@ Para quem quiser uma versão dos slides todos juntos - [**Teoria Completa**](Teo
 Apontamentos da UC fornecidos pelo corpo docente, no ano lectivo 2021/2022.
 <br> Curiosamente o ficheiro não veio "inteiro". A professora foi enviando ao longo do semestre novas versões do ficheiro com capítulos adicionados (sendo a versão completa enviada no dia 10 de Janeiro de 2022).
 
-
 <br>
 
-<h2>
-  <a href="Álgebra-Resumos.pdf">Resumos</a>
-</h2>
-<br>Este resumo foi escrito pela minha pessoa, por isso tenham cuidado.
+## [Resumos](Álgebra-Resumos.pdf)
+Este resumo foi escrito pela minha pessoa, por isso tenham cuidado.
 <br>[Também incluí o manuscrito em formato Word para quem quiser realizar alterações.](https://github.com/David81820/Recursos-LCC/blob/main/2ano/1sem/Alg/slides/%C3%81lgebra%20Resumos.docx)
 
 <br><br>
