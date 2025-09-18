@@ -83,6 +83,7 @@ Contudo aviso que não irei incluir aqui as cadeiras novas à qual não me encon
 * Teoria de Números Computacional
 * Tópicos de Matemática
 
+<br>
 
 Lista dos vários detalhes técnicos da cadeira que podem ser encontrados na aba "Plano de Estudos" do catálogo electrónico na página [Oferta Educativa - LCC](https://www.uminho.pt/PT/ensino/oferta-educativa/_layouts/15/UMinho.PortalUM.UI/Pages/CatalogoCursoDetail.aspx?itemId=3851&catId=12).
 
@@ -94,7 +95,9 @@ Lista dos vários detalhes técnicos da cadeira que podem ser encontrados na aba
 
 # Outros Recursos
 
-### DISCORD do N.E.C.C. (o mais recente):
+<br>
+
+### DISCORD do N.E.C.C. (o servidor mais recente):
 <a href="http://bit.ly/LccDiscord">
     <img
         src="https://img.shields.io/discord/418433020719136768.svg?colorB=Blue&logo=discord&label=Discord&style=for-the-badge"
@@ -103,7 +106,7 @@ Lista dos vários detalhes técnicos da cadeira que podem ser encontrados na aba
 </a>
 <br>
 
-### DISCORD de L.C.C. (antigo e bastente morto à data desta escrita):
+### DISCORD de L.C.C. (antigo e relativamente abandonado à data desta escrita):
 <a href="https://discord.gg/7Mb6ZuQfEK">
     <img
         src="https://img.shields.io/discord/418433020719136768.svg?colorB=Blue&logo=discord&label=Discord&style=for-the-badge"
@@ -111,7 +114,16 @@ Lista dos vários detalhes técnicos da cadeira que podem ser encontrados na aba
     />
 </a>
 <br>
-Relativamente abandonado...
+
+### DISCORD de Engenharia Informática da UMinho:
+<a href="https://discord.gg/m3kVwYM">
+    <img
+        src="https://img.shields.io/discord/418433020719136768.svg?colorB=Blue&logo=discord&label=Discord&style=for-the-badge"
+        alt="Discord"
+    />
+</a>
+<br>
+
 <br>
 
 [**NÚCLEO DE ESTUDANTES DE CIÊNCIAS DA COMPUTAÇÃO - NECC**](https://necc.di.uminho.pt/)
