@@ -3,17 +3,17 @@
 <br>
 
 ## [Material Teórico](slides/README.md)
-Slides e apontamentos oficiais, juntamente com os meus resumos da matéria.
+Slides e apontamentos oficiais.
 
 <br>
 
 ## [Fichas de Exercícios](fichas/README.md)
-Folhas de exercícios fornecidas pelo corpo docente nos anos lectivos de 2020/2021 e 2021/2022.
+Folhas de exercícios fornecidas pelo corpo docente
 
 <br>
 
 ## [Testes e Exames](testes/README.md)
-Testes e Exames dos anos anteriores, juntamente com as suas resoluções.
+Testes e Exames dos anos anteriores.
 
 <br><br>
 
