@@ -1,6 +1,4 @@
-<p style="font-size:60px; text-align:center;">
-  My Super Big Title
-</p>
+<p style="font-size:30px; text-align:center;">Cálculo</p>
 
 <h1 align="center">Cálculo</h1>
 
