@@ -40,7 +40,9 @@ Contudo aviso que não irei incluir aqui as cadeiras novas à qual não me encon
 
 <br>
 
-Lista dos vários detalhes técnicos da cadeira que podem ser encontrados na aba "Plano de Estudos" do catálogo electrónico na página [Oferta Educativa - LCC](https://www.uminho.pt/PT/ensino/oferta-educativa/_layouts/15/UMinho.PortalUM.UI/Pages/CatalogoCursoDetail.aspx?itemId=3851&catId=12).
+<h1 align="center">Unidades Curriculares</h1>
+
+<br>
 
 
 * Álgebra
@@ -80,6 +82,9 @@ Lista dos vários detalhes técnicos da cadeira que podem ser encontrados na aba
 * Teoria de Categorias CC
 * Teoria de Números Computacional
 * Tópicos de Matemática
+
+
+Lista dos vários detalhes técnicos da cadeira que podem ser encontrados na aba "Plano de Estudos" do catálogo electrónico na página [Oferta Educativa - LCC](https://www.uminho.pt/PT/ensino/oferta-educativa/_layouts/15/UMinho.PortalUM.UI/Pages/CatalogoCursoDetail.aspx?itemId=3851&catId=12).
 
 <br>
 
