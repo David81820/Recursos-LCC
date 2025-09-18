@@ -184,7 +184,7 @@ Caso não saibam como aceder à rede do campus UM - entitulada de "**eduroam**" 
 <br>
 <br>
 
-<h3 align="center">Qualquer aluno é bem-vindo a guardar em sua máquina os conteúdos deste repositório e utilizá-los livremente!</h3>
+<h4 align="center">Qualquer aluno é bem-vindo a guardar em sua máquina os conteúdos deste repositório e utilizá-los livremente!</h4>
 
 <br><br>
 <br><br>
