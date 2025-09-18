@@ -1,14 +1,14 @@
 <br>
 
-### Atenção!! Este repositório encontra-se incompleto e em obras!
+## Atenção!! Este repositório encontra-se incompleto e em obras!
 
 <br><br>
 
-## Esta colecção não deve ser usada como substituto ás aulas e material disponibilizado pelos professores.
-## <br> A sua intenção é apenas servir como um complemento ao estudo.
+### Esta colecção não deve ser usada como substituto ás aulas e material disponibilizado pelos professores.
+### A sua intenção é apenas servir como um complemento ao estudo.
 
-Há que ter especial cuidado com material proveniente de alunos, visto não serem fontes totalmente fidedignas quanto à sua "correcção".
-<br> Como tal, irei sinalizar material que eu saiba ter origem de alunos, com a etiqueta - **[A]** - no início do nome desses ficheiros. Material "oficial" (i.e. material proporcionado pelos professores) não terá qualquer etiqueta.
+# Há que ter especial cuidado com material proveniente de alunos, visto não serem fontes totalmente fidedignas quanto à sua "correcção".
+# <br> Como tal, irei sinalizar material que eu saiba ter origem de alunos, com a etiqueta - **[A]** - no início do nome desses ficheiros. Material "oficial" (i.e. material proporcionado pelos professores) não terá qualquer etiqueta.
 
 <br>
 
