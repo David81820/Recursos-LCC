@@ -1,4 +1,4 @@
-<h1 align="center">Teste e Exames | Cálculo</h1>
+<h1 align="center">Testes e Exames | Cálculo</h1>
 
 <br>
 
@@ -7,9 +7,9 @@
 * [2017/2018](Teste1-1718.pdf)
 * [2018/2019](Teste1-1819.pdf)
 * [2019/2020](Teste1-1920.pdf)
-* [2020/2021 Versão A](Teste1-2021-A.pdf) -- [2020/2021 Versão B](Teste1-2021-B.pdf) -- [2020/2021 Versão C](Teste1-2021-C.pdf) -- [2020/2021 Versão D](Teste1-2021-D.pdf)
-* [2021/2022 Versão A](Teste1-2122-A.pdf) -- [2021/2022 Versão B](Teste1-2122-B.pdf) -- [2021/2022 Versão C](Teste1-2122-C.pdf) -- [2021/2022 Versão D](Teste1-2122-D.pdf)
-* [2022/2023 Versão A](Teste1-2223-A.pdf) -- [2022/2023 Versão B](Teste1-2223-B.pdf) -- [2022/2023 Versão C](Teste1-2223-C.pdf) -- [2022/2023 Versão D](Teste1-2223-D.pdf) -- [[A] Resolução - Versão A](Teste1-2223-A-Res.jpg)
+* [2020/2021 Versão A](Teste1-2021-A.pdf) / [2020/2021 Versão B](Teste1-2021-B.pdf) / [2020/2021 Versão C](Teste1-2021-C.pdf) / [2020/2021 Versão D](Teste1-2021-D.pdf)
+* [2021/2022 Versão A](Teste1-2122-A.pdf) / [2021/2022 Versão B](Teste1-2122-B.pdf) / [2021/2022 Versão C](Teste1-2122-C.pdf) / [2021/2022 Versão D](Teste1-2122-D.pdf)
+* [2022/2023 Versão A](Teste1-2223-A.pdf) / [2022/2023 Versão B](Teste1-2223-B.pdf) / [2022/2023 Versão C](Teste1-2223-C.pdf) / [2022/2023 Versão D](Teste1-2223-D.pdf) -- [[A] Resolução ver. A](Teste1-2223-A-Res.jpg)
 
 <br>
 
@@ -18,9 +18,9 @@
 * [2017/2018](Teste2-1718.pdf)
 * [2018/2019](Teste2-1819.pdf)
 * [2019/2020](Teste2-1920.pdf)
-* [2020/2021 Versão A](Teste2-2021-A.pdf) // [2020/2021 Versão B](Teste2-2021-B.pdf) // [2020/2021 Versão C](Teste2-2021-C.pdf) / [2020/2021 Versão D](Teste2-2021-D.pdf)
-* [2021/2022 Versão A](Teste2-2122-A.pdf) -/- [2021/2022 Versão B](Teste2-2122-B.pdf) -/- [2021/2022 Versão C](Teste2-2122-C.pdf) -/- [2021/2022 Versão D](Teste2-2122-D.pdf)
-* [2022/2023 Versão A](Teste2-2223-A.pdf) / [2022/2023 Versão B](Teste2-2223-B.pdf) / [2022/2023 Versão C](Teste2-2223-C.pdf) / [2022/2023 Versão D](Teste2-2223-D.pdf) -- [[A] Resolução - Versão A](Teste2-2223-A-Res.jpg)
+* [2020/2021 Versão A](Teste2-2021-A.pdf) / [2020/2021 Versão B](Teste2-2021-B.pdf) / [2020/2021 Versão C](Teste2-2021-C.pdf) / [2020/2021 Versão D](Teste2-2021-D.pdf)
+* [2021/2022 Versão A](Teste2-2122-A.pdf) / [2021/2022 Versão B](Teste2-2122-B.pdf) / [2021/2022 Versão C](Teste2-2122-C.pdf) / [2021/2022 Versão D](Teste2-2122-D.pdf)
+* [2022/2023 Versão A](Teste2-2223-A.pdf) / [2022/2023 Versão B](Teste2-2223-B.pdf) / [2022/2023 Versão C](Teste2-2223-C.pdf) / [2022/2023 Versão D](Teste2-2223-D.pdf) -- [[A] Resolução ver. A](Teste2-2223-A-Res.jpg)
 
 
 <br>
