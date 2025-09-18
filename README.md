@@ -155,3 +155,5 @@ Caso não saibam como aceder à rede do campus UM - entitulada de "**eduroam**" 
 <p align="center">
     <img src="https://raw.githubusercontent.com/David81820/Recursos-LCC/main/LCC.png">
 </p>
+
+<br>

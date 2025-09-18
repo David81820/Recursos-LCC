@@ -1,4 +1,4 @@
-<h1 align="center">Fichas | Autómatos e Linguagens Formais</h1>
+<h1 align="center">Autómatos e Linguagens Formais</h1>
 
 <br>
 
