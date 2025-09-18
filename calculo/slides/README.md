@@ -2,6 +2,8 @@
 <font size="24">Slides | Cálculo</font>
 </p>
 
+<h1 align="center">Slides | Cálculo</h1>
+
 <br>
 
 ## Apontamentos 2006/2007
@@ -36,6 +38,7 @@
 * [**Funções importantes**](Formul%C3%A1rio%202.pdf)
 * [**Regras de derivação**](Formul%C3%A1rio%203.pdf)
 * [**Primitivas imediatas**](Formul%C3%A1rio%204.pdf)
+
 ### 2022/2023
 * [**Séries**](Formulario_Series_2223.pdf)
 * [**1º - Trigonometricas + Hiperbolicas**](Formulario_Trigonometricas_Hiperbolicas_2223.pdf)
@@ -58,4 +61,4 @@
 
 <br><br>
 
-[![retroceder](https://raw.githubusercontent.com/David81820/Recursos-LCC/main/Rewind.png)](https://david81820.github.io/Recursos-LCC/1ano/1sem/Cal)
+[![retroceder](https://raw.githubusercontent.com/David81820/Recursos-LCC/main/Rewind.png)](https://david81820.github.io/Recursos-LCC/calculo)
