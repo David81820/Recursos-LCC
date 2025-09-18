@@ -53,7 +53,7 @@ Contudo aviso que não irei incluir aqui as cadeiras novas à qual não me encon
 * Análise Numérica
 * Aprendizagem Computacional
 * Aprendizagem Estatística CC
-* Autómatos e Linguagens Formais
+* [Autómatos e Linguagens Formais](ALF/README.md)
 * Bases de Dados
 * Computabilidade e Complexidade
 * Computação Gráfica

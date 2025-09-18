@@ -1,6 +1,6 @@
-<p align="center">
-<font size="24">Cálculo | Fichas de Exercícios</font>
-</p>
+<h1 align="center">Fichas | Cálculo</h1>
+
+<br>
 
 ## 2018/2019
 * [**Ficha 1**](Calculo_folha1.pdf) - [Resolução](html/Folha1.html)
@@ -25,4 +25,4 @@
 
 <br><br>
 
-[![retroceder](https://raw.githubusercontent.com/David81820/Recursos-LCC/main/Rewind.png)](https://david81820.github.io/Recursos-LCC/1ano/1sem/Cal)
+[![retroceder](https://raw.githubusercontent.com/David81820/Recursos-LCC/main/Rewind.png)](https://david81820.github.io/Recursos-LCC/calculo)

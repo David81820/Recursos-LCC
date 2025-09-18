@@ -1,4 +1,4 @@
-<h1 style="text-align: center;">Cálculo | Testes e Exames</h1>
+<h1 align="center">Teste e Exames | Cálculo</h1>
 
 <br>
 

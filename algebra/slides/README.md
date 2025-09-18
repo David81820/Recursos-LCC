@@ -1,3 +1,7 @@
+<h1 align="center">Material Teórico | Álgebra</h1>
+
+<br>
+
 ## Slides Oficiais
 Os seguintes slides pertencem ao ano lectivo 2021/2022:
 

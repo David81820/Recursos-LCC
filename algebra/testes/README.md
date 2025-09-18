@@ -1,5 +1,8 @@
-Todo material aqui contido, provém do corpo docente através da plataforma BlackBoard.
-<br> **Também devo avisar que o ano lectivo 2021/2022 é diferente dos anteriores, quanto á sua avaliação** - já que em vez de apenas 2 testes, são 4 os testes realizados (a nota sendo a média das 3 melhores qualificações).
+<h1 align="center">Testes e Exames | Álgebra</h1>
+
+<br>
+
+Devo avisar que o ano lectivo 2021/2022 é diferente dos anteriores, quanto á sua avaliação** - já que em vez de apenas 2 testes, são 4 os testes realizados (a nota sendo a média das 3 melhores qualificações).
 
 <br>
 
@@ -46,4 +49,4 @@ Mais alguns testes modelos:
 
 <br><br>
 
-[![retroceder](https://raw.githubusercontent.com/David81820/Recursos-LCC/main/Rewind.png)](https://david81820.github.io/Recursos-LCC/2ano/1sem/Alg)
+[![retroceder](https://raw.githubusercontent.com/David81820/Recursos-LCC/main/Rewind.png)](https://david81820.github.io/Recursos-LCC/algebra)

@@ -1,4 +1,10 @@
+<h1 align="center">Fichas de Exercícios | Álgebra</h1>
+
+<br>
+
 Embora as fichas de ambos anos lectivos apresentem exercícios semelhantes, existem várias alterações que justificam o upload de ambas.
+
+<br>
 
 ## Fichas 2020-2021
 * [**Ficha 1**](Folha1_2021.pdf)

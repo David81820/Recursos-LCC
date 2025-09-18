@@ -1,7 +1,3 @@
-<p align="center">
-<font size="24">Slides | Cálculo</font>
-</p>
-
 <h1 align="center">Slides | Cálculo</h1>
 
 <br>

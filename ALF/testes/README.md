@@ -1,4 +1,4 @@
-<h1 style="text-align: center;">ALF | Testes e Exames</h1>
+<h1 align="center">Testes e Exames | Autómatos e Linguagens Formais</h1>
 
 <br>
 
@@ -32,4 +32,4 @@
 
 <br><br>
 
-[![retroceder](https://raw.githubusercontent.com/David81820/Recursos-LCC/main/Rewind.png)](https://david81820.github.io/Recursos-LCC/2ano/2sem/ALF)
+[![retroceder](https://raw.githubusercontent.com/David81820/Recursos-LCC/main/Rewind.png)](https://david81820.github.io/Recursos-LCC/ALF)
