@@ -93,7 +93,7 @@ Lista dos vários detalhes técnicos da cadeira que podem ser encontrados na aba
 
 <br><br>
 
-# Outros Recursos
+<h1 align="center">Outros Recursos</h1>
 
 <br>
 
@@ -180,6 +180,11 @@ Caso não saibam como aceder à rede do campus UM - entitulada de "**eduroam**" 
 - no campo *"Domínio"*, introduzam "uminho.pt"
 - no campo *"Identidade"*, introduzam o vosso e-mail académico (*aXXXXX@alunos.uminho.pt*);
 - por em *"Senha"*, escrevam a palavra-chave de dito e-mail.
+
+<br>
+<br>
+
+<h3 align="center">Qualquer aluno é bem-vindo a guardar em sua máquina os conteúdos deste repositório e utilizá-los livremente!</h3>
 
 <br><br>
 <br><br>
