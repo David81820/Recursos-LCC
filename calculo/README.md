@@ -1,5 +1,4 @@
-<p align="center">Cálculo</p>
-
+<h1 align="center">Cálculo</h1>
 
 <br>
 
