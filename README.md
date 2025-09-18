@@ -184,7 +184,9 @@ Caso não saibam como aceder à rede do campus UM - entitulada de "**eduroam**" 
 <br>
 <br>
 
-<h4 align="center">Qualquer aluno é bem-vindo a guardar em sua máquina os conteúdos deste repositório e utilizá-los livremente!</h4>
+<h3 align="center">Qualquer aluno é bem-vindo a guardar em sua máquina os conteúdos deste repositório e utilizá-los livremente!</h3>
+### Qualquer aluno é bem-vindo a guardar em sua máquina os conteúdos deste repositório e utilizá-los livremente!
+#### Qualquer aluno é bem-vindo a guardar em sua máquina os conteúdos deste repositório e utilizá-los livremente!
 
 <br><br>
 <br><br>
@@ -193,4 +195,4 @@ Caso não saibam como aceder à rede do campus UM - entitulada de "**eduroam**" 
     <img src="https://raw.githubusercontent.com/David81820/Recursos-LCC/main/LCC.png">
 </p>
 
-<br><br>
+<br>
