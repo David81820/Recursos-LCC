@@ -4,8 +4,8 @@
 
 <br><br>
 
-Esta colecção não deve ser usada como substituto ás aulas e material disponibilizado pelos professores.
-<br> A sua intenção é apenas servir como um complemento ao estudo.
+## Esta colecção não deve ser usada como substituto ás aulas e material disponibilizado pelos professores.
+## <br> A sua intenção é apenas servir como um complemento ao estudo.
 
 Há que ter especial cuidado com material proveniente de alunos, visto não serem fontes totalmente fidedignas quanto à sua "correcção".
 <br> Como tal, irei sinalizar material que eu saiba ter origem de alunos, com a etiqueta - **[A]** - no início do nome desses ficheiros. Material "oficial" (i.e. material proporcionado pelos professores) não terá qualquer etiqueta.
@@ -23,7 +23,7 @@ No ano de 2006, as licenciaturas em Portugal sofreram uma enorme reestruturaçã
 <br> O curso de LCC - até à altura designado por *Licenciatura em Matemática e Ciências da Computação* (um nome que alguns dos professores ainda consideram mais apto) - foi uma das vítimas, na altura gerando bastante confusão e frustração entre os alunos com as suas vastas alterações.
 
 Embora o curso tenha permanecido maioritariamente inalterado por vários anos, mudanças radicais eventualmente recaíram de novo sobre LCC.
-<br> No ano lectivo de 2025/2026, LCC sofreu uma série de alterações ao seu plano de estudo - algumas Unidades Curriculares foram substituídas por novas e em geral o curso sofreu uma re-organização quanto a que cadeiras são dadas em que semestres.
+<br> No ano lectivo de 2025/2026, LCC sofreu uma série de alterações ao seu plano de estudo. Algumas Unidades Curriculares foram substituídas por novas e em geral o curso sofreu uma re-organização quanto a que cadeiras são dadas em que semestres. A razão por estas mudanças foi para manter esta Licenciatura a relevante face à drástica explosão do estudo e tecnologias sobre Inteligência Artificial, que se tem dados nos anos precedentes.
 <br> A imagem que se segue mostra algumas dessas alterações (atenção que não mostra as cadeiras antigas cortadas da Licenciatura, nem a novas que foram introduzidas):
 
 <p align="center">
