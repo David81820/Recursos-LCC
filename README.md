@@ -47,7 +47,7 @@ Contudo aviso que não irei incluir aqui as cadeiras novas à qual não me encon
 
 * [Álgebra](algebra/README.md)
 * Álgebra Linear CC
-* Álgebra Universal e Categorias
+* [Álgebra Universal e Categorias](algebraUC/README.md)
 * Algoritmos e Complexidade
 * Análise
 * Análise Numérica

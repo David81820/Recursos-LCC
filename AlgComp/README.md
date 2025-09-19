@@ -1,9 +1,6 @@
-<p align="center">
-  <img src="https://raw.githubusercontent.com/David81820/Recursos-LCC/main/2ano/1sem/AeC/AeC.png">
-</p>
+<br>
 
-## [Detalhes da UC](Info.md)
-Lista dos vários detalhes técnicos da cadeira que podem ser encontrados na aba "Plano de Estudos" do catálogo electrónico na página [Oferta Educativa - LCC](https://www.uminho.pt/PT/ensino/oferta-educativa/_layouts/15/UMinho.PortalUM.UI/Pages/CatalogoCursoDetail.aspx?itemId=3851&catId=12).
+<h1 align="center">Algoritmos e Complexidade</h1>
 
 <br>
 
@@ -36,4 +33,4 @@ Testes e Exames dos anos anteriores (juntamente com algumas resoluções).
 
 <br><br>
 
-[![retroceder](https://raw.githubusercontent.com/David81820/Recursos-LCC/main/Rewind.png)](https://david81820.github.io/Recursos-LCC/2ano)
+[![retroceder]({{ '/assets/images/Rewind.png' | relative_url }})](https://david81820.github.io/Recursos-LCC)
