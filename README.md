@@ -192,7 +192,7 @@ Caso não saibam como aceder à rede do campus UM - entitulada de "**eduroam**" 
 <br><br>
 
 <p align="center">
-    <img src="https://raw.githubusercontent.com/David81820/Recursos-LCC/main/LCC.png">
+    <img src="{{ '/assets/images/LCC.png' | relative_url }}" alt="LCC">
 </p>
 
 <br>

@@ -17,4 +17,4 @@ Testes desde o ano lectivo 2016/2017 a 2022/2023. Exames apenas de 2017/2018 a 2
 
 <br><br>
 
-[![retroceder](https://raw.githubusercontent.com/David81820/Recursos-LCC/main/Rewind.png)](https://david81820.github.io/Recursos-LCC)
+[![retroceder]({{ '/assets/images/Rewind.png' | relative_url }})](https://david81820.github.io/Recursos-LCC)
