@@ -23,7 +23,7 @@ Embora o curso tenha permanecido maioritariamente inalterado por vários anos, m
 <br> A imagem que se segue mostra algumas dessas alterações (atenção que não mostra as cadeiras antigas cortadas da Licenciatura, nem a novas que foram introduzidas):
 
 <p align="center">
-    <img src="{{ '/assets/images/plano antigo - plano novo.png.png' | relative_url }}" alt="plano antigo - plano novo.png">
+    <img src="{{ '/assets/images/plano antigo - plano novo.png' | relative_url }}">
 </p>
 
 Sendo o autor deste repositótio um aluno que entrou no curso antes do ano lectivo 2025/2026, a maioria do material aqui reunido será por isso anterior a Setembro de 2025.
