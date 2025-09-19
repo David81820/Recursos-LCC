@@ -1,3 +1,5 @@
+<br>
+
 <h1 align="center">Testes e Exames | Álgebra</h1>
 
 <br>
@@ -42,4 +44,4 @@ Mais alguns testes modelos:
 
 <br><br>
 
-[![retroceder](https://raw.githubusercontent.com/David81820/Recursos-LCC/main/Rewind.png)](https://david81820.github.io/Recursos-LCC/algebra)
+[![retroceder]({{ '/assets/images/Rewind.png' | relative_url }})](https://david81820.github.io/Recursos-LCC/algebra)

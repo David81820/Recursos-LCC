@@ -1,3 +1,5 @@
+<br>
+
 <h1 align="center">Testes e Exames | Autómatos e Linguagens Formais</h1>
 
 <br>
@@ -32,4 +34,4 @@
 
 <br><br>
 
-[![retroceder](https://raw.githubusercontent.com/David81820/Recursos-LCC/main/Rewind.png)](https://david81820.github.io/Recursos-LCC/ALF)
+[![retroceder]({{ '/assets/images/Rewind.png' | relative_url }})](https://david81820.github.io/Recursos-LCC/ALF)

@@ -23,7 +23,7 @@ Embora o curso tenha permanecido maioritariamente inalterado por vários anos, m
 <br> A imagem que se segue mostra algumas dessas alterações (atenção que não mostra as cadeiras antigas cortadas da Licenciatura, nem a novas que foram introduzidas):
 
 <p align="center">
-    <img src="https://raw.githubusercontent.com/David81820/Recursos-LCC/main/plano antigo - plano novo.png">
+    <img src="{{ '/assets/images/plano antigo - plano novo.png.png' | relative_url }}" alt="plano antigo - plano novo.png">
 </p>
 
 Sendo o autor deste repositótio um aluno que entrou no curso antes do ano lectivo 2025/2026, a maioria do material aqui reunido será por isso anterior a Setembro de 2025.
@@ -185,8 +185,6 @@ Caso não saibam como aceder à rede do campus UM - entitulada de "**eduroam**" 
 <br>
 
 <h3 align="center">Qualquer aluno é bem-vindo a guardar em sua máquina os conteúdos deste repositório e utilizá-los livremente!</h3>
-### Qualquer aluno é bem-vindo a guardar em sua máquina os conteúdos deste repositório e utilizá-los livremente!
-#### Qualquer aluno é bem-vindo a guardar em sua máquina os conteúdos deste repositório e utilizá-los livremente!
 
 <br><br>
 <br><br>
@@ -195,4 +193,5 @@ Caso não saibam como aceder à rede do campus UM - entitulada de "**eduroam**" 
     <img src="{{ '/assets/images/LCC.png' | relative_url }}" alt="LCC">
 </p>
 
+<br>
 <br>

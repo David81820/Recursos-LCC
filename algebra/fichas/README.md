@@ -1,3 +1,5 @@
+<br>
+
 <h1 align="center">Fichas de Exercícios | Álgebra</h1>
 
 <br>
@@ -43,4 +45,4 @@ Embora as fichas de ambos anos lectivos apresentem exercícios semelhantes, exis
 
 <br><br>
 
-[![retroceder](https://raw.githubusercontent.com/David81820/Recursos-LCC/main/Rewind.png)](https://david81820.github.io/Recursos-LCC/algebra)
+[![retroceder]({{ '/assets/images/Rewind.png' | relative_url }})](https://david81820.github.io/Recursos-LCC/algebra)

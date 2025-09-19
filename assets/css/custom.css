@@ -1,11 +1,11 @@
 /* Make the page wider */
 .container {
-  max-width: 1200px; /* or 100% for full width */
+  max-width: 1250px; /* or 100% for full width */
   width: 100%;
 }
 
 /* If you want the header content also wider */
 header .container {
-  max-width: 1200px; /* match the above */
+  max-width: 1250px; /* match the above */
   width: 100%;
 }
