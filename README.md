@@ -50,15 +50,15 @@ Contudo aviso que não irei incluir aqui as cadeiras novas à qual não me encon
 * [Álgebra Universal e Categorias](algebraUC/README.md)
 * [Algoritmos e Complexidade](AlgComp/README.md)
 * Análise
-* Análise Numérica
+* [Análise Numérica](analiseNumerica/README.md)
 * Aprendizagem Computacional
 * Aprendizagem Estatística CC
 * [Autómatos e Linguagens Formais](ALF/README.md)
-* Bases de Dados
+* [Bases de Dados](BD/README.md)
 * Computabilidade e Complexidade
-* Computação Gráfica
+* [Computação Gráfica](CG/README.md)
 * [Cálculo](calculo/README.md)
-* Cálculo de Programas
+* [Cálculo de Programas](calculoProgramas/README.md)
 * Fundamentos de Criptografia e Segurança da Informação CC
 * Geometria
 * Interação e Concorrência
