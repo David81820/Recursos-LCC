@@ -73,15 +73,15 @@ Contudo aviso que não irei incluir aqui as cadeiras novas à qual não me encon
 * Programação Concorrente
 * [Programação Funcional](PF/README.md)
 * [Programação Imperativa](PI/README.md)
-* Programação Orientada aos Objetos
+* [Programação Orientada aos Objetos](POO/README.md)
 * Projecto
 * Semântica das Linguagens de Programação
-* Sistemas de Computação
-* Sistemas de Comunicações e Redes
+* [Sistemas de Computação](SC/README.md)
+* [Sistemas de Comunicações e Redes](SCR/README.md)
 * Sistemas Operativos
 * Teoria de Categorias CC
 * Teoria de Números Computacional
-* Tópicos de Matemática
+* [Tópicos de Matemática](TM/README.md)
 
 <br>
 
