@@ -22,8 +22,8 @@ Em geral estas questões não sofreram alterações significativas ao longo dos 
 
 * [**[A]** Resolução 1](50Q/A-50questoesRes1.md)
 * [**[A]** Resolução 2](50Q/A-50questoesRes2.md)
-* [**[A]** Resolução 2019-2020](50Q/I-50Qfun.md)
 * [**[A]** Resolução 2018-2019](50Q/I-50.md)
+* [**[A]** Resolução 2019-2020](50Q/I-50Qfun.md)
 
 <br>
 
