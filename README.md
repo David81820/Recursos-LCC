@@ -128,7 +128,7 @@ Lista dos vários detalhes técnicos da cadeira que podem ser encontrados na aba
 
 **[Blackboard UM](https://elearning.uminho.pt/)**
 
-**[Alunos UM](https://alunos.uminho.pt/PT)**
+**[Alunos UMinho](https://alunos.uminho.pt/PT)**
 
 **[E-Mail Universitário](http://mail.alunos.uminho.pt/)**
 
