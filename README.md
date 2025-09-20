@@ -63,16 +63,16 @@ Contudo aviso que não irei incluir aqui as cadeiras novas à qual não me encon
 * Geometria
 * Interação e Concorrência
 * Laboratório de Algoritmia I
-* Laboratório de Algoritmia II
-* Lógica CC
+* [Laboratório de Algoritmia II](LA2/README.md)
+* [Lógica CC](logica/README.md)
 * Lógica Computacional
 * Matemática Discreta
 * Otimização
-* Probabilidades e Aplicações
+* [Probabilidades e Aplicações](PA/README.md)
 * Processamento de Linguagens e Compiladores
 * Programação Concorrente
-* Programação Funcional
-* Programação Imperativa
+* [Programação Funcional](PF/README.md)
+* [Programação Imperativa](PI/README.md)
 * Programação Orientada aos Objetos
 * Projecto
 * Semântica das Linguagens de Programação
