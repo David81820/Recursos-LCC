@@ -8,9 +8,11 @@
 * [2016-2017](AeC-201617-Teste1.pdf)
 * [2017-2018](AeC-201718-Teste1.pdf)
 * [2018-2019](AeC-201819-Teste1.pdf)
-* [2019-2020 + Resolução](AeC_1920-res1.png)
-* [2021-2022 + Resolução](AeC_2122-res1.pdf)
+* [2019-2020 **+ Resolução**](AeC_1920-res1.png)
+* [2021-2022 **+ Resolução**](AeC_2122-res1.pdf)
 * [2022-2023](AeC-T1-2223.pdf)
+* [2023-2024](Teste%201%20AeC%202324.pdf)
+* [2024-2025](Teste%201%20AeC%202425.pdf)
 
 <br>
 
@@ -18,9 +20,11 @@
 * [2016-2017](AeC-201617-Teste2.pdf)
 * [2017-2018](AeC-201718-Teste2.pdf)
 * [2018-2019](AeC-201819-Teste2.pdf)
-* [2019-2020 + Resolução](AeC_1920-res2.pdf)
-* [2021-2022 + Resolução](AeC_2122-res2.pdf)
+* [2019-2020 **+ Resolução**](AeC_1920-res2.pdf)
+* [2021-2022 **+ Resolução**](AeC_2122-res2.pdf)
 * [2022-2023](AeC-T2-2223.pdf)
+* [2023-2024](Teste%202%20AeC%202324.pdf)
+* [2024-2025](Teste%202%20AeC%202425.pdf)
 
 <br>
 
@@ -28,7 +32,9 @@
 * [2016-2017](AeC-201617-Recurso.pdf)
 * [2017-2018](AeC-201718-Exame.pdf)
 * [2018-2019](AeC-201819-Recurso.pdf)
-* [2019-2020 + Resolução](AeC_2021_resE.pdf)
+* [2019-2020 **+ Resolução**](AeC_2021_resE.pdf)
+* [2022-2023](AeC_Exame_2223.pdf)
+* [2023-2024](Exame%20AeC%202324.pdf)
 
 <br><br>
 

@@ -55,7 +55,7 @@ Contudo aviso que não irei incluir aqui as cadeiras novas à qual não me encon
 * Aprendizagem Estatística CC
 * [Autómatos e Linguagens Formais](ALF/README.md)
 * [Bases de Dados](BD/README.md)
-* Computabilidade e Complexidade
+* [Computabilidade e Complexidade](CC/README.md)
 * [Computação Gráfica](CG/README.md)
 * [Cálculo](calculo/README.md)
 * [Cálculo de Programas](calculoProgramas/README.md)
@@ -69,7 +69,7 @@ Contudo aviso que não irei incluir aqui as cadeiras novas à qual não me encon
 * Matemática Discreta
 * Otimização
 * [Probabilidades e Aplicações](PA/README.md)
-* Processamento de Linguagens e Compiladores
+* [Processamento de Linguagens e Compiladores](PLC/README.md)
 * Programação Concorrente
 * [Programação Funcional](PF/README.md)
 * [Programação Imperativa](PI/README.md)

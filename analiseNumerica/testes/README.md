@@ -41,7 +41,8 @@ Todo material aqui contido, provém do corpo docente através da plataforma Blac
 
 <br>
 
-[Prova Complementar realizada na BlackBoard durante o ano lectivo 2020/2021 (ano lectivo do COVID).](AN_provaComplementar_2021.PNG)
+* [Prova Complementar realizada na BlackBoard durante o ano lectivo 2020/2021 (ano lectivo do COVID).](AN_provaComplementar_2021.PNG)
+* [Mini-Teste 2024/2025](mini-teste_2024.pdf)
 
 <br><br>
 
