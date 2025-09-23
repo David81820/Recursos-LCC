@@ -1,6 +1,6 @@
 <br>
 
-<h1 align="center">Material Teórico | Álgebra</h1>
+<h1 align="center">Material Teórico | Álgebra Universal e Categorias</h1>
 
 <br>
 

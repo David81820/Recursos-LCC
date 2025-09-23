@@ -1,6 +1,6 @@
 <br>
 
-<h1 align="center">Fichas de Exercícios | Álgebra</h1>
+<h1 align="center">Fichas de Exercícios | Álgebra Universal e Categorias</h1>
 
 <br>
 

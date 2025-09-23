@@ -9,17 +9,17 @@ O conteúdo destes vídeos resulta, na sua maioria, das gravações realizadas d
 
 <br>
 
-## [Material Teórico](slides/cg_slides.md)
+## [Material Teórico](slides/README.md)
 Vários documentos e links fornecidos pelo corpo docente, relativos a toda matéria lecionada - organizados por tópicos.
 
 <br>
 
-## [Fichas de Exercícios](fichas/cg_fichas.md)
+## [Fichas de Exercícios](fichas/README.md)
 Folhas de exercícios Teóricos.
 
 <br>
 
-## [Aulas Práticas](praticas/cg_praticas.md)
+## [Aulas Práticas](praticas/README.md)
 Slides teóricos e resoluções de exercíios de Aulas Teórico-Práticas
 
 <br>
