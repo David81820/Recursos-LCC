@@ -19,4 +19,4 @@ Várias provas de avaliação desde o ano lectivo 2010/2011 até 2021/2022. Nem 
 
 <br><br>
 
-[![retroceder]({{ '/assets/images/Rewind.png' | relative_url }})](https://david81820.github.io/Recursos-LCC)
+[![retroceder]({{ '/assets/images/Rewind.png' | relative_url }})](https://david81820.github.io/Recursos-LCC#ucs)
