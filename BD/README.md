@@ -25,4 +25,4 @@ Testes e exames desde o ano lectivo 1999/2000. Mas sem resoluções...
 
 <br><br>
 
-[![retroceder]({{ '/assets/images/Rewind.png' | relative_url }})](https://david81820.github.io/Recursos-LCC)
+[![retroceder]({{ '/assets/images/Rewind.png' | relative_url }})](https://david81820.github.io/Recursos-LCC#ucs)

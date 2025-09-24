@@ -35,4 +35,4 @@ As 50 Questões, Testes e Exames desde do ano lectivo 2015-2016, até 2020-2021.
 
 <br><br>
 
-[![retroceder]({{ '/assets/images/Rewind.png' | relative_url }})](https://david81820.github.io/Recursos-LCC)
+[![retroceder]({{ '/assets/images/Rewind.png' | relative_url }})](https://david81820.github.io/Recursos-LCC#ucs)
