@@ -151,6 +151,8 @@ Lista dos vários detalhes técnicos da cadeira que podem ser encontrados na aba
 
 **[Escola de Ciências da Universidade do Minho - ECUM](https://www.ecum.uminho.pt/pt)**
 
+**[Licença universitário MATLAB grátis](http://matlab.eng.uminho.pt/)**
+
 **[Mapa Interactivo](https://whereis.uminho.pt/)**
 
 <br>
