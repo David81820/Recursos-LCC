@@ -21,6 +21,13 @@ Várias notas e explicações.
 * [**Theoretical Computer Science Cheat Sheet**](cheat.pdf)
 * [**Introduction_to_Algorithms.zip**](Introduction_to_Algorithms.zip) - demasiado material para listar individualmente
 
+https://tobinatore.github.io/algovis/index.html
+https://www.cs.usfca.edu/~galles/visualization/Algorithms.html
+https://visualizing-algorithms.vercel.app/
+https://visualgo.net/en
+https://graphonline.top/
+
+
 <br>
 
 ## [Fichas de Exercícios](fichas/README.md)

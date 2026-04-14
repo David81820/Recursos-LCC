@@ -132,7 +132,7 @@ Lista dos vários detalhes técnicos da cadeira que podem ser encontrados na aba
 
 **[E-Mail Universitário](http://mail.alunos.uminho.pt/)**
 
-**[Página de Horários Universitários](https://alunos.uminho.pt/pt/estudantes/paginas/infouteishorarios.aspx)**
+**[Horários Universitários](https://alunos.uminho.pt/pt/estudantes/paginas/infouteishorarios.aspx)**
 <br> [E aqui está um site agradável para desenhar horários.](https://gizmoa.com/college-schedule-maker/)
 
 **[Calendário Escolar UM](https://alunos.uminho.pt/PT/estudantes/Paginas/InfoUteisCalendarioEscolar.aspx)  e  [Calendário Escolar - Escola de Ciências](https://www.ecum.uminho.pt/pt/Ensino/Paginas/Calendario-e-Horarios.aspx)**
@@ -151,7 +151,7 @@ Lista dos vários detalhes técnicos da cadeira que podem ser encontrados na aba
 
 **[Escola de Ciências da Universidade do Minho - ECUM](https://www.ecum.uminho.pt/pt)**
 
-**[Licença universitário MATLAB grátis](http://matlab.eng.uminho.pt/)**
+**[Licença universitária MATLAB grátis](http://matlab.eng.uminho.pt/)**
 
 **[Mapa Interactivo](https://whereis.uminho.pt/)**
 
@@ -180,7 +180,7 @@ Caso não saibam como aceder à rede do campus UM - entitulada de "**eduroam**" 
 - em *"Método EAP"*, selecionem "PEAP"
 - em *"Autenticação da Fase 2"*, selecionem "MSCHAPV2"
 - no campo *"Domínio"*, introduzam "uminho.pt"
-- no campo *"Identidade"*, introduzam o vosso e-mail académico (*aXXXXX@alunos.uminho.pt*);
+- no campo *"Identidade"* (e possivelmente também em *"Identidade Anónima"*), introduzam o vosso e-mail académico (*aXXXXX@alunos.uminho.pt*);
 - por em *"Senha"*, escrevam a palavra-chave de dito e-mail.
 
 <br>
