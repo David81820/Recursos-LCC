@@ -1,0 +1,25 @@
+<br>
+
+<h1 align="center">Testes e Exames | Programação Concorrente</h1>
+
+<br>
+
+## Testes
+* [2015/2016](t1516.pdf) -- [[A] Resolução](res-t1516.md)
+* [2018/2019](t1819.pdf) -- [[A] Resolução](res-t1819.md)
+* [2021/2022](t2122.pdf) -- [[A] Resolução](res-t2121.pdf)
+* [2023/2024](t2324.pdf)
+* [2025/2026](t2526.jpg)
+
+<br>
+
+## Exames
+* [2015/2016](ex1516.pdf) -- [[A] Resolução](res-ex1516.md)
+* [Época Especial 2015/2016](ee1516.pdf) -- [[A] Resolução](res-ee1516.md)
+* [2021/2022](ex2122.pdf)
+* [Época Especial 2021/2022](ee2122.pdf)
+* [2023/2024](ex2324.pdf)
+
+<br><br>
+
+[![retroceder]({{ '/assets/images/Rewind.png' | relative_url }})](https://david81820.github.io/Recursos-LCC/PC)

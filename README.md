@@ -4,35 +4,27 @@
 
 <br><br>
 
-### Esta colecção não deve ser usada como substituto ás aulas e material disponibilizado pelos professores.
-### A sua intenção é apenas servir como um complemento ao estudo.
+### Esta colecção não deve ser usada como substituto ás aulas e material disponibilizado pelos professores. A sua intenção é servir como um complemento ao estudo.
 
-### Há que ter especial cuidado com material proveniente de alunos, visto não serem fontes totalmente fidedignas quanto à sua "correcção".
-### Como tal, irei sinalizar material que eu saiba ter origem de alunos, com a etiqueta - **[A]** - no início do nome desses ficheiros. Material "oficial" (i.e. material proporcionado pelos professores) não terá qualquer etiqueta.
+### AVISO: material com a etiqueta - **[A]** - no início do nome dos ficheiros, significa que esse material é proveniente de alunos e não dos professores.
 
 <br>
 
 "Ano novo, vida nova!".
 <br> Ora pois este idioma também se aplica aos novos anos lectivos, mesmo quando as coisas parecem que nunca vão mudar...
 
-No ano de 2006, as licenciaturas em Portugal sofreram uma enorme reestruturação consequência do Processo de Bolonha. 
+No ano de 2006, as licenciaturas em Portugal sofreram uma enorme reestruturação consequência do [Processo de Bolonha](https://pt.wikipedia.org/wiki/Processo_de_Bolonha). 
 <br> O curso de LCC - até à altura designado por *Licenciatura em Matemática e Ciências da Computação* (um nome que alguns dos professores ainda consideram mais apto) - foi uma das vítimas, na altura gerando bastante confusão e frustração entre os alunos com as suas vastas alterações.
 
 Embora o curso tenha permanecido maioritariamente inalterado por vários anos, mudanças radicais eventualmente recaíram de novo sobre LCC.
-<br> No ano lectivo de 2025/2026, LCC sofreu uma série de alterações ao seu plano de estudo. Algumas Unidades Curriculares foram substituídas por novas e em geral o curso sofreu uma re-organização quanto a que cadeiras são dadas em que semestres. A razão por estas mudanças foi para manter esta Licenciatura a relevante face à drástica explosão do estudo e tecnologias sobre Inteligência Artificial, que se tem dados nos anos precedentes.
-<br> A imagem que se segue mostra algumas dessas alterações (atenção que não mostra as cadeiras antigas cortadas da Licenciatura, nem a novas que foram introduzidas):
-
-<p align="center">
-    <img src="{{ '/assets/images/plano antigo - plano novo.png' | relative_url }}">
-</p>
+<br> No ano lectivo de 2025/2026, LCC sofreu uma série de alterações ao seu plano de estudo [(exemplo)](/assets/images/plano%20antigo%20-%20plano%20novo.png). Algumas Unidades Curriculares foram inteiramente substituídas por novas e muitas das cadeiras que permaneceram sofreram re-organizações. A principal razão por estas mudanças foi como resposta à drástica explosão das tecnologias de Inteligência Artificial que se tem vindo a dar nos anos precedentes, que criou a necessidade de manter esta Licenciatura relevante face a esta nova revolução informática.
 
 Sendo o autor deste repositótio um aluno que entrou no curso antes do ano lectivo 2025/2026, a maioria do material aqui reunido será por isso anterior a Setembro de 2025.
-<br> Adicionalmente decidi por isso também reorganizar a estrutura e contéudos deste repositório.
-<br> O antigo sistema de organização, apesar de melhor dividido, estava a tornar-se massante de manter e trabalhar com o crescimento do repositório. E derradeiramente, esta alteração ao curso mostrou-me que esse sistema simplesmente não tinha quaisquer salvaguardas para situações como esta...
+<br> Adicionalmente decidi reorganizar a estrutura e contéudos deste repositório. O antigo modelo de organização, apesar de melhor dividido, estava a tornar-se massante de manter e trabalhar com o crescimento do repositório. E também esta alteração ao curso mostrou-me que esse modelo simplesmente não tinha quaisquer salvaguardas para situações como esta...
 
-**Por isso irei listar atuais e passadas UCs (não vou apagar nenhuma cadeira dos meus ficheiro, mesmo que não exista presentemente no curso) por ordem alfabética, não obstante ao semestre e ano em que são leccionadas.**
+**Não vou apagar nenhuma cadeira dos meus ficheiro, mesmo que não exista presentemente no curso.** Por isso irei listar atuais e passadas UCs por ordem alfabética, não obstante ao semestre e ano em que são leccionadas.
 
-Contudo aviso que não irei incluir aqui as cadeiras novas à qual não me encontro inscrito...
+Contudo aviso que não irei incluir aqui as cadeiras novas às quais não me encontro inscrito...
 
 <br>
 
@@ -51,7 +43,7 @@ Contudo aviso que não irei incluir aqui as cadeiras novas à qual não me encon
 * [Algoritmos e Complexidade](AlgComp/README.md)
 * Análise
 * [Análise Numérica](analiseNumerica/README.md)
-* Aprendizagem Computacional
+* [Aprendizagem Computacional](aprendizagemC/README.md)
 * Aprendizagem Estatística CC
 * [Autómatos e Linguagens Formais](ALF/README.md)
 * [Bases de Dados](BD/README.md)
@@ -70,7 +62,7 @@ Contudo aviso que não irei incluir aqui as cadeiras novas à qual não me encon
 * Otimização
 * [Probabilidades e Aplicações](PA/README.md)
 * [Processamento de Linguagens e Compiladores](PLC/README.md)
-* Programação Concorrente
+* [Programação Concorrente](PC/README.md)
 * [Programação Funcional](PF/README.md)
 * [Programação Imperativa](PI/README.md)
 * [Programação Orientada aos Objetos](POO/README.md)
@@ -135,39 +127,45 @@ Lista dos vários detalhes técnicos da cadeira que podem ser encontrados na aba
 **[Horários Universitários](https://alunos.uminho.pt/pt/estudantes/paginas/infouteishorarios.aspx)**
 <br> [E aqui está um site agradável para desenhar horários.](https://gizmoa.com/college-schedule-maker/)
 
-**[Calendário Escolar UM](https://alunos.uminho.pt/PT/estudantes/Paginas/InfoUteisCalendarioEscolar.aspx)  e  [Calendário Escolar - Escola de Ciências](https://www.ecum.uminho.pt/pt/Ensino/Paginas/Calendario-e-Horarios.aspx)**
+[Calendário Escolar UM](https://alunos.uminho.pt/PT/estudantes/Paginas/InfoUteisCalendarioEscolar.aspx)  e  [Calendário Escolar - Escola de Ciências](https://www.ecum.uminho.pt/pt/Ensino/Paginas/Calendario-e-Horarios.aspx)
 
-**[Bibliotecas da UM](https://www.usdb.uminho.pt/)**
+[Bibliotecas da UM](https://www.usdb.uminho.pt/)
 
-**[Repositório da Biblioteca](https://repositorium.sdum.uminho.pt/)**
+[Repositório da Biblioteca](https://repositorium.sdum.uminho.pt/)
 
-**[Sistema de reservas de salas da Biblioteca](https://reservas.sdum.uminho.pt/)**
+[Sistema de reservas de salas da Biblioteca](https://reservas.sdum.uminho.pt/)
 
-**[Repositório de dados da UM](https://datarepositorium.uminho.pt/)**
+[Repositório de dados da UM](https://datarepositorium.uminho.pt/)
 
-**[Normas de formatação e identidade gráfica institucionalmente definidas pela UM](https://alunos.uminho.pt/pt/estudantes/paginas/infouteisformatacao.aspx)**
+[Normas de formatação e identidade gráfica institucionalmente definidas pela UM](https://alunos.uminho.pt/pt/estudantes/paginas/infouteisformatacao.aspx)
 
-**[Departamento de Informática da Universidade do Minho - DIUM](https://web.di.uminho.pt/sitedi/)**
+[Departamento de Informática da Universidade do Minho - DIUM](https://web.di.uminho.pt/sitedi/)
 
-**[Escola de Ciências da Universidade do Minho - ECUM](https://www.ecum.uminho.pt/pt)**
+[Escola de Ciências da Universidade do Minho - ECUM](https://www.ecum.uminho.pt/pt)
 
-**[Licença universitária MATLAB grátis](http://matlab.eng.uminho.pt/)**
+[Licença universitária MATLAB grátis](http://matlab.eng.uminho.pt/)
 
-**[Mapa Interactivo](https://whereis.uminho.pt/)**
+[Mapa Interactivo](https://whereis.uminho.pt/)
 
 <br>
 
 [Núcleo de Estudantes de Ciências da Computação - NECC](https://necc.di.uminho.pt/)
 
+[NECChange - calendário de testes e exames de LCC](https://necchange.necc.di.uminho.pt/)
+
 [Repositório do N.E.C.C.](https://github.com/NECC/Material-Do-Curso)
 
 [Repositório de Engenharia Informática](https://drive.google.com/drive/folders/1tBpWJmF0gvXJuGDTxpHNRdjJGYIjbHZZ)
+
+[Calendário MIEI](http://bit.ly/calendariomiei)
 
 [Servidor FTP do DIUM](https://ftp.di.uminho.pt/)
 
 [Modelos para dissertações com formatação requerida pela UM](https://github.com/joaomlourenco/novathesis)
 
-[Soluções de livros e os seus exercícios](https://www.studocu.com)
+<br>
+
+[studocu.com - Soluções de livros e os seus exercícios](https://www.studocu.com)
 
 [Comparador de empresas e salários em Portugal nas áreas de TI](https://pt.teamlyzer.com/)
 
