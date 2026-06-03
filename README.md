@@ -6,7 +6,7 @@
 
 ### Esta colecção não deve ser usada como substituto ás aulas e material disponibilizado pelos professores. A sua intenção é servir como um complemento ao estudo.
 
-### AVISO: material com a etiqueta - **[A]** - no início do nome dos ficheiros, significa que esse material é proveniente de alunos e não dos professores.
+### Adicionalmente, material com a etiqueta - **[A]** - no início do nome dos ficheiros, significa que esse material é proveniente de alunos, ou seja não é de modo algum material “oficial” (i.e. proporcionado pelo professores).
 
 <br>
 
