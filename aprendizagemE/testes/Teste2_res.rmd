@@ -1,0 +1,657 @@
+---
+title: "Teste 2 — ACP, Regressão Logística e Inferência Estatística (2 horas)"
+author: "Nome do/a aluno/a: __________________"
+date: "`r format(Sys.Date(), '%d-%m-%Y')`"
+output:
+  html_document: default
+  pdf_document: default
+editor_options:
+  chunk_output_type: inline
+---
+
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE,
+                      message = FALSE,
+                      warning = FALSE)
+set.seed(123)
+```
+
+
+# Exercício 1
+
+O ficheiro `habitos_estudo_pca.csv` contém informação sobre hábitos de estudo de alunos do 12.º ano. Cada linha corresponde a um aluno e as colunas são:
+
+-   `horas_estudo_semana` – número médio de horas de estudo individual por semana;
+-   `horas_explicacoes` – número médio de horas semanais de explicações/aulas extra;
+-   `horas_tempo_livre` – número médio de horas de tempo livre por dia;
+-   `faltas` – número de faltas à disciplina no último período;
+-   `nota_teste` – nota (0–20) no último teste.
+
+Pretende-se aplicar **Análise de Componentes Principais (ACP)** às quatro variáveis de hábitos/comportamento:
+
+$$
+(\text{horas_estudo_semana}, \text{horas_explicacoes}, \text{horas_tempo_livre}, \text{faltas}).
+$$
+
+Considere apenas essas quatro variáveis para o vetor-resposta multivariado.
+
+## 1.1 Preparação dos dados
+
+(a) Importe os dados para o R e crie um objeto com as quatro variáveis indicadas.
+
+```{r}
+library(dplyr)
+
+dados <- read.csv("/home/david/Transferências/UM/habitos_estudo_pca.csv", header=TRUE)
+
+objeto_a <- dados %>% select(horas_estudo_semana, horas_explicacoes, horas_tempo_livre, faltas)
+```
+
+
+
+(b) Calcule a matriz de correlações entre as quatro variáveis (função `cor`).
+Com base nos resultados, comente **se faz sentido** aplicar a ACP.
+
+```{r}
+cor(objeto_a, use = "complete.obs")    # "complete.obs" ignora linhas com NA
+
+# ACP (Análise de Componentes Principais)
+ # é uma técnica de redução de dimensionalidade que
+  # transforma variáveis correlacionadas em novas variáveis não correlacionadas
+   # (componentes principais) ordenadas por variância explicada
+
+# Ou seja, é usada para resumir a informação de várias variáveis correlacionadas 
+ # em poucos componentes não correlacionados, maximizando a variância explicada, 
+  # sendo particularmente útil em contextos de redução de dimensionalidade e mitigação de multicolinearidade
+
+# Faz sentido aplicar ACP quando há correlação elevada entre variáveis, 
+ # quer-se reduzir o número de variáveis, o objetivo é exploração ou predição (não interpretação direta)
+
+# Não é ideal quando a interpretação individual das variáveis é crucial e/ou as variáveis já são pouco correlacionadas
+
+
+# Dimensionalidade, é o número de variáveis (features) usadas para descrever os dados.
+   # alta dimensionalidade <=> muitas variáveis
+ # demasiada Dimensionalidade pode tornar modelos mais complexos, difíceis de interpretar e propensos a sobreajuste
+```
+**Resposta**
+ Não faz sentido aplicar ACP, pois as variáveis apresentam correlações muito fracas entre si - não existindo estrutura comum suficiente para justificar uma redução de dimensionalidade - nem traria ganho interpretativo ou preditivo.
+
+
+
+## 1.2 Cálculo da ACP
+
+(c) Aplique a ACP às quatro variáveis **padronizadas**.
+Apresente os valores próprios (variâncias explicadas) e a proporção de variância explicada por cada componente principal.
+
+```{r}
+acp <- prcomp(objeto_a, scale. = TRUE)    # "scale." é essencial se as variáveis estiverem em escalas diferentes
+summary(acp)
+
+writeLines("")    # linha em branco entre outputs
+
+# os valores próprios obtêm-se elevando ao quadrado os desvios-padrão das componentes principais
+valores_proprios <- acp$sdev^2
+valores_proprios
+
+writeLines("")
+
+# a proporção de variância explicada resulta da razão entre cada valor próprio e a soma total dos valores próprios
+prop_var <- valores_proprios / sum(valores_proprios)
+prop_var
+```
+
+
+
+(d) Apresente um gráfico que ajude a decidir **quantas componentes principais** reter.
+Com base nesse gráfico e na proporção de variância explicada, justifique quantas componentes consideraria relevantes.
+
+```{r}
+# O gráfico mais usado para decidir quantas componentes principais reter é o "scree plot"
+ # Este permite identificar o número adequado de componentes principais através do "ponto de inflexão",
+  # a partir do qual as componentes adicionais contribuem pouco para a variância explicada
+
+plot(
+  valores_proprios,
+  type = "b",
+  xlab = "Componente principal",
+  ylab = "Variância explicada (valor próprio)",
+  main = "Scree plot"
+)
+abline(h = 0.9445, lty = 2)
+
+# gráfico mais simples:  plot(acp, type = "l", main = "Scree plot")
+
+
+# Variância Explicada Acumulada
+  # ajuda a escolher o número mínimo de componentes que explica, por exemplo, 80% da variância
+plot(
+  cumsum(prop_var),
+  type = "b",
+  xlab = "Número de componentes",
+  ylab = "Variância explicada acumulada",
+  ylim = c(0, 1)
+)
+abline(h = 0.8, lty = 2)
+
+
+# A "Variância Explicada" mede quanta da variabilidade total dos dados é capturada por um modelo ou componente
+ # É a parte da variância dos dados que não é "ruído", mas sim estrutura sistemática explicada por um modelo
+
+# Ou seja, corresponde à proporção da variabilidade total dos dados que é capturada por um modelo ou por uma componente principal
+
+# Na ACP, cada componente principal explica uma fração da variância total,
+ # sendo as componentes ordenadas por variância explicada decrescente
+
+
+# A "Variância Explicada Acumulada" é a soma das variâncias explicadas pelas primeiras componentes principais (até uma certa ordem).
+
+# Ou seja, corresponde à soma da variabilidade total dos dados
+ # capturada por cada componente principal ao longo das primeiras componentes,
+  # indicando quanta informação total é preservada ao reter um dado número de componentes
+
+
+# Intuitivamente:
+#   * Variância Explicada           <=> "quanto cada componente contribui"
+#   * Variância Explicada Acumulada <=> "quanta informação total já retivemos"
+```
+**Resposta**
+ Com base nos gráficos, diria que 3 componentes são revelantes - pois a acumulação de variância explicada entre a componente principal 3 e 4 é reduzida.
+
+
+
+## 1.3 Interpretação
+
+(e) Apresente os coeficientes (loadings) das duas primeiras componentes principais (recorra a pca\$rotation se necessário).
+Interprete, em palavras, o que parece medir a **1.ª componente principal** (por exemplo, “nível geral de estudo”, “compromisso académico”, etc.).
+Comente também, de forma breve, o significado da 2.ª componente.
+
+```{r}
+# para apresentar os coeficientes (loadings) das duas primeiras componentes principais, basta extrair a matriz "rotation" do objeto "acp"
+acp$rotation[, 1:2]    # linhas = variáveis ; colunas = componentes principais
+```
+**Resposta**
+ A 1ª Componente Principal parace medir um gradiente de dedicação académica, distinguindo alunos mais focados no estudo dos que dedicam mais tempo ao lazer e faltam mais - pois as variáveis "horas_estudo_semana" e "horas_explicacoes" apresentam um forte contributo positivo para a componente e em contra-partida "horas_tempo_livre" (e em menor grau "faltas") tem um contributo negativo significativo.
+ Agora para a 2ª Componente Principal, todas variáveis tem um contributo negativo substancial, "faltas" e "horas_estudo_semana" tem ambas cargas negativas especialmente elevadas. Por isso considero que esta componente capta um eixo de assiduidade, separando alunos com mais faltas e menor consistência de estudo dos mais comprometidos academicamente (de forma relativamente independente do tempo gasto em explicações ou lazer).
+
+
+
+(f) Faça um gráfico de dispersão das observações no plano das duas primeiras componentes principais.
+Indique se observa algum **padrão claro**.
+
+```{r}
+scores <- acp$x  # coordenadas das observações nas CPs
+
+cores <- colorRampPalette(c("blue", "darkgreen", "red"))(100)    # gradiente cor
+col_num <- cores[cut(scores, breaks = 100)]
+
+plot(
+  scores[, 1],
+  scores[, 2],
+  col = col_num,
+  xlab = "CP1",
+  ylab = "CP2",
+  main = "Observações no plano das duas primeiras CPs",
+  pch = 19
+)
+abline(h = 0, v = 0, lty = 2)
+
+
+# o que o gráfico mostra:
+#   - cada ponto = observação original
+#   - proximidade entre pontos => observações semelhantes
+#   - CP1 e CP2 concentram a maior parte da variância total
+```
+**Resposta**
+ No gráfico CP1×CP2 conseguimos visualizar que a projeção das observações no espaço definido, concentram a maior parte da variância total entre os valores 1 e -1 de ambas componentes principais.
+ Em geral existe: uma maior variância de extremos dos dados nos 2º e 4º quadrantes do gráfico ; os dados dos 2º e 3º quadrantes estão menos dispersos que os do 1º e 4º ; e em todos quadrantes a concentração de dados forma uma espécie de "losango" em redor do ponto (0,0).
+
+
+
+------------------------------------------------------------------------
+
+
+
+# Exercício 2
+
+O ficheiro `credit_logit.csv` contém informação sobre pedidos de crédito bancário. Cada linha corresponde a um cliente, com as variáveis:
+
+-   `default` – variável binária (1 = incumprimento do crédito, 0 = crédito pago sem problemas);
+-   `renda_mensal` – rendimento mensal do cliente (em euros);
+-   `divida_total` – valor total de dívidas existentes (em euros);
+-   `idade` – idade do cliente (em anos);
+-   `hist_incumprimento` – variável binária (1 = cliente com histórico anterior de incumprimento, 0 = sem histórico).
+
+Pretende-se ajustar um modelo de **regressão logística** para modelar a probabilidade de incumprimento (`default = 1`) em função das variáveis explicativas.
+
+## 2.1 Ajustamento do modelo
+
+(a) Importe os dados para o R e indique:
+     - o número total de clientes;
+     - a proporção de clientes em incumprimento (`default = 1`) e sem incumprimento (`default = 0`).
+
+```{r}
+library(dplyr)
+
+dados2 <- read.csv("/home/david/Transferências/UM/credit_logit.csv", header=TRUE)
+
+num_clientes <- nrow(dados2)
+
+default_proportion <- prop.table(table(dados2$default))
+100 * default_proportion    # mostra em "percentagem"
+```
+
+
+
+(b) Ajuste um modelo de regressão logística com `default` como resposta e as variáveis `renda_mensal`, `divida_total` e `hist_incumprimento` como explicativas. Note que a variável `hist_incumprimento` é uma variável categórica (recorra à função "factor" para a conversão de estrutura).
+
+$$
+   \text{logit}\big(P(\text{default}=1)\big)
+   = \beta_0 + \beta_1\text{renda_mensal}
+   + \beta_2\text{divida_total}
+   + \beta_3\text{hist_incumprimento}.
+$$
+
+```{r}
+# converter "hist_incumprimento" em factor (categorical)
+dados2$hist_incumprimento <- factor(dados2$hist_incumprimento)
+
+# opcional: assegurar que resposta é 0/1 numérica
+dados2$default <- as.numeric(as.character(dados2$default))
+
+# ajustar o modelo logístico
+modelo_logit <- glm(
+  default ~ renda_mensal + divida_total + hist_incumprimento,
+  data = dados2,
+  family = binomial(link = "logit")
+)
+
+# ver coeficientes em log-odds
+summary(modelo_logit)
+
+# obter razões de odds (OR) e intervalos de confiança (95%)
+exp_coef <- exp(coef(modelo_logit))
+exp_confint <- exp(confint(modelo_logit))
+cbind(OR = exp_coef, CI_lower = exp_confint[,1], CI_upper = exp_confint[,2])
+
+
+
+# Modelo de Regressão Logística, usado quando a variável resposta é binária (0/1), 
+ # modela a probabilidade de um evento binário (ex.: default=1) através do logit.
+
+# Variáveis Explicativas  - são as variáveis usadas para explicar/predizer a resposta
+# Variáveis Categóricas   - são variáveis qualitativas (ex.: 0/1, Sim/Não, grupos) ; no R devem ser tratadas como factor para criar dummies automaticamente
+
+
+
+# Odds                = 𝑃(𝑌= 1) / 𝑃(𝑌= 0)
+# Razão de Odds (OR)  = fator multiplicativo nas odds por aumento de 1 unidade em X ; por exemplo:
+#       OR = 1.5  -> as odds aumentam 50%
+#       OR = 0.7  -> as odds diminuem 30%
+#       OR = 2    -> as odds duplicam
+
+# Os coeficientes da regressão logística estão em log-odds, difíceis de interpretar,
+ # ao fazer exp(β), obtém-se a razão de odds (OR) que permitem uma interpretação direta do efeito de cada variável nas odds de ocorrência do evento
+```
+
+
+
+(c) Apresente o resumo do modelo e interprete:
+     - o sinal dos coeficientes estimados $\hat\beta_1$ e $\hat\beta_2$ (fazem sentido no contexto?);
+     - quais as variáveis estatisticamente significativas para um nível de significância de 5% (utilize o p-valor).
+
+```{r}
+"""
+
+  ^𝛽_1 = renda_mensal
+
+Coeficiente   = -3.066 x 10^-4
+Razão de Odds = 0.9996
+
+p-valor       = 0.4976
+
+
+Dado o sinal negativo podemos concluir que um aumento na renda mensal está associado a uma diminuição nas odds de incumprimento.
+O que em termos económicos, isto faz sentido: clientes com maior rendimento tendem a ter menor risco de default.
+
+Contudo visto que o  p-valor > 0.05  e a diminuição nas odds de incumprimento é muito pequena (0.0001), podemos concluir que esta variável não é significativa.
+
+
+
+  ^𝛽_2 = divida_total
+
+Coeficiente   = 1.862 x 10^-4
+Razão de Odds = 1.0001
+
+p-valor       = 4.74 x 10^-6
+
+
+Dado o sinal positivo podemos concluir que um aumento na dívida total está associado a um aumento nas odds de incumprimento.
+Isto também faz sentido em termos económico: quanto maior a dívida acumulada, maior tende a ser o risco de falhar pagamentos.
+
+No entanto o efeito é pequeno pois o aumento na Razão de Odds é muito ligueiro (0.0001).
+Apesar disso o  p-valor  marca esta variável como estatisticamente significativa (pois esse valor é menor que 5%).
+Ou seja, em escalas maiores (neste contexto estamos a trabalhar com a escala de 1€), o impacto torna-se substantivo.
+
+
+
+  p-valor(hist_incumprimento1) = 0.0013 < 0.05
+
+"""
+```
+**Resposta**
+
+ O coeficiente de *renda_mensal* é negativo, indicando que maiores rendimentos reduzem as odds de incumprimento, o que é coerente economicamente, embora o efeito não seja estatisticamente significativo. 
+ 
+ O coeficiente de *divida_total* é positivo, sugerindo que maiores níveis de dívida aumentam o risco de incumprimento, sendo este efeito estatisticamente significativo.
+ 
+ Para um nível de significância de 5%, as variáveis relevantes são divida_total e hist_incumprimento, enquanto renda_mensal não apresenta evidência estatística de efeito sobre a probabilidade de default.
+
+
+
+## 2.2 Probabilidades e odds
+
+(d) Calcule os **odds-ratios** associados a `renda_mensal`, `divida_total` e `hist_incumprimento`.
+Interprete, em linguagem simples, o **coeficiente associado a `hist_incumprimento`**:
+  - o que significa o sinal de $\hat\beta_3$?
+  - como se interpreta $\exp(\hat\beta_3)$?
+  
+```{r}
+cat("odds-ratios:\n")
+exp_coef
+
+
+"""
+^𝛽_3 = hist_incumprimento
+
+Coeficiente   = 1.446
+Razão de Odds = 4.247
+"""
+```
+**Resposta**
+
+ O sinal positivo significa que clientes com *hist_incumprimento = 1* (ou seja, clientes com histórico anterior de incumprimento) tem maior risco/probabilidade de incumprir, comparativamente a clientes sem histórico.
+ 
+ O *exp(^𝛽_3)* corresponde à *razão de odds*, e esta mosta que clientes com histórico de incumprimento têm cerca de 4,25 vezes mais probabilidade de incumprir do que clientes sem histórico, para os mesmos valores de renda mensal e dívida total.
+
+
+
+(e) Utilizando o modelo ajustado, calcule a **probabilidade prevista de incumprimento** para dois clientes com:
+     - renda mensal de 1200 euros, dívida total de 8000 euros, **sem** histórico de incumprimento (`hist_incumprimento = 0`);
+     - renda mensal de 1200 euros, dívida total de 8000 euros, **com** histórico de incumprimento (`hist_incumprimento = 1`).
+Comente a diferença entre estas probabilidades.
+
+```{r}
+dois_clientes <- data.frame(
+  renda_mensal = c(1200, 1200),
+  divida_total = c(8000, 8000),
+  hist_incumprimento = factor(c(0, 1))
+)
+
+
+prob_prevista <- predict(
+  modelo_logit,
+  newdata = dois_clientes,
+  type = "response"
+)
+100 * prob_prevista
+```
+**Resposta**
+
+ Usando a função *predict()* com *type="response"* no modelo *logit*, obtemos diretamente as probabilidades previstas de incumprimento para estes dois novos perfis de clientes. E podemos verificar, que apesar de apresentarem rendimento mensal e dívida total iguais, o cliente com histórico de incumprimento tem significativamente maior probabilidade de incumprimento que o cliente sem histórico.
+
+
+
+## 2.3 Classificação
+
+(f) Gere as probabilidades previstas de incumprimento para todos os clientes e construa uma variável com a **classe prevista** usando um limiar de 0.5.
+     - Crie a matriz de confusão.
+     - Calcule a **taxa de acerto global** (proporção de classificações corretas).
+     - Comente brevemente se o modelo parece ter um desempenho razoável para apoiar decisões de concessão de crédito.
+
+```{r}
+
+# probabilidades previstas
+dados2$prob_default <- predict(modelo_logit, type = "response")
+
+
+# classe prevista (0/1) com limiar 0.5
+dados2$default_previsto <- ifelse(dados2$prob_default >= 0.5, 1, 0)
+
+
+matriz_confusao <- table(
+  Real = dados2$default,
+  Previsto = dados2$default_previsto
+)
+cat("Matriz de Confusão:\n")
+matriz_confusao
+
+
+cat("\n")
+
+
+taxa_acerto <- mean(dados2$default == dados2$default_previsto)
+cat("Taxa Acerto:\n")
+taxa_acerto
+
+# Outra forma de calcular taxa de acerto global:
+#
+#   sum(diag(matriz_confusao)) / sum(matriz_confusao)
+
+
+
+"""
+A matriz de confusão permite avaliar o desempenho do classificador, comparando as classes reais e previstas.
+
+A taxa de acerto global mede a proporção total de classificações corretas.
+
+ Embora uma taxa elevada (maior que 75% ou 80%) sugira um bom desempenho de classificação global, em problemas de concessão de crédito é crucial considerar separadamente falsos positivos e falsos negativos, dado o custo assimétrico dos erros (FN - i.e aprovar quem vai incumprir - neste contexto são são muito mais graves do que FP).
+ Pelo que o modelo deve ser avaliado com métricas adicionais e possivelmente com um limiar de decisão mais adequado que 0.5
+"""
+
+```
+  **Interpretação dos Dados**
+
+> Matriz de Confusão:
+
+TN  FP
+FN  TP
+
+*Verdadeiros negativos (TN)*
+"Clientes sem incumprimento corretamente classificados" = 374
+*Falsos positivos (FP)*
+"Cliente sem incumprimento classificado como incumpridor" = 1
+*Falsos negativos (FN)*
+"Clientes que incumpriram mas foram classificados como “bons”" = 24
+*Verdadeiros positivos (TP)*
+"Clientes em incumprimento corretamente identificados" = 1
+
+
+> Taxa de Acerto Global:
+
+*93,75%* de classificações corretas
+
+
+
+  **Resposta**
+
+ Embora a taxa de acerto global seja elevada (93,75%), o modelo apresenta um desempenho fraco na identificação de clientes em incumprimento (só identifica 1 em 25 incumpridores reais), com uma sensibilidade muito baixa (1/25 ≈ 4%) e um número elevado de falsos negativos (clientes com histórico de incumprimento mas foram classificados como cumpridores).
+ Dado que no contexto de concessão de crédito, aprovar clientes que irão incumprir é particularmente custoso, o modelo tal como está e com limiar 0.5, não é adequado para apoiar decisões de crédito sem uma revisão do limiar de decisão ou o uso de métricas adicionais como a curva ROC e a AUC.
+ Suspeito que a boa taxa de acerto deve-se ao desequilíbrio das classes, pois a maioria dos clientes não incumpre, até um classificador "ingénuo" que previsse sempre 0 teria uma taxa de acerto parecida.
+
+
+
+------------------------------------------------------------------------
+
+
+
+# Exercício 3
+
+Neste exercício, vai trabalhar com dois conjuntos de dados diferentes, em situações de inferência estatística univariada.
+
+## 3.1 Intervalos de Confiança
+
+O ficheiro `tempo_espera.csv` contém a variável:
+ - `tempo` – tempo de espera (em minutos) até à chegada do autocarro, medido em diferentes dias numa determinada paragem.
+
+Admita que o tempo de espera é aproximadamente normal.
+
+(a) Importe os dados `tempo_espera.csv` e calcule o tamanho amostral $n$, a média amostral $\bar x$ e o desvio padrão amostral $s$.
+
+```{r}
+library(dplyr)
+
+dados3.1 <- read.csv("/home/david/Transferências/UM/tempo_espera.csv", header=TRUE)
+
+# tamanho amostral
+n <- length(dados3.1$tempo)
+n
+
+# média amostral
+hat_x <- mean(dados3.1$tempo)
+hat_x
+
+# desvio-padrão amostral
+s <- sd(dados3.1$tempo)
+s
+```
+
+
+
+(b) Construa um **intervalo de confiança a 95%** para o tempo médio de espera $\mu$, usando a distribuição t de Student (variância populacional desconhecida).
+  - Apresente o intervalo e interprete-o.
+
+```{r}
+alpha <- 0.05
+t_crit <- qt(1 - alpha/2, df = n-1)
+
+IC_lower <- hat_x - t_crit * s / sqrt(n)
+IC_upper <- hat_x + t_crit * s / sqrt(n)
+
+cat("IC lower     | IC upper\n")
+c(IC_lower, IC_upper)
+
+
+# alternativa direta para Intervalo de Confiança:
+#   t.test(dados3.1$tempo, conf.level = 0.95)$conf.int
+
+
+#  60 * 0.74 = 44s
+#  60 * 0.05 = 3s
+
+
+"
+    Distribuição t de Student
+
+É uma distribuição de probabilidade usada para inferência sobre a média quando:
+  - a variância populacional é desconhecida
+  - o tamanho da amostra é pequeno ou moderado
+  - os dados são aproximadamente normais
+
+Tem caudas mais largas do que a normal, refletindo a incerteza extra por usar o desvio-padrão amostral.
+À medida que n aumenta, a t converge para a normal padrão.
+
+
+t_crit é o quantil dessa distribuição, determina quão largo é a margem de erro do intervalo de confiança, ajustando-o ao nível de confiança (ex.: 95%) e ao tamanho da amostra.
+Basicamente t_crit é o valor crítico da t de Student e serve para construir o intervalo de confiança.
+"
+```
+**Resposta**
+
+ O intervalo de confiança a 95% para o tempo médio de espera é [8m:44s ; 10m:3s].
+Isto significa que, se repetíssemos a amostragem muitas vezes, cerca de 95% dos intervalos construídos deste modo conteriam o verdadeiro valor de μ.
+
+
+
+(c) Suponha que a empresa de transportes afirma que o tempo médio de espera é de 8 minutos. Com base no intervalo de confiança obtido, comente se essa afirmação parece plausível.
+
+```{r}
+8 >= IC_lower & 8 <= IC_upper
+```
+**Resposta**
+
+ A afirmação não é plausível ao nível de 5%, havendo evidência estatística de que o tempo médio difere de 8 minutos.
+
+
+
+------------------------------------------------------------------------
+
+
+
+## 3.2 Testes de hipótese
+
+O ficheiro `produtividade_remoto.csv` contém dados de produtividade de trabalhadores em dois regimes de trabalho. As colunas são:
+ -  `regime` – factor com dois níveis: `"presencial"` e `"remoto"`;
+ -  `produtividade` – número médio de tarefas concluídas por dia, medido ao longo de um período de observação.
+
+Pretende-se avaliar se o trabalho remoto leva a uma **produtividade média diferente** da do trabalho presencial.
+
+(d) Importe os dados `produtividade_remoto.csv`. Calcule, para cada regime, a média e o desvio padrão de `produtividade`.
+
+```{r}
+library(dplyr)
+
+dados3.2 <- read.csv("/home/david/Transferências/UM/produtividade_remoto.csv", header=TRUE)
+
+p_med <- mean(dados3.2$produtividade)
+p_med
+
+# desvio-padrão amostral
+p_s <- sd(dados3.2$produtividade)
+p_s
+```
+
+
+
+(e) Formule as hipóteses para um **teste t de duas amostras independentes**:
+     -  $H_0$: as médias de produtividade nos dois regimes são iguais;
+     -  $H_1$: as médias de produtividade nos dois regimes são diferentes.
+
+Escreva as hipóteses formalmente em termos de $\mu_{\text{presencial}}$ e $\mu_{\text{remoto}}$.
+
+```{r}
+# garantir factor com níveis claros (opcional)
+dados3.2$regime <- factor(dados$regime, levels = c("presencial", "remoto"))
+
+# teste t de duas amostras (Welch)
+tt <- with(dados, t.test(produtividade ~ regime, var.equal = FALSE, conf.level = 0.95))
+tt
+```
+
+
+
+(f) Aplique o teste t em R (assumindo variâncias não necessariamente iguais).
+     - Apresente o resumo do teste (estatística t, p-valor).
+     - A um nível de significância de 5%, qual é a sua decisão relativamente a $H_0$?
+     - Interprete o resultado.
+
+```{r}
+# extrair elementos úteis
+t_stat  <- tt$statistic
+df_welch <- tt$parameter   # graus de liberdade
+p_val   <- tt$p.value
+ic      <- tt$conf.int
+means   <- tt$estimate   # média por grupo
+
+list(t_stat = t_stat, df = df_welch, p_value = p_val, conf_int = ci, means = means)
+
+
+"
+Se  p_value<0.05, então rejeita-se H_0 - há evidência de diferença média entre regimes.
+
+Se  p_value>=0.05, então não se rejeita H_0 - não há evidência suficiente de diferença.
+
+Também verificar o sinal de  means["mean in group presencial"] - means["mean in group remoto"]  ou as próprias médias para saber qual regime tem média maior.
+
+
+Observações:
+  - o teste de Welch é preferível quando não assume igualdade de variâncias
+  - pressupostos: observações independentes; amostras aproximadamente normais (ou amostras grandes, pela CLT)
+  - se rejeitar H_0 conclui-se que a produtividade média difere entre presencial e remoto ; depois convém reportar a direção (qual tem média maior) e tamanho do efeito (ex.: diferença média)
+  - se não rejeitar H_0 os dados não fornecem evidência de diferença; mas falta de evidência ≠ prova de igualdade (poder do teste pode ser baixo)
+"
+```
+
+
+

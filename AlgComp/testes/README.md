@@ -5,6 +5,8 @@
 <br>
 
 ## 1ºs Testes
+* [2014-2015](AeC-2014-15-teste1.pdf)
+* [2015-2016](AeC-2015-16-teste1.pdf)
 * [2016-2017](AeC-201617-Teste1.pdf)
 * [2017-2018](AeC-201718-Teste1.pdf)
 * [2018-2019](AeC-201819-Teste1.pdf)
@@ -17,6 +19,8 @@
 <br>
 
 ## 2ºs Testes
+* [2014-2015](AeC-2014-15-teste1.pdf)
+* [2015-2016](AeC-2015-16-teste1.pdf)
 * [2016-2017](AeC-201617-Teste2.pdf)
 * [2017-2018](AeC-201718-Teste2.pdf)
 * [2018-2019](AeC-201819-Teste2.pdf)
@@ -29,12 +33,15 @@
 <br>
 
 ## Exames
-* [2016-2017](AeC-201617-Recurso.pdf)
+* [2014-2015](AeC-2014-15-exame.pdf)
+* [2015-2016](AeC-2015-16-exame.pdf)
+* [2016-2017](AeC-201617-Recurso.pdf) -- 
 * [2017-2018](AeC-201718-Exame.pdf)
 * [2018-2019](AeC-201819-Recurso.pdf)
 * [2019-2020 **+ Resolução**](AeC_2021_resE.pdf)
 * [2022-2023](AeC_Exame_2223.pdf)
 * [2023-2024](Exame%20AeC%202324.pdf)
+* [2024-2025](Exame_Recurso_AeC_2425.pdf)
 
 <br><br>
 

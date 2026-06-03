@@ -4,18 +4,18 @@
 
 <br>
 
-## [Material Teórico](slides/README.md)
-Todos documenos pertinentes às aulas teóricas.
+## [Material Teórico]()
+
 
 <br>
 
-## [Fichas de Exercícios](fichas/)
+## [Fichas de Exercícios]()
 
 
 <br>
 
 ## [Testes e Exames](testes/README.md)
-Apenas os testes do ano lectivo 2025/2026.
+Vários testes e exames desde o ano lectivo 2015/2016 até 2025/2016.
 
 <br><br>
 

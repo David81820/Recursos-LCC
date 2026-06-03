@@ -4,6 +4,11 @@
 
 <br>
 
+Apesar da matéria e trabalho de grupo desta cadeira serem exigentes, em contra-partida as provas de avaliação são "chapa 5" e bastante simples.
+<br>A cotação também é sempre a mesma: 5 ou 6 pontos para o 1º grupo de exercícios; 8 pontos para o 2º grupo que é sempre criar uma classe em Java; 6 a 7 pontos para o 3º grupo de converter a classe do grupo 2 em código Erlang.
+
+<br>
+
 ## Testes
 * [2015/2016](t1516.pdf) -- [[A] Resolução](res-t1516.md)
 * [2018/2019](t1819.pdf) -- [[A] Resolução](res-t1819.md)

@@ -6,18 +6,21 @@
 
 ### Esta colecção não deve ser usada como substituto ás aulas e material disponibilizado pelos professores. A sua intenção é servir como um complemento ao estudo.
 
-### Adicionalmente, material com a etiqueta - **[A]** - no início do nome dos ficheiros, significa que esse material é proveniente de alunos, ou seja não é de modo algum material “oficial” (i.e. proporcionado pelo professores).
+### AVISO: material com a etiqueta - **[A]** - no início do nome dos ficheiros, significa que esse material é proveniente de alunos, ou seja não é de modo algum material “oficial” (i.e. proporcionado pelo professores).
 
 <br>
 
+#### Algum contexto...
+
 "Ano novo, vida nova!".
-<br> Ora pois este idioma também se aplica aos novos anos lectivos, mesmo quando as coisas parecem que nunca vão mudar...
+<br> Ora pois esta expressão idiomática também se aplica aos novos anos lectivos, mesmo quando as coisas parecem que nunca vão mudar...
 
 No ano de 2006, as licenciaturas em Portugal sofreram uma enorme reestruturação consequência do [Processo de Bolonha](https://pt.wikipedia.org/wiki/Processo_de_Bolonha). 
 <br> O curso de LCC - até à altura designado por *Licenciatura em Matemática e Ciências da Computação* (um nome que alguns dos professores ainda consideram mais apto) - foi uma das vítimas, na altura gerando bastante confusão e frustração entre os alunos com as suas vastas alterações.
 
 Embora o curso tenha permanecido maioritariamente inalterado por vários anos, mudanças radicais eventualmente recaíram de novo sobre LCC.
-<br> No ano lectivo de 2025/2026, LCC sofreu uma série de alterações ao seu plano de estudo [(exemplo)](/assets/images/plano%20antigo%20-%20plano%20novo.png). Algumas Unidades Curriculares foram inteiramente substituídas por novas e muitas das cadeiras que permaneceram sofreram re-organizações. A principal razão por estas mudanças foi como resposta à drástica explosão das tecnologias de Inteligência Artificial que se tem vindo a dar nos anos precedentes, que criou a necessidade de manter esta Licenciatura relevante face a esta nova revolução informática.
+<br> No ano lectivo de 2025/2026, LCC sofreu uma série de alterações ao seu plano de estudo [(exemplo)](https://raw.githubusercontent.com/David81820/Recursos-LCC/refs/heads/main/assets/images/plano%20antigo%20-%20plano%20novo.png). Algumas Unidades Curriculares foram inteiramente substituídas por novas e muitas das cadeiras que permaneceram sofreram re-organizações. Uma cadeira que foi totalmente eliminada foi __**"Projecto"**__, uma cadeira do 2º semestre do 3º ano dirigida pelo director de curso mais outro docente, onde os alunos eram divididos em grupos e dado a escolher um projecto de uma selecção deles, tendo o semestre inteiro para o realizar.
+<br>A principal razão por estas mudanças foi como resposta à drástica explosão das tecnologias de Inteligência Artificial que se tem vindo a dar nos anos precedentes, que criou a necessidade de manter esta Licenciatura relevante face a esta nova revolução informática.
 
 Sendo o autor deste repositótio um aluno que entrou no curso antes do ano lectivo 2025/2026, a maioria do material aqui reunido será por isso anterior a Setembro de 2025.
 <br> Adicionalmente decidi reorganizar a estrutura e contéudos deste repositório. O antigo modelo de organização, apesar de melhor dividido, estava a tornar-se massante de manter e trabalhar com o crescimento do repositório. E também esta alteração ao curso mostrou-me que esse modelo simplesmente não tinha quaisquer salvaguardas para situações como esta...
@@ -44,11 +47,11 @@ Contudo aviso que não irei incluir aqui as cadeiras novas às quais não me enc
 * Análise
 * [Análise Numérica](analiseNumerica/README.md)
 * [Aprendizagem Computacional](aprendizagemC/README.md)
-* Aprendizagem Estatística CC
+* [Aprendizagem Estatística CC](aprendizagemE/README.md)
 * [Autómatos e Linguagens Formais](ALF/README.md)
 * [Bases de Dados](BD/README.md)
 * [Computabilidade e Complexidade](CC/README.md)
-* [Computação Gráfica](CG/README.md)
+* [Computação Gráfica]()
 * [Cálculo](calculo/README.md)
 * [Cálculo de Programas](calculoProgramas/README.md)
 * Fundamentos de Criptografia e Segurança da Informação CC
@@ -60,13 +63,12 @@ Contudo aviso que não irei incluir aqui as cadeiras novas às quais não me enc
 * Lógica Computacional
 * Matemática Discreta
 * Otimização
-* [Probabilidades e Aplicações](PA/README.md)
+* [Probabilidades e Aplicações / Probabilidade Aplicada](PA/README.md)
 * [Processamento de Linguagens e Compiladores](PLC/README.md)
 * [Programação Concorrente](PC/README.md)
 * [Programação Funcional](PF/README.md)
 * [Programação Imperativa](PI/README.md)
 * [Programação Orientada aos Objetos](POO/README.md)
-* Projecto
 * Semântica das Linguagens de Programação
 * [Sistemas de Computação](SC/README.md)
 * [Sistemas de Comunicações e Redes](SCR/README.md)
@@ -122,10 +124,14 @@ Lista dos vários detalhes técnicos da cadeira que podem ser encontrados na aba
 
 **[Alunos UMinho](https://alunos.uminho.pt/PT)**
 
+**[SAUM]**(https://www.sas.uminho.pt/)
+
 **[E-Mail Universitário](http://mail.alunos.uminho.pt/)**
 
 **[Horários Universitários](https://alunos.uminho.pt/pt/estudantes/paginas/infouteishorarios.aspx)**
 <br> [E aqui está um site agradável para desenhar horários.](https://gizmoa.com/college-schedule-maker/)
+
+<br>
 
 [Calendário Escolar UM](https://alunos.uminho.pt/PT/estudantes/Paginas/InfoUteisCalendarioEscolar.aspx)  e  [Calendário Escolar - Escola de Ciências](https://www.ecum.uminho.pt/pt/Ensino/Paginas/Calendario-e-Horarios.aspx)
 

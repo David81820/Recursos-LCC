@@ -11,7 +11,6 @@ Infelizmente, os docentes desta cadeira não disponibilizaram os ficheiro dos te
 * [[A] 1º Teste - 2025/2026](AC_t1_2526.pdf)
 * [[A] 2º Teste - 2025/2026](AC_t2_2526.pdf)
 
-
 <br><br>
 
 [![retroceder]({{ '/assets/images/Rewind.png' | relative_url }})](https://david81820.github.io/Recursos-LCC/aprendizagemC)

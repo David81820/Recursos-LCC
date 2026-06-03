@@ -4,9 +4,9 @@
 
 <br>
 
-* [Aula 1: Introdução](PP_T_aula01.ipynb)
-* Aula 2: Métricas kNN Naive Bayes  - [PDF](aula02.pdf) ; [Notebook](PP_T_aula02.ipynb)
-* [Aula 3: Métodos Estatísticos](MD_PP.ipynb)
+* Aula 1: Introdução - [Notebook](PP_T_aula01.ipynb) ; [HTML](PP_T_aula01.html)
+* Aula 2: Métricas kNN Naive Bayes  - [PDF](aula02.pdf) ; [Notebook](PP_T_aula02.ipynb) ; [HTML](PP_T_aula02.html)
+* Aula 3: Métodos Estatísticos - [Notebook](MD_PP.ipynb) ; [HTML](MD_PP.html)
 * [Aula 4: Árvores de Decisão](DecisionTrees.pdf)
 * [Aula 5: Ensemble Methods](Ensembles.pdf)
 * [Aula 6: Frequent Itemset Mining](FrequentItemsetMining.pdf)

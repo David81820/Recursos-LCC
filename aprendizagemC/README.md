@@ -1,10 +1,11 @@
 <br>
 
-<h1 align="center">Aprendozagem Computacional</h1>
+<h1 align="center">Aprendizagem Computacional</h1>
 
 <br>
 
 Uma das unidades curriculares adicionadas ao plano de estudos da licenciatura no ano lectivo 2025/2026.
+<br>Penso que já exisita em anos anteriores, mas como uma cadeira de mestrado...
 
 <br>
 

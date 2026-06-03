@@ -10,6 +10,7 @@
 * [2022/2023](cc_teste_1_2223.pdf)
 * [2023/2024](cc_teste_1_2324.pdf)
 * [2024/2025](cc_teste_1_2425.pdf)
+* [2025/2026](cc_teste_1_2526.pdf)
 
 <br>
 
@@ -18,6 +19,7 @@
 * [2022/2023](cc_teste_2_2223.pdf) -- [**[A]** Resolução parcial](resoluçao_parcial_teste_2_2223.png)
 * [2023/2024](cc_teste_2_2324.pdf)
 * [2024/2025](cc_teste_2_2425.pdf)
+* [2025/2026](cc_teste_2_2526.pdf)
 
 <br>
 
@@ -26,6 +28,8 @@
 * [2021/2022](cc_exame_2122.pdf)
 * [2022/2023](cc_exame_2223.pdf)
 * [2023/2024](cc_exame_2324.pdf)
+* [2024/2025](cc_exame_2425.pdf)
+* [2025/2026](cc_exame_2526.pdf)
 
 <br><br>
 

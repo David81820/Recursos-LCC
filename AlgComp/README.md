@@ -15,18 +15,22 @@ Screencasts das aulas teóricas do Ano Lectivo 2020/2021, que foram realizadas o
 Várias notas e explicações.
 <br>Aqui abaixo listei também algum material "não-oficial":
 
-* [**Site de visualização de Árvores AVL**](https://www.cs.usfca.edu/~galles/visualization/AVLtree.html)
-* [**"O Manual de Design de Algoritmos" - Steven S. Skiena - 2ª Edição**](SkienaTheAlgorithmDesignManual.pdf)
-* [**"Algoritmos e Complexidade" - Herbert S. Wilf - Edição de Internet, Verão, 1994**](Algorithms_and_Complexity-Herbert_Wilf-Internet_Edition-Summer_1994.pdf)
-* [**Theoretical Computer Science Cheat Sheet**](cheat.pdf)
+* ["O Manual de Design de Algoritmos" - Steven S. Skiena - 2ª Edição](SkienaTheAlgorithmDesignManual.pdf)
+* ["Algoritmos e Complexidade" - Herbert S. Wilf - Edição de Internet, Verão, 1994](Algorithms_and_Complexity-Herbert_Wilf-Internet_Edition-Summer_1994.pdf)
+* [Theoretical Computer Science Cheat Sheet](cheat.pdf)
+
 * [**Introduction_to_Algorithms.zip**](Introduction_to_Algorithms.zip) - demasiado material para listar individualmente
 
-https://tobinatore.github.io/algovis/index.html
-https://www.cs.usfca.edu/~galles/visualization/Algorithms.html
-https://visualizing-algorithms.vercel.app/
-https://visualgo.net/en
-https://graphonline.top/
-
+#### Sites para de visualização de Algoritmos
+* [1](https://algorithm-visualizer.seancoughlin.me/)
+* [2](https://algorithm-visualizer.vercel.app/)
+* [3](https://graphonline.top/)
+* [4](https://see-algorithms.com/)
+* [5](https://tobinatore.github.io/algovis/index.html)
+* [6](https://visualgo.net/en)
+* [7](https://visualizing-algorithms.vercel.app/)
+* [7](https://www.cs.usfca.edu/~galles/visualization/Algorithms.html)
+* [9](https://www.jakebakermaths.org.uk/maths/)
 
 <br>
 
