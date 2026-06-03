@@ -21,4 +21,4 @@ Adicionalmente, para cada um dos testes foram disponibilizados pela professora f
 
 <br><br>
 
-[![retroceder]({{ '/assets/images/Rewind.png' | relative_url }})](https://david81820.github.io/Recursos-LCC/aprendizagemC)
+[![retroceder]({{ '/assets/images/Rewind.png' | relative_url }})](https://david81820.github.io/Recursos-LCC/aprendizagemE)
