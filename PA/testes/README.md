@@ -15,6 +15,7 @@
 * [2023/2024](PA_T1_2324.pdf) -- [Resolução](PA_T1_2324_res.pdf)
 * [2024/2025](PA_T1_2425.pdf)
 * [2025/2026 ~ 1º semestre](T1_PA_LMAT_LCC_2526.pdf)
+* [2025/2026 ~ 2º semestre](Teste_1_PA_25_26.pdf)
 
 <br>
 
@@ -29,6 +30,7 @@
 * [2023/2024](PA_T2_2324.pdf)
 * [2024/2025](PA_T2_2425.pdf)
 * [2025/2026 ~ 1º semestre](T2_PA_LMAT_LCC_2526.pdf)
+* [2025/2026 ~ 2º semestre](Teste_2_PA_25_26.pdf)
 
 <br>
 

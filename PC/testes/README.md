@@ -24,6 +24,7 @@ Apesar da matéria e trabalho de grupo desta cadeira serem exigentes, em contra-
 * [2021/2022](ex2122.pdf)
 * [Época Especial 2021/2022](ee2122.pdf)
 * [2023/2024](ex2324.pdf)
+* [2025/2026](ex2526.jpg)
 
 <br><br>
 
