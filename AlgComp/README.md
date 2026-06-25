@@ -22,15 +22,15 @@ Várias notas e explicações.
 * [**Introduction_to_Algorithms.zip**](Introduction_to_Algorithms.zip) - demasiado material para listar individualmente
 
 #### Sites para de visualização de Algoritmos
-* [1](https://algorithm-visualizer.seancoughlin.me/)
-* [2](https://algorithm-visualizer.vercel.app/)
-* [3](https://graphonline.top/)
-* [4](https://see-algorithms.com/)
-* [5](https://tobinatore.github.io/algovis/index.html)
-* [6](https://visualgo.net/en)
-* [7](https://visualizing-algorithms.vercel.app/)
-* [7](https://www.cs.usfca.edu/~galles/visualization/Algorithms.html)
-* [9](https://www.jakebakermaths.org.uk/maths/)
+* [Algorithm Visualizer - seancoughlin](https://algorithm-visualizer.seancoughlin.me/)
+* [Algorithm Visualizer - vercel](https://algorithm-visualizer.vercel.app/)
+* [Graph Online](https://graphonline.top/)
+* [See Algorithms](https://see-algorithms.com/)
+* [AlgoVis.io](https://tobinatore.github.io/algovis/index.html)
+* [VisuAlgo.net](https://visualgo.net/en)
+* [Visualizing Algorithms](https://visualizing-algorithms.vercel.app/)
+* [Data Structure Visualizations](https://www.cs.usfca.edu/~galles/visualization/Algorithms.html)
+* [Jake Baker's Maths algorithms](https://www.jakebakermaths.org.uk/maths/)
 
 <br>
 
