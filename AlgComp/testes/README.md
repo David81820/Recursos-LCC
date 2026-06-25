@@ -42,6 +42,7 @@
 * [2022-2023](AeC_Exame_2223.pdf)
 * [2023-2024](Exame%20AeC%202324.pdf)
 * [2024-2025](Exame_Recurso_AeC_2425.pdf)
+* [2025-2026](AC_ex_2526.pdf)
 
 <br><br>
 
