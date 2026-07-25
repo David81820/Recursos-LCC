@@ -121,14 +121,14 @@ Lista dos vários detalhes técnicos da cadeira que podem ser encontrados na aba
 
 **[Blackboard UM](https://elearning.uminho.pt/)**
 
-**[Alunos UMinho](https://alunos.uminho.pt/PT)**
+**[Portal Académico - Alunos UMinho](https://alunos.uminho.pt/PT)**
 
-**[SAUM](https://www.sas.uminho.pt/)**
+**[SASUM - Serviços de Acção Social da Universidade do Minho](https://www.sas.uminho.pt/)**
 
 **[E-Mail Universitário](http://mail.alunos.uminho.pt/)**
 
-**[Horários Universitários](https://alunos.uminho.pt/pt/estudantes/paginas/infouteishorarios.aspx)**
-<br> [E aqui está um site agradável para desenhar horários.](https://gizmoa.com/college-schedule-maker/)
+**[Horários dos Cursos](https://alunos.uminho.pt/pt/estudantes/paginas/infouteishorarios.aspx)**
+*<br> [E aqui está um site agradável para desenhar horários.](https://gizmoa.com/college-schedule-maker/)*
 
 <br>
 
