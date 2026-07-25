@@ -199,5 +199,11 @@ Caso não saibam como aceder à rede do campus UM - entitulada de "**eduroam**" 
     <img src="{{ '/assets/images/LCC.png' | relative_url }}" alt="LCC">
 </p>
 
+<br><br>
+
+<p align="center">
+    <img src="{{ '/assets/images/brasao uminho.png' | relative_url }}" alt="brasao">
+</p>
+
 <br>
 <br>
