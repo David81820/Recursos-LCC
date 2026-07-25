@@ -12,7 +12,7 @@ Slides e apontamentos oficiais, juntamente com os meus resumos da matéria.
 ## [Fichas de Exercícios](fichasAUC/README.md)
 Folhas de exercícios fornecidas pelo corpo docente nos anos lectivos de 2020/2021 e 2021/2022.
 
-<br>
+<br><br>
 
 ## [Testes e Exames](testesAUC/README.md)
 Testes e Exames dos anos lectivos 2015/2016 até 2023/2024.
