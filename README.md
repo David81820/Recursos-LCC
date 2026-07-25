@@ -42,7 +42,7 @@ Contudo aviso que não irei incluir aqui as cadeiras novas às quais não me enc
 
 * [Álgebra](Algebra/README.md)
 * Álgebra Linear CC
-* [Álgebra Universal e Categorias  /  Teoria de Categorias CC](AlgebraUniversal-Cateorias/README.md)
+* [Álgebra Universal e Categorias  /  Teoria de Categorias CC](AlgebraUniversal-Categorias/README.md)
 * [Algoritmos e Complexidade](AlgComp/README.md)
 * Análise
 * [Análise Numérica](AnaliseNumerica/README.md)
@@ -53,7 +53,7 @@ Contudo aviso que não irei incluir aqui as cadeiras novas às quais não me enc
 * [Computabilidade e Complexidade](CC/README.md)
 * [Computação Gráfica](CG/README.md)
 * [Cálculo](Calculo/README.md)
-* [Cálculo de Programas](calculoProgramas/README.md)
+* [Cálculo de Programas](CalculoProgramas/README.md)
 * Fundamentos de Criptografia e Segurança da Informação CC
 * Geometria
 * Interação e Concorrência
