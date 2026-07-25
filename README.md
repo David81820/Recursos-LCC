@@ -40,30 +40,30 @@ Contudo aviso que não irei incluir aqui as cadeiras novas às quais não me enc
 <br>
 
 
-* [Álgebra](algebra/README.md)
+* [Álgebra](Algebra/README.md)
 * Álgebra Linear CC
-* [Álgebra Universal e Categorias](algebraUC/README.md)
+* [Álgebra Universal e Categorias  /  Teoria de Categorias CC](AlgebraUniversal-Cateorias/README.md)
 * [Algoritmos e Complexidade](AlgComp/README.md)
 * Análise
-* [Análise Numérica](analiseNumerica/README.md)
-* [Aprendizagem Computacional](aprendizagemC/README.md)
-* [Aprendizagem Estatística CC](aprendizagemE/README.md)
+* [Análise Numérica](AnaliseNumerica/README.md)
+* [Aprendizagem Computacional](AprendizagemComputacional/README.md)
+* [Aprendizagem Estatística CC](AprendizagemEstatistica/README.md)
 * [Autómatos e Linguagens Formais](ALF/README.md)
 * [Bases de Dados](BD/README.md)
 * [Computabilidade e Complexidade](CC/README.md)
-* [Computação Gráfica]()
-* [Cálculo](calculo/README.md)
+* [Computação Gráfica](CG/README.md)
+* [Cálculo](Calculo/README.md)
 * [Cálculo de Programas](calculoProgramas/README.md)
 * Fundamentos de Criptografia e Segurança da Informação CC
 * Geometria
 * Interação e Concorrência
 * Laboratório de Algoritmia I
 * [Laboratório de Algoritmia II](LA2/README.md)
-* [Lógica CC](logica/README.md)
+* [Lógica CC](Logica/README.md)
 * Lógica Computacional
 * Matemática Discreta
 * Otimização
-* [Probabilidades e Aplicações / Probabilidade Aplicada](PA/README.md)
+* [Probabilidades e Aplicações  /  Probabilidade Aplicada](PA/README.md)
 * [Processamento de Linguagens e Compiladores](PLC/README.md)
 * [Programação Concorrente](PC/README.md)
 * [Programação Funcional](PF/README.md)
@@ -73,7 +73,6 @@ Contudo aviso que não irei incluir aqui as cadeiras novas às quais não me enc
 * [Sistemas de Computação](SC/README.md)
 * [Sistemas de Comunicações e Redes](SCR/README.md)
 * Sistemas Operativos
-* Teoria de Categorias CC
 * Teoria de Números Computacional
 * [Tópicos de Matemática](TM/README.md)
 
