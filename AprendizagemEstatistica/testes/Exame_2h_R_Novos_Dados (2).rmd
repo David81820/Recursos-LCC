@@ -1,0 +1,207 @@
+---
+title: "Exame de Recurso (2 horas)"
+author: "Nome do/a aluno/a: __________________"
+date: "`r format(Sys.Date(), '%d-%m-%Y')`"
+output:
+  html_document: default
+  pdf_document: default
+editor_options:
+  chunk_output_type: inline
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE, message = FALSE, warning = FALSE, fig.width = 7, fig.height = 4.6)
+set.seed(123)
+```
+
+# Instruções
+
+- **Duração:** 2 horas.  
+- **Entrega:** este ficheiro `.Rmd` com **código** e **respostas** (texto + tabelas/figuras).  
+- **Cotações:** indicadas por alínea (total **20 valores**).  
+
+```{r pacotes}
+library(tidyverse)
+library(broom)
+library(janitor)
+library(car)
+library(glmnet)
+library(MASS)
+```
+
+---
+
+# Exercício 1 — EDA e Regressão Linear (10 valores)
+
+## 1.1 Exploração e visualização (4 valores)
+
+Considere o dataset **`airquality`** (NY, 1973), disponível em R base.
+
+```{r ex1-data}
+aq <- datasets::airquality |> as_tibble() |> janitor::clean_names()
+glimpse(aq)
+```
+
+**(a) [2.0]** Faça um gráfico que ajude a estudar a relação entre **`ozone`** e **`temp`**.
+*Comente o padrão geral e a presença de valores em falta.*
+
+```{r ex1a}
+# Seu código aqui
+```
+
+**(b) [2.0]** Compare a distribuição de **`wind`** entre os meses (variável `month`).  
+Use um boxplot e indique **o mês** com (i) maior mediana e (ii) maior dispersão.  
+
+```{r ex1b}
+# Seu código aqui
+```
+
+---
+
+## 1.2 Regressão linear múltipla (6 valores)
+
+Considere agora o dataset **`MASS::Boston`** (habitação). Resposta: `medv`.
+
+```{r ex1b-data}
+bos <- MASS::Boston |> as_tibble() |> janitor::clean_names()
+glimpse(bos)
+```
+
+Vamos ajustar o modelo:
+\[
+\texttt{medv} \sim \texttt{lstat} + \texttt{rm} + \texttt{ptratio} + \texttt{chas}.
+\]
+
+**(c) [2.0]** Ajuste o modelo e apresente uma tabela com coeficientes, erros‑padrão e p‑valores.  
+Interprete **o efeito de `lstat`** e **o efeito de `chas`** (assuma `chas` como indicador 0/1).
+
+```{r ex1c}
+# Seu código aqui
+```
+
+**(d) [2.0]** Avalie o ajuste: reporte \(R^2\) ajustado e faça um gráfico de **resíduos vs ajustados**.  
+*Comente.*
+
+```{r ex1d}
+# Seu código aqui
+```
+
+**(e) [2.0]** Calcule **VIF** e faça um **QQ-plot** dos resíduos.  
+*Comente.*
+
+```{r ex1e}
+# Seu código aqui
+```
+
+
+---
+
+# Exercício 3 — ACP (3.0 valores)
+
+Use o dataset **`USArrests`** (R base).
+
+```{r ex3-data}
+ua <- datasets::USArrests |> as.data.frame() |> rownames_to_column("state") |> as_tibble()
+glimpse(ua)
+```
+
+**(a) [1.0]** Aplique **ACP**.  
+Apresente a **variância explicada** por componente (em percentagem).
+
+```{r ex3a}
+# Seu código aqui
+```
+
+**(b) [1.0]** Faça um **scree plot** e indique quantas componentes reteria. Justifique.
+
+```{r ex3b}
+# Seu código aqui
+```
+
+**(c) [1.0]** Interprete as duas primeiras componentes usando os **loadings** e faça um gráfico (PC1 vs PC2)  
+com os estados (pode usar `ggplot2`). *Indique 1 padrão relevante.*
+
+```{r ex3c}
+# Seu código aqui
+```
+
+---
+
+# Exercício 4 — Regressão Logística (5 valores)
+
+## 4.1 Regressão logística (5 valores)
+
+Considere o dataset **`mtcars`** (R base). Defina a resposta binária:
+
+- `am = 1` transmissão manual; `am = 0` automática.
+
+```{r ex4-data}
+mc <- datasets::mtcars |> as.data.frame() |> rownames_to_column("car") |> as_tibble()
+glimpse(mc)
+```
+
+Ajuste o modelo:
+\[
+\Pr(am=1) = \text{logit}^{-1}(\beta_0 + \beta_1\, mpg + \beta_2\, wt + \beta_3\, hp).
+\]
+
+**(a) [2.0]** Ajuste o modelo logístico e identifique quais são os preditores significativos a 5%.  
+
+```{r ex4a}
+# Seu código aqui
+```
+
+**(b) [1.5]** Calcule e interprete **odds-ratios** para `wt` e `mpg`.
+
+```{r ex4b}
+# Seu código aqui
+```
+
+**(c) [1.5]** Calcule a probabilidade prevista de `am=1` para um carro com `mpg=22`, `wt=3.0`, `hp=110`.  
+
+```{r ex4c}
+# Seu código aqui
+```
+
+---
+
+# Exercício 5 — Inferência (2.0 valores)
+
+### Intervalo de confiança (1.0 valores)
+
+Use `sleep` (R base): diferenças no aumento de sono entre dois fármacos.
+
+```{r ex4-inf1-data}
+sl <- datasets::sleep |> as_tibble() |> janitor::clean_names()
+glimpse(sl)
+```
+
+**(d) [1.0]** Calcule um **IC 95%** para a média de `extra` no grupo 1.  
+Indique \(n\), \(\bar x\) e \(s\) e escreva a conclusão numa frase.
+
+```{r ex4d}
+# Seu código aqui
+```
+
+### Teste de hipótese para **uma amostra** (1.0 valores)
+
+Use `chickwts` (R base): pesos (`weight`) de pintainhos por tipo de alimentação (`feed`).
+
+```{r ex4-inf2-data}
+cw <- datasets::chickwts |> as_tibble() |> janitor::clean_names()
+glimpse(cw)
+```
+
+Considere apenas o grupo `feed == "soybean"`.
+
+**(e) [1.0]** Teste a hipótese (variância desconhecida, t‑Student):  
+\(H_0: \mu = 250\) vs \(H_1: \mu \neq 250\), onde \(\mu\) é o peso médio no grupo **soybean**.  
+Reporte a estatística t, o p‑valor e a decisão a 5%.
+
+```{r ex4e}
+# Seu código aqui
+```
+
+---
+
+# Fim

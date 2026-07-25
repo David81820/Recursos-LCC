@@ -124,7 +124,7 @@ Lista dos vários detalhes técnicos da cadeira que podem ser encontrados na aba
 
 **[Alunos UMinho](https://alunos.uminho.pt/PT)**
 
-**[SAUM]**(https://www.sas.uminho.pt/)
+**[SAUM](https://www.sas.uminho.pt/)**
 
 **[E-Mail Universitário](http://mail.alunos.uminho.pt/)**
 
@@ -153,6 +153,7 @@ Lista dos vários detalhes técnicos da cadeira que podem ser encontrados na aba
 
 [Mapa Interactivo](https://whereis.uminho.pt/)
 
+<br>
 <br>
 
 [Núcleo de Estudantes de Ciências da Computação - NECC](https://necc.di.uminho.pt/)

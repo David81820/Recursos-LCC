@@ -1,0 +1,544 @@
+---
+title: "Teste 1 — EDA, Regressão Linear e Regularização (2 horas)"
+author: "Nome do/a aluno/a: __________________"
+date: "`r format(Sys.Date(), '%d-%m-%Y')`"
+output:
+  html_document: default
+  pdf_document: default
+editor_options:
+  chunk_output_type: inline
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE, message = FALSE, warning = FALSE, fig.width = 7, fig.height = 4.6)
+set.seed(123)
+```
+
+# Instruções
+
+* **Duração:** 2 horas.
+* **Entregar:** este `.Rmd` com **código** e **respostas** (texto + figuras).
+* **Dados usados:** `ggplot2::mpg`, `gapminder::gapminder`, `ggplot2::diamonds`.
+
+
+```{r pacotes}
+# Instalar se necessário
+req <- c("tidyverse","broom","gapminder","glmnet","janitor", "car")
+new <- setdiff(req, rownames(installed.packages()))
+if(length(new)) install.packages(new)
+
+library(dplyr)
+library(tidyverse)
+library(broom)
+library(gapminder)
+library(glmnet)
+library(janitor)
+library(car)
+```
+
+---
+
+# Parte A — EDA & Visualização 
+
+
+## A1. MPG (ggplot2): consumo e características dos automóveis 
+
+**Dados:** `ggplot2::mpg`.
+
+```{r A2-data}
+mpg <- ggplot2::mpg |> janitor::clean_names()
+glimpse(mpg)
+```
+
+**a)** Faça um **gráfico de dispersão** de `hwy` (milhas por galão em autoestrada) vs `displ` (cilindrada). Distinga as observações por `class` e por `drv` (tração) da forma que achar mais adequada na representação gráfica (poderá considerar gráficos lado a lado).
+*Comente o padrão geral (relação consumo–cilindrada) e diferenças por tração.*
+
+```{r A2a}
+ggplot(mpg, aes(x=displ, y=hwy, color=class)) +
+  geom_point(alpha=0.5, size=2) +
+  facet_wrap(~ drv) +
+  labs(
+    x = "Cilindrada (displ)",
+    y = "Milhas por galão em autoestrada (hwy)",
+    color = "Classe do veículo (class)",
+    title = "Consumo (autoestrada) vs Cilindrada",
+    subtitle = "separado por tipo de tração (drv)"
+  ) + theme_minimal()
+```
+**Resposta**
+ Podemos observar que veículos com tração às 4 rodas são em geral os com menor consumo em autoestrada e também com a maior variação em cilindrada - também é de notar a tendência que quanto menor a cilindrada maior o consumo e vice-versa.
+ Agora automóveis tração frontal tem em média o maior consumo mas também a menor cilindrada (havendo apenas 1 caso de cilindrada maior ou igual a 5) - e a tendência observada anteriormente mantém-se, cilindrada mais alta geralmente corresponde a menor consumo.
+ Finalmente automóveis com tração traseira são o inverso de automóveis com tração frontal, tem ao todo maior cilindrada e menor consumo - contudo já não se verifica a tendência linear presente nos 2 últimos modos de tração, sendo a maioria dos casos de alta cilindrada também dos que mais "bebem".
+
+
+
+**b)** Produza um **boxplot** de `hwy` por `class`.
+*Indique quais as 2 classes com menor número de milhas por galão em autoestrada e a classe com maior variabilidade.*
+
+```{r A2b}
+ggplot(mpg, aes(x = hwy, y = class, fill = class)) +
+  geom_boxplot(outlier.color = "red", alpha = 0.3) +
+  labs(
+    x = "Milhas por galão em autoestrada (hwy)",
+    y = "Classe do veículo (class)",
+  ) +
+  theme_light() +
+  theme(legend.position = "none")
+```
+**Resposta**
+ "SUVs" e "Pickups" são as classes de veículos com menor número de milhas por galão em autoestrada. "Subcompacts" os automóveis com maior variabilidade entre estas duas variáveis.
+
+
+
+**c)** Crie a métrica `eff_ratio = hwy / cty` (eficiência autoestrada/cidade). Represente graficamente a **média de `eff_ratio` por `trans`** (tipo de transmissão).
+
+```{r A2c}
+eff_ratio <- mpg$hwy / mpg$cty
+
+ggplot(mpg, aes(x=eff_ratio, y=trans, fill=trans)) +
+  geom_boxplot(outlier.color = "red", alpha = 0.3) +
+  theme_light() +
+  theme(legend.position = "none") +
+  labs(
+    x = "Eficiência Autoestrada/Cidade",
+    y = "Tipo de Transmissão"
+  )
+```
+
+
+**d)** Para os **8 fabricantes** (manufacturer) com mais observações, mostre um **gráfico de linhas** da média de `hwy` por **ano** (`year`) — uma linha por fabricante.
+*Comente se há melhoria/deterioração entre 1999 e 2008 e diferenças entre fabricantes.*
+
+```{r A2d}
+top8 <- mpg %>%
+  count(manufacturer, sort = TRUE) %>%
+  slice_head(n = 8) %>%
+  pull(manufacturer)       # extraí apenas uma coluna (neste caso, a lista ordenada dos 8 maiores fabricantes)
+
+# média de hwy por ano para esses fabricantes
+hwy_ano <- mpg %>%
+  filter(manufacturer %in% top8) %>%
+  group_by(manufacturer, year) %>%
+  summarise(avg = mean(hwy), .groups = "drop")
+
+ggplot(hwy_ano, aes(x=year, y=avg, color=manufacturer)) +
+  geom_line(size=1) +
+  geom_point(size=2) +
+  scale_x_continuous(n.breaks = 10) +
+  scale_y_continuous(n.breaks = 10) +
+  labs(
+    x = "Ano",
+    y = "Milhas por Galão em Autoestrada (média)",
+    color = "Fabricante",
+    title = "Evolução da eficiência em Autoestrada - top 8 fabricantes"
+  ) +
+  theme_linedraw()
+```
+**Resposta**
+ Entre os anos de 1999 e 2008 a eficiência em Autoestrada dos oito fabricantes evoluíu linearmente da seguinte maneira:
+- Audi, Chevrolet e Hyundai pioraram ligeiramente;
+- a Subaru manteve-se praticamente constante (as suas perdas são insignificantes);
+- infelizmente a Ford e a Toyota deterioraram consideravelmente;
+- em contra-partida, a Dodge e Volkswagen melhoraram substancialmente a sua eficiência.
+
+
+
+---
+
+
+# Parte B — Regressão Linear Múltipla 
+
+## B1. Gapminder: o que explica a esperança de vida? 
+
+**Dados:** `gapminder::gapminder`. Variável de interesse: **`life_exp`**. 
+
+```{r B1-data}
+gp <- gapminder::gapminder |> janitor::clean_names()
+glimpse(gp)
+```
+
+**a)** Crie variáveis auxiliares: `log_gdp = log10(gdp_per_cap)` e `year_c = year - 2000`.
+Ajuste o modelo linear:
+$$
+\texttt{life_exp} \sim \texttt{log_gdp} + \texttt{year_c} + \texttt{continent}.
+$$
+*Apresente as estimativas dos coeficientes.* Interprete os coeficientes associados à variável continent.
+
+```{r B1a}
+
+aux <- gp %>%
+  mutate(
+    log_gdp = log10(gdp_percap),
+    year_c  = year - 2000
+  )
+
+# lm() = linear model
+modelo_a <- lm(
+  life_exp ~ log_gdp + year_c + continent,
+  data = aux
+  )
+
+summary(modelo_a)
+
+```
+**Resposta**
+ No modelo, *continent* é uma variável categórica - isso significa que um continente é tomado como referência e assim comparado aos coeficientes de outros continentes. Adicionalmente, como as variáveis *log_gdp* e *year_c* são constantes, significa então que são comparados páises com PIB semelhante e no mesmo ano.
+Neste caso, África é o continente que está ser usado como referência (pois é o único continente que não tem coeficiente na tabela).
+
+ Comparativamente a países de África com semelhante nível de rendimento por pessoa e no mesmo ano:
+- países das Américas têm, em média, +8,9 anos de esperança de vida;
+- países da Ásia têm, em média, +7,1 anos de esperança de vida;
+- países da Europa têm, em média, +12,5 anos de esperança de vida;
+- países da Oceânia apresentam, em média, +12,8 anos de esperança de vida.
+
+ Se mesmo controlando por riqueza e evolução temporal as diferenças relevantes na esperança de vida entre continentes persistem, podemos então concluir que os problemas de desenvolvimento de África vão para além da sua riqueza.
+
+
+
+**b)** Indique quais as covariáveis estatisticamente significativas na explicação da variabilidade da esperança média de vida.
+
+```{r B1b}
+# Pelo resultado do modelo linear, as covariáveis estatisticamente significativas na explicação da variabilidade da esperança média de vida são todas aquelas incluídas no modelo.
+# Ou seja:
+#  log_gdp    - PIB per capita (nível riqueza de média por pessoa)
+#  year_c     - capta as evoluções globais ao longo do tempo
+#  continent  - explica diferenças estruturais adicionais entre regiões do mundo
+```
+
+
+**c)** Inclua a interação `log_gdp:continent`. Compare com o modelo base definido em a).
+*A interação melhora o ajuste? Explique.*
+
+```{r B1e}
+modelo_c <- lm(
+  life_exp ~ log_gdp*continent + year_c,     # 'log_gdp*continent' = 'log_gdp + continent + log_gdp:continent'
+  data = aux
+)
+
+summary(modelo_c)
+```
+**Resposta**
+Agora o modelo permite que o efeito do PIB per capita na esperança de vida seja diferente em cada continente.
+
+Ou seja:
+* log_gdp             - efeito do PIB per capita no continente de referência (África);
+* continentX          - diferença média no nível da esperança de vida entre o continente X e África quando 'log_gdp = 0' (valor de referência do PIB em log);
+* year_c              - tendência temporal comum a todos os continentes (mantida sem interação);
+* log_gdp:continentX  - diferença no efeito do PIB per capita entre o continente X e África :
+                          » positivo - o PIB tem um efeito mais forte nesse continente;
+                          » negativo - efeito é mais fraco.
+
+ A inclusão da interação 'log_gdp:continent' permite que o impacto do PIB per capita na esperança de vida varie entre continentes.
+Pois coeficientes de interação estatisticamente significativos indicam que a relação entre rendimento e esperança de vida não é homogénea globalmente,
+refletindo diferenças estruturais e institucionais entre regiões.
+
+
+
+**d)** Faça uma análise de diagnóstico do modelo definido em a) e calcule **VIF** (`car::vif`).
+*Identifique potenciais problemas e comente os valores de VIF.*
+
+```{r B1f}
+par(mfrow=c(2,2))
+plot(modelo_a)
+
+car::vif(modelo_a)
+
+
+# VIF = Variance Inflation Factor
+# medida que quantifica o grau de multicolinearidade entre as covariáveis de um modelo de regressão linear
+
+# VIF ≈ 1     - sem multicolinearidade
+# 1 < VIF < 5 - multicolinearidade moderada (aceitável)
+# VIF ≥ 5     - potencialmente problemática
+# VIF ≥ 10    - multicolinearidade grave
+
+
+# Multicolinearidade é a situação em que duas ou mais variáveis explicativas de um modelo de regressão estão fortemente correlacionadas entre si.
+# Ou seja, uma pode ser (quase) explicada pelas outras - denotando assim a possibilidade de uma relação linear.
+# Isto traz uma variedade de complicações:
+#   - aumenta a variância dos coeficientes (podem mudar muito com pequenas alterações nos dados ; exibir sinais contra-intuitivos);
+#   - reduz a significância estatística das variáveis visto que o modelo tem dificuldade em "decidir" qual delas  é responsável por qual efeito individual;
+#   - Erros-padrão grandes e conclusões erradas devido a informação redundante.
+```
+*log_gdp*
+  GVIF ajustado: 1.41
+  multicolinearidade muito baixa
+  O efeito do PIB per capita está bem identificado
+*year_c*
+  GVIF ajustado: 1.05
+  praticamente nenhuma colinearidade
+  A tendência temporal é independente das restantes covariáveis
+*continent*
+  Df = 4 (ou seja, 4 dummies, 5 continentes)
+  GVIF ajustado: 1.08
+  Sem problemas de colinearidade, apesar de ser categórica e participar na interação.
+
+ Todos os GVIF ajustados ≈ 1, isto é muito abaixo dos limiares usuais (√5 ≈ 2.24 ou √10 ≈ 3.16).
+Ou seja, os fatores de inflação da variância são baixos para todas as covariáveis e 
+não existe multicolinearidade significativa (problemática) no modelo, mesmo
+entre a interação o logaritmo do PIB per capita e o continente.
+
+
+
+**e)** Predição para perfis novos (ano 2007 ⇒ `year_c = 7`) com base no modelo definido em a):
+
+1. `continent="Europe"`, `log_gdp=4.2`.
+   *Calcule predição pontual, Intervalo de Confiança (IC) 95% da média e Intervalo de Predição (IP) 95%, e compare IC vs IP.*
+
+```{r B1bonus}
+perfil_e <- data.frame(
+  log_gdp   = 4.2,
+  year_c    = 7,
+  continent = "Europe"
+)
+
+pred_ic <- predict(
+  modelo_a,
+  newdata = perfil_e,
+  interval = "confidence",
+  level = 0.95   # intervalo onde se espera que esteja a esperança de vida média de países europeus com este perfil.
+)                 # ou seja, mede a incerteza na média de "life_exp"
+pred_ic
+
+pred_ip <- predict(
+  modelo_a,
+  newdata = perfil_e,
+  interval = "prediction",
+  level = 0.95   # intervalo onde se espera que esteja a esperança de vida de um país individual com este perfil.
+)                 # ou seja, mede a variabilidade de uma observação individual
+pred_ip
+
+
+#  fit = predição pontual ; valor esperado da esperança de vida para este perfil
+#  lwr = limite inferior IC/IP
+#  upr = limite superior IC/IP
+
+# Var(IP) = Var(IC) + (σ^2)
+# σ = erro residual do modelo ; sabemos de "summary(modelo_c)" que o seu valor é ±5.8 anos ; ou seja, o modelo erra, em média, cerca de 5.8 anos nas predições individuais
+```
+**Resposta**
+ Para um país europeu em 2007 com o perfil log₁₀(PIB per capita)=4.2, a predição pontual da esperança de vida é dada pelo valor ajustado do modelo.
+
+ o Intervalo de Confiança de 95% indica que a esperança de vida média de países europeus com este perfil está entre 79.4 e 80.9 anos.
+Portanto a largura deste IC ≈ 1.49 anos - isto é relativamente estreito, refletindo por isso elevada precisão na média.
+
+ Por sua vez o Intervalo de Predição também de 95% é substancialmente mais largo, pois incorpora a variabilidade individual (erro residual) não explicada pelo modelo.
+Assim observamos que a esperança de vida de um país europeu individual com este perfil está entre 68.8 e 91.6 anos.
+
+
+
+---
+
+
+# Parte C — Regularização: Lasso / Ridge 
+
+## C1. Diamonds (ggplot2): efeitos da penalização e estabilidade 
+
+**Dados:** `ggplot2::diamonds`. Resposta: `log(price)`.
+
+```{r C1-data}
+data("diamonds", package = "ggplot2")
+dm <- diamonds |> janitor::clean_names() |> mutate(log_price = log(price)) |>
+  select(-price)
+```
+
+
+**a)** Divida a amostra em dados de treino (80%) e dados de teste (20%). Ajuste **Lasso** aos dados de treino. Trace os caminhos dos coeficientes (em função de -log(λ)).
+*Identifique os 2 preditores com maior relevância na generalidade de valores de lambda*. 
+
+```{r C1a}
+set.seed(123)
+
+n_dm <- nrow(dm)
+idx_t <- sample(seq_len(n_dm), size=0.8*n_dm)   # array com 80% do índice de dm
+
+treino <- dm[idx_t, ]
+teste <- dm[-idx_t, ]
+
+
+# Lasso exige variáveis numéricas, logo usamos: model.matrix()
+ # variáveis categóricas são automaticamente transformadas em dummies
+
+x_treino <- model.matrix(log_price ~ ., treino)[, -1]         # constrói a matriz de desenho "x" a partir do dataframe "treino"
+                                                                  # [, -1] remove a coluna "intercept" (pois o glmnet já o trata internamente)
+y_treino <- treino$log_price  # define a variável resposta "y"
+
+
+# ajusta um modelo Lasso ; calcula soluções para uma sequência de valores de λ
+lasso_fit <- glmnet(
+  x_treino,
+  y_treino,
+  alpha = 1      # indica penalização L1
+)
+
+
+# fazemos "plot" para visualizar os caminhos dos coeficientes
+ # cada linha colorida = coeficiente de uma variável
+plot(
+  lasso_fit,
+  xvar = "lambda",    # eixo x = −log(λ) (menos penalização à direita)
+  label = TRUE       # label = TRUE escreve o nome das variáveis junto às curvas
+)
+```
+**Resposta**
+ Após ajustar um modelo Lasso aos dados de treino e analisar os caminhos dos coeficientes em função de −log(λ), verifica-se que os preditores mais relevantes ao longo da maioria dos valores de λ são "carat" (peso) e "x" (dimensão), que entram mais cedo no modelo e mantêm coeficientes distintos de zero para uma vasta gama de níveis de penalização.
+
+
+
+**b)** Escolha um valor de lambda com base em validação cruzada e justifique a sua escolha.
+Para esse valor de λ, indique: (i) o número de coeficientes ≠ 0, (ii) o RMSE de teste.
+
+```{r C1b}
+set.seed(123)
+
+# o RMSE mede quão bem o modelo prevê novos dados, não quão bem ele se ajusta aos dados de treino
+ # para isso, é necessário:
+  # ajustar o modelo nos dados de treino
+  # usar o modelo ajustado para prever a resposta no conjunto de teste
+  # comparar predições com valores observados
+
+# validação cruzada
+cv_lasso <- cv.glmnet(
+  x_treino,
+  y_treino,
+  alpha = 1,        # Lasso
+  nfolds = 10
+)
+plot(cv_lasso)
+
+# escolha de λ
+ # o "cv.glmnet()" fornece 2 valores padrão: "cv_lasso$lambda.min"  e  "cv_lasso$lambda.1se"
+  # lambda.min -> dá erro de CV mínimo, pois é um modelo mais complexo
+  # lambda.1se -> dá maior λ cujo erro está a 1 erro-padrão do mínimo, mas é um modelo mais parcimonioso e estável
+lambda_escolhido <- cv_lasso$lambda.1se
+
+coef_lasso <- coef(cv_lasso, s = lambda_escolhido)
+n_nonzero <- sum(coef_lasso != 0) - 1    # número de preditores selecionados pelo Lasso
+n_nonzero                                 # "- 1" exclui coluna "intercept"
+
+# matrix de teste
+x_teste <- model.matrix(log_price ~ ., teste)[, -1]
+y_teste <- teste$log_price
+
+# as predições no conjunto de teste permitem avaliar a capacidade de generalização do modelo
+ # evitando assim uma avaliação excessivamente otimista baseada nos dados de treino
+y_pred <- predict(
+  cv_lasso,
+  s = lambda_escolhido,
+  newx = x_teste
+)
+
+# RMSE (Root Mean Squared Error)
+ # é a raiz do erro quadrático médio e mede o erro típico de predição de um modelo (ou seja, desvio entre valores observados e preditos)
+  # valores menores => melhor desempenho preditivo
+
+# RMSE = sqrt( (1/n) * n_sum_i=1(y_i - ŷ_i)² )
+ # y_i = valor observado
+ # ŷ_i = valor predito pelo modelo
+rmse_teste <- sqrt(mean((y_teste - y_pred)^2))
+rmse_teste
+```
+
+
+
+**c)** Faça **B = 20** *subamostras* do conjunto de treino (por ex., 80% sem reposição), ajuste **Lasso** em cada amostra (use o mesmo critério de escolha de λ dentro de cada *subamostra*) e calcule a **frequência de seleção** (proporção de vezes com coef ≠ 0) para cada variável.
+*Liste as 3 variáveis com maior frequência e interprete a estabilidade do ranking.
+
+```{r C1c}
+set.seed(123)
+
+# Procedimento:
+  # fazer B = 20 subamostras do conjunto de treino (cada uma com 80% do treino, sem reposição)
+  # em cada subamostra:
+    # ajustar Lasso
+    # escolher λ por validação cruzada (lambda.1se)
+    # registar quais coeficientes ≠ 0
+  # no fim:
+    # calcular a frequência de seleção de cada variável
+    # identificar as 3 mais frequentemente selecionadas
+
+B <- 20
+p <- ncol(x_treino)
+
+var_names <- colnames(x_treino)
+
+# Matriz para guardar seleção (B x p)
+selection_mat <- matrix(0, nrow = B, ncol = p)
+colnames(selection_mat) <- var_names
+
+n_treino <- nrow(x_treino)
+sub_size <- floor(0.8 * n_treino)
+
+for (b in 1:B) {
+  # Subamostra sem reposição
+  idx_sub <- sample(seq_len(n_treino), size = sub_size, replace = FALSE)
+  
+  x_sub <- x_treino[idx_sub, ]
+  y_sub <- y_treino[idx_sub]
+  
+  # CV Lasso na subamostra
+  cv_fit <- cv.glmnet(
+    x_sub,
+    y_sub,
+    alpha = 1,
+    nfolds = 10
+  )
+  
+  lambda_b <- cv_fit$lambda.1se
+  
+  # Coeficientes (exclui intercepto)
+  coef_b <- coef(cv_fit, s = lambda_b)[-1]
+  
+  # Regista seleção
+  selection_mat[b, ] <- as.numeric(coef_b != 0)
+}
+
+# Frequência de seleção
+selection_freq <- colMeans(selection_mat)
+
+# Top 3 variáveis
+top3 <- sort(selection_freq, decreasing = TRUE)[1:3]
+top3
+```
+
+
+
+**d)** Ajuste Ridge aos dados de treino e avalie o RMSE com os dados de teste. Compare os RMSEs de teste dos dois modelos (Ridge e Lasso) e comente. 
+
+```{r C1d}
+set.seed(123)
+
+cv_ridge <- cv.glmnet(
+  x_treino,
+  y_treino,
+  alpha = 0,
+  nfolds = 10
+)
+
+lambda_ridge <- cv_ridge$lambda.1se
+
+y_pred_ridge <- predict(
+  cv_ridge,
+  s = lambda_ridge,
+  newx = x_teste
+)
+rmse_ridge <- sqrt(mean((y_teste - y_pred_ridge)^2))
+rmse_ridge
+
+y_pred_lasso <- predict(
+  cv_lasso,
+  s = lambda_escolhido,
+  newx = x_teste
+)
+rmse_lasso <- sqrt(mean((y_teste - y_pred_lasso)^2))
+rmse_lasso
+```
+
+
+
+
+
+
+
+
+

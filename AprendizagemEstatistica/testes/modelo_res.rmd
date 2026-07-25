@@ -1,0 +1,406 @@
+# Parte A — EDA & Visualização
+
+## A1. Gapminder: padrões globais
+
+**Dados:** `gapminder::gapminder`.
+
+```{r A1-data}
+gp <- gapminder::gapminder |> janitor::clean_names()
+glimpse(gp)
+```
+
+**a)** Crie um **gráfico de dispersão** de `life_exp` vs `gdp_per_cap` para todos os anos, com:
+
+* eixo do PIB em **escala log10** (`scale_x_log10()`),
+* **transparência** (ex.: `alpha = 0.3`) para reduzir sobreposição,
+* **facet por continente**,
+* **linha de tendência** simples (`geom_smooth(se = FALSE)`).
+  *Explique tendências gerais e diferenças por continente.*
+
+```{r A1a}
+ggplot(gp, aes(x=gdp_percap, y=life_exp)) +
+  geom_point(alpha=0.3) +
+  scale_x_log10() +             # escala o intervalo das abscissas do gráfico para mostrar apenas os dados relevantes
+  geom_smooth(se=FALSE) +       # desenha a "linha de tendência" do gráfico
+  facet_wrap(~continent) +      # separa o gráfico para cada continente
+  labs(
+    title = "Relação entre PIB per Capita e Expectativa de Vida",
+         x = "PIB per Capita (escala log10)",
+         y = "Expectativa de Vida (anos)"
+    )
+```
+ Na maior parte dos casos, a expectativa de vida costuma ser maior em países mais "ricos" (i.e. maior gdp).
+Apesar disso, a Ásia e a África tem uma curiosa particularidade de pelo menos os top 5 países de maior gdp apresentam menor "esperança de vida" que países menos "ricos"
+
+ Quanto a cada continente em particular:
+- África tem de forma geral o menor GDP e "esperança de vida".
+- Asia é o continete de extremos, com a maior disparidade de "riqueza" e "esperança de vida".
+- Oceânia por sua vez é o continente com menor diferença entre os seus países, sendo todos bastante altos.
+- as Américas concentram-se bastante no meio do grafo e a progressão da sua linha de tendência é bastante irregular.
+- por fim a Europa tem uma progressão bastante linear, com a maioria dos países concentrados nos "patamares" mais elevados do grafo.
+
+
+
+**b)** Escolha **3 países** de **continentes distintos** e faça um **gráfico de linhas ao longo do tempo** para `life_exp` (com pontos nos anos observados).
+*Comente a evolução comparada.*
+
+```{r A1b}
+países <- c("Portugal", "China", "United States")
+
+dados_filtrados <- gp %>%
+  filter(country %in% países)
+
+ggplot(dados_filtrados, aes(x=year, y=life_exp, color=country)) +
+  geom_line(size=1) +
+  geom_point(size=2) +
+  labs(
+    title="Evolução da expectativa de Vida - 1952/2007 - China/Portugal/EUA",
+    x="Ano",
+    y="Esperança de Vida"
+  )
+```
+ A esperança de vida dos EUA, já alta nos anos 50, crescou relativamente pouco ao longo deste período. A maior subida deu-se nos anos 70, mas não é nada de notável.
+ 
+ Em comparação Portugal cresceu consideravelmente e consistentemente, igualanado os EUA em 2002. As suas maiores subidas deram-se nos anos 60.
+ 
+ Finalmente a China desfrutava de um excelente crescimento que infelizmente caíu abruptamente com a introdução da desastrosa "Campanha das Quatro Pragas". No entanto a chamada "Revolução Cultural" produziu um crescimento explosivo até ao ínicio dos anos 70, após o qual deu-se "abrandamento" significativo que manteve-se. Apesar disso o crescimento tem sido linear, passando a marca dos "70 anos" entre 1995 e 2000.
+
+
+
+**c)** Para o ano **2007**, compare as distribuições de `life_exp` por continente usando **boxplot**.
+*Comente níveis típicos e dispersão por continente.*
+
+```{r A1c}
+ano2007 <- gp %>%
+  filter(year==2007)
+
+ggplot(ano2007, aes(x=continent, y=life_exp, fill=continent)) +
+  geom_boxplot(alpha=0.5, outlier.colour="red") +
+  labs(title = "Distribuição da Expectativa de Vida por Continente em 2007",
+       x = "Continente",
+       y = "Expectativa de Vida (anos)") +
+  theme_minimal() +
+  theme(legend.position = "none")
+```
+África
+   ~50 anos
+   Baixa média e grande dispersão: alguns países com crises reduzem fortemente a média.
+Américas
+   ~72 anos
+   Dispersão moderada: países como Haiti e Canadá puxam extremos opostos.
+Ásia
+   ~70 anos
+   Ampla variação: Japão muito alto, alguns países do sul da Ásia bem mais baixos.
+Europa
+   ~78 anos
+   Alta expectativa e baixa dispersão, indicando mais uniformidade.
+Oceania
+   ~80 anos
+   Poucos países, ambos com alta expectativa de vida.
+
+
+
+---
+
+## A2. Babynames: diversidade de nomes
+
+**Dados:** `babynames::babynames`.
+
+```{r A2-data}
+bb <- babynames::babynames |> janitor::clean_names()
+glimpse(bb)
+```
+
+**a)** Escolha **5 nomes** (de ambos os sexos) e faça **séries temporais** (1900–2015) de `prop` por `year`, com **facets por nome** e **linhas suaves**.
+*Descreva um padrão.*
+
+```{r A2a}
+set.seed(123)
+# random_names <- sample(unique(bb$name), 5)
+fem_names <- sample(unique(filter(bb, sex=="F")$name), 3)
+mal_names <- sample(unique(filter(bb, sex=="M")$name), 2)
+random_names <- c(fem_names, mal_names)
+
+bb %>%
+  filter(name %in% random_names, year>=1990, year<=2015) %>%
+  ggplot(aes(x=year, y=prop, colour=sex)) +
+  geom_line(size=0.6, alpha=0.7) +
+  geom_point(size=2) +
+  geom_smooth(se=FALSE) +
+  facet_wrap(~name, scale="free_y") +
+  theme_dark()
+```
+ No período entre 1990 e 2015, não houve nenhuma recém-nascida da qual lhe foi atribuídio o nome "Oleva".
+ Em contraste, o nome feminino "Deziraye" teve um crescimento linear mas reduto.
+ Por sua vez o nome feminino "Jaylisse" foi atribuĩdo apenas no ano de 2007.
+
+ Quanto aos nomes masculinos: "Rutvik" manteve a mesma "constância" relativa, mas de repente viu um aumento enorme de popularidade no ano de 2015 ; enquanto que "Yahsir" variou muito em popularidade ao longo dos anos e quase sempre subidas ou descidas significativa, apesar disso não há registos desse nome após 2013.
+
+
+
+**b)** Para um sexo à escolha (`sex` = "F" ou "M"), construa um **diagrama de barras** para os 5 **nomes** mais comuns.
+*Indique um padrão temporal.*
+
+```{r A2b}
+top5 <- bb %>%
+  filter(sex == "F") %>%
+  group_by(name) %>%
+  summarise(total = sum(n)) %>%
+  slice_max(total, n = 5) %>%
+  pull(name)
+
+bb %>%
+  filter(sex == "F", name %in% top5) %>%
+  mutate(decada = (year %/% 10) * 10) %>%  # arredonda para a década
+  group_by(decada, name) %>%
+  summarise(total = sum(n), .groups = "drop") %>%
+  ggplot(aes(x = decada, y = total, fill = name)) +
+  geom_col(position = "dodge") +
+  facet_wrap(~name) +
+  theme_minimal() +
+  labs(x = "Década", y = "Nº de ocorrências", fill = "Nome")
+```
+ Todos estes nomes sem excepção, tiveram o seu "auge" de ocorrência algures entre 1900 e 1980, após o qual todos desceram para no máximo 200000 ocorrências e tem vindo sempre a descer - no último registo nenhum tem mais de 100000 ocorrências. 
+
+
+
+---
+
+# Parte B — Regressão Linear
+
+## B1. Diamonds: preço e características 
+
+**Dados:** `ggplot2::diamonds`. Objetivo: prever `log(price)`.
+
+```{r B1-data}
+data("diamonds", package = "ggplot2")
+dm <- diamonds |> janitor::clean_names() |> mutate(log_price = log(price))
+
+```
+
+**a)** Ajuste o modelo base:
+$$
+\log(\text{price}) \sim \text{carat} + \text{cut} + \text{color} + \text{clarity}.
+$$
+*Reporte **RMSE** e **R²** em treino e teste.*
+
+```{r B1a}
+set.seed(123)
+n <- nrow(dm)
+i <- sample(1:n, size=0.8*n)
+treino <- dm[i, ]
+teste <- dm[-i, ]
+
+modelo_base <- lm(log_price ~ carat + cut + color + clarity, data=treino)
+summary(modelo_base)
+
+pred_treino <- predict(modelo_base, treino)
+rmse_treino <- sqrt(mean((treino$log_price - pred_treino)^2))
+rmse_treino
+
+pred_teste <- predict(modelo_base, teste)
+rmse_teste <- sqrt(mean((teste$log_price - pred_teste)^2))
+rmse_teste
+
+# O RMSE é praticamente igual em treino (0.339) e teste (0.339).
+# Isto indica que o modelo generaliza bem - não há sinais de overfitting (isto é, o modelo não se ajustou demais ao treino).
+# Combinando com o (R^2)≈0.89, podemos dizer que o modelo explica muito bem a variação de log(price).
+```
+
+**b)** Adicione a **interação** `carat:clarity`.
+*Compare **AIC** e **R² ajustado** com o modelo base e discuta o **trade-off complexidade vs ajuste**.*
+
+```{r B1b}
+modelo_cc <- lm(log_price ~ carat + cut + color + clarity + carat:clarity, data = treino)
+summary(modelo_cc)
+
+AIC(modelo_base, modelo_cc)
+
+# | Métrica     | Modelo base | Modelo com interação ('carat:clarity') | Interpretação                                                           |
+# | ----------- | ----------- | -------------------------------------- | ----------------------------------------------------------------------- |
+# | AIC         |  29 087     |  17 772                                | Muito mais baixo, modelo com interação ajusta-se muito melhor aos dados |
+# | R² ajustado |  0.8886     |  0.9143                                | Aumentou, explica mais variabilidade, mesmo após penalização            |
+# 
+# O modelo com interação melhora claramente o ajuste, mas usa mais parâmetros (df = 27 vs 20), logo é mais complexo.
+# Pode ser mais difícil de interpretar e ligeiramente mais propenso a overfitting se tivéssemos menos dados.
+
+```
+
+**c)** Faça **diagnóstico visual** (resíduos vs ajustados, QQ-plot, *scale-location*).
+*Identifique 2 problemas potenciais.*
+
+```{r B1c}
+par(mfrow=c(2,2))
+plot(modelo_cc)
+
+# 1) Heterocedasticidade
+# O "resíduos vs ajustados" ou "Scale-Location" mostra se a variância dos resíduos muda com o valor previsto.
+# Se a linha média não é horizontal ou se há um “funil” de dispersão, é sinal de heterocedasticidade (variância não constante).
+# 
+# 2) Outliers ou pontos influentes
+# Pontos muito afastados da nuvem principal ou da linha de tendência (ou com alavancagem extrema no gráfico "Residuals vs Leverage") indicam outliers ou pontos influentes que podem distorcer o modelo.
+```
+
+**d)** Produza um **efeito parcial**: curvas previstas de `log(price)` vs `carat` para **3 níveis de `clarity`** (fixe `cut` e `color` em categorias comuns). Inclua **IC 95%** com `geom_ribbon`.
+*Comente.*
+
+```{r B1d}
+# Categorias escolhidas
+clarity_lvls <- c("SI1", "VS2", "VVS1")
+cut_fixed = "Ideal" 
+color_fixed = "D"
+
+# Criar um dataset de previsão
+carat_seq <- seq(min(dm$carat), max(dm$carat), length.out = 100)
+newdata <- expand.grid(
+  carat = carat_seq,
+  clarity = clarity_lvls,
+  cut = cut_fixed,
+  color = color_fixed
+)
+newdata$pred <- predict(modelo_cc, newdata, interval = "confidence", level = 0.95)
+
+# Separar a previsão e IC
+newdata <- cbind(newdata, newdata$pred)
+names(newdata)[names(newdata) == "fit"] <- "fit"
+names(newdata)[names(newdata) == "lwr"] <- "lwr"
+names(newdata)[names(newdata) == "upr"] <- "upr"
+
+# Desenhar com ggplot2
+ggplot(newdata, aes(x=carat, y=fit, colour=clarity, fill=clarity)) +
+  geom_line(size=1) +
+  geom_ribbon(aes(ymin=lwr, ymax=upr), alpha = 0.2, colour = NA) +
+  theme_minimal() +
+  labs(x="Carat", y="Log(Price)", title="Efeito parcial de Carat por Clarity")
+
+# O efeito do carat no preço depende do nível de claridade — diamantes mais claros (VVS1) valorizam mais rápido com o aumento do peso.
+#
+# Interpretação do intervalo de confiança (IC 95%):
+# O gráfico tem uma faixa muito fina, o que indica alta precisão nas previsões para estes valores.
+# Como os IC não se sobrepõem muito entre as linhas, isso sugere que a claridade tem efeito estatisticamente significativo.
+```
+
+**e)** **Interprete** dois coeficientes do melhor modelo (um coeficiente de uma variável contínua e um coeficiente de uma variável categórica), indicando unidades/escala e implicação no **preço**.
+
+```{r B1e}
+summary(modelo_cc)$coefficients
+```
+
+**Interpretação (B1e):**
+
+# O coeficiente do carat sem interação
+#
+### Coeficiente = 2.296
+### Significa que um aumento de 1 carat está associado a um aumento médio de 2.296 unidades no log(preço), mantendo o resto fixo.
+### Em termos do preço real, isso corresponde a multiplicar o preço por  (e^2.296)≈9.94 , ou seja, quase 10 vezes mais caro para cada aumento de 1 carat.
+
+# A interação entre 'carat' e os polinómios de 'clarity'
+#
+### Estes indicam que o efeito de carat muda conforme o nível de claridade, mas a interpretação direta não é tão simples
+### Por ser variável ordinal com codificação polinomial, os coeficientes representam efeitos combinados ao longo dos níveis de claridade (linear, quadrático, cúbico, etc.)
+### Ou seja, o efeito da claridade é mais complexo, modelado por polinómios.
+### Mas para simplificar, níveis melhores de claridade tendem a aumentar o preço, conforme ilustrado pelo gráfico do efeito parcial.
+
+---
+
+# Parte C — Regularização: Ridge e Lasso
+
+## C1. Hitters (ISLR2): salários no basebol
+
+**Dados:** `ISLR2::Hitters`. Resposta: `log(Salary)`. Remova linhas com `NA` em `Salary`.
+
+```{r C1-data}
+ht <- as_tibble(ISLR2::Hitters) |> janitor::clean_names() |> drop_na(salary) |>
+  mutate(log_salary = log(salary))
+
+```
+
+**a)** Ajuste **Ridge** com `cv.glmnet(..., nfolds = 10)`.
+*Indique o `lambda.min` e o **RMSE de teste** (na escala de `log_salary`).*
+
+```{r C1a}
+set.seed(123)
+
+# 1. Separar treino e teste (exemplo 70% treino)
+n <- nrow(ht)
+train_indices <- sample(seq_len(n), size = floor(0.7 * n))
+train <- ht[train_indices, ]
+test <- ht[-train_indices, ]
+
+# 2. Criar x e y para glmnet
+x_train <- model.matrix(log_salary ~ . - salary, data=train)[, -1] # remove intercept
+y_train <- train$log_salary
+
+x_test <- model.matrix(log_salary ~ . - salary, data=test)[, -1]
+y_test <- test$log_salary
+
+# 3. Ajustar Ridge (alpha=0)
+cv_ridge <- cv.glmnet(x_train, y_train, alpha=0, nfolds=10)
+
+lambda_min_ridge <- cv_ridge$lambda.min
+
+# 4. Previsões no teste
+pred_ridge <- predict(cv_ridge, s=lambda_min_ridge, newx=x_test)
+
+# 5. RMSE no teste
+rmse_ridge <- sqrt(mean((pred_ridge - y_test)^2))
+
+lambda_min_ridge
+rmse_ridge
+```
+
+**b)** Ajuste **Lasso** com *cross-validation*.
+*Indique `lambda.min`, e **RMSE de teste** para ambos.*
+
+```{r C1b}
+cv_lasso <- cv.glmnet(x_train, y_train, alpha=1, nfolds=10)
+
+lambda_min_lasso <- cv_lasso$lambda.min
+
+pred_lasso <- predict(cv_lasso, s=lambda_min_lasso, newx=x_test)
+
+rmse_lasso <- sqrt(mean((pred_lasso - y_test)^2))
+
+lambda_min_lasso
+rmse_lasso
+```
+
+**c)** Liste as **variáveis selecionadas** com o Lasso (com base no lambda.min).
+
+```{r C1c}
+coef_lasso <- coef(cv_lasso, s=lambda_min_lasso)
+selected_vars <- rownames(coef_lasso)[which(coef_lasso != 0)]
+selected_vars <- selected_vars[selected_vars != "(Intercept)"]
+selected_vars
+```
+
+**d)** Compare **OLS vs Ridge vs Lasso** (use o mesmo *split*).
+*Discuta **viés–variância**, **colinearidade** e **parcimónia**.
+
+```{r C1d}
+# Ajustar OLS:
+model_ols <- lm(log_salary ~ . - salary, data=train)
+
+pred_ols <- predict(model_ols, newdata=test)
+
+rmse_ols <- sqrt(mean((pred_ols - y_test)^2))
+
+rmse_ols
+
+# Resumo dos RMSE:
+tibble(
+  Model = c("OLS", "Ridge", "Lasso"),
+  RMSE = c(rmse_ols, rmse_ridge, rmse_lasso)
+)
+```
+
+
+
+
+
+# OLS: sem regularização, tende a ter menor viés, mas maior variância, especialmente com multicolinearidade.
+
+# Ridge: penaliza os coeficientes para reduzir variância e colinearidade, mas não zera coeficientes (não faz seleção).
+
+# Lasso: promove parcimónia ao zerar coeficientes, facilitando interpretação e reduzindo complexidade. Pode aumentar viés um pouco.
+
