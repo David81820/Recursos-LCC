@@ -21,6 +21,8 @@ Várias notas e explicações.
 
 * [**Introduction_to_Algorithms.zip**](Introduction_to_Algorithms.zip) - demasiado material para listar individualmente
 
+<br>
+
 #### Sites para de visualização de Algoritmos
 * [Algorithm Visualizer - seancoughlin](https://algorithm-visualizer.seancoughlin.me/)
 * [Algorithm Visualizer - vercel](https://algorithm-visualizer.vercel.app/)
