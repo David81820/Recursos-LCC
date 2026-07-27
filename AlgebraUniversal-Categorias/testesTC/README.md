@@ -15,12 +15,12 @@
 <br>
 
 ## Exame Recurso
-* [2025/2026](TC_ER_2526.pdf)
+* [2025/2026](TC_ER_2526.pdf)  ---  [[A] Resolução](exame_tc_2526_res.png)
 
 <br>
 
 ## Exame Época Especial
-* [2025/2026](TC_EEE_2526.pdf)  ---  [[A] Resolução](exame_tc_2526_res.png)
+* [2025/2026](TC_EEE_2526.pdf)
 
 <br><br>
 
