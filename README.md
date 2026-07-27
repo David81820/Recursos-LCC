@@ -1,12 +1,18 @@
 <br>
 
+
+<p align="center">
+    <img src="{{ '/assets/images/LCC.png' | relative_url }}" alt="LCC">
+</p>
+
+<br><br>
+
+
 <h1 align="center">Este repositório encontra-se incompleto e em obras!!</h1>
 
 <br><br>
 
 ### Esta colecção não deve ser usada como substituto ás aulas e material disponibilizado pelos professores. A sua intenção é servir como um complemento ao estudo.
-
-### AVISO: material com a etiqueta - **[A]** - no início do nome dos ficheiros, significa que esse material é proveniente de alunos, ou seja não é de modo algum material “oficial” (i.e. proporcionado pelo professores).
 
 <br>
 
@@ -39,6 +45,9 @@ Contudo aviso que não irei incluir aqui as cadeiras novas às quais não me enc
 
 <br>
 
+### *AVISO:* material com a etiqueta - **[A]** - no início do nome dos ficheiros, significa que esse material é proveniente de alunos, ou seja não é de modo algum material “oficial” (i.e. proporcionado pelo professores).
+
+<br>
 
 * [Álgebra](Algebra/README.md)
 * Álgebra Linear CC
@@ -128,7 +137,7 @@ Lista dos vários detalhes técnicos da cadeira que podem ser encontrados na aba
 **[E-Mail Universitário](http://mail.alunos.uminho.pt/)**
 
 **[Horários dos Cursos](https://alunos.uminho.pt/pt/estudantes/paginas/infouteishorarios.aspx)**
-<span style="font-size: 0.75em;">*<a href="https://gizmoa.com/college-schedule-maker/">E aqui está um site agradável para desenhar tabelas de horários.</a>*</span>
+<br><span style="font-size: 0.75em;">*<a href="https://gizmoa.com/college-schedule-maker/">E aqui está um site agradável para desenhar tabelas de horários.</a>*</span>
 
 <br>
 
@@ -180,25 +189,19 @@ Lista dos vários detalhes técnicos da cadeira que podem ser encontrados na aba
 <br>
 <br>
 
-Caso não saibam como aceder à rede do campus UM - entitulada de "**eduroam**" - as credenciais são:
-- em *"Método EAP"*, selecionem "PEAP"
-- em *"Autenticação da Fase 2"*, selecionem "MSCHAPV2"
-- no campo *"Domínio"*, introduzam "uminho.pt"
-- no campo *"Identidade"* (e possivelmente também em *"Identidade Anónima"*), introduzam o vosso e-mail académico (*aXXXXX@alunos.uminho.pt*);
-- por em *"Senha"*, escrevam a palavra-chave de dito e-mail.
+#### Acesso à rede do campus UM **"*eduroam*"** :
+- em *"Método EAP"*, selecionem "PEAP" ;
+- em *"Autenticação da Fase 2"*, selecionem "MSCHAPV2" ;
+- no campo *"Domínio"*, introduzam "uminho.pt" ;
+- no campo *"Identidade"* (e possivelmente também em *"Identidade Anónima"*), introduzam o vosso e-mail académico (*aXXXXX@alunos.uminho.pt*) ;
+- por fim, em *"Senha"*, escrevam a palavra-chave de dito e-mail.
 
 <br>
 <br>
 
-<h3 align="center">Qualquer aluno é bem-vindo a guardar em sua máquina os conteúdos deste repositório e utilizá-los livremente!</h3>
+<h2 align="center">Qualquer aluno é bem-vindo a guardar em sua máquina os conteúdos deste repositório e utilizá-los livremente!</h2>
 
 <br><br>
-<br><br>
-
-<p align="center">
-    <img src="{{ '/assets/images/LCC.png' | relative_url }}" alt="LCC">
-</p>
-
 <br><br>
 
 <p align="center">
