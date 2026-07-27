@@ -2,7 +2,7 @@
 
 
 <p align="center">
-    <img src="{{ '/assets/images/LCC.png' | relative_url }}" alt="LCC" style="width: 75%; max-width: 75%;">
+    <img src="{{ '/assets/images/LCC.png' | relative_url }}" alt="LCC" style="width: 25%; max-width: 25%;">
 </p>
 
 <br><br>
