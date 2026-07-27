@@ -136,8 +136,7 @@ Lista dos vários detalhes técnicos da cadeira que podem ser encontrados na aba
 
 **[E-Mail Universitário](http://mail.alunos.uminho.pt/)**
 
-**[Horários dos Cursos](https://alunos.uminho.pt/pt/estudantes/paginas/infouteishorarios.aspx)**
-<br><span style="font-size: 0.75em;">*<a href="https://gizmoa.com/college-schedule-maker/">E aqui está um site agradável para desenhar tabelas de horários.</a>*</span>
+**[Horários dos Cursos](https://alunos.uminho.pt/pt/estudantes/paginas/infouteishorarios.aspx)**  --  <span style="font-size: 0.75em;">*<a href="https://gizmoa.com/college-schedule-maker/">E aqui está um site agradável para desenhar tabelas de horários.</a>*</span>
 
 <br>
 
