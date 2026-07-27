@@ -15,9 +15,9 @@
 
 <br>
 
-* [**[A]** Resumos](auc.pdf) ---  [Word](auc.docx)
-Resumos da minha autoria, mas incompletos...
-<br> Penso que por enquanto são o suficiente para o 1º teste. Pus também em formato Word para quem quiser fazer as suas alterações.
+* [**[A]** Resumos](auc.pdf) ---  Resumos da minha autoria, mas incompletos (são o suficiente para o 1º teste)...
+<br> Para quem quiser fazer as suas alterações, aqui está em formato [Word](auc.docx).
+* [**[A]** Folha Categorias 24/25](FolhaCategorias24-25.pdf) ---  Folha de consulta apenas para matéria de Categorias (não é da minha autoria).
 
 <br><br>
 

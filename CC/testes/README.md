@@ -5,6 +5,8 @@
 <br>
 
 ### 1º Testes
+* [2017/2018](cc_teste_1_1617.pdf)
+* [2017/2018](cc_teste_1_1718.pdf)
 * [2020/2021](cc_teste_1_2021.pdf)
 * [2021/2022](cc_teste_1_2122.pdf)
 * [2022/2023](cc_teste_1_2223.pdf)
@@ -15,6 +17,8 @@
 <br>
 
 ### 2º Testes
+* [2017/2018](cc_teste_2_1617.pdf)
+* [2017/2018](cc_teste_2_1718.pdf)
 * [2021/2022](cc_teste_2_2122.pdf)
 * [2022/2023](cc_teste_2_2223.pdf) -- [**[A]** Resolução parcial](resoluçao_parcial_teste_2_2223.png)
 * [2023/2024](cc_teste_2_2324.pdf)
@@ -24,6 +28,7 @@
 <br>
 
 ### Exames
+* [2017/2018](cc_exame_1718.pdf)
 * [Época Especial - 2020/2021](exame_ee_2021.pdf)
 * [2021/2022](cc_exame_2122.pdf)
 * [2022/2023](cc_exame_2223.pdf)

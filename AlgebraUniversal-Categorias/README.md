@@ -12,18 +12,28 @@ Slides e apontamentos oficiais, juntamente com os meus resumos da matéria.
 ## [Fichas de Exercícios](fichasAUC/README.md)
 Folhas de exercícios fornecidas pelo corpo docente nos anos lectivos de 2020/2021 e 2021/2022.
 
-<br><br>
+<br>
 
 ## [Testes e Exames](testesAUC/README.md)
 Testes e Exames dos anos lectivos 2015/2016 até 2023/2024.
 
-<br>
+<br><br>
 
 ---
 
 <br>
 
 <h1 align="center">Teoria de Categorias</h1>
+
+<br>
+
+## [Material Teórico](slidesAUC/README.md)
+Slides e apontamentos oficiais do ano lectivo de 2025/2026.
+
+<br>
+
+## [Fichas de Exercícios](fichasAUC/README.md)
+Folhas de exercícios fornecidas pela professora Carla Albertina Carvalhinho Silva Mendes, no ano lectivo de 2025/2026.
 
 <br>
 
