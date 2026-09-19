@@ -2,7 +2,7 @@
 
 
 <p align="center">
-    <img src="{{ '/assets/images/LCC.png' | relative_url }}" alt="LCC" style="width: 25%; max-width: 25%;">
+    <img src="{{ '/assets/images/LCC.png' | relative_url }}" alt="LCC" style="width: 30%; max-width: 30%;">
 </p>
 
 <br><br>
@@ -128,6 +128,9 @@ Lista dos vários detalhes técnicos da cadeira que podem ser encontrados na aba
 <br>
 
 <br>
+<br>
+
+### Hiperligações UMinho :
 
 **[Blackboard UM](https://elearning.uminho.pt/)**
 
@@ -157,12 +160,16 @@ Lista dos vários detalhes técnicos da cadeira que podem ser encontrados na aba
 
 [Escola de Ciências da Universidade do Minho - ECUM](https://www.ecum.uminho.pt/pt)
 
-[Licença universitária MATLAB grátis](http://matlab.eng.uminho.pt/)
-
 [Mapa Interactivo](https://whereis.uminho.pt/)
 
+[Showroom UMinho](https://showroom.sou.uminho.pt/)
+
+[Loja UMinho](https://store.uminho.pt/pt/)
+
 <br>
 <br>
+
+### Hiperligações úteis para o curso :
 
 [Núcleo de Estudantes de Ciências da Computação - NECC](https://necc.di.uminho.pt/)
 
@@ -180,7 +187,17 @@ Lista dos vários detalhes técnicos da cadeira que podem ser encontrados na aba
 
 <br>
 
-[studocu.com - Soluções de livros e os seus exercícios](https://www.studocu.com)
+[studocu.com - soluções exercícios e resumos](https://www.studocu.com)
+
+[Licença universitária MATLAB grátis](http://matlab.eng.uminho.pt/)
+
+[Acesso gratuito à plataforma IAedu FCT para a Comunidade da UMinho](https://idp.uminho.pt/idp/profile/SAML2/POST/SSO?execution=e1s1&lang=pt_PT)
+
+[Google Gemini: Plano de estudante durante 1 ano sem custo financeiro](https://gemini.google/students/)
+
+<br>
+
+#### Outras hiperligações :
 
 [Comparador de empresas e salários em Portugal nas áreas de TI](https://pt.teamlyzer.com/)
 
@@ -189,7 +206,7 @@ Lista dos vários detalhes técnicos da cadeira que podem ser encontrados na aba
 <br>
 <br>
 
-#### Acesso à rede do campus UM **"*eduroam*"** :
+### Acesso à rede do campus UM **"*eduroam*"** :
 - em *"Método EAP"*, selecionem "PEAP" ;
 - em *"Autenticação da Fase 2"*, selecionem "MSCHAPV2" ;
 - no campo *"Domínio"*, introduzam "uminho.pt" ;
@@ -205,7 +222,7 @@ Lista dos vários detalhes técnicos da cadeira que podem ser encontrados na aba
 <br><br>
 
 <p align="center">
-    <img src="{{ '/assets/images/brasao uminho.png' | relative_url }}" alt="brasao">
+    <img src="{{ '/assets/images/brasao uminho.png' | relative_url }}" alt="brasao" style="width: 80%; max-width: 80%;">
 </p>
 
 <br>
