@@ -196,8 +196,9 @@ Lista dos vários detalhes técnicos da cadeira que podem ser encontrados na aba
 [Google Gemini: Plano de estudante durante 1 ano sem custo financeiro](https://gemini.google/students/)
 
 <br>
+<br>
 
-#### Outras hiperligações :
+### Outras hiperligações :
 
 [Comparador de empresas e salários em Portugal nas áreas de TI](https://pt.teamlyzer.com/)
 
@@ -206,7 +207,7 @@ Lista dos vários detalhes técnicos da cadeira que podem ser encontrados na aba
 <br>
 <br>
 
-### Acesso à rede do campus UM **"*eduroam*"** :
+## Acesso à rede do campus UM **"*eduroam*"** :
 - em *"Método EAP"*, selecionem "PEAP" ;
 - em *"Autenticação da Fase 2"*, selecionem "MSCHAPV2" ;
 - no campo *"Domínio"*, introduzam "uminho.pt" ;
