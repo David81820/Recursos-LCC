@@ -187,7 +187,7 @@ Lista dos vários detalhes técnicos da cadeira que podem ser encontrados na aba
 
 <br>
 
-[studocu.com - soluções exercícios e resumos](https://www.studocu.com)
+[studocu.com - livros, exercícios e resumos de cursos da UMinho](https://www.studocu.com/pt/institution/universidade-do-minho/8184)
 
 [Licença universitária MATLAB grátis](http://matlab.eng.uminho.pt/)
 
